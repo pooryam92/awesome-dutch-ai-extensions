@@ -14,13 +14,13 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 
 | Category                                    | Listings | Covers                                                        |
 | ------------------------------------------- | -------: | ------------------------------------------------------------- |
-| [Accounting Finance](#accounting-finance)   |       16 | Exact Online, Moneybird, bunq, e-Boekhouden, Mollie, Nmbrs, … |
+| [Accounting Finance](#accounting-finance)   |       14 | Exact Online, Moneybird, bunq, e-Boekhouden, Mollie, Nmbrs, … |
 | [Consumer Daily Life](#consumer-daily-life) |        7 | Albert Heijn, Picnic, Aldi, Buienradar, DA, …                 |
 | [Developer Standards](#developer-standards) |        3 | Developer Overheid API Register, Geonovum, internet.nl        |
 | [Ecommerce Logistics](#ecommerce-logistics) |        6 | Marktplaats, bol.com, Postcode.eu, PostNL                     |
 | [Government Services](#government-services) |        4 | KVK, RDW, wetten.overheid.nl                                  |
 | [Housing Property](#housing-property)       |        4 | Funda, Kadaster, Kamernet, Monumenten                         |
-| [Legal Compliance](#legal-compliance)       |       13 | wetten.overheid.nl, Belastingdienst, Rechtspraak.nl, …        |
+| [Legal Compliance](#legal-compliance)       |       11 | Belastingdienst, wetten.overheid.nl, Rechtspraak.nl           |
 | [Mobility Travel](#mobility-travel)         |        6 | NS, OVapi, ANWB, CBS ODiN                                     |
 | [Open Data Culture](#open-data-culture)     |       15 | CBS StatLine, KNMI, data.overheid.nl, Gemeente Amsterdam, …   |
 
@@ -30,7 +30,6 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 |---|---|---|---|
 | [bunq Partner MCP](https://github.com/bunq/partner-mcp) | Automate bunq banking through the Partner API — onboarding, KYC, accounts, payments, cards, and compliance. | bunq | ![MCP · Official · Beta](assets/badges/tags-mcp-official-beta.svg) |
 | [e-Boekhouden MCP](https://github.com/CodeMill-Solutions/e-boekhouden-mcp) | Read and write e-Boekhouden administration using your own API credentials. | e-Boekhouden | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
-| [exactmcp.nl](https://exactmcp.nl/) | Run Exact Online warehouse, serial/batch, purchase, production, and inventory workflows through a hosted MCP built on the official Exact Online API. | Exact Online | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [Finance MCP](https://financemcp.nl/) | Query Exact Online bookkeeping read-only through a hosted EU MCP endpoint, with more Dutch accounting platforms planned. | Exact Online | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [finance-skills-nl](https://github.com/start2scale/finance-skills-nl) | Draft month-close packages, reconcile the general ledger, and audit Excel models for Dutch SME finance teams, with every output flagged for human sign-off. | Raad voor de Jaarverslaggeving (RJ) | ![Plugin · Community · Beta](assets/badges/tags-plugin-community-beta.svg) |
 | [Ledger Botje](https://ledgerbotje.nl/) | Handle Exact Online invoices, orders, inventory, and deliveries through a hosted MCP. | Exact Online | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
@@ -41,7 +40,6 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 | [Praat met je Boekhouding](https://praatmetjeboekhouding.nl/en/exact-online-mcp-server) | Query Exact Online bookkeeping across 86 tools — invoicing, BTW/ICP, and reporting — read-only by default. | Exact Online | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [Simplicate MCP](https://developer.simplicate.com/docs/mcp/getting_started/) | Work with Simplicate project, CRM, and invoicing data through a per-domain hosted endpoint. | Simplicate | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [Twinfield MCP](https://github.com/CodeMill-Solutions/twinfield-mcp) | Query and update Twinfield bookkeeping over its SOAP API. | Twinfield | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
-| [visma-mcp-server](https://github.com/Proviscale/visma-mcp-server) | Manage Visma eAccounting invoices, customers, suppliers, vouchers, and orders across 20 tools. | Visma eAccounting | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [WeFact MCP](https://github.com/NickAldewereld/wefact-mcp) | Manage WeFact debtors, invoices, products, and subscriptions. | WeFact | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [Yuki MCP](https://github.com/Dytto-ai/yuki-mcp) | Operate Yuki accounting across 102 actions, with write operations gated for safety. | Yuki | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 
@@ -99,12 +97,10 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 | Name | Description | Target | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
 | [aangifte-ib-skill](https://github.com/mischacoster/aangifte-ib-skill) | A skill that prepares a sourced Dutch personal income-tax return with an adaptive interview and review dossier. | Belastingdienst | ![Skill · Community](assets/badges/tags-skill-community.svg) |
-| [Ansvar Gateway](https://ansvar.eu/docs/quickstart) | Search Dutch legislation, Rechtspraak rulings, energy-regulation records (ACM/TenneT/RVO/SodM), and government security standards (BIO2/NEN 7510/NCSC-NL/DigiD) — alongside EU and other national frameworks — through Ansvar's hosted OAuth gateway, every result citing its source. | wetten.overheid.nl / Rechtspraak.nl / Energieregulering (ACM/TenneT/RVO/SodM) / Overheidsbeveiligingsnormen (BIO2/NEN 7510/NCSC-NL/DigiD) | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [Belastingzaken skills](https://github.com/johnhout/knowledge-work-belastingzaken) | Eight commands and eight skills for Dutch income tax, BTW, VPB, payroll tax, deductions, and objections — no filing, professional review required. | Belastingdienst | ![Plugin · Community](assets/badges/tags-plugin-community.svg) |
 | [dutch-finance-planner-skill](https://github.com/jonnekleijer/dutch-finance-planner-skill) | Coach personal finances for the Netherlands through a guided interview — box 1/2/3, toeslagen, AOW/pension, mortgage/HRA, the 30% ruling, and gift/inheritance tax. | Belastingdienst | ![Skill · Community](assets/badges/tags-skill-community.svg) |
 | [FALCON / nl-ai-lawyer](https://github.com/FutureAtoms/FALCON-futureatoms-legal-counsel-of-netherlands) | Advise on Dutch law — employment/CAO, AVG, tax, real estate, and immigration — through 14 skills and 7 specialist agents. | wetten.overheid.nl / Rechtspraak.nl | ![Plugin · Community](assets/badges/tags-plugin-community.svg) |
 | [IURA (iura-nl)](https://github.com/iura-ai/IURA-Plugins) | Draft and review Dutch legal documents — contracts, NDAs, juridische notities, and conclusie van antwoord — grounded in Dutch jurisprudence via the IURA MCP. | wetten.overheid.nl / Rechtspraak.nl | ![Plugin · Commercial · Preview](assets/badges/tags-plugin-commercial-preview.svg) |
-| [Moonlit Legal Research MCP](https://www.moonlit.ai/docs/) | Research Dutch and European legislation, case law, and regulatory sources through seven read-only tools over a hosted OAuth endpoint. | wetten.overheid.nl / Rechtspraak.nl | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [nl-eli-mcp](https://github.com/matematicsolutions/nl-eli-mcp) | Retrieve versioned Dutch legislation (BWB) and Rechtspraak rulings, keyless. | wetten.overheid.nl / Rechtspraak.nl | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [nl-tax-agent-skills](https://github.com/cyanxxy/nl-tax-agent-skills) | Turn your own tax documents into a source-cited workpack mapped to Mijn Belastingdienst fields for the income-tax return and voorlopige aanslag — you still enter the figures yourself. | Belastingdienst | ![Plugin · Community](assets/badges/tags-plugin-community.svg) |
 | [OpenAccountants Plugin](https://github.com/openaccountants/openaccountants) | Classify transactions and apply Dutch tax guidance — VAT, income tax, payroll, and zzp deductions — sourced to Wet IB 2001; the Dutch package is not yet accountant-signed off. | Belastingdienst | ![Plugin · Community](assets/badges/tags-plugin-community.svg) |
@@ -145,6 +141,6 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 
 ---
 
-_Curated — 74 listing(s) across 9 categories._
+_Curated — 70 listing(s) across 9 categories._
 
 <!-- END CATALOGUE -->

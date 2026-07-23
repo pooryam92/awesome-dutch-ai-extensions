@@ -1,22 +1,5 @@
 [
   {
-    "id": "ansvar-gateway",
-    "name": "Ansvar Gateway",
-    "description_en": "Search Dutch legislation, Rechtspraak rulings, energy-regulation records (ACM/TenneT/RVO/SodM), and government security standards (BIO2/NEN 7510/NCSC-NL/DigiD) — alongside EU and other national frameworks — through Ansvar's hosted OAuth gateway, every result citing its source.",
-    "target": [
-      "wetten-overheid",
-      "rechtspraak",
-      "energy-regulation",
-      "security-standards"
-    ],
-    "type": "mcp",
-    "origin": "commercial",
-    "status": "live",
-    "publisher": "Ansvar Systems",
-    "source_url": "https://ansvar.eu/docs/quickstart",
-    "last_checked": "2026-07-20"
-  },
-  {
     "id": "knowledge-work-belastingzaken",
     "name": "Belastingzaken skills",
     "description_en": "Eight commands and eight skills for Dutch income tax, BTW, VPB, payroll tax, deductions, and objections — no filing, professional review required.",
@@ -89,35 +72,6 @@
     "last_checked": "2026-07-19"
   },
   {
-    "id": "openaccountants-plugin",
-    "name": "OpenAccountants Plugin",
-    "description_en": "Classify transactions and apply Dutch tax guidance — VAT, income tax, payroll, and zzp deductions — sourced to Wet IB 2001; the Dutch package is not yet accountant-signed off.",
-    "target": [
-      "belastingdienst"
-    ],
-    "type": "plugin",
-    "origin": "community",
-    "status": "live",
-    "publisher": "OpenAccountants",
-    "source_url": "https://github.com/openaccountants/openaccountants",
-    "last_checked": "2026-07-19"
-  },
-  {
-    "id": "moonlit-legal-mcp",
-    "name": "Moonlit Legal Research MCP",
-    "description_en": "Research Dutch and European legislation, case law, and regulatory sources through seven read-only tools over a hosted OAuth endpoint.",
-    "target": [
-      "wetten-overheid",
-      "rechtspraak"
-    ],
-    "type": "mcp",
-    "origin": "commercial",
-    "status": "live",
-    "publisher": "Moonlit Legal Technologies",
-    "source_url": "https://www.moonlit.ai/docs/",
-    "last_checked": "2026-07-19"
-  },
-  {
     "id": "wetten-overheid-tools",
     "name": "wetten-overheid-tools",
     "description_en": "Search Dutch legislation on wetten.overheid.nl and retrieve its structure, articles, and terms.",
@@ -132,6 +86,20 @@
     "last_checked": "2026-07-19"
   },
   {
+    "id": "openaccountants-plugin",
+    "name": "OpenAccountants Plugin",
+    "description_en": "Classify transactions and apply Dutch tax guidance — VAT, income tax, payroll, and zzp deductions — sourced to Wet IB 2001; the Dutch package is not yet accountant-signed off.",
+    "target": [
+      "belastingdienst"
+    ],
+    "type": "plugin",
+    "origin": "community",
+    "status": "live",
+    "publisher": "OpenAccountants",
+    "source_url": "https://github.com/openaccountants/openaccountants",
+    "last_checked": "2026-07-23"
+  },
+  {
     "id": "iura-nl",
     "name": "IURA (iura-nl)",
     "description_en": "Draft and review Dutch legal documents — contracts, NDAs, juridische notities, and conclusie van antwoord — grounded in Dutch jurisprudence via the IURA MCP.",
@@ -144,7 +112,7 @@
     "status": "preview",
     "publisher": "iura.ai",
     "source_url": "https://github.com/iura-ai/IURA-Plugins",
-    "last_checked": "2026-07-20"
+    "last_checked": "2026-07-23"
   },
   {
     "id": "dutch-finance-planner-skill",

@@ -54,10 +54,6 @@
   "e-boekhouden": {
     "name": "e-Boekhouden"
   },
-  "energy-regulation": {
-    "name": "Energieregulering (ACM/TenneT/RVO/SodM)",
-    "kind": "dataset"
-  },
   "etos": {
     "name": "Etos"
   },
@@ -186,10 +182,6 @@
     "name": "Raad voor de Jaarverslaggeving (RJ)",
     "kind": "standard"
   },
-  "security-standards": {
-    "name": "Overheidsbeveiligingsnormen (BIO2/NEN 7510/NCSC-NL/DigiD)",
-    "kind": "standard"
-  },
   "simplicate": {
     "name": "Simplicate"
   },
@@ -207,9 +199,6 @@
   },
   "twinfield": {
     "name": "Twinfield"
-  },
-  "visma-eaccounting": {
-    "name": "Visma eAccounting"
   },
   "vomar": {
     "name": "Vomar"

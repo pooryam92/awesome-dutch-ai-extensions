@@ -140,20 +140,6 @@
     "last_checked": "2026-07-19"
   },
   {
-    "id": "exactmcp-nl",
-    "name": "exactmcp.nl",
-    "description_en": "Run Exact Online warehouse, serial/batch, purchase, production, and inventory workflows through a hosted MCP built on the official Exact Online API.",
-    "target": [
-      "exact-online"
-    ],
-    "type": "mcp",
-    "origin": "commercial",
-    "status": "live",
-    "publisher": "exactmcp.nl",
-    "source_url": "https://exactmcp.nl/",
-    "last_checked": "2026-07-20"
-  },
-  {
     "id": "ledger-botje",
     "name": "Ledger Botje",
     "description_en": "Handle Exact Online invoices, orders, inventory, and deliveries through a hosted MCP.",
@@ -163,7 +149,7 @@
     "type": "mcp",
     "origin": "commercial",
     "status": "live",
-    "publisher": "Ledger Botje",
+    "publisher": "Industrial IT",
     "source_url": "https://ledgerbotje.nl/",
     "last_checked": "2026-07-19"
   },
@@ -194,20 +180,6 @@
     "publisher": "Start 2 Scale",
     "source_url": "https://github.com/start2scale/finance-skills-nl",
     "last_checked": "2026-07-20"
-  },
-  {
-    "id": "visma-mcp-server",
-    "name": "visma-mcp-server",
-    "description_en": "Manage Visma eAccounting invoices, customers, suppliers, vouchers, and orders across 20 tools.",
-    "target": [
-      "visma-eaccounting"
-    ],
-    "type": "mcp",
-    "origin": "community",
-    "status": "live",
-    "publisher": "Proviscale",
-    "source_url": "https://github.com/Proviscale/visma-mcp-server",
-    "last_checked": "2026-07-19"
   },
   {
     "id": "moneybird-mcp-server",
