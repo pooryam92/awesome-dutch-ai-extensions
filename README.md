@@ -14,7 +14,7 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 
 | Category                                    | Listings | Covers                                                        |
 | ------------------------------------------- | -------: | ------------------------------------------------------------- |
-| [Accounting Finance](#accounting-finance)   |       14 | Exact Online, Moneybird, bunq, e-Boekhouden, Mollie, Nmbrs, … |
+| [Accounting Finance](#accounting-finance)   |       15 | Exact Online, Moneybird, bunq, e-Boekhouden, Mollie, Nmbrs, … |
 | [Consumer Daily Life](#consumer-daily-life) |        7 | Albert Heijn, Picnic, Aldi, Buienradar, DA, …                 |
 | [Developer Standards](#developer-standards) |        3 | Developer Overheid API Register, Geonovum, internet.nl        |
 | [Ecommerce Logistics](#ecommerce-logistics) |        6 | Marktplaats, bol.com, Postcode.eu, PostNL                     |
@@ -38,6 +38,7 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 | [moneybird-mcp-server](https://github.com/vanderheijden86/moneybird-mcp-server) | Work with Moneybird contacts, sales invoices, financial accounts, payments, products, projects, and time entries, with custom API requests for the rest. | Moneybird | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [Nmbrs AI Connector](https://www.nmbrs.com/ai-connector) | Run Dutch payroll actions in Nmbrs, with every write gated behind explicit confirmation. | Nmbrs | ![MCP · Official · Beta](assets/badges/tags-mcp-official-beta.svg) |
 | [Praat met je Boekhouding](https://praatmetjeboekhouding.nl/en/exact-online-mcp-server) | Query Exact Online bookkeeping across 86 tools — invoicing, BTW/ICP, and reporting — read-only by default. | Exact Online | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
+| [rompslomp-mcp](https://github.com/lmolema/rompslomp-mcp) | Manage Rompslomp bookkeeping across 61 tools — invoices, contacts, payments, quotations, journal entries, hours, and rides. | Rompslomp | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [Simplicate MCP](https://developer.simplicate.com/docs/mcp/getting_started/) | Work with Simplicate project, CRM, and invoicing data through a per-domain hosted endpoint. | Simplicate | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [Twinfield MCP](https://github.com/CodeMill-Solutions/twinfield-mcp) | Query and update Twinfield bookkeeping over its SOAP API. | Twinfield | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [WeFact MCP](https://github.com/NickAldewereld/wefact-mcp) | Manage WeFact debtors, invoices, products, and subscriptions. | WeFact | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
@@ -141,6 +142,6 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 
 ---
 
-_Curated — 70 listing(s) across 9 categories._
+_Curated — 71 listing(s) across 9 categories._
 
 <!-- END CATALOGUE -->

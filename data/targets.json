@@ -182,6 +182,9 @@
     "name": "Raad voor de Jaarverslaggeving (RJ)",
     "kind": "standard"
   },
+  "rompslomp": {
+    "name": "Rompslomp"
+  },
   "simplicate": {
     "name": "Simplicate"
   },

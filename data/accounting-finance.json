@@ -194,5 +194,19 @@
     "publisher": "vanderheijden86",
     "source_url": "https://github.com/vanderheijden86/moneybird-mcp-server",
     "last_checked": "2026-07-20"
+  },
+  {
+    "id": "rompslomp-mcp",
+    "name": "rompslomp-mcp",
+    "description_en": "Manage Rompslomp bookkeeping across 61 tools — invoices, contacts, payments, quotations, journal entries, hours, and rides.",
+    "target": [
+      "rompslomp"
+    ],
+    "type": "mcp",
+    "origin": "community",
+    "status": "live",
+    "publisher": "lmolema",
+    "source_url": "https://github.com/lmolema/rompslomp-mcp",
+    "last_checked": "2026-07-23"
   }
 ]
