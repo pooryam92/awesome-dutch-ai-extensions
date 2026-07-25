@@ -54,7 +54,14 @@ for (const file of categoryFiles) {
 
   if (!validate(listings)) {
     for (const e of validate.errors) {
-      errors.push(`${file}${e.instancePath} ${e.message}`);
+      // Surface the listing id alongside the file when the error is on a row,
+      // so a per-listing failure points at the offending id, not just its index.
+      const idx = Array.isArray(listings)
+        ? Number(e.instancePath.match(/^\/(\d+)/)?.[1])
+        : NaN;
+      const id = Number.isInteger(idx) ? listings[idx]?.id : undefined;
+      const where = `${file}${e.instancePath}${id ? ` (${id})` : ""}`;
+      errors.push(`${where} ${e.message}`);
     }
   }
 

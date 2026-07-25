@@ -3,6 +3,7 @@
     "id": "bunq-partner-mcp",
     "name": "bunq Partner MCP",
     "description_en": "Automate bunq banking through the Partner API — onboarding, KYC, accounts, payments, cards, and compliance.",
+    "description_nl": "Automatiseer bankieren bij bunq via de Partner API — onboarding, KYC, rekeningen, betalingen, kaarten en compliance.",
     "target": [
       "bunq"
     ],
@@ -17,6 +18,7 @@
     "id": "mollie-mcp",
     "name": "Mollie MCP",
     "description_en": "Manage the full Mollie stack — payments, customers, invoices, subscriptions, balances, settlements, terminals, and webhooks.",
+    "description_nl": "Beheer de volledige Mollie-stack — betalingen, klanten, facturen, abonnementen, saldi, uitbetalingen, terminals en webhooks.",
     "target": [
       "mollie"
     ],
@@ -31,6 +33,7 @@
     "id": "moneybird-mcp",
     "name": "Moneybird MCP",
     "description_en": "Keep Moneybird bookkeeping up to date — invoices, contacts, and ledger data.",
+    "description_nl": "Houd je boekhouding in Moneybird bij — facturen, contacten en grootboekgegevens.",
     "target": [
       "moneybird"
     ],
@@ -45,6 +48,7 @@
     "id": "simplicate-mcp",
     "name": "Simplicate MCP",
     "description_en": "Work with Simplicate project, CRM, and invoicing data through a per-domain hosted endpoint.",
+    "description_nl": "Werk met project-, CRM- en factuurgegevens uit Simplicate via een gehost endpoint per domein.",
     "target": [
       "simplicate"
     ],
@@ -59,6 +63,7 @@
     "id": "nmbrs-ai-connector",
     "name": "Nmbrs AI Connector",
     "description_en": "Run Dutch payroll actions in Nmbrs, with every write gated behind explicit confirmation.",
+    "description_nl": "Voer Nederlandse salarisadministratie uit in Nmbrs, waarbij elke schrijfactie pas doorgaat na expliciete bevestiging.",
     "target": [
       "nmbrs"
     ],
@@ -73,6 +78,7 @@
     "id": "praat-met-je-boekhouding",
     "name": "Praat met je Boekhouding",
     "description_en": "Query Exact Online bookkeeping across 86 tools — invoicing, BTW/ICP, and reporting — read-only by default.",
+    "description_nl": "Bevraag je boekhouding in Exact Online met 86 tools — facturatie, BTW/ICP en rapportage — standaard alleen-lezen.",
     "target": [
       "exact-online"
     ],
@@ -87,6 +93,7 @@
     "id": "e-boekhouden-mcp",
     "name": "e-Boekhouden MCP",
     "description_en": "Read and write e-Boekhouden administration using your own API credentials.",
+    "description_nl": "Lees en muteer je administratie in e-Boekhouden met je eigen API-gegevens.",
     "target": [
       "e-boekhouden"
     ],
@@ -101,6 +108,7 @@
     "id": "twinfield-mcp",
     "name": "Twinfield MCP",
     "description_en": "Query and update Twinfield bookkeeping over its SOAP API.",
+    "description_nl": "Bevraag de boekhouding in Twinfield en werk die bij via de SOAP API.",
     "target": [
       "twinfield"
     ],
@@ -115,6 +123,7 @@
     "id": "yuki-mcp",
     "name": "Yuki MCP",
     "description_en": "Operate Yuki accounting across 102 actions, with write operations gated for safety.",
+    "description_nl": "Bedien de boekhouding in Yuki met 102 acties, waarbij schrijfacties uit veiligheidsoverwegingen zijn afgeschermd.",
     "target": [
       "yuki"
     ],
@@ -129,6 +138,7 @@
     "id": "wefact-mcp",
     "name": "WeFact MCP",
     "description_en": "Manage WeFact debtors, invoices, products, and subscriptions.",
+    "description_nl": "Beheer debiteuren, facturen, producten en abonnementen in WeFact.",
     "target": [
       "wefact"
     ],
@@ -143,6 +153,7 @@
     "id": "ledger-botje",
     "name": "Ledger Botje",
     "description_en": "Handle Exact Online invoices, orders, inventory, and deliveries through a hosted MCP.",
+    "description_nl": "Verwerk facturen, orders, voorraad en leveringen in Exact Online via een gehoste MCP.",
     "target": [
       "exact-online"
     ],
@@ -157,6 +168,7 @@
     "id": "finance-mcp",
     "name": "Finance MCP",
     "description_en": "Query Exact Online bookkeeping read-only through a hosted EU MCP endpoint, with more Dutch accounting platforms planned.",
+    "description_nl": "Bevraag de boekhouding in Exact Online alleen-lezen via een gehost MCP-endpoint in de EU; meer Nederlandse boekhoudplatformen staan op de planning.",
     "target": [
       "exact-online"
     ],
@@ -171,6 +183,7 @@
     "id": "finance-skills-nl",
     "name": "finance-skills-nl",
     "description_en": "Draft month-close packages, reconcile the general ledger, and audit Excel models for Dutch SME finance teams, with every output flagged for human sign-off.",
+    "description_nl": "Stel maandafsluitingen op, sluit het grootboek aan en controleer Excel-modellen voor financiële teams in het Nederlandse mkb, waarbij elke uitkomst gemarkeerd wordt voor menselijke goedkeuring.",
     "target": [
       "rj"
     ],
@@ -185,6 +198,7 @@
     "id": "moneybird-mcp-server",
     "name": "moneybird-mcp-server",
     "description_en": "Work with Moneybird contacts, sales invoices, financial accounts, payments, products, projects, and time entries, with custom API requests for the rest.",
+    "description_nl": "Werk met contacten, verkoopfacturen, financiële rekeningen, betalingen, producten, projecten en uren in Moneybird, met eigen API-verzoeken voor al het overige.",
     "target": [
       "moneybird"
     ],
@@ -199,6 +213,7 @@
     "id": "rompslomp-mcp",
     "name": "rompslomp-mcp",
     "description_en": "Manage Rompslomp bookkeeping across 61 tools — invoices, contacts, payments, quotations, journal entries, hours, and rides.",
+    "description_nl": "Beheer de boekhouding in Rompslomp met 61 tools — facturen, contacten, betalingen, offertes, journaalposten, uren en ritten.",
     "target": [
       "rompslomp"
     ],

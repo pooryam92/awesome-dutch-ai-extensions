@@ -3,6 +3,7 @@
     "id": "data-cleaning-dutch",
     "name": "data-cleaning-dutch",
     "description_en": "Clean Dutch government CSV and Excel exports in pandas — semicolon separators with comma decimals, encoding detection, Dutch missing-value markers, day-first dates, postcode validation, and merged cells.",
+    "description_nl": "Maak CSV- en Excel-exports van de Nederlandse overheid schoon in pandas — puntkomma's als scheidingsteken met komma-decimalen, encoding-detectie, Nederlandse aanduidingen voor ontbrekende waarden, datums met de dag vooraan, postcodevalidatie en samengevoegde cellen.",
     "target": [
       "cbs-statline",
       "kadaster"
@@ -18,6 +19,7 @@
     "id": "dutch-choropleth-maps",
     "name": "dutch-choropleth-maps",
     "description_en": "Build choropleth maps of Dutch regions — detect gemeente, wijk, or buurt level from CBS region codes, fetch PDOK boundaries, reproject from RD to WGS84, and render with geopandas, Folium, or Plotly.",
+    "description_nl": "Bouw choroplethkaarten van Nederlandse regio's — leid gemeente-, wijk- of buurtniveau af uit CBS-regiocodes, haal grenzen op bij PDOK, herprojecteer van RD naar WGS84 en render met geopandas, Folium of Plotly.",
     "target": [
       "pdok",
       "cbs-statline"
@@ -33,6 +35,7 @@
     "id": "rce-cho-mcp",
     "name": "rce-cho-mcp",
     "description_en": "Query the RCE Cultuurhistorische Objecten linked-data set over SPARQL, with ontology inspection, thesaurus label lookup, and query validation.",
+    "description_nl": "Bevraag de linked-dataset Cultuurhistorische Objecten van de RCE via SPARQL, met inzicht in de ontologie, het opzoeken van thesaurus-labels en validatie van queries.",
     "target": [
       "rce"
     ],
@@ -47,6 +50,7 @@
     "id": "mcp-cbs-cijfers-open-data",
     "name": "mcp-cbs-cijfers-open-data",
     "description_en": "Makes official Dutch statistics from CBS (StatLine) accessible for AI assistants.",
+    "description_nl": "Maakt officiële Nederlandse statistieken van het CBS (StatLine) toegankelijk voor AI-assistenten.",
     "target": [
       "cbs-statline"
     ],
@@ -61,6 +65,7 @@
     "id": "nl-opendata-mcp",
     "name": "nl-opendata-mcp",
     "description_en": "Search, query, download, and locally analyse CBS (OData) and data.overheid.nl datasets in CSV or Parquet.",
+    "description_nl": "Zoek, bevraag, download en analyseer datasets van het CBS (OData) en data.overheid.nl lokaal in CSV of Parquet.",
     "target": [
       "cbs-statline",
       "data-overheid-nl"
@@ -76,6 +81,7 @@
     "id": "open-utrecht-datasets",
     "name": "open-utrecht-datasets",
     "description_en": "Search, explore, and download Municipality of Utrecht open datasets across six tools, with experimental Woo-relevance tagging (full Woo-document search is planned).",
+    "description_nl": "Zoek, verken en download open datasets van de gemeente Utrecht met zes tools, met experimentele markering van Woo-relevantie (volledig zoeken in Woo-documenten staat op de planning).",
     "target": [
       "gemeente-utrecht"
     ],
@@ -90,6 +96,7 @@
     "id": "nl-gov-mcp",
     "name": "nl-gov-mcp",
     "description_en": "Reach 39 Dutch government data sources through one server — CBS, RDW, KNMI, PDOK, Rechtspraak, DUO, and more.",
+    "description_nl": "Bereik 39 Nederlandse overheidsbronnen via één server — CBS, RDW, KNMI, PDOK, Rechtspraak, DUO en meer.",
     "target": [
       "cbs-statline",
       "rdw",
@@ -107,6 +114,7 @@
     "id": "knmi-mcp",
     "name": "knmi-mcp",
     "description_en": "Pull KNMI real-time weather observations (10-minute measurements) for Dutch locations.",
+    "description_nl": "Haal actuele weerobservaties van het KNMI op (metingen per 10 minuten) voor Nederlandse locaties.",
     "target": [
       "knmi"
     ],
@@ -121,6 +129,7 @@
     "id": "knmi-mcp-dstotijn",
     "name": "knmi-mcp (dstotijn)",
     "description_en": "Query KNMI weather observations and forecasts through KNMI's open data API.",
+    "description_nl": "Bevraag weerobservaties en verwachtingen van het KNMI via de open data-API van het KNMI.",
     "target": [
       "knmi"
     ],
@@ -135,6 +144,7 @@
     "id": "opentk-mcp",
     "name": "OpenTK MCP",
     "description_en": "Query Tweede Kamer (Dutch parliament) debates, motions, and documents.",
+    "description_nl": "Bevraag debatten, moties en documenten van de Tweede Kamer.",
     "target": [
       "tweede-kamer"
     ],
@@ -149,6 +159,7 @@
     "id": "rijksmuseum-mcp",
     "name": "Rijksmuseum MCP",
     "description_en": "Search and browse the Rijksmuseum's art collection by artist, work, and theme.",
+    "description_nl": "Zoek en verken de kunstcollectie van het Rijksmuseum op kunstenaar, werk en thema.",
     "target": [
       "rijksmuseum"
     ],
@@ -163,6 +174,7 @@
     "id": "oorlogsbronnen-mcp",
     "name": "oorlogsbronnen-mcp",
     "description_en": "Search Oorlogsbronnen's archive of 12 million Dutch WWII sources.",
+    "description_nl": "Zoek in het archief van Oorlogsbronnen met 12 miljoen Nederlandse bronnen over de Tweede Wereldoorlog.",
     "target": [
       "oorlogsbronnen"
     ],
@@ -177,6 +189,7 @@
     "id": "openarchieven-mcp",
     "name": "openarchieven-mcp",
     "description_en": "Search Open Archieven genealogy records through a no-auth hosted endpoint.",
+    "description_nl": "Zoek genealogische akten in Open Archieven via een gehost endpoint zonder authenticatie.",
     "target": [
       "openarchieven"
     ],
@@ -191,6 +204,7 @@
     "id": "mcp-gemeente-amsterdam",
     "name": "mcp-gemeente-amsterdam",
     "description_en": "Query Amsterdam's open APIs across buildings, WOZ, parking, waste, monuments, permits, soil, and more from one server.",
+    "description_nl": "Bevraag de open API's van Amsterdam over gebouwen, WOZ, parkeren, afval, monumenten, vergunningen, bodem en meer vanuit één server.",
     "target": [
       "gemeente-amsterdam"
     ],
@@ -205,6 +219,7 @@
     "id": "baarn-raadsinformatie",
     "name": "baarn-raadsinformatie",
     "description_en": "Search Gemeente Baarn council meetings, agendas, and documents via the Notubiz API, with keyword and semantic search.",
+    "description_nl": "Zoek raadsvergaderingen, agenda's en documenten van gemeente Baarn via de Notubiz API, met zoeken op trefwoord en semantisch zoeken.",
     "target": [
       "gemeente-baarn"
     ],
