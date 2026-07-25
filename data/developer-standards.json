@@ -1,47 +1,53 @@
-[
-  {
-    "id": "skills-geo",
-    "name": "skills-geo",
-    "description_en": "Skills for Geonovum geo-standards — OGC API, NEN 3610, INSPIRE, and 3D geo-information.",
-    "description_nl": "Skills voor de geo-standaarden van Geonovum — OGC API, NEN 3610, INSPIRE en 3D-geo-informatie.",
-    "target": [
-      "geonovum"
-    ],
-    "type": "plugin",
-    "origin": "official",
-    "status": "live",
-    "publisher": "developer-overheid-nl",
-    "source_url": "https://github.com/developer-overheid-nl/skills-geo",
-    "last_checked": "2026-07-19"
+{
+  "title": {
+    "en": "Developer Standards",
+    "nl": "Developers & standaarden"
   },
-  {
-    "id": "skills-internet",
-    "name": "skills-internet",
-    "description_en": "Skills for internet.nl standards — IPv6, DNSSEC, TLS, DMARC/DKIM/SPF, and DANE.",
-    "description_nl": "Skills voor de standaarden van internet.nl — IPv6, DNSSEC, TLS, DMARC/DKIM/SPF en DANE.",
-    "target": [
-      "internet-nl"
-    ],
-    "type": "plugin",
-    "origin": "official",
-    "status": "live",
-    "publisher": "developer-overheid-nl",
-    "source_url": "https://github.com/developer-overheid-nl/skills-internet",
-    "last_checked": "2026-07-19"
-  },
-  {
-    "id": "mcp-developer-overheid-api-register",
-    "name": "mcp-developer-overheid-api-register",
-    "description_en": "Search the Developer Overheid API Register for Dutch government APIs and their source repositories.",
-    "description_nl": "Zoek in het API Register van Developer Overheid naar Nederlandse overheids-API's en hun broncode-repositories.",
-    "target": [
-      "developer-overheid-register"
-    ],
-    "type": "mcp",
-    "origin": "community",
-    "status": "live",
-    "publisher": "David Stotijn",
-    "source_url": "https://github.com/dstotijn/mcp-developer-overheid-api-register",
-    "last_checked": "2026-07-19"
-  }
-]
+  "listings": [
+    {
+      "id": "skills-geo",
+      "name": "skills-geo",
+      "description_en": "Skills for Geonovum geo-standards — OGC API, NEN 3610, INSPIRE, and 3D geo-information.",
+      "description_nl": "Skills voor de geo-standaarden van Geonovum — OGC API, NEN 3610, INSPIRE en 3D-geo-informatie.",
+      "target": [
+        "geonovum"
+      ],
+      "type": "plugin",
+      "origin": "official",
+      "status": "live",
+      "publisher": "developer-overheid-nl",
+      "source_url": "https://github.com/developer-overheid-nl/skills-geo",
+      "last_checked": "2026-07-19"
+    },
+    {
+      "id": "skills-internet",
+      "name": "skills-internet",
+      "description_en": "Skills for internet.nl standards — IPv6, DNSSEC, TLS, DMARC/DKIM/SPF, and DANE.",
+      "description_nl": "Skills voor de standaarden van internet.nl — IPv6, DNSSEC, TLS, DMARC/DKIM/SPF en DANE.",
+      "target": [
+        "internet-nl"
+      ],
+      "type": "plugin",
+      "origin": "official",
+      "status": "live",
+      "publisher": "developer-overheid-nl",
+      "source_url": "https://github.com/developer-overheid-nl/skills-internet",
+      "last_checked": "2026-07-19"
+    },
+    {
+      "id": "mcp-developer-overheid-api-register",
+      "name": "mcp-developer-overheid-api-register",
+      "description_en": "Search the Developer Overheid API Register for Dutch government APIs and their source repositories.",
+      "description_nl": "Zoek in het API Register van Developer Overheid naar Nederlandse overheids-API's en hun broncode-repositories.",
+      "target": [
+        "developer-overheid-register"
+      ],
+      "type": "mcp",
+      "origin": "community",
+      "status": "live",
+      "publisher": "David Stotijn",
+      "source_url": "https://github.com/dstotijn/mcp-developer-overheid-api-register",
+      "last_checked": "2026-07-19"
+    }
+  ]
+}

@@ -1,82 +1,103 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/pooryam92/awesome-dutch-ai-extensions/raw/main/schema.json",
-  "title": "Dutch AI extension listing",
-  "description": "One listing per artifact. Every field is required; no optional fields in v1.",
-  "type": "array",
-  "items": {
-    "type": "object",
-    "additionalProperties": false,
-    "required": [
-      "id",
-      "name",
-      "description_en",
-      "description_nl",
-      "target",
-      "type",
-      "origin",
-      "status",
-      "publisher",
-      "source_url",
-      "last_checked"
-    ],
-    "properties": {
-      "id": {
-        "type": "string",
-        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-        "description": "Stable slug; join key for every surface and later usage events."
-      },
-      "name": {
-        "type": "string",
-        "minLength": 1,
-        "description": "Untranslated (MCP/skill/Claude/etc. stay as-is)."
-      },
-      "description_en": {
-        "type": "string",
-        "minLength": 1,
-        "description": "One outcome-first sentence."
-      },
-      "description_nl": {
-        "type": "string",
-        "minLength": 1,
-        "description": "Dutch mirror of description_en: one outcome-first sentence, same register. Product/vendor names stay untranslated."
-      },
-      "target": {
-        "type": "array",
-        "minItems": 1,
-        "uniqueItems": true,
-        "items": {
+  "title": "Dutch AI extension category",
+  "description": "One category file: its own bilingual title plus one listing per artifact. Every field is required; no optional fields in v1.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["title", "listings"],
+  "properties": {
+    "title": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "nl"],
+      "description": "The category's display title. Lives here, not in the filename — the filename is only a stable slug, so a title can be reworded without renaming the file.",
+      "properties": {
+        "en": { "type": "string", "minLength": 1 },
+        "nl": {
           "type": "string",
-          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
-        },
-        "description": "Ids from data/targets.json of the Dutch service, data source, standard, or authority this integration lets an agent reach or work with; the outcome axis listings are grouped and searched by."
-      },
-      "type": {
-        "type": "string",
-        "enum": ["mcp", "skill", "plugin"]
-      },
-      "origin": {
-        "type": "string",
-        "enum": ["official", "commercial", "community"]
-      },
-      "status": {
-        "type": "string",
-        "enum": ["live", "beta", "preview", "concept", "abandoned"]
-      },
-      "publisher": {
-        "type": "string",
-        "minLength": 1,
-        "description": "Who built it."
-      },
-      "source_url": {
-        "type": "string",
-        "format": "uri",
-        "description": "Canonical repo / vendor / package page."
-      },
-      "last_checked": {
-        "type": "string",
-        "format": "date",
-        "description": "ISO date of last verification."
+          "minLength": 1,
+          "description": "Dutch mirror of the English title, in Dutch sentence case."
+        }
+      }
+    },
+    "listings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "description_en",
+          "description_nl",
+          "target",
+          "type",
+          "origin",
+          "status",
+          "publisher",
+          "source_url",
+          "last_checked"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "description": "Stable slug; join key for every surface and later usage events."
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Untranslated (MCP/skill/Claude/etc. stay as-is)."
+          },
+          "description_en": {
+            "type": "string",
+            "minLength": 1,
+            "description": "One outcome-first sentence."
+          },
+          "description_nl": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Dutch mirror of description_en: one outcome-first sentence, same register. Product/vendor names stay untranslated."
+          },
+          "target": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+            },
+            "description": "Ids from data/targets.json of the Dutch service, data source, standard, or authority this integration lets an agent reach or work with; the outcome axis listings are grouped and searched by."
+          },
+          "type": {
+            "type": "string",
+            "enum": ["mcp", "skill", "plugin"]
+          },
+          "origin": {
+            "type": "string",
+            "enum": ["official", "commercial", "community"]
+          },
+          "status": {
+            "type": "string",
+            "enum": ["live", "beta", "preview", "concept", "abandoned"]
+          },
+          "publisher": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Who built it."
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Canonical repo / vendor / package page."
+          },
+          "last_checked": {
+            "type": "string",
+            "format": "date",
+            "description": "ISO date of last verification."
+          }
+        }
       }
     }
   }
