@@ -3,6 +3,7 @@
     "id": "ah-mcp",
     "name": "ah-mcp",
     "description_en": "Browse Albert Heijn products and Bonus deals, and manage your cart, orders, lists, and receipts.",
+    "description_nl": "Blader door producten en Bonus-aanbiedingen van Albert Heijn en beheer je mandje, bestellingen, lijstjes en kassabonnen.",
     "target": [
       "albert-heijn"
     ],
@@ -17,6 +18,7 @@
     "id": "mcp-picnic",
     "name": "mcp-picnic",
     "description_en": "Shop Picnic groceries — search products and manage the cart, orders, and deliveries.",
+    "description_nl": "Doe je boodschappen bij Picnic — zoek producten en beheer je mandje, bestellingen en bezorgingen.",
     "target": [
       "picnic"
     ],
@@ -31,6 +33,7 @@
     "id": "buienradar-mcp",
     "name": "buienradar-mcp-server",
     "description_en": "Pull a Buienradar rain nowcast — a 2-hour precipitation forecast by coordinates.",
+    "description_nl": "Haal een regenverwachting van Buienradar op — een neerslagverwachting voor de komende 2 uur op basis van coördinaten.",
     "target": [
       "buienradar"
     ],
@@ -45,6 +48,7 @@
     "id": "nl-supermarkt-mcp",
     "name": "nl-supermarkt-mcp",
     "description_en": "Search products, compare prices, and plan groceries across Dutch supermarkets and drugstores.",
+    "description_nl": "Zoek producten, vergelijk prijzen en plan je boodschappen bij Nederlandse supermarkten en drogisterijen.",
     "target": [
       "albert-heijn",
       "jumbo",
@@ -77,6 +81,7 @@
     "id": "unofficial-magister-mcp",
     "name": "unofficial-magister-mcp",
     "description_en": "Look up Dutch school schedules from Magister — daily and weekly timetables plus drop-off and pick-up times, for student and parent accounts.",
+    "description_nl": "Bekijk schoolroosters uit Magister — dag- en weekroosters plus breng- en ophaaltijden, voor leerling- en ouderaccounts.",
     "target": [
       "magister"
     ],
@@ -91,6 +96,7 @@
     "id": "homewizard-mcp-server",
     "name": "homewizard-mcp-server",
     "description_en": "Read live HomeWizard P1 smart-meter data — power, per-phase voltages and currents, cumulative kWh, and gas — over the local API, read-only.",
+    "description_nl": "Lees live gegevens van je HomeWizard P1-slimme meter — vermogen, spanning en stroom per fase, cumulatieve kWh en gas — via de lokale API, alleen-lezen.",
     "target": [
       "homewizard"
     ],
@@ -105,6 +111,7 @@
     "id": "orderfood",
     "name": "orderfood",
     "description_en": "Search Thuisbezorgd.nl restaurants, read menus, and build a cart — placing the order is not supported, because checkout needs a browser payment flow.",
+    "description_nl": "Zoek restaurants op Thuisbezorgd.nl, lees menu's en vul een mandje — de bestelling plaatsen kan niet, omdat afrekenen een betaalflow in de browser vereist.",
     "target": [
       "thuisbezorgd"
     ],

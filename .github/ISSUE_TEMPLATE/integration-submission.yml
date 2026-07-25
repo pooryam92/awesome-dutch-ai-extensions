@@ -39,6 +39,13 @@ body:
     validations:
       required: true
   - type: textarea
+    id: description_nl
+    attributes:
+      label: Dutch one-liner (optional)
+      description: One outcome-first sentence in Dutch describing what it does — leave product and vendor names untranslated. We draft both the English and Dutch descriptions during review; a Dutch draft here just gives us a head start.
+    validations:
+      required: false
+  - type: textarea
     id: notes
     attributes:
       label: Notes

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/pooryam92/awesome-dutch-agent-integrations/raw/main/schema.json",
-  "title": "Dutch agent-integration listing",
+  "$id": "https://github.com/pooryam92/awesome-dutch-ai-extensions/raw/main/schema.json",
+  "title": "Dutch AI extension listing",
   "description": "One listing per artifact. Every field is required; no optional fields in v1.",
   "type": "array",
   "items": {
@@ -11,6 +11,7 @@
       "id",
       "name",
       "description_en",
+      "description_nl",
       "target",
       "type",
       "origin",
@@ -34,6 +35,11 @@
         "type": "string",
         "minLength": 1,
         "description": "One outcome-first sentence."
+      },
+      "description_nl": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Dutch mirror of description_en: one outcome-first sentence, same register. Product/vendor names stay untranslated."
       },
       "target": {
         "type": "array",

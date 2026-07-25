@@ -3,6 +3,7 @@
     "id": "ns-mcp-server",
     "name": "NS MCP Server",
     "description_en": "Look up NS train departures and disruptions and plan train journeys.",
+    "description_nl": "Bekijk vertrektijden en storingen van de NS en plan treinreizen.",
     "target": [
       "ns"
     ],
@@ -17,6 +18,7 @@
     "id": "ns-travel-mcp",
     "name": "ns-travel-mcp",
     "description_en": "Plan NS journeys and check real-time train data and disruption alerts.",
+    "description_nl": "Plan NS-reizen en bekijk actuele treingegevens en storingsmeldingen.",
     "target": [
       "ns"
     ],
@@ -31,6 +33,7 @@
     "id": "anwb-mcp",
     "name": "anwb-mcp",
     "description_en": "Pull ANWB traffic incidents, plan routes with turn-by-turn directions, and search locations.",
+    "description_nl": "Haal verkeersinformatie van de ANWB op, plan routes met navigatie-instructies en zoek locaties.",
     "target": [
       "anwb"
     ],
@@ -45,6 +48,7 @@
     "id": "sb-ogc-mcp",
     "name": "SB OGC MCP",
     "description_en": "Query Dutch mobility data through Studio Bereikbaar's OGC API — the CBS ODiN travel survey, national traffic-model networks, administrative boundaries, and accessibility maps.",
+    "description_nl": "Bevraag Nederlandse mobiliteitsdata via de OGC API van Studio Bereikbaar — het CBS-reisonderzoek ODiN, netwerken uit landelijke verkeersmodellen, bestuurlijke grenzen en bereikbaarheidskaarten.",
     "target": [
       "cbs-odin"
     ],
@@ -58,6 +62,7 @@
   {
     "id": "ovapi-mcp-server",
     "description_en": "Look up Dutch bus, tram, metro, and ferry departures from the OVapi real-time feed — search stops, find stops nearby, and inspect lines and journeys.",
+    "description_nl": "Bekijk vertrektijden van bus, tram, metro en boot uit de realtime feed van OVapi — zoek haltes, vind haltes in de buurt en bekijk lijnen en ritten.",
     "name": "ovapi-mcp-server",
     "target": [
       "ovapi"
@@ -73,6 +78,7 @@
     "id": "ov-mcp",
     "name": "ov-mcp",
     "description_en": "Search Dutch public-transport stops, find stops near a coordinate, and look up routes across every operator from the national GTFS feed, without an API key.",
+    "description_nl": "Zoek haltes in het Nederlandse openbaar vervoer, vind haltes bij een coördinaat en bekijk routes van alle vervoerders uit de landelijke GTFS-feed, zonder API-key.",
     "target": [
       "ovapi"
     ],

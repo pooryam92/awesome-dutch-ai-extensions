@@ -1,8 +1,8 @@
 {
-  "name": "awesome-dutch-agent-integrations",
+  "name": "awesome-dutch-ai-extensions",
   "version": "0.1.0",
   "private": true,
-  "description": "Curated index of Dutch agent-integrations (MCP, skills, plugins).",
+  "description": "Curated index of Dutch AI extensions (MCP, skills, plugins).",
   "type": "module",
   "scripts": {
     "validate": "node scripts/validate.mjs",

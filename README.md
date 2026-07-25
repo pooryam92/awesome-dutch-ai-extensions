@@ -1,8 +1,8 @@
-# Awesome Dutch Agent Integrations
+# Awesome Dutch AI Extensions
 
 > A curated list of MCP servers, skills, and plugins that connect AI assistants to Dutch services, data, and standards.
 
-A curated directory of **Dutch agent-integrations** — MCP servers, skills, and plugins that connect an AI assistant to, or give it working knowledge of, a Dutch service, data source, standard, or authority.
+A curated directory of **Dutch AI extensions** — MCP servers, skills, and plugins that connect an AI assistant to, or give it working knowledge of, a Dutch service, data source, standard, or authority.
 
 Each listing shows, at a glance, whether it is official, commercial, or community, and how mature it is.
 
