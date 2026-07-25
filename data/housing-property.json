@@ -3,6 +3,7 @@
     "id": "makelaar-mcp",
     "name": "makelaar-mcp",
     "description_en": "Search Funda listings and run NHG, NIBUD, mortgage, and closing-cost calculations.",
+    "description_nl": "Zoek woningen op Funda en reken NHG, NIBUD, hypotheek en kosten koper door.",
     "target": [
       "funda"
     ],
@@ -17,6 +18,7 @@
     "id": "kadaster-mcp",
     "name": "kadaster-mcp",
     "description_en": "Query the Kadaster Knowledge Graph of Dutch land-registry and parcel data.",
+    "description_nl": "Bevraag de Knowledge Graph van het Kadaster met gegevens uit de kadastrale registratie en over percelen.",
     "target": [
       "kadaster"
     ],
@@ -31,6 +33,7 @@
     "id": "mcp-monumenten",
     "name": "mcp-monumenten",
     "description_en": "Look up a Dutch building's monument status from BAG, RCE, and municipal records.",
+    "description_nl": "Zoek de monumentstatus van een Nederlands gebouw op in BAG, RCE en gemeentelijke registers.",
     "target": [
       "monumenten"
     ],
@@ -45,6 +48,7 @@
     "id": "kamernet-mcp",
     "name": "kamernet-mcp",
     "description_en": "Search Kamernet rooms, studios, and apartments, read full bilingual listings, and monitor new ones against your budget.",
+    "description_nl": "Zoek kamers, studio's en appartementen op Kamernet, lees volledige tweetalige advertenties en houd nieuw aanbod binnen je budget in de gaten.",
     "target": [
       "kamernet"
     ],

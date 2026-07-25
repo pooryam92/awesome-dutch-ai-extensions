@@ -11,6 +11,7 @@
       "id",
       "name",
       "description_en",
+      "description_nl",
       "target",
       "type",
       "origin",
@@ -34,6 +35,11 @@
         "type": "string",
         "minLength": 1,
         "description": "One outcome-first sentence."
+      },
+      "description_nl": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Dutch mirror of description_en: one outcome-first sentence, same register. Product/vendor names stay untranslated."
       },
       "target": {
         "type": "array",

@@ -3,6 +3,7 @@
     "id": "postnl-mcp",
     "name": "PostNL MCP",
     "description_en": "Create shipments and track PostNL parcels, barcodes, and pickup-point locations.",
+    "description_nl": "Maak zendingen aan en volg pakketten, barcodes en pakketpunten van PostNL.",
     "target": [
       "postnl"
     ],
@@ -17,6 +18,7 @@
     "id": "bol-mcp",
     "name": "bol-mcp",
     "description_en": "Reach bol.com's Retailer API through 76 tools spanning orders, offers, and product listings.",
+    "description_nl": "Bereik de Retailer API van bol.com via 76 tools voor orders, aanbiedingen en productvermeldingen.",
     "target": [
       "bol"
     ],
@@ -31,6 +33,7 @@
     "id": "postcode-eu-ai-tools",
     "name": "postcode-eu-ai-tools",
     "description_en": "Validate and autocomplete Dutch addresses through the official Postcode.eu API.",
+    "description_nl": "Valideer Nederlandse adressen en vul ze automatisch aan via de officiële Postcode.eu API.",
     "target": [
       "postcode-eu"
     ],
@@ -45,6 +48,7 @@
     "id": "marktplaats-mcp",
     "name": "marktplaats-mcp",
     "description_en": "Search and read listings from Marktplaats.nl.",
+    "description_nl": "Zoek en lees advertenties van Marktplaats.nl.",
     "target": [
       "marktplaats"
     ],
@@ -59,6 +63,7 @@
     "id": "marktplaats-mcp-jasp-nerd",
     "name": "marktplaats-mcp (jasp-nerd)",
     "description_en": "Search Marktplaats and 2dehands classifieds with seller-trust signals and new-listing monitoring, no account needed.",
+    "description_nl": "Zoek advertenties op Marktplaats en 2dehands met betrouwbaarheidssignalen over verkopers en meldingen bij nieuwe advertenties, zonder account.",
     "target": [
       "marktplaats"
     ],
@@ -73,6 +78,7 @@
     "id": "marktplaats-2dehands-mcp",
     "name": "marktplaats-2dehands-mcp",
     "description_en": "Search Marktplaats and 2dehands listings, categories, and sellers, with saved searches that return only what is new; an optional login adds your own messages, ads, favourites, and bids.",
+    "description_nl": "Zoek advertenties, categorieën en verkopers op Marktplaats en 2dehands, met bewaarde zoekopdrachten die alleen nieuwe resultaten teruggeven; een optionele login voegt je eigen berichten, advertenties, favorieten en biedingen toe.",
     "target": [
       "marktplaats"
     ],
