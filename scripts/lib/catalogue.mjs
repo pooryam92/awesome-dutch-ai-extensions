@@ -1,15 +1,6 @@
 // catalogue.mjs — turns listing data into the Markdown catalogue block.
 // Presentation only; the badge renderer and targets registry are injected.
 
-// filename → human category title: "work-hr" -> "Work HR"
-const ACRONYMS = { hr: "HR" };
-export const titleFromFile = (file) =>
-  file
-    .replace(/\.json$/, "")
-    .split("-")
-    .map((w) => ACRONYMS[w] ?? w[0].toUpperCase() + w.slice(1))
-    .join(" ");
-
 // Table cells are pipe-delimited and the Name cell is wrapped in a [text](url)
 // link — escape backslashes, pipes, and link brackets, and collapse newlines.
 const escapeCell = (s) =>

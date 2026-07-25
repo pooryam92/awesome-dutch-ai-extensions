@@ -49,22 +49,38 @@ for (const [tid, entry] of Object.entries(targets)) {
   }
 }
 
-for (const file of categoryFiles) {
-  const listings = readJson(join(dataDir, file));
+// A category file is { title: { en, nl }, listings: [...] } — the title lives in
+// the file, not the filename, so renaming a category is a one-place edit.
+const seenTitles = new Map(); // "lang:title" -> first file that used it
 
-  if (!validate(listings)) {
+for (const file of categoryFiles) {
+  const category = readJson(join(dataDir, file));
+
+  if (!validate(category)) {
     for (const e of validate.errors) {
       // Surface the listing id alongside the file when the error is on a row,
       // so a per-listing failure points at the offending id, not just its index.
-      const idx = Array.isArray(listings)
-        ? Number(e.instancePath.match(/^\/(\d+)/)?.[1])
-        : NaN;
-      const id = Number.isInteger(idx) ? listings[idx]?.id : undefined;
+      const idx = Number(e.instancePath.match(/^\/listings\/(\d+)/)?.[1]);
+      const id = Number.isInteger(idx) ? category?.listings?.[idx]?.id : undefined;
       const where = `${file}${e.instancePath}${id ? ` (${id})` : ""}`;
       errors.push(`${where} ${e.message}`);
     }
   }
 
+  // Two categories sharing a title collide in the index: both rows render the
+  // same heading anchor, so one of the links goes to the wrong section.
+  for (const lang of ["en", "nl"]) {
+    const title = category?.title?.[lang];
+    if (title == null) continue;
+    const key = `${lang}:${title.toLowerCase()}`;
+    if (seenTitles.has(key)) {
+      errors.push(`${file}: title.${lang} "${title}" is already used by ${seenTitles.get(key)}`);
+    } else {
+      seenTitles.set(key, file);
+    }
+  }
+
+  const listings = category?.listings;
   if (!Array.isArray(listings)) continue;
 
   listings.forEach((row, i) => {

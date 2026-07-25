@@ -11,7 +11,7 @@ import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { createBadges } from "./lib/badges.mjs";
-import { buildCatalogue, titleFromFile } from "./lib/catalogue.mjs";
+import { buildCatalogue } from "./lib/catalogue.mjs";
 import { spliceCatalogue } from "./lib/readme.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -27,10 +27,21 @@ const targets = readJson(join(dataDir, "targets.json"));
 // labels.json and targets.json are registries, not listing files —
 // everything else in /data is a category of listings.
 const REGISTRY_FILES = new Set(["labels.json", "targets.json"]);
+// Each category file carries its own bilingual title, so a title can be reworded
+// without renaming the file — the filename is only a stable slug. Order follows
+// the English title rather than the filename, so a reworded title still sorts
+// into the right place in the index.
 const categories = readdirSync(dataDir)
   .filter((f) => f.endsWith(".json") && !REGISTRY_FILES.has(f))
-  .sort()
-  .map((file) => ({ title: titleFromFile(file), listings: readJson(join(dataDir, file)) }));
+  .map((file) => {
+    const { title, listings } = readJson(join(dataDir, file));
+    if (!title?.en || !Array.isArray(listings)) {
+      console.error(`✖ ${file}: expected { title: { en, nl }, listings: [...] }. Run \`npm run validate\` for details.`);
+      process.exit(1);
+    }
+    return { title: title.en, listings };
+  })
+  .sort((a, b) => a.title.localeCompare(b.title));
 
 const badges = createBadges(labels, badgesDir);
 const { block, count } = buildCatalogue(categories, { targets, badges });
