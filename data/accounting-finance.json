@@ -125,21 +125,6 @@
       "last_checked": "2026-07-19"
     },
     {
-      "id": "yuki-mcp",
-      "name": "Yuki MCP",
-      "description_en": "Operate Yuki accounting across 102 actions, with write operations gated for safety.",
-      "description_nl": "Bedien de boekhouding in Yuki met 102 acties, waarbij schrijfacties uit veiligheidsoverwegingen zijn afgeschermd.",
-      "target": [
-        "yuki"
-      ],
-      "type": "mcp",
-      "origin": "community",
-      "status": "live",
-      "publisher": "Dytto",
-      "source_url": "https://github.com/Dytto-ai/yuki-mcp",
-      "last_checked": "2026-07-19"
-    },
-    {
       "id": "wefact-mcp",
       "name": "WeFact MCP",
       "description_en": "Manage WeFact debtors, invoices, products, and subscriptions.",
