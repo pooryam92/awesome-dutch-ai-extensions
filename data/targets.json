@@ -8,6 +8,10 @@
   "anwb": {
     "name": "ANWB"
   },
+  "bag": {
+    "name": "BAG (Basisregistratie Adressen en Gebouwen)",
+    "kind": "dataset"
+  },
   "belastingdienst": {
     "name": "Belastingdienst"
   },
@@ -50,6 +54,10 @@
   },
   "douglas": {
     "name": "Douglas"
+  },
+  "duo": {
+    "name": "DUO (Dienst Uitvoering Onderwijs)",
+    "kind": "dataset"
   },
   "e-boekhouden": {
     "name": "e-Boekhouden"

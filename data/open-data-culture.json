@@ -106,7 +106,17 @@
         "cbs-statline",
         "rdw",
         "knmi",
-        "rechtspraak"
+        "rechtspraak",
+        "pdok",
+        "kadaster",
+        "rce",
+        "wetten-overheid",
+        "ovapi",
+        "ns",
+        "data-overheid-nl",
+        "tweede-kamer",
+        "duo",
+        "bag"
       ],
       "type": "mcp",
       "origin": "community",
