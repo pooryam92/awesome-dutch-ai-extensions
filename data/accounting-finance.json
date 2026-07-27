@@ -213,6 +213,21 @@
       "publisher": "lmolema",
       "source_url": "https://github.com/lmolema/rompslomp-mcp",
       "last_checked": "2026-07-23"
+    },
+    {
+      "id": "exact-mcp",
+      "name": "exact-mcp",
+      "description_en": "Read and write Exact Online orders and accounting data with encrypted OAuth tokens, allowlisted OData queries, and per-division rate-limit handling.",
+      "description_nl": "Lees en muteer orders en boekhouding in Exact Online, met versleuteld opgeslagen OAuth-tokens, een allowlist voor OData-query's en snelheidslimieten per administratie.",
+      "target": [
+        "exact-online"
+      ],
+      "type": "mcp",
+      "origin": "community",
+      "status": "live",
+      "publisher": "lemon-official",
+      "source_url": "https://github.com/lemon-official/exact-mcp",
+      "last_checked": "2026-07-27"
     }
   ]
 }

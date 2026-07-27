@@ -14,7 +14,7 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 
 | Category                                    | Listings | Covers                                                        |
 | ------------------------------------------- | -------: | ------------------------------------------------------------- |
-| [Accounting Finance](#accounting-finance)   |       14 | Exact Online, Moneybird, bunq, e-Boekhouden, Mollie, Nmbrs, … |
+| [Accounting Finance](#accounting-finance)   |       15 | Exact Online, Moneybird, bunq, e-Boekhouden, Mollie, Nmbrs, … |
 | [Consumer Daily Life](#consumer-daily-life) |        7 | Albert Heijn, Picnic, Aldi, Buienradar, DA, …                 |
 | [Developer Standards](#developer-standards) |        3 | Developer Overheid API Register, Geonovum, internet.nl        |
 | [Ecommerce Logistics](#ecommerce-logistics) |        6 | Marktplaats, bol.com, Postcode.eu, PostNL                     |
@@ -30,6 +30,7 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 |---|---|---|---|
 | [bunq Partner MCP](https://github.com/bunq/partner-mcp) | Automate bunq banking through the Partner API — onboarding, KYC, accounts, payments, cards, and compliance. | bunq | ![MCP · Official · Beta](assets/badges/tags-mcp-official-beta.svg) |
 | [e-Boekhouden MCP](https://github.com/CodeMill-Solutions/e-boekhouden-mcp) | Read and write e-Boekhouden administration using your own API credentials. | e-Boekhouden | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [exact-mcp](https://github.com/lemon-official/exact-mcp) | Read and write Exact Online orders and accounting data with encrypted OAuth tokens, allowlisted OData queries, and per-division rate-limit handling. | Exact Online | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [Finance MCP](https://financemcp.nl/) | Query Exact Online bookkeeping read-only through a hosted EU MCP endpoint, with more Dutch accounting platforms planned. | Exact Online | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [finance-skills-nl](https://github.com/start2scale/finance-skills-nl) | Draft month-close packages, reconcile the general ledger, and audit Excel models for Dutch SME finance teams, with every output flagged for human sign-off. | Raad voor de Jaarverslaggeving (RJ) | ![Plugin · Community · Beta](assets/badges/tags-plugin-community-beta.svg) |
 | [Ledger Botje](https://ledgerbotje.nl/) | Handle Exact Online invoices, orders, inventory, and deliveries through a hosted MCP. | Exact Online | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
@@ -139,6 +140,6 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 
 ---
 
-_Curated — 68 listing(s) across 9 categories._
+_Curated — 69 listing(s) across 9 categories._
 
 <!-- END CATALOGUE -->
