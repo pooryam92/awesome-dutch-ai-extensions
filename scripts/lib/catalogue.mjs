@@ -13,6 +13,55 @@ const escapeCell = (s) =>
 
 const TABLE_DIVIDER = "|---|---|---|---|";
 
+// A row is one install unit, so a plugin bundling twelve skills is still one row —
+// which would bury every name inside it. Render the contents as a <details> in the
+// Description cell: GitHub allows the element inside a table cell, so the names are
+// findable with Ctrl-F and the table keeps its four columns.
+const BUNDLE_KINDS = [
+  { key: "skills", one: "skill", many: "skills", label: "Skills" },
+  { key: "commands", one: "command", many: "commands", label: "Commands" },
+  { key: "agents", one: "agent", many: "agents", label: "Agents" },
+  { key: "mcp_servers", one: "MCP server", many: "MCP servers", label: "MCP servers" },
+];
+
+// `bundles` is schema-required, but `npm run generate` runs without validate —
+// read every array through a default so a hand-added listing that forgot the
+// field renders as bundling nothing instead of throwing a bare TypeError.
+// `npm run validate` is what insists the field is actually there.
+const bundled = (bundles, key) => bundles?.[key] ?? [];
+
+const bundleTotals = (listings) => {
+  const totals = new Map(BUNDLE_KINDS.map((k) => [k.key, 0]));
+  for (const r of listings) {
+    for (const k of BUNDLE_KINDS) {
+      totals.set(k.key, totals.get(k.key) + bundled(r.bundles, k.key).length);
+    }
+  }
+  return totals;
+};
+
+const countPhrase = (kind, n) => `${n} ${n === 1 ? kind.one : kind.many}`;
+
+// "a", "a and b", "a, b, and c"
+const listPhrase = (parts) =>
+  parts.length <= 1
+    ? (parts[0] ?? "")
+    : parts.length === 2
+      ? parts.join(" and ")
+      : `${parts.slice(0, -1).join(", ")}, and ${parts.at(-1)}`;
+
+const bundleDetails = (bundles) => {
+  const present = BUNDLE_KINDS.filter((k) => bundled(bundles, k.key).length > 0);
+  if (present.length === 0) return "";
+  const summary = present.map((k) => countPhrase(k, bundled(bundles, k.key).length)).join(" · ");
+  // Bundled names are slugs, but a cell is pipe-delimited — never trust that,
+  // and escapeCell covers backslashes and link brackets on the same pass.
+  const body = present
+    .map((k) => `<b>${k.label}</b> ${bundled(bundles, k.key).map(escapeCell).join(" · ")}`)
+    .join("<br>");
+  return ` <details><summary>Bundles ${summary}</summary>${body}</details>`;
+};
+
 // GitHub's auto table layout lets the description column starve the Tags
 // column, and its img { max-width: 100% } then scales the strip down. Header
 // text can't shrink, so pad the Tags header with &nbsp; until it is at least
@@ -107,7 +156,7 @@ export const buildCatalogue = (categories, { targets, badges }) => {
     const tags = badges.tagBadge(r);
     const cells = [
       `[${escapeCell(r.name)}](${r.source_url})`,
-      escapeCell(r.description_en),
+      escapeCell(r.description_en) + bundleDetails(r.bundles),
       escapeCell(targetNames(r.target)),
       tags.markdown,
     ];
@@ -115,7 +164,7 @@ export const buildCatalogue = (categories, { targets, badges }) => {
   };
 
   const block = [
-    "_Every listing is tagged with its type and origin; a status badge appears only when it is **not** live (beta, preview, concept, abandoned)._",
+    "_Every listing is tagged with its type and origin; a status badge appears only when it is **not** live (beta, preview, concept, abandoned). The type is the unit you install — where that unit bundles skills, commands, agents, or MCP servers, they are named under its description._",
     "",
     ...indexTable(categories, targets),
     "",
@@ -136,8 +185,17 @@ export const buildCatalogue = (categories, { targets, badges }) => {
     }
     block.push("");
   }
+  // The listing count alone understates the catalogue: most skills reach a user
+  // inside a plugin, so a type tally reads as MCP-dominated when the skill count
+  // is comparable. Spell the bundled totals out.
+  const totals = bundleTotals(categories.flatMap((c) => c.listings));
+  const bundled = BUNDLE_KINDS.filter((k) => totals.get(k.key) > 0).map((k) =>
+    countPhrase(k, totals.get(k.key)),
+  );
+  const bundledClause = bundled.length ? `, bundling a further ${listPhrase(bundled)}` : "";
+
   block.push("---", "");
-  block.push(`_Curated — ${count} listing(s) across ${categories.length} categories._`);
+  block.push(`_Curated — ${count} listing(s) across ${categories.length} categories${bundledClause}._`);
 
   return { block: block.join("\n"), count };
 };

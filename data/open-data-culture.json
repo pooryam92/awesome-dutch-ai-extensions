@@ -14,6 +14,12 @@
         "kadaster"
       ],
       "type": "skill",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "linksmith",
@@ -30,6 +36,12 @@
         "cbs-statline"
       ],
       "type": "skill",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "linksmith",
@@ -45,6 +57,12 @@
         "rce"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "beta",
       "publisher": "jolietjakeblues",
@@ -60,6 +78,12 @@
         "cbs-statline"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "dstotijn",
@@ -76,6 +100,12 @@
         "data-overheid-nl"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "beta",
       "publisher": "soulnai",
@@ -91,6 +121,12 @@
         "gemeente-utrecht"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "Terminal-WOO",
@@ -119,6 +155,12 @@
         "bag"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "WAINUT",
@@ -134,6 +176,12 @@
         "knmi"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "wolkwork",
@@ -149,6 +197,12 @@
         "knmi"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "dstotijn",
@@ -164,6 +218,12 @@
         "tweede-kamer"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "r-huijts",
@@ -179,6 +239,12 @@
         "rijksmuseum"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "r-huijts",
@@ -194,6 +260,12 @@
         "oorlogsbronnen"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "r-huijts",
@@ -209,6 +281,12 @@
         "openarchieven"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "official",
       "status": "live",
       "publisher": "Open Archieven (coret)",
@@ -224,6 +302,12 @@
         "gemeente-amsterdam"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "aronmartin",
@@ -239,11 +323,122 @@
         "gemeente-baarn"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "tiemenrtuinstra",
       "source_url": "https://github.com/tiemenrtuinstra/baarn-raadsinformatie",
       "last_checked": "2026-07-19"
+    },
+    {
+      "id": "cbs-statline-skill",
+      "name": "cbs-statline-skill",
+      "description_en": "Find CBS StatLine tables, read their metadata, and download and combine them for analysis, with recipes for Dutch housing and energy statistics and warnings for tables being retired.",
+      "description_nl": "Vind CBS StatLine-tabellen, lees hun metadata en download en combineer ze voor analyse, met recepten voor Nederlandse woning- en energiestatistiek en waarschuwingen bij tabellen die vervallen.",
+      "target": [
+        "cbs-statline"
+      ],
+      "type": "plugin",
+      "bundles": {
+        "skills": [
+          "cbs-statline-skill"
+        ],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
+      "origin": "community",
+      "status": "live",
+      "publisher": "linksmith",
+      "source_url": "https://github.com/linksmith/cbs-statline-skill",
+      "last_checked": "2026-07-28"
+    },
+    {
+      "id": "data-analysis-journalism",
+      "name": "data-analysis-journalism",
+      "description_en": "Run an eight-step exploratory analysis over a Dutch open dataset and report it as story leads in Dutch — headline finding, key figures, and outliers set against the national average.",
+      "description_nl": "Voer een verkennende analyse in acht stappen uit op een Nederlandse open dataset en rapporteer die als verhaallijnen in het Nederlands — hoofdbevinding, kerngetallen en uitschieters tegen het landelijk gemiddelde.",
+      "target": [
+        "cbs-statline"
+      ],
+      "type": "skill",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
+      "origin": "community",
+      "status": "beta",
+      "publisher": "linksmith",
+      "source_url": "https://github.com/linksmith/data-analysis-journalism",
+      "last_checked": "2026-07-28"
+    },
+    {
+      "id": "data-journalist-plugin",
+      "name": "Data Journalist AI Agent Plugin",
+      "description_en": "Research Dutch investigative stories with API patterns for CBS, DUO, KVK, Woogle, and officielebekendmakingen, browser lookups where no API exists, Woo request drafting, and investigation state tracking.",
+      "description_nl": "Onderzoek Nederlandse verhalen met API-patronen voor CBS, DUO, KVK, Woogle en officielebekendmakingen, browserlookups waar geen API is, het opstellen van Woo-verzoeken en het bijhouden van de onderzoeksstatus.",
+      "target": [
+        "cbs-statline",
+        "duo",
+        "kvk",
+        "woogle",
+        "officiele-bekendmakingen",
+        "rvo",
+        "nvwa",
+        "big-register"
+      ],
+      "type": "plugin",
+      "bundles": {
+        "skills": [
+          "browser-lookup",
+          "dutch-sources",
+          "story-state",
+          "woo-draft"
+        ],
+        "commands": [
+          "new-investigation",
+          "weekly-digest"
+        ],
+        "agents": [
+          "research-assistant"
+        ],
+        "mcp_servers": []
+      },
+      "origin": "community",
+      "status": "beta",
+      "publisher": "linksmith",
+      "source_url": "https://github.com/linksmith/data-journalist-ai-agent-plugin-with-skills",
+      "last_checked": "2026-07-28"
+    },
+    {
+      "id": "wonen-energie-alternatieve-bronnen",
+      "name": "wonen-energie-alternatieve-bronnen",
+      "description_en": "Combine grid-operator gas consumption per postcode with the PDOK/CBS buurtkaart to reach neighbourhood-level housing and energy findings when StatLine falls short, with the uncertainty spelled out.",
+      "description_nl": "Combineer gasverbruik per postcode van netbeheerders met de PDOK/CBS-buurtkaart voor bevindingen over wonen en energie op buurtniveau wanneer StatLine tekortschiet, met de onzekerheid expliciet benoemd.",
+      "target": [
+        "netbeheerdata",
+        "pdok",
+        "cbs-statline"
+      ],
+      "type": "skill",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
+      "origin": "community",
+      "status": "beta",
+      "publisher": "linksmith",
+      "source_url": "https://github.com/linksmith/wonen-energie-alternatieve-bronnen",
+      "last_checked": "2026-07-28"
     }
   ]
 }

@@ -31,6 +31,16 @@ body:
       options: [mcp, skill, plugin]
     validations:
       required: true
+  - type: textarea
+    id: bundles
+    attributes:
+      label: What it bundles (optional)
+      description: If this ships more than one thing — skills, slash commands, subagents, an MCP server — name them, one per line or comma-separated. We list them under the description so each one stays findable. Leave blank for a single MCP server or a single skill.
+      placeholder: |
+        skills: inkomstenbelasting-boxen, omzetbelasting-btw
+        commands: ib-aangifte, btw-aangifte
+    validations:
+      required: false
   - type: input
     id: relationship
     attributes:

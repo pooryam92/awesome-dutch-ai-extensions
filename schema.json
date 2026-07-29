@@ -33,6 +33,7 @@
           "description_nl",
           "target",
           "type",
+          "bundles",
           "origin",
           "status",
           "publisher",
@@ -72,7 +73,40 @@
           },
           "type": {
             "type": "string",
-            "enum": ["mcp", "skill", "plugin"]
+            "enum": ["mcp", "skill", "plugin"],
+            "description": "The outermost unit the publisher ships — how you install it, not what it can do. See `bundles` for what is inside."
+          },
+          "bundles": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["skills", "commands", "agents", "mcp_servers"],
+            "description": "What this install unit contains, so the capabilities inside a single row stay findable. All four arrays are required; empty means none of that kind. A one-artifact listing bundles nothing — the row *is* the artifact — so all four are empty. For a large multi-jurisdiction bundle, list only the Dutch-relevant entries.",
+            "properties": {
+              "skills": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": { "type": "string", "minLength": 1 },
+                "description": "Skill names as the publisher ships them — the directory holding each SKILL.md. Shared-resource pseudo-skills (`_shared`) are infrastructure, not capabilities; leave them out."
+              },
+              "commands": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": { "type": "string", "minLength": 1 },
+                "description": "Slash-command names without the leading slash — the basename of each file in `commands/`."
+              },
+              "agents": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": { "type": "string", "minLength": 1 },
+                "description": "Subagent names — the basename of each file in `agents/`."
+              },
+              "mcp_servers": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": { "type": "string", "minLength": 1 },
+                "description": "Keys from the bundled `mcpServers` config that serve the listing's purpose. The publisher's own ops plumbing (monitoring, admin backends) is not a bundled capability; leave it out."
+              }
+            }
           },
           "origin": {
             "type": "string",

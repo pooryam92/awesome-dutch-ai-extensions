@@ -13,6 +13,12 @@
         "kvk"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "official",
       "status": "live",
       "publisher": "MinBZK",
@@ -28,6 +34,12 @@
         "kvk"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "BartWaardenburg",
@@ -43,6 +55,12 @@
         "rdw"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "rantuma",
@@ -58,6 +76,12 @@
         "wetten-overheid"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "official",
       "status": "concept",
       "publisher": "MinBZK",

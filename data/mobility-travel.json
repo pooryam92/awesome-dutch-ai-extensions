@@ -13,6 +13,12 @@
         "ns"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "r-huijts",
@@ -28,6 +34,12 @@
         "ns"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "lauragift21",
@@ -43,6 +55,12 @@
         "anwb"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "BartWaardenburg",
@@ -58,6 +76,12 @@
         "cbs-odin"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "commercial",
       "status": "live",
       "publisher": "Studio Bereikbaar",
@@ -73,6 +97,12 @@
         "ovapi"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "henrrrik",
@@ -88,6 +118,12 @@
         "ovapi"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "laulauland",

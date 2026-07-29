@@ -12,6 +12,40 @@ Two ways to add an integration:
 - **Descriptions must match what the project says about itself.** Don't repeat a marketing claim the source contradicts — if the material is unreviewed, unfinished, or read-only, the description says so.
 - **Commercial listings need public evidence.** A hosted, closed-source integration qualifies only if its public docs name the actual tools or scope and the service is reachable today. A waitlist, a pricing page, or a marketing site with no tool documentation is not a listing.
 
+## Type
+
+Pick by **the outermost unit the publisher ships** — the type answers *how you install this*, never *what it can do*. A plugin row can hold a dozen skills; [Bundles](#bundles) is where they get named. The three tokens are the same words the Claude and Codex ecosystems use:
+
+`mcp` — exposes tools to an agent over the Model Context Protocol, however the publisher markets it ("connector", "app", "AI integration" are all product names for an MCP server).
+`skill` — one or more `SKILL.md` files you copy in yourself. No install manifest.
+`plugin` — ships an install manifest or marketplace entry (`.claude-plugin/plugin.json`, a Codex plugin), whatever it bundles — a plugin bundling an MCP server is still `plugin`, because the outermost unit wins.
+
+The `skill`/`plugin` line is manifest presence, not size — a plugin may ship a single `SKILL.md` at its root, and a `skill` listing may cover several files.
+
+**Project configuration is not an install manifest.** Skills under `.claude/skills/` next to a project `.mcp.json` are `skill`: that setup works only inside the checkout it lives in, there is nothing to `/plugin install`, and adopting it means copying the skill directories out. Wetsanalyse AI is the worked example — two skills and a `wettenbank` server, named under [Bundles](#bundles), on a `skill` row.
+
+## Bundles
+
+One row is one installable unit, so a plugin holding eighteen skills is still one row. `bundles` names what is inside it, so a reader searching for *NEN 3610* or *box 3* can still find it.
+
+```json
+"bundles": {
+  "skills": ["inkomstenbelasting-boxen", "omzetbelasting-btw"],
+  "commands": ["ib-aangifte", "btw-aangifte"],
+  "agents": [],
+  "mcp_servers": []
+}
+```
+
+- **All four arrays are required.** Empty means none of that kind — never "we didn't look".
+- **A one-artifact listing bundles nothing.** For a lone MCP server or a single copy-in skill, the row *is* the artifact, so all four stay empty.
+- **Use the publisher's names**: the directory holding each `SKILL.md`, the basename of each file in `commands/` and `agents/`, and the keys of the bundled `mcpServers` config.
+- **Leave out infrastructure.** Shared-resource pseudo-skills (`_shared`) and the publisher's own plumbing — a bundled Grafana or admin-API server is not something the listing offers you.
+- **A multi-jurisdiction bundle lists only its Dutch entries.** OpenAccountants ships 781 skills; the eighteen `nl-*`/`netherlands-*` ones are what belong here.
+- **Don't enumerate MCP tools.** `target` and the description already carry that.
+
+`mcp_servers` is what lets a single row say *server **and** skills* — the one thing the `type` token cannot express.
+
 ## Status
 
 `live` · `beta` · `preview` — working software, in decreasing order of stability.

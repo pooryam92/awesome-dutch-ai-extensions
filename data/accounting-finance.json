@@ -5,6 +5,27 @@
   },
   "listings": [
     {
+      "id": "adyen-mcp",
+      "name": "Adyen MCP",
+      "description_en": "Take Adyen payments — sessions, payment links, refunds, and cancellations — and manage merchant accounts, terminals, and webhooks, enabling only the tools a use case needs.",
+      "description_nl": "Verwerk Adyen-betalingen — sessies, betaallinks, terugbetalingen en annuleringen — en beheer merchant accounts, terminals en webhooks, waarbij je alleen de tools aanzet die een use case nodig heeft.",
+      "target": [
+        "adyen"
+      ],
+      "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
+      "origin": "official",
+      "status": "preview",
+      "publisher": "Adyen",
+      "source_url": "https://docs.adyen.com/development-resources/mcp-server/",
+      "last_checked": "2026-07-28"
+    },
+    {
       "id": "bunq-partner-mcp",
       "name": "bunq Partner MCP",
       "description_en": "Automate bunq banking through the Partner API — onboarding, KYC, accounts, payments, cards, and compliance.",
@@ -13,6 +34,12 @@
         "bunq"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "official",
       "status": "beta",
       "publisher": "bunq",
@@ -28,6 +55,12 @@
         "mollie"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "official",
       "status": "live",
       "publisher": "Mollie",
@@ -43,6 +76,12 @@
         "moneybird"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "official",
       "status": "live",
       "publisher": "Moneybird",
@@ -58,6 +97,12 @@
         "simplicate"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "official",
       "status": "live",
       "publisher": "Simplicate",
@@ -73,6 +118,12 @@
         "nmbrs"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "official",
       "status": "beta",
       "publisher": "Nmbrs",
@@ -88,6 +139,12 @@
         "exact-online"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "commercial",
       "status": "live",
       "publisher": "Praat met je Boekhouding",
@@ -103,6 +160,12 @@
         "e-boekhouden"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "CodeMill Solutions",
@@ -118,6 +181,12 @@
         "twinfield"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "CodeMill Solutions",
@@ -133,6 +202,12 @@
         "wefact"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "Nick Aldewereld",
@@ -148,6 +223,12 @@
         "exact-online"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "commercial",
       "status": "live",
       "publisher": "Industrial IT",
@@ -163,6 +244,12 @@
         "exact-online"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "commercial",
       "status": "live",
       "publisher": "Productivity Advisors BV",
@@ -178,6 +265,22 @@
         "rj"
       ],
       "type": "plugin",
+      "bundles": {
+        "skills": [
+          "ai-readiness-mkb",
+          "doorrol-schema",
+          "excel-controle",
+          "grootboek-aansluiting",
+          "maandafsluiting",
+          "transitorische-posten",
+          "variantie-toelichting",
+          "verschillen-traceren",
+          "xlsx-author"
+        ],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "beta",
       "publisher": "Start 2 Scale",
@@ -193,6 +296,12 @@
         "moneybird"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "vanderheijden86",
@@ -208,6 +317,12 @@
         "rompslomp"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "lmolema",
@@ -223,11 +338,77 @@
         "exact-online"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "lemon-official",
       "source_url": "https://github.com/lemon-official/exact-mcp",
       "last_checked": "2026-07-27"
+    },
+    {
+      "id": "bitvavo-mcp",
+      "name": "bitvavo-mcp",
+      "description_en": "Inspect a Bitvavo account read-only — balances, portfolio value, trades, deposits, withdrawals, and average-cost P&L; it ships no trading or withdrawal tools.",
+      "description_nl": "Bekijk een Bitvavo-rekening alleen-lezen — saldi, portefeuillewaarde, trades, stortingen, opnames en P&L op gemiddelde kostprijs; tools om te handelen of op te nemen ontbreken.",
+      "target": [
+        "bitvavo"
+      ],
+      "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
+      "origin": "community",
+      "status": "live",
+      "publisher": "aderik",
+      "source_url": "https://github.com/aderik/bitvavo-mcp",
+      "last_checked": "2026-07-28"
+    },
+    {
+      "id": "exact-online-ai-connect",
+      "name": "Exact Online AI Connect",
+      "description_en": "Query Exact Online administrations and generate aging, P&L, and balance-sheet reports through a hosted MCP, where every write lands as a draft you approve first.",
+      "description_nl": "Bevraag Exact Online-administraties en genereer ouderdoms-, resultaat- en balansrapportages via een hosted MCP, waarbij elke schrijfactie eerst als concept ter goedkeuring klaarstaat.",
+      "target": [
+        "exact-online"
+      ],
+      "type": "plugin",
+      "bundles": {
+        "skills": [
+          "btw-aangifte-assistent",
+          "cashflow-analyse",
+          "creditcard-aflettering",
+          "debiteurenbeheer",
+          "exact-afletter-logica",
+          "grootboek-anomalie-detectie",
+          "management-informatie",
+          "periodeafsluiting",
+          "reporting",
+          "resultatenrekening-analyse"
+        ],
+        "commands": [
+          "balans",
+          "omzet",
+          "openstaande-debiteuren",
+          "ouderdomsanalyse"
+        ],
+        "agents": [],
+        "mcp_servers": [
+          "exact-online"
+        ]
+      },
+      "origin": "commercial",
+      "status": "live",
+      "publisher": "iWebDevelopment",
+      "source_url": "https://github.com/iwebdevnl/exact-online-ai-connect",
+      "last_checked": "2026-07-28"
     }
   ]
 }

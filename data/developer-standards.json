@@ -13,6 +13,19 @@
         "geonovum"
       ],
       "type": "plugin",
+      "bundles": {
+        "skills": [
+          "geo",
+          "geo-3d",
+          "geo-api",
+          "geo-inspire",
+          "geo-meta",
+          "geo-model"
+        ],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "developer-overheid-nl",
@@ -28,6 +41,18 @@
         "internet-nl"
       ],
       "type": "plugin",
+      "bundles": {
+        "skills": [
+          "inet",
+          "inet-api",
+          "inet-mail",
+          "inet-toolbox",
+          "inet-web"
+        ],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "developer-overheid-nl",
@@ -43,6 +68,12 @@
         "developer-overheid-register"
       ],
       "type": "mcp",
+      "bundles": {
+        "skills": [],
+        "commands": [],
+        "agents": [],
+        "mcp_servers": []
+      },
       "origin": "community",
       "status": "live",
       "publisher": "David Stotijn",

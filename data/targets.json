@@ -1,4 +1,7 @@
 {
+  "adyen": {
+    "name": "Adyen"
+  },
   "albert-heijn": {
     "name": "Albert Heijn"
   },
@@ -14,6 +17,13 @@
   },
   "belastingdienst": {
     "name": "Belastingdienst"
+  },
+  "big-register": {
+    "name": "BIG-register",
+    "kind": "dataset"
+  },
+  "bitvavo": {
+    "name": "Bitvavo"
   },
   "bol": {
     "name": "bol.com"
@@ -138,11 +148,23 @@
     "name": "Monumenten",
     "kind": "dataset"
   },
+  "netbeheerdata": {
+    "name": "Netbeheerdata (Liander / Enexis / Stedin)",
+    "kind": "dataset"
+  },
   "nmbrs": {
     "name": "Nmbrs"
   },
   "ns": {
     "name": "NS (Nederlandse Spoorwegen)"
+  },
+  "nvwa": {
+    "name": "NVWA",
+    "kind": "dataset"
+  },
+  "officiele-bekendmakingen": {
+    "name": "officielebekendmakingen.nl",
+    "kind": "dataset"
   },
   "oorlogsbronnen": {
     "name": "Oorlogsbronnen"
@@ -193,6 +215,10 @@
   "rompslomp": {
     "name": "Rompslomp"
   },
+  "rvo": {
+    "name": "RVO (Rijksdienst voor Ondernemend Nederland)",
+    "kind": "dataset"
+  },
   "simplicate": {
     "name": "Simplicate"
   },
@@ -221,7 +247,8 @@
     "name": "wetten.overheid.nl",
     "kind": "dataset"
   },
-  "yuki": {
-    "name": "Yuki"
+  "woogle": {
+    "name": "Woogle",
+    "kind": "dataset"
   }
 }
