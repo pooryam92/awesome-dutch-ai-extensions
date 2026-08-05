@@ -60,7 +60,8 @@ data/categories.json      category key -> { en, nl } title
 data/targets.json         target key -> { name, kind? }
 data/labels.json          display names and colours for type / origin / status
 schema.json               the listing schema; every field is required
-README.md                 a readable view of the listings, maintained by hand
+README.md                 a readable view, generated — never edit by hand
+build-readme.py           regenerates README.md from data/
 ```
 
 ## Rules
@@ -69,6 +70,18 @@ README.md                 a readable view of the listings, maintained by hand
 - Everything user-facing carries **both an English and a Dutch string** — `description_en`/`description_nl` per listing, `en`/`nl` per category title. One outcome-first sentence each for descriptions, same register, with product and vendor names left untranslated; Dutch titles use Dutch sentence case. The README renders the English strings today — the Dutch ones are stored for a Dutch surface, so write them even though nothing displays them yet.
 - `category` is a key from `data/categories.json`. **The title lives in `categories.json`, not in a filename** — reword a category by editing its title, and no listing has to change. Adding a category means adding one entry there.
 - `target` is an array of keys from `data/targets.json` — the Dutch service, data source, standard, or authority the integration connects to or covers. Reuse an existing key if it is already listed; add a registry entry (key + display `name`) if it isn't.
-- Add the listing to `README.md` too, in the right category, sorted by name.
+- Don't edit `README.md`. Run `python3 build-readme.py` and commit the result — it
+  renders every listing into the right category, sorted by name, with its tag and
+  bundles line. Each row comes out as:
+
+  ```
+  - [Name](source_url) — description_en _(Type · Origin)_
+    <br>Bundles — skills: a, b · commands: c · agents: d · MCP servers: e
+  ```
+
+  The tag carries the same three axes the data does: type and origin always, and
+  a third term only when `status` is not `live` — `_(Plugin · Community · Beta)_`.
+  The strings come from `data/labels.json`, so renaming a label there renames it
+  everywhere. Prose outside the list lives in `HEADER` in the script.
 
 Submissions are reviewed manually. No accounts, no self-service listings.
