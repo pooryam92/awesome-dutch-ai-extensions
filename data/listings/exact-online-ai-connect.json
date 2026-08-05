@@ -1,0 +1,40 @@
+{
+  "id": "exact-online-ai-connect",
+  "name": "Exact Online AI Connect",
+  "category": "accounting-finance",
+  "description_en": "Query Exact Online administrations and generate aging, P&L, and balance-sheet reports through a hosted MCP, where every write lands as a draft you approve first.",
+  "description_nl": "Bevraag Exact Online-administraties en genereer ouderdoms-, resultaat- en balansrapportages via een hosted MCP, waarbij elke schrijfactie eerst als concept ter goedkeuring klaarstaat.",
+  "target": [
+    "exact-online"
+  ],
+  "type": "plugin",
+  "bundles": {
+    "skills": [
+      "btw-aangifte-assistent",
+      "cashflow-analyse",
+      "creditcard-aflettering",
+      "debiteurenbeheer",
+      "exact-afletter-logica",
+      "grootboek-anomalie-detectie",
+      "management-informatie",
+      "periodeafsluiting",
+      "reporting",
+      "resultatenrekening-analyse"
+    ],
+    "commands": [
+      "balans",
+      "omzet",
+      "openstaande-debiteuren",
+      "ouderdomsanalyse"
+    ],
+    "agents": [],
+    "mcp_servers": [
+      "exact-online"
+    ]
+  },
+  "origin": "commercial",
+  "status": "live",
+  "publisher": "iWebDevelopment",
+  "source_url": "https://github.com/iwebdevnl/exact-online-ai-connect",
+  "last_checked": "2026-07-28"
+}

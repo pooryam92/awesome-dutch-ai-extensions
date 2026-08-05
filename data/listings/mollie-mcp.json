@@ -1,0 +1,22 @@
+{
+  "id": "mollie-mcp",
+  "name": "Mollie MCP",
+  "category": "accounting-finance",
+  "description_en": "Manage the full Mollie stack — payments, customers, invoices, subscriptions, balances, settlements, terminals, and webhooks.",
+  "description_nl": "Beheer de volledige Mollie-stack — betalingen, klanten, facturen, abonnementen, saldi, uitbetalingen, terminals en webhooks.",
+  "target": [
+    "mollie"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "official",
+  "status": "live",
+  "publisher": "Mollie",
+  "source_url": "https://docs.mollie.com/docs/mollie-mcp-server",
+  "last_checked": "2026-07-19"
+}

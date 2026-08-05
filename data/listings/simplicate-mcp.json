@@ -1,0 +1,22 @@
+{
+  "id": "simplicate-mcp",
+  "name": "Simplicate MCP",
+  "category": "accounting-finance",
+  "description_en": "Work with Simplicate project, CRM, and invoicing data through a per-domain hosted endpoint.",
+  "description_nl": "Werk met project-, CRM- en factuurgegevens uit Simplicate via een gehost endpoint per domein.",
+  "target": [
+    "simplicate"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "official",
+  "status": "live",
+  "publisher": "Simplicate",
+  "source_url": "https://developer.simplicate.com/docs/mcp/getting_started/",
+  "last_checked": "2026-07-19"
+}

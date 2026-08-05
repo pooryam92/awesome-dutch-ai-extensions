@@ -1,0 +1,22 @@
+{
+  "id": "makelaar-mcp",
+  "name": "makelaar-mcp",
+  "category": "housing-property",
+  "description_en": "Search Funda listings and run NHG, NIBUD, mortgage, and closing-cost calculations.",
+  "description_nl": "Zoek woningen op Funda en reken NHG, NIBUD, hypotheek en kosten koper door.",
+  "target": [
+    "funda"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "spyrosavl",
+  "source_url": "https://github.com/spyrosavl/makelaar-mcp",
+  "last_checked": "2026-07-19"
+}

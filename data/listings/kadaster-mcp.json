@@ -1,0 +1,22 @@
+{
+  "id": "kadaster-mcp",
+  "name": "kadaster-mcp",
+  "category": "housing-property",
+  "description_en": "Query the Kadaster Knowledge Graph of Dutch land-registry and parcel data.",
+  "description_nl": "Bevraag de Knowledge Graph van het Kadaster met gegevens uit de kadastrale registratie en over percelen.",
+  "target": [
+    "kadaster"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "jolietjakeblues",
+  "source_url": "https://github.com/jolietjakeblues/kadaster-mcp",
+  "last_checked": "2026-07-19"
+}

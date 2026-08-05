@@ -1,0 +1,22 @@
+{
+  "id": "ns-travel-mcp",
+  "name": "ns-travel-mcp",
+  "category": "mobility-travel",
+  "description_en": "Plan NS journeys and check real-time train data and disruption alerts.",
+  "description_nl": "Plan NS-reizen en bekijk actuele treingegevens en storingsmeldingen.",
+  "target": [
+    "ns"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "lauragift21",
+  "source_url": "https://github.com/lauragift21/ns-travel-mcp",
+  "last_checked": "2026-07-19"
+}

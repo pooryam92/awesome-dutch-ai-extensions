@@ -1,0 +1,24 @@
+{
+  "id": "cbs-statline-skill",
+  "name": "cbs-statline-skill",
+  "category": "open-data-culture",
+  "description_en": "Find CBS StatLine tables, read their metadata, and download and combine them for analysis, with recipes for Dutch housing and energy statistics and warnings for tables being retired.",
+  "description_nl": "Vind CBS StatLine-tabellen, lees hun metadata en download en combineer ze voor analyse, met recepten voor Nederlandse woning- en energiestatistiek en waarschuwingen bij tabellen die vervallen.",
+  "target": [
+    "cbs-statline"
+  ],
+  "type": "plugin",
+  "bundles": {
+    "skills": [
+      "cbs-statline-skill"
+    ],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "linksmith",
+  "source_url": "https://github.com/linksmith/cbs-statline-skill",
+  "last_checked": "2026-07-28"
+}

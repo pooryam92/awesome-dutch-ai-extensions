@@ -1,0 +1,22 @@
+{
+  "id": "opentk-mcp",
+  "name": "OpenTK MCP",
+  "category": "open-data-culture",
+  "description_en": "Query Tweede Kamer (Dutch parliament) debates, motions, and documents.",
+  "description_nl": "Bevraag debatten, moties en documenten van de Tweede Kamer.",
+  "target": [
+    "tweede-kamer"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "r-huijts",
+  "source_url": "https://github.com/r-huijts/opentk-mcp",
+  "last_checked": "2026-07-19"
+}

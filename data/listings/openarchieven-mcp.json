@@ -1,0 +1,22 @@
+{
+  "id": "openarchieven-mcp",
+  "name": "openarchieven-mcp",
+  "category": "open-data-culture",
+  "description_en": "Search Open Archieven genealogy records through a no-auth hosted endpoint.",
+  "description_nl": "Zoek genealogische akten in Open Archieven via een gehost endpoint zonder authenticatie.",
+  "target": [
+    "openarchieven"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "official",
+  "status": "live",
+  "publisher": "Open Archieven (coret)",
+  "source_url": "https://github.com/coret/openarchieven-mcp-server",
+  "last_checked": "2026-07-19"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "rijksmuseum-mcp",
+  "name": "Rijksmuseum MCP",
+  "category": "open-data-culture",
+  "description_en": "Search and browse the Rijksmuseum's art collection by artist, work, and theme.",
+  "description_nl": "Zoek en verken de kunstcollectie van het Rijksmuseum op kunstenaar, werk en thema.",
+  "target": [
+    "rijksmuseum"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "r-huijts",
+  "source_url": "https://github.com/r-huijts/rijksmuseum-mcp",
+  "last_checked": "2026-07-19"
+}

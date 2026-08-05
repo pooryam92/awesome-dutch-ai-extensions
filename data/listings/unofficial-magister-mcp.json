@@ -1,0 +1,22 @@
+{
+  "id": "unofficial-magister-mcp",
+  "name": "unofficial-magister-mcp",
+  "category": "consumer-daily-life",
+  "description_en": "Look up Dutch school schedules from Magister — daily and weekly timetables plus drop-off and pick-up times, for student and parent accounts.",
+  "description_nl": "Bekijk schoolroosters uit Magister — dag- en weekroosters plus breng- en ophaaltijden, voor leerling- en ouderaccounts.",
+  "target": [
+    "magister"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "israelroldan",
+  "source_url": "https://github.com/israelroldan/unofficial-magister-mcp",
+  "last_checked": "2026-07-19"
+}

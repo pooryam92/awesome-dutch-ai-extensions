@@ -1,0 +1,22 @@
+{
+  "id": "marktplaats-mcp-jasp-nerd",
+  "name": "marktplaats-mcp (jasp-nerd)",
+  "category": "ecommerce-logistics",
+  "description_en": "Search Marktplaats and 2dehands classifieds with seller-trust signals and new-listing monitoring, no account needed.",
+  "description_nl": "Zoek advertenties op Marktplaats en 2dehands met betrouwbaarheidssignalen over verkopers en meldingen bij nieuwe advertenties, zonder account.",
+  "target": [
+    "marktplaats"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "jasp-nerd",
+  "source_url": "https://github.com/jasp-nerd/marktplaats-mcp",
+  "last_checked": "2026-07-19"
+}

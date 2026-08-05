@@ -1,0 +1,22 @@
+{
+  "id": "ledger-botje",
+  "name": "Ledger Botje",
+  "category": "accounting-finance",
+  "description_en": "Handle Exact Online invoices, orders, inventory, and deliveries through a hosted MCP.",
+  "description_nl": "Verwerk facturen, orders, voorraad en leveringen in Exact Online via een gehoste MCP.",
+  "target": [
+    "exact-online"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "commercial",
+  "status": "live",
+  "publisher": "Industrial IT",
+  "source_url": "https://ledgerbotje.nl/",
+  "last_checked": "2026-07-19"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "oorlogsbronnen-mcp",
+  "name": "oorlogsbronnen-mcp",
+  "category": "open-data-culture",
+  "description_en": "Search Oorlogsbronnen's archive of 12 million Dutch WWII sources.",
+  "description_nl": "Zoek in het archief van Oorlogsbronnen met 12 miljoen Nederlandse bronnen over de Tweede Wereldoorlog.",
+  "target": [
+    "oorlogsbronnen"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "r-huijts",
+  "source_url": "https://github.com/r-huijts/oorlogsbronnen-mcp",
+  "last_checked": "2026-07-19"
+}

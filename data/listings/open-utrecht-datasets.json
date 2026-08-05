@@ -1,0 +1,22 @@
+{
+  "id": "open-utrecht-datasets",
+  "name": "open-utrecht-datasets",
+  "category": "open-data-culture",
+  "description_en": "Search, explore, and download Municipality of Utrecht open datasets across six tools, with experimental Woo-relevance tagging (full Woo-document search is planned).",
+  "description_nl": "Zoek, verken en download open datasets van de gemeente Utrecht met zes tools, met experimentele markering van Woo-relevantie (volledig zoeken in Woo-documenten staat op de planning).",
+  "target": [
+    "gemeente-utrecht"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "Terminal-WOO",
+  "source_url": "https://github.com/Terminal-WOO/open-utrecht-datasets",
+  "last_checked": "2026-07-20"
+}

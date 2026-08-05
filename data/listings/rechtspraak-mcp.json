@@ -1,0 +1,22 @@
+{
+  "id": "rechtspraak-mcp",
+  "name": "rechtspraak-mcp",
+  "category": "legal-compliance",
+  "description_en": "Search Rechtspraak open data and resolve legal citations through LiDO, across six tools.",
+  "description_nl": "Zoek in de open data van de Rechtspraak en los juridische verwijzingen op via LiDO, met zes tools.",
+  "target": [
+    "rechtspraak"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "PrudAI",
+  "source_url": "https://github.com/Prudai/rechtspraak-mcp",
+  "last_checked": "2026-07-19"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "openaccountants-plugin",
+  "name": "OpenAccountants Plugin",
+  "category": "legal-compliance",
+  "description_en": "Classify transactions and apply Dutch tax guidance — VAT, income tax, payroll, and zzp deductions — sourced to Wet IB 2001; the Dutch package is not yet accountant-signed off.",
+  "description_nl": "Categoriseer transacties en pas Nederlandse fiscale richtlijnen toe — BTW, inkomstenbelasting, loonheffingen en zzp-aftrekposten — met bronverwijzing naar Wet IB 2001; het Nederlandse pakket is nog niet door een accountant goedgekeurd.",
+  "target": [
+    "belastingdienst"
+  ],
+  "type": "plugin",
+  "bundles": {
+    "skills": [
+      "netherlands-bookkeeping",
+      "netherlands-crypto-tax",
+      "netherlands-financial-statements",
+      "netherlands-formation",
+      "netherlands-payroll",
+      "netherlands-references",
+      "netherlands-tax-optimization",
+      "netherlands-transfer-pricing",
+      "netherlands-vat-return",
+      "nl-corporate-tax",
+      "nl-deductions",
+      "nl-freelance-intake",
+      "nl-income-tax",
+      "nl-individual-return",
+      "nl-payroll-tax",
+      "nl-return-assembly",
+      "nl-tax-objection",
+      "nl-zzp-deductions"
+    ],
+    "commands": [
+      "openaccountants"
+    ],
+    "agents": [],
+    "mcp_servers": [
+      "openaccountants"
+    ]
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "OpenAccountants",
+  "source_url": "https://github.com/openaccountants/openaccountants",
+  "last_checked": "2026-07-23"
+}

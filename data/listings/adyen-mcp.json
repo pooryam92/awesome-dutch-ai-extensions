@@ -1,0 +1,22 @@
+{
+  "id": "adyen-mcp",
+  "name": "Adyen MCP",
+  "category": "accounting-finance",
+  "description_en": "Take Adyen payments — sessions, payment links, refunds, and cancellations — and manage merchant accounts, terminals, and webhooks, enabling only the tools a use case needs.",
+  "description_nl": "Verwerk Adyen-betalingen — sessies, betaallinks, terugbetalingen en annuleringen — en beheer merchant accounts, terminals en webhooks, waarbij je alleen de tools aanzet die een use case nodig heeft.",
+  "target": [
+    "adyen"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "official",
+  "status": "preview",
+  "publisher": "Adyen",
+  "source_url": "https://docs.adyen.com/development-resources/mcp-server/",
+  "last_checked": "2026-07-28"
+}

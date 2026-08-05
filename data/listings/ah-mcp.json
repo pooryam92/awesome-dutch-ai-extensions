@@ -1,0 +1,22 @@
+{
+  "id": "ah-mcp",
+  "name": "ah-mcp",
+  "category": "consumer-daily-life",
+  "description_en": "Browse Albert Heijn products and Bonus deals, and manage your cart, orders, lists, and receipts.",
+  "description_nl": "Blader door producten en Bonus-aanbiedingen van Albert Heijn en beheer je mandje, bestellingen, lijstjes en kassabonnen.",
+  "target": [
+    "albert-heijn"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "mrserzhan",
+  "source_url": "https://github.com/mrserzhan/ah-mcp",
+  "last_checked": "2026-07-19"
+}

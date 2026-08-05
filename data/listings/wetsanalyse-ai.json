@@ -1,0 +1,28 @@
+{
+  "id": "wetsanalyse-ai",
+  "name": "Wetsanalyse AI",
+  "category": "legal-compliance",
+  "description_en": "Produce source-traceable analyses of Dutch legislation with the JAS method and formalise them into Belastingdienst RegelSpraak, through a skill plus a bundled wettenbank MCP with human-review checkpoints.",
+  "description_nl": "Maak herleidbare analyses van Nederlandse wetgeving met de JAS-methode en formaliseer die naar RegelSpraak van de Belastingdienst, via een skill plus een meegeleverde wettenbank-MCP met controlemomenten voor menselijke beoordeling.",
+  "target": [
+    "wetten-overheid",
+    "belastingdienst"
+  ],
+  "type": "skill",
+  "bundles": {
+    "skills": [
+      "regelspraak",
+      "wetsanalyse"
+    ],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "wettenbank"
+    ]
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "palmw01",
+  "source_url": "https://github.com/palmw01/wetsanalyse-ai",
+  "last_checked": "2026-07-19"
+}

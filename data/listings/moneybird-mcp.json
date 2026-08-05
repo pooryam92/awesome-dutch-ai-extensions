@@ -1,0 +1,22 @@
+{
+  "id": "moneybird-mcp",
+  "name": "Moneybird MCP",
+  "category": "accounting-finance",
+  "description_en": "Keep Moneybird bookkeeping up to date — invoices, contacts, and ledger data.",
+  "description_nl": "Houd je boekhouding in Moneybird bij — facturen, contacten en grootboekgegevens.",
+  "target": [
+    "moneybird"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "official",
+  "status": "live",
+  "publisher": "Moneybird",
+  "source_url": "https://developer.moneybird.com/tools/mcp",
+  "last_checked": "2026-07-19"
+}

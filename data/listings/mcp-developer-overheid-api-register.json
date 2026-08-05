@@ -1,0 +1,22 @@
+{
+  "id": "mcp-developer-overheid-api-register",
+  "name": "mcp-developer-overheid-api-register",
+  "category": "developer-standards",
+  "description_en": "Search the Developer Overheid API Register for Dutch government APIs and their source repositories.",
+  "description_nl": "Zoek in het API Register van Developer Overheid naar Nederlandse overheids-API's en hun broncode-repositories.",
+  "target": [
+    "developer-overheid-register"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "David Stotijn",
+  "source_url": "https://github.com/dstotijn/mcp-developer-overheid-api-register",
+  "last_checked": "2026-07-19"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "bol-mcp",
+  "name": "bol-mcp",
+  "category": "ecommerce-logistics",
+  "description_en": "Reach bol.com's Retailer API through 76 tools spanning orders, offers, and product listings.",
+  "description_nl": "Bereik de Retailer API van bol.com via 76 tools voor orders, aanbiedingen en productvermeldingen.",
+  "target": [
+    "bol"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "BartWaardenburg",
+  "source_url": "https://github.com/BartWaardenburg/bol-mcp",
+  "last_checked": "2026-07-19"
+}

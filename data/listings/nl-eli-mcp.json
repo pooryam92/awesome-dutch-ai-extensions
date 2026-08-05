@@ -1,0 +1,23 @@
+{
+  "id": "nl-eli-mcp",
+  "name": "nl-eli-mcp",
+  "category": "legal-compliance",
+  "description_en": "Retrieve versioned Dutch legislation (BWB) and Rechtspraak rulings, keyless.",
+  "description_nl": "Haal geversioneerde Nederlandse wetgeving (BWB) en uitspraken van de Rechtspraak op, zonder API-key.",
+  "target": [
+    "wetten-overheid",
+    "rechtspraak"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "matematicsolutions",
+  "source_url": "https://github.com/matematicsolutions/nl-eli-mcp",
+  "last_checked": "2026-07-19"
+}

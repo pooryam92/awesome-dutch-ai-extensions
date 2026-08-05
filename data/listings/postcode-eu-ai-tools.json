@@ -1,0 +1,22 @@
+{
+  "id": "postcode-eu-ai-tools",
+  "name": "postcode-eu-ai-tools",
+  "category": "ecommerce-logistics",
+  "description_en": "Validate and autocomplete Dutch addresses through the official Postcode.eu API.",
+  "description_nl": "Valideer Nederlandse adressen en vul ze automatisch aan via de officiële Postcode.eu API.",
+  "target": [
+    "postcode-eu"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "official",
+  "status": "live",
+  "publisher": "Postcode.nl",
+  "source_url": "https://github.com/postcode-nl/postcode-eu-ai-tools-python",
+  "last_checked": "2026-07-19"
+}

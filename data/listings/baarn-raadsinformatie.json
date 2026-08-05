@@ -1,0 +1,22 @@
+{
+  "id": "baarn-raadsinformatie",
+  "name": "baarn-raadsinformatie",
+  "category": "open-data-culture",
+  "description_en": "Search Gemeente Baarn council meetings, agendas, and documents via the Notubiz API, with keyword and semantic search.",
+  "description_nl": "Zoek raadsvergaderingen, agenda's en documenten van gemeente Baarn via de Notubiz API, met zoeken op trefwoord en semantisch zoeken.",
+  "target": [
+    "gemeente-baarn"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "tiemenrtuinstra",
+  "source_url": "https://github.com/tiemenrtuinstra/baarn-raadsinformatie",
+  "last_checked": "2026-07-19"
+}

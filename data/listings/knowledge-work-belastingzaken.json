@@ -1,0 +1,40 @@
+{
+  "id": "knowledge-work-belastingzaken",
+  "name": "Belastingzaken skills",
+  "category": "legal-compliance",
+  "description_en": "Eight commands and eight skills for Dutch income tax, BTW, VPB, payroll tax, deductions, and objections — no filing, professional review required.",
+  "description_nl": "Acht commands en acht skills voor inkomstenbelasting, BTW, VPB, loonheffingen, aftrekposten en bezwaar — zonder aangifte te doen, en beoordeling door een professional is vereist.",
+  "target": [
+    "belastingdienst"
+  ],
+  "type": "plugin",
+  "bundles": {
+    "skills": [
+      "aftrekposten-en-regelingen",
+      "belasting-intake-en-dossiervorming",
+      "bezwaar-en-correspondentie",
+      "inkomstenbelasting-boxen",
+      "loonheffingen-en-werkkosten",
+      "officiele-bronverificatie",
+      "omzetbelasting-btw",
+      "vennootschapsbelasting-vpb"
+    ],
+    "commands": [
+      "aftrekcheck",
+      "bezwaar-brief",
+      "btw-aangifte",
+      "ib-aangifte",
+      "intake",
+      "loonheffingen",
+      "tax-calendar",
+      "vpb-aangifte"
+    ],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "johnhout",
+  "source_url": "https://github.com/johnhout/knowledge-work-belastingzaken",
+  "last_checked": "2026-07-19"
+}

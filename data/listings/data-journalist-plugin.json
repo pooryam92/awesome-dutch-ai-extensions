@@ -1,0 +1,39 @@
+{
+  "id": "data-journalist-plugin",
+  "name": "Data Journalist AI Agent Plugin",
+  "category": "open-data-culture",
+  "description_en": "Research Dutch investigative stories with API patterns for CBS, DUO, KVK, Woogle, and officielebekendmakingen, browser lookups where no API exists, Woo request drafting, and investigation state tracking.",
+  "description_nl": "Onderzoek Nederlandse verhalen met API-patronen voor CBS, DUO, KVK, Woogle en officielebekendmakingen, browserlookups waar geen API is, het opstellen van Woo-verzoeken en het bijhouden van de onderzoeksstatus.",
+  "target": [
+    "cbs-statline",
+    "duo",
+    "kvk",
+    "woogle",
+    "officiele-bekendmakingen",
+    "rvo",
+    "nvwa",
+    "big-register"
+  ],
+  "type": "plugin",
+  "bundles": {
+    "skills": [
+      "browser-lookup",
+      "dutch-sources",
+      "story-state",
+      "woo-draft"
+    ],
+    "commands": [
+      "new-investigation",
+      "weekly-digest"
+    ],
+    "agents": [
+      "research-assistant"
+    ],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "beta",
+  "publisher": "linksmith",
+  "source_url": "https://github.com/linksmith/data-journalist-ai-agent-plugin-with-skills",
+  "last_checked": "2026-07-28"
+}

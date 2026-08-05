@@ -1,0 +1,22 @@
+{
+  "id": "mcp-cbs-cijfers-open-data",
+  "name": "mcp-cbs-cijfers-open-data",
+  "category": "open-data-culture",
+  "description_en": "Makes official Dutch statistics from CBS (StatLine) accessible for AI assistants.",
+  "description_nl": "Maakt officiële Nederlandse statistieken van het CBS (StatLine) toegankelijk voor AI-assistenten.",
+  "target": [
+    "cbs-statline"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "dstotijn",
+  "source_url": "https://github.com/dstotijn/mcp-cbs-cijfers-open-data",
+  "last_checked": "2026-07-19"
+}

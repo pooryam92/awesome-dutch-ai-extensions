@@ -1,0 +1,22 @@
+{
+  "id": "minbzk-kvk-connect",
+  "name": "kvk-connect (MinBZK)",
+  "category": "government-services",
+  "description_en": "Query and track KVK Handelsregister company data — profiles, history, search, and change notifications — from a self-hosted store you run with your own KVK API key.",
+  "description_nl": "Bevraag en volg bedrijfsgegevens uit het KVK Handelsregister — profielen, historie, zoeken en wijzigingsmeldingen — vanuit een self-hosted opslag die je met je eigen KVK API-key beheert.",
+  "target": [
+    "kvk"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "official",
+  "status": "live",
+  "publisher": "MinBZK",
+  "source_url": "https://github.com/MinBZK/kvk-connect",
+  "last_checked": "2026-07-19"
+}

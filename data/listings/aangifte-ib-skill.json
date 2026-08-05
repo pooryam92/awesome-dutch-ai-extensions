@@ -1,0 +1,22 @@
+{
+  "id": "aangifte-ib-skill",
+  "name": "aangifte-ib-skill",
+  "category": "legal-compliance",
+  "description_en": "A skill that prepares a sourced Dutch personal income-tax return with an adaptive interview and review dossier.",
+  "description_nl": "Een skill die een onderbouwde Nederlandse aangifte inkomstenbelasting voorbereidt met een meebewegend vraaggesprek en een controledossier.",
+  "target": [
+    "belastingdienst"
+  ],
+  "type": "skill",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "mischacoster",
+  "source_url": "https://github.com/mischacoster/aangifte-ib-skill",
+  "last_checked": "2026-07-19"
+}

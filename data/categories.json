@@ -1,0 +1,38 @@
+{
+  "accounting-finance": {
+    "en": "Accounting Finance",
+    "nl": "Boekhouding & financiën"
+  },
+  "consumer-daily-life": {
+    "en": "Consumer Daily Life",
+    "nl": "Consument & dagelijks leven"
+  },
+  "developer-standards": {
+    "en": "Developer Standards",
+    "nl": "Developers & standaarden"
+  },
+  "ecommerce-logistics": {
+    "en": "Ecommerce Logistics",
+    "nl": "E-commerce & logistiek"
+  },
+  "government-services": {
+    "en": "Government Services",
+    "nl": "Overheidsdiensten"
+  },
+  "housing-property": {
+    "en": "Housing Property",
+    "nl": "Wonen & vastgoed"
+  },
+  "legal-compliance": {
+    "en": "Legal Compliance",
+    "nl": "Recht & compliance"
+  },
+  "mobility-travel": {
+    "en": "Mobility Travel",
+    "nl": "Mobiliteit & reizen"
+  },
+  "open-data-culture": {
+    "en": "Open Data Culture",
+    "nl": "Open data & cultuur"
+  }
+}

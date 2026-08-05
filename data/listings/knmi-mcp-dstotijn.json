@@ -1,0 +1,22 @@
+{
+  "id": "knmi-mcp-dstotijn",
+  "name": "knmi-mcp (dstotijn)",
+  "category": "open-data-culture",
+  "description_en": "Query KNMI weather observations and forecasts through KNMI's open data API.",
+  "description_nl": "Bevraag weerobservaties en verwachtingen van het KNMI via de open data-API van het KNMI.",
+  "target": [
+    "knmi"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "dstotijn",
+  "source_url": "https://github.com/dstotijn/knmi-mcp",
+  "last_checked": "2026-07-19"
+}
