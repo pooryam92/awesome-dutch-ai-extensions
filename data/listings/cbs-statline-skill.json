@@ -4,7 +4,7 @@
   "category": "open-data-culture",
   "description_en": "Find CBS StatLine tables, read their metadata, and download and combine them for analysis, with recipes for Dutch housing and energy statistics and warnings for tables being retired.",
   "description_nl": "Vind CBS StatLine-tabellen, lees hun metadata en download en combineer ze voor analyse, met recepten voor Nederlandse woning- en energiestatistiek en waarschuwingen bij tabellen die vervallen.",
-  "target": [
+  "subject": [
     "cbs-statline"
   ],
   "type": "plugin",

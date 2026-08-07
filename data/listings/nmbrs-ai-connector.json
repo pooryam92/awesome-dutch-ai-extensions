@@ -4,7 +4,7 @@
   "category": "accounting-finance",
   "description_en": "Run Dutch payroll actions in Nmbrs, with every write gated behind explicit confirmation.",
   "description_nl": "Voer Nederlandse salarisadministratie uit in Nmbrs, waarbij elke schrijfactie pas doorgaat na expliciete bevestiging.",
-  "target": [
+  "subject": [
     "nmbrs"
   ],
   "type": "mcp",

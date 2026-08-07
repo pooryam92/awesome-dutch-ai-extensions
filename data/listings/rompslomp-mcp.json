@@ -4,7 +4,7 @@
   "category": "accounting-finance",
   "description_en": "Manage Rompslomp bookkeeping across 61 tools — invoices, contacts, payments, quotations, journal entries, hours, and rides.",
   "description_nl": "Beheer de boekhouding in Rompslomp met 61 tools — facturen, contacten, betalingen, offertes, journaalposten, uren en ritten.",
-  "target": [
+  "subject": [
     "rompslomp"
   ],
   "type": "mcp",

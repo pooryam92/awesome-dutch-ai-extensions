@@ -1,0 +1,33 @@
+{
+  "id": "skills-standaarden",
+  "name": "skills-standaarden",
+  "category": "developer-standards",
+  "description_en": "Implement Logius interoperability standards — API Design Rules, Digikoppeling, OAuth NL, FSC, CloudEvents, and BOMOS — with decision trees and working examples across 77 standards repositories.",
+  "description_nl": "Implementeer Logius-standaarden voor interoperabiliteit — API Design Rules, Digikoppeling, OAuth NL, FSC, CloudEvents en BOMOS — met beslisbomen en werkende voorbeelden uit 77 standaardenrepository's.",
+  "subject": [
+    "logius"
+  ],
+  "type": "plugin",
+  "bundles": {
+    "skills": [
+      "ls",
+      "ls-api",
+      "ls-bomos",
+      "ls-dk",
+      "ls-egov",
+      "ls-fsc",
+      "ls-iam",
+      "ls-logboek",
+      "ls-notif",
+      "ls-pub"
+    ],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "concept",
+  "publisher": "developer-overheid-nl",
+  "source_url": "https://github.com/developer-overheid-nl/skills-standaarden",
+  "last_checked": "2026-08-07"
+}

@@ -4,7 +4,7 @@
   "category": "developer-standards",
   "description_en": "Skills for internet.nl standards — IPv6, DNSSEC, TLS, DMARC/DKIM/SPF, and DANE.",
   "description_nl": "Skills voor de standaarden van internet.nl — IPv6, DNSSEC, TLS, DMARC/DKIM/SPF en DANE.",
-  "target": [
+  "subject": [
     "internet-nl"
   ],
   "type": "plugin",

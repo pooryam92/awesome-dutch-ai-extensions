@@ -4,7 +4,7 @@
   "category": "open-data-culture",
   "description_en": "Search, explore, and download Municipality of Utrecht open datasets across six tools, with experimental Woo-relevance tagging (full Woo-document search is planned).",
   "description_nl": "Zoek, verken en download open datasets van de gemeente Utrecht met zes tools, met experimentele markering van Woo-relevantie (volledig zoeken in Woo-documenten staat op de planning).",
-  "target": [
+  "subject": [
     "gemeente-utrecht"
   ],
   "type": "mcp",

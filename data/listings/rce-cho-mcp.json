@@ -4,7 +4,7 @@
   "category": "open-data-culture",
   "description_en": "Query the RCE Cultuurhistorische Objecten linked-data set over SPARQL, with ontology inspection, thesaurus label lookup, and query validation.",
   "description_nl": "Bevraag de linked-dataset Cultuurhistorische Objecten van de RCE via SPARQL, met inzicht in de ontologie, het opzoeken van thesaurus-labels en validatie van queries.",
-  "target": [
+  "subject": [
     "rce"
   ],
   "type": "mcp",

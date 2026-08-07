@@ -4,7 +4,7 @@
   "category": "accounting-finance",
   "description_en": "Manage the full Mollie stack — payments, customers, invoices, subscriptions, balances, settlements, terminals, and webhooks.",
   "description_nl": "Beheer de volledige Mollie-stack — betalingen, klanten, facturen, abonnementen, saldi, uitbetalingen, terminals en webhooks.",
-  "target": [
+  "subject": [
     "mollie"
   ],
   "type": "mcp",

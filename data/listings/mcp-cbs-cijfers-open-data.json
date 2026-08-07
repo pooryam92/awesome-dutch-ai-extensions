@@ -4,7 +4,7 @@
   "category": "open-data-culture",
   "description_en": "Makes official Dutch statistics from CBS (StatLine) accessible for AI assistants.",
   "description_nl": "Maakt officiële Nederlandse statistieken van het CBS (StatLine) toegankelijk voor AI-assistenten.",
-  "target": [
+  "subject": [
     "cbs-statline"
   ],
   "type": "mcp",

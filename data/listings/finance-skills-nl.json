@@ -4,7 +4,7 @@
   "category": "accounting-finance",
   "description_en": "Draft month-close packages, reconcile the general ledger, and audit Excel models for Dutch SME finance teams, with every output flagged for human sign-off.",
   "description_nl": "Stel maandafsluitingen op, sluit het grootboek aan en controleer Excel-modellen voor financiële teams in het Nederlandse mkb, waarbij elke uitkomst gemarkeerd wordt voor menselijke goedkeuring.",
-  "target": [
+  "subject": [
     "rj"
   ],
   "type": "plugin",

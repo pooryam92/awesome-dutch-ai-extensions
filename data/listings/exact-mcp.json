@@ -4,7 +4,7 @@
   "category": "accounting-finance",
   "description_en": "Read and write Exact Online orders and accounting data with encrypted OAuth tokens, allowlisted OData queries, and per-division rate-limit handling.",
   "description_nl": "Lees en muteer orders en boekhouding in Exact Online, met versleuteld opgeslagen OAuth-tokens, een allowlist voor OData-query's en snelheidslimieten per administratie.",
-  "target": [
+  "subject": [
     "exact-online"
   ],
   "type": "mcp",

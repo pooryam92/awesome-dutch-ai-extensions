@@ -4,7 +4,7 @@
   "category": "mobility-travel",
   "description_en": "Pull ANWB traffic incidents, plan routes with turn-by-turn directions, and search locations.",
   "description_nl": "Haal verkeersinformatie van de ANWB op, plan routes met navigatie-instructies en zoek locaties.",
-  "target": [
+  "subject": [
     "anwb"
   ],
   "type": "mcp",

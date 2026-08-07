@@ -4,7 +4,7 @@
   "category": "accounting-finance",
   "description_en": "Take Adyen payments — sessions, payment links, refunds, and cancellations — and manage merchant accounts, terminals, and webhooks, enabling only the tools a use case needs.",
   "description_nl": "Verwerk Adyen-betalingen — sessies, betaallinks, terugbetalingen en annuleringen — en beheer merchant accounts, terminals en webhooks, waarbij je alleen de tools aanzet die een use case nodig heeft.",
-  "target": [
+  "subject": [
     "adyen"
   ],
   "type": "mcp",

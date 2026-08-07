@@ -4,7 +4,7 @@
   "category": "mobility-travel",
   "description_en": "Look up Dutch bus, tram, metro, and ferry departures from the OVapi real-time feed — search stops, find stops nearby, and inspect lines and journeys.",
   "description_nl": "Bekijk vertrektijden van bus, tram, metro en boot uit de realtime feed van OVapi — zoek haltes, vind haltes in de buurt en bekijk lijnen en ritten.",
-  "target": [
+  "subject": [
     "ovapi"
   ],
   "type": "mcp",

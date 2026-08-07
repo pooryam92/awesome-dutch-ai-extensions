@@ -1,4 +1,7 @@
 {
+  "acm": {
+    "name": "ACM (Autoriteit Consument & Markt)"
+  },
   "adyen": {
     "name": "Adyen"
   },
@@ -10,6 +13,10 @@
   },
   "anwb": {
     "name": "ANWB"
+  },
+  "avg": {
+    "name": "AVG (Algemene verordening gegevensbescherming)",
+    "kind": "standard"
   },
   "bag": {
     "name": "BAG (Basisregistratie Adressen en Gebouwen)",
@@ -55,8 +62,11 @@
   "dekamarkt": {
     "name": "DekaMarkt"
   },
+  "developer-overheid-nl": {
+    "name": "developer.overheid.nl"
+  },
   "developer-overheid-register": {
-    "name": "Developer Overheid API Register",
+    "name": "developer.overheid.nl API Register",
     "kind": "dataset"
   },
   "dirk": {
@@ -71,6 +81,10 @@
   },
   "e-boekhouden": {
     "name": "e-Boekhouden"
+  },
+  "ep-online": {
+    "name": "EP-Online",
+    "kind": "dataset"
   },
   "etos": {
     "name": "Etos"
@@ -132,6 +146,10 @@
   "lidl": {
     "name": "Lidl"
   },
+  "logius": {
+    "name": "Logius",
+    "kind": "standard"
+  },
   "magister": {
     "name": "Magister"
   },
@@ -147,6 +165,10 @@
   "monumenten": {
     "name": "Monumenten",
     "kind": "dataset"
+  },
+  "nerds": {
+    "name": "NeRDS (Nederlandse Richtlijn Digitale Systemen)",
+    "kind": "standard"
   },
   "netbeheerdata": {
     "name": "Netbeheerdata (Liander / Enexis / Stedin)",
@@ -195,6 +217,10 @@
   "postnl": {
     "name": "PostNL"
   },
+  "publiccode": {
+    "name": "publiccode.yml",
+    "kind": "standard"
+  },
   "rce": {
     "name": "Rijksdienst voor het Cultureel Erfgoed (RCE)",
     "kind": "dataset"
@@ -219,11 +245,20 @@
     "name": "RVO (Rijksdienst voor Ondernemend Nederland)",
     "kind": "dataset"
   },
+  "schiphol": {
+    "name": "Schiphol"
+  },
   "simplicate": {
     "name": "Simplicate"
   },
+  "sodm": {
+    "name": "SodM (Staatstoezicht op de Mijnen)"
+  },
   "spar": {
     "name": "Spar"
+  },
+  "tennet": {
+    "name": "TenneT"
   },
   "thuisbezorgd": {
     "name": "Thuisbezorgd.nl"

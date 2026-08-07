@@ -4,7 +4,7 @@
   "category": "open-data-culture",
   "description_en": "Clean Dutch government CSV and Excel exports in pandas — semicolon separators with comma decimals, encoding detection, Dutch missing-value markers, day-first dates, postcode validation, and merged cells.",
   "description_nl": "Maak CSV- en Excel-exports van de Nederlandse overheid schoon in pandas — puntkomma's als scheidingsteken met komma-decimalen, encoding-detectie, Nederlandse aanduidingen voor ontbrekende waarden, datums met de dag vooraan, postcodevalidatie en samengevoegde cellen.",
-  "target": [
+  "subject": [
     "cbs-statline",
     "kadaster"
   ],

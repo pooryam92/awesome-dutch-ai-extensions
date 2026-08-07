@@ -4,7 +4,7 @@
   "category": "open-data-culture",
   "description_en": "Query KNMI weather observations and forecasts through KNMI's open data API.",
   "description_nl": "Bevraag weerobservaties en verwachtingen van het KNMI via de open data-API van het KNMI.",
-  "target": [
+  "subject": [
     "knmi"
   ],
   "type": "mcp",

@@ -4,7 +4,7 @@
   "category": "mobility-travel",
   "description_en": "Search Dutch public-transport stops, find stops near a coordinate, and look up routes across every operator from the national GTFS feed, without an API key.",
   "description_nl": "Zoek haltes in het Nederlandse openbaar vervoer, vind haltes bij een coördinaat en bekijk routes van alle vervoerders uit de landelijke GTFS-feed, zonder API-key.",
-  "target": [
+  "subject": [
     "ovapi"
   ],
   "type": "mcp",

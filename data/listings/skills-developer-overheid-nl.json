@@ -1,0 +1,32 @@
+{
+  "id": "skills-developer-overheid-nl",
+  "name": "skills-developer-overheid-nl",
+  "category": "developer-standards",
+  "description_en": "Work from the developer.overheid.nl knowledge base — API guidance, data, front-end, infrastructure, security, open source, and the leidraad for Dutch government developers.",
+  "description_nl": "Werk vanuit de kennisbank van developer.overheid.nl — richtlijnen voor API's, data, front-end, infrastructuur, security, open source en de leidraad voor overheidsontwikkelaars.",
+  "subject": [
+    "developer-overheid-nl"
+  ],
+  "type": "plugin",
+  "bundles": {
+    "skills": [
+      "don-apis",
+      "don-data",
+      "don-front-end",
+      "don-infra",
+      "don-leidraad",
+      "don-open-source",
+      "don-programmeertalen",
+      "don-security",
+      "don-tools"
+    ],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "developer-overheid-nl",
+  "source_url": "https://github.com/developer-overheid-nl/skills-developer-overheid-nl",
+  "last_checked": "2026-08-07"
+}

@@ -4,7 +4,7 @@
   "category": "consumer-daily-life",
   "description_en": "Pull a Buienradar rain nowcast — a 2-hour precipitation forecast by coordinates.",
   "description_nl": "Haal een regenverwachting van Buienradar op — een neerslagverwachting voor de komende 2 uur op basis van coördinaten.",
-  "target": [
+  "subject": [
     "buienradar"
   ],
   "type": "mcp",

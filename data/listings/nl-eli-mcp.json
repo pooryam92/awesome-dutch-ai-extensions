@@ -4,7 +4,7 @@
   "category": "legal-compliance",
   "description_en": "Retrieve versioned Dutch legislation (BWB) and Rechtspraak rulings, keyless.",
   "description_nl": "Haal geversioneerde Nederlandse wetgeving (BWB) en uitspraken van de Rechtspraak op, zonder API-key.",
-  "target": [
+  "subject": [
     "wetten-overheid",
     "rechtspraak"
   ],

@@ -4,7 +4,7 @@
   "category": "open-data-culture",
   "description_en": "Search and browse the Rijksmuseum's art collection by artist, work, and theme.",
   "description_nl": "Zoek en verken de kunstcollectie van het Rijksmuseum op kunstenaar, werk en thema.",
-  "target": [
+  "subject": [
     "rijksmuseum"
   ],
   "type": "mcp",

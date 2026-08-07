@@ -1,6 +1,6 @@
 name: Add an integration
 description: Submit a Dutch agent-integration for the index. No JSON knowledge needed.
-title: "[Add] <target> — <name>"
+title: "[Add] <subject> — <name>"
 labels: ["submission"]
 body:
   - type: input
@@ -18,9 +18,9 @@ body:
     validations:
       required: true
   - type: input
-    id: target
+    id: subject
     attributes:
-      label: Dutch target(s)
+      label: Dutch subject(s)
       description: The Dutch service(s), data source(s), standard(s), or authority it connects to or covers — separate multiple with commas.
     validations:
       required: true

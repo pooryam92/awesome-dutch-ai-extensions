@@ -4,7 +4,7 @@
   "category": "consumer-daily-life",
   "description_en": "Shop Picnic groceries — search products and manage the cart, orders, and deliveries.",
   "description_nl": "Doe je boodschappen bij Picnic — zoek producten en beheer je mandje, bestellingen en bezorgingen.",
-  "target": [
+  "subject": [
     "picnic"
   ],
   "type": "mcp",

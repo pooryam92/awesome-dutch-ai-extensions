@@ -4,7 +4,7 @@
   "category": "open-data-culture",
   "description_en": "Query Amsterdam's open APIs across buildings, WOZ, parking, waste, monuments, permits, soil, and more from one server.",
   "description_nl": "Bevraag de open API's van Amsterdam over gebouwen, WOZ, parkeren, afval, monumenten, vergunningen, bodem en meer vanuit één server.",
-  "target": [
+  "subject": [
     "gemeente-amsterdam"
   ],
   "type": "mcp",

@@ -4,7 +4,7 @@
   "category": "open-data-culture",
   "description_en": "Pull KNMI real-time weather observations (10-minute measurements) for Dutch locations.",
   "description_nl": "Haal actuele weerobservaties van het KNMI op (metingen per 10 minuten) voor Nederlandse locaties.",
-  "target": [
+  "subject": [
     "knmi"
   ],
   "type": "mcp",

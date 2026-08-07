@@ -4,7 +4,7 @@
   "category": "accounting-finance",
   "description_en": "Handle Exact Online invoices, orders, inventory, and deliveries through a hosted MCP.",
   "description_nl": "Verwerk facturen, orders, voorraad en leveringen in Exact Online via een gehoste MCP.",
-  "target": [
+  "subject": [
     "exact-online"
   ],
   "type": "mcp",

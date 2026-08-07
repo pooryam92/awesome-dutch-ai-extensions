@@ -1,0 +1,22 @@
+{
+  "id": "schiphol-flights-mcp",
+  "name": "Schiphol Flights MCP",
+  "category": "mobility-travel",
+  "description_en": "Answer questions about Schiphol arrivals and departures — flight status, delays, routes, and airline schedules — from the airport's Flight API.",
+  "description_nl": "Beantwoord vragen over aankomsten en vertrekken op Schiphol — vluchtstatus, vertragingen, routes en vluchtschema's per maatschappij — uit de Flight API van de luchthaven.",
+  "subject": [
+    "schiphol"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "mochow13",
+  "source_url": "https://github.com/mochow13/schiphol-flights-mcp",
+  "last_checked": "2026-08-07"
+}

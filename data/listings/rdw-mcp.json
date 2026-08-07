@@ -4,7 +4,7 @@
   "category": "government-services",
   "description_en": "Query RDW vehicle-registration and open data — keyless, no credentials needed.",
   "description_nl": "Bevraag kentekengegevens en open data van de RDW — zonder API-key of inloggegevens.",
-  "target": [
+  "subject": [
     "rdw"
   ],
   "type": "mcp",

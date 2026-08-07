@@ -4,7 +4,7 @@
   "category": "open-data-culture",
   "description_en": "Query Tweede Kamer (Dutch parliament) debates, motions, and documents.",
   "description_nl": "Bevraag debatten, moties en documenten van de Tweede Kamer.",
-  "target": [
+  "subject": [
     "tweede-kamer"
   ],
   "type": "mcp",

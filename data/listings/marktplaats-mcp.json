@@ -4,7 +4,7 @@
   "category": "ecommerce-logistics",
   "description_en": "Search and read listings from Marktplaats.nl.",
   "description_nl": "Zoek en lees advertenties van Marktplaats.nl.",
-  "target": [
+  "subject": [
     "marktplaats"
   ],
   "type": "mcp",

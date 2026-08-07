@@ -4,7 +4,7 @@
   "category": "open-data-culture",
   "description_en": "Reach 39 Dutch government data sources through one server — CBS, RDW, KNMI, PDOK, Rechtspraak, DUO, and more.",
   "description_nl": "Bereik 39 Nederlandse overheidsbronnen via één server — CBS, RDW, KNMI, PDOK, Rechtspraak, DUO en meer.",
-  "target": [
+  "subject": [
     "cbs-statline",
     "rdw",
     "knmi",

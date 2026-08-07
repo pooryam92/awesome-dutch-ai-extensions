@@ -4,7 +4,7 @@
   "category": "housing-property",
   "description_en": "Query the Kadaster Knowledge Graph of Dutch land-registry and parcel data.",
   "description_nl": "Bevraag de Knowledge Graph van het Kadaster met gegevens uit de kadastrale registratie en over percelen.",
-  "target": [
+  "subject": [
     "kadaster"
   ],
   "type": "mcp",

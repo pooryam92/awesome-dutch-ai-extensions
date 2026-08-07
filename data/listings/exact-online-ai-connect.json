@@ -4,7 +4,7 @@
   "category": "accounting-finance",
   "description_en": "Query Exact Online administrations and generate aging, P&L, and balance-sheet reports through a hosted MCP, where every write lands as a draft you approve first.",
   "description_nl": "Bevraag Exact Online-administraties en genereer ouderdoms-, resultaat- en balansrapportages via een hosted MCP, waarbij elke schrijfactie eerst als concept ter goedkeuring klaarstaat.",
-  "target": [
+  "subject": [
     "exact-online"
   ],
   "type": "plugin",

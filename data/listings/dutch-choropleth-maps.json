@@ -4,7 +4,7 @@
   "category": "open-data-culture",
   "description_en": "Build choropleth maps of Dutch regions — detect gemeente, wijk, or buurt level from CBS region codes, fetch PDOK boundaries, reproject from RD to WGS84, and render with geopandas, Folium, or Plotly.",
   "description_nl": "Bouw choroplethkaarten van Nederlandse regio's — leid gemeente-, wijk- of buurtniveau af uit CBS-regiocodes, haal grenzen op bij PDOK, herprojecteer van RD naar WGS84 en render met geopandas, Folium of Plotly.",
-  "target": [
+  "subject": [
     "pdok",
     "cbs-statline"
   ],

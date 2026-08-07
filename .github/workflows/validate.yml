@@ -1,0 +1,35 @@
+name: Validate
+
+# The README and assets/badges are generated from data/, so a PR that edits a
+# listing without rerunning the build leaves the catalogue silently stale. These
+# two commands are the whole contract.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+# Reading the checkout is the whole job — it never writes back to the repo.
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # format-nongpl is what makes the source_url and last_checked format checks
+      # run at all; plain jsonschema treats "format" as an annotation and skips them.
+      - run: pip install "jsonschema[format-nongpl]"
+
+      # First, because a bad listing gives a clearer error here than a KeyError
+      # or a wrong-looking badge out of the build.
+      - name: Validate data/
+        run: python3 validate.py
+
+      - name: Check README.md and assets/badges are current
+        run: python3 build-readme.py --check

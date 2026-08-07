@@ -4,7 +4,7 @@
   "category": "accounting-finance",
   "description_en": "Work with Moneybird contacts, sales invoices, financial accounts, payments, products, projects, and time entries, with custom API requests for the rest.",
   "description_nl": "Werk met contacten, verkoopfacturen, financiële rekeningen, betalingen, producten, projecten en uren in Moneybird, met eigen API-verzoeken voor al het overige.",
-  "target": [
+  "subject": [
     "moneybird"
   ],
   "type": "mcp",

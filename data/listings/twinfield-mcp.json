@@ -4,7 +4,7 @@
   "category": "accounting-finance",
   "description_en": "Query and update Twinfield bookkeeping over its SOAP API.",
   "description_nl": "Bevraag de boekhouding in Twinfield en werk die bij via de SOAP API.",
-  "target": [
+  "subject": [
     "twinfield"
   ],
   "type": "mcp",

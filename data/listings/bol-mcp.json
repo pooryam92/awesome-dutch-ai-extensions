@@ -4,7 +4,7 @@
   "category": "ecommerce-logistics",
   "description_en": "Reach bol.com's Retailer API through 76 tools spanning orders, offers, and product listings.",
   "description_nl": "Bereik de Retailer API van bol.com via 76 tools voor orders, aanbiedingen en productvermeldingen.",
-  "target": [
+  "subject": [
     "bol"
   ],
   "type": "mcp",

@@ -4,7 +4,7 @@
   "category": "ecommerce-logistics",
   "description_en": "Search Marktplaats and 2dehands listings, categories, and sellers, with saved searches that return only what is new; an optional login adds your own messages, ads, favourites, and bids.",
   "description_nl": "Zoek advertenties, categorieën en verkopers op Marktplaats en 2dehands, met bewaarde zoekopdrachten die alleen nieuwe resultaten teruggeven; een optionele login voegt je eigen berichten, advertenties, favorieten en biedingen toe.",
-  "target": [
+  "subject": [
     "marktplaats"
   ],
   "type": "mcp",

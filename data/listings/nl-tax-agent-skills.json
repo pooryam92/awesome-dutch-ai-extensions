@@ -4,7 +4,7 @@
   "category": "legal-compliance",
   "description_en": "Turn your own tax documents into a source-cited workpack mapped to Mijn Belastingdienst fields for the income-tax return and voorlopige aanslag — you still enter the figures yourself.",
   "description_nl": "Zet je eigen belastingdocumenten om in een onderbouwd werkpakket dat aansluit op de velden van Mijn Belastingdienst voor de aangifte inkomstenbelasting en de voorlopige aanslag — de cijfers vul je nog steeds zelf in.",
-  "target": [
+  "subject": [
     "belastingdienst"
   ],
   "type": "plugin",

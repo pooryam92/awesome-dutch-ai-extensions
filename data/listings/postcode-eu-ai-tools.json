@@ -4,7 +4,7 @@
   "category": "ecommerce-logistics",
   "description_en": "Validate and autocomplete Dutch addresses through the official Postcode.eu API.",
   "description_nl": "Valideer Nederlandse adressen en vul ze automatisch aan via de officiële Postcode.eu API.",
-  "target": [
+  "subject": [
     "postcode-eu"
   ],
   "type": "mcp",

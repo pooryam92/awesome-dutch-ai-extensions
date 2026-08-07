@@ -1,0 +1,37 @@
+{
+  "id": "nerds",
+  "name": "NeRDS",
+  "category": "developer-standards",
+  "description_en": "Apply the 13 guidelines of the Nederlandse Richtlijn Digitale Systemen when designing, building, or procuring a Dutch government digital system.",
+  "description_nl": "Pas de 13 richtlijnen van de Nederlandse Richtlijn Digitale Systemen toe bij het ontwerpen, bouwen of inkopen van een digitaal overheidssysteem.",
+  "subject": [
+    "nerds"
+  ],
+  "type": "plugin",
+  "bundles": {
+    "skills": [
+      "nerds",
+      "nerds-algoritmen",
+      "nerds-cloud",
+      "nerds-data",
+      "nerds-duurzaamheid",
+      "nerds-gebruikers",
+      "nerds-inkoop",
+      "nerds-integratie",
+      "nerds-opensource",
+      "nerds-privacy",
+      "nerds-samenwerking",
+      "nerds-standaarden",
+      "nerds-toegankelijkheid",
+      "nerds-veiligheid"
+    ],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "official",
+  "status": "concept",
+  "publisher": "MinBZK",
+  "source_url": "https://github.com/MinBZK/NeRDS",
+  "last_checked": "2026-08-07"
+}

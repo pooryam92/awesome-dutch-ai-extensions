@@ -4,7 +4,7 @@
   "category": "consumer-daily-life",
   "description_en": "Look up Dutch school schedules from Magister — daily and weekly timetables plus drop-off and pick-up times, for student and parent accounts.",
   "description_nl": "Bekijk schoolroosters uit Magister — dag- en weekroosters plus breng- en ophaaltijden, voor leerling- en ouderaccounts.",
-  "target": [
+  "subject": [
     "magister"
   ],
   "type": "mcp",

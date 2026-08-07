@@ -4,7 +4,7 @@
   "category": "accounting-finance",
   "description_en": "Automate bunq banking through the Partner API — onboarding, KYC, accounts, payments, cards, and compliance.",
   "description_nl": "Automatiseer bankieren bij bunq via de Partner API — onboarding, KYC, rekeningen, betalingen, kaarten en compliance.",
-  "target": [
+  "subject": [
     "bunq"
   ],
   "type": "mcp",

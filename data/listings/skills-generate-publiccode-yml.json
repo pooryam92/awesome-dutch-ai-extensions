@@ -1,0 +1,22 @@
+{
+  "id": "skills-generate-publiccode-yml",
+  "name": "skills-generate-publiccode-yml",
+  "category": "developer-standards",
+  "description_en": "Generate a valid publiccode.yml for a repository so it can be indexed in the Dutch government open source catalogue.",
+  "description_nl": "Genereer een geldige publiccode.yml voor een repository, zodat deze in de open source-catalogus van de Nederlandse overheid kan worden opgenomen.",
+  "subject": [
+    "publiccode"
+  ],
+  "type": "skill",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "developer-overheid-nl",
+  "source_url": "https://github.com/developer-overheid-nl/skills-generate-publiccode-yml",
+  "last_checked": "2026-08-07"
+}

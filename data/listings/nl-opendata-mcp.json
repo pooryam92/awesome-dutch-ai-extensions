@@ -4,7 +4,7 @@
   "category": "open-data-culture",
   "description_en": "Search, query, download, and locally analyse CBS (OData) and data.overheid.nl datasets in CSV or Parquet.",
   "description_nl": "Zoek, bevraag, download en analyseer datasets van het CBS (OData) en data.overheid.nl lokaal in CSV of Parquet.",
-  "target": [
+  "subject": [
     "cbs-statline",
     "data-overheid-nl"
   ],

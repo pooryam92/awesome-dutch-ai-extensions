@@ -4,7 +4,7 @@
   "category": "accounting-finance",
   "description_en": "Query Exact Online bookkeeping across 111 tools — invoicing, BTW/ICP, and reporting — read-only by default.",
   "description_nl": "Bevraag je boekhouding in Exact Online met 111 tools — facturatie, BTW/ICP en rapportage — standaard alleen-lezen.",
-  "target": [
+  "subject": [
     "exact-online"
   ],
   "type": "mcp",

@@ -4,7 +4,7 @@
   "category": "housing-property",
   "description_en": "Search Funda listings and run NHG, NIBUD, mortgage, and closing-cost calculations.",
   "description_nl": "Zoek woningen op Funda en reken NHG, NIBUD, hypotheek en kosten koper door.",
-  "target": [
+  "subject": [
     "funda"
   ],
   "type": "mcp",

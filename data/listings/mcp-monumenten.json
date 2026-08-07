@@ -4,7 +4,7 @@
   "category": "housing-property",
   "description_en": "Look up a Dutch building's monument status from BAG, RCE, and municipal records.",
   "description_nl": "Zoek de monumentstatus van een Nederlands gebouw op in BAG, RCE en gemeentelijke registers.",
-  "target": [
+  "subject": [
     "monumenten",
     "rce"
   ],

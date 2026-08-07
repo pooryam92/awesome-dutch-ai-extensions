@@ -4,7 +4,7 @@
   "category": "legal-compliance",
   "description_en": "Search Dutch legislation on wetten.overheid.nl and retrieve its structure, articles, and terms.",
   "description_nl": "Zoek Nederlandse wetgeving op wetten.overheid.nl en haal de structuur, artikelen en begrippen op.",
-  "target": [
+  "subject": [
     "wetten-overheid"
   ],
   "type": "mcp",

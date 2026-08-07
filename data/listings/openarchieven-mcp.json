@@ -4,7 +4,7 @@
   "category": "open-data-culture",
   "description_en": "Search Open Archieven genealogy records through a no-auth hosted endpoint.",
   "description_nl": "Zoek genealogische akten in Open Archieven via een gehost endpoint zonder authenticatie.",
-  "target": [
+  "subject": [
     "openarchieven"
   ],
   "type": "mcp",

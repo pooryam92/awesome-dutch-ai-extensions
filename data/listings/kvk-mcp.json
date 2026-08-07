@@ -4,7 +4,7 @@
   "category": "government-services",
   "description_en": "Query the KVK Handelsregister for Dutch company profiles and search, across 10 tools.",
   "description_nl": "Bevraag het KVK Handelsregister voor Nederlandse bedrijfsprofielen en zoekopdrachten, met 10 tools.",
-  "target": [
+  "subject": [
     "kvk"
   ],
   "type": "mcp",

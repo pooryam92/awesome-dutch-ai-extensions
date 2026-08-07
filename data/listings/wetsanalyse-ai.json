@@ -4,7 +4,7 @@
   "category": "legal-compliance",
   "description_en": "Produce source-traceable analyses of Dutch legislation with the JAS method and formalise them into Belastingdienst RegelSpraak, through a skill plus a bundled wettenbank MCP with human-review checkpoints.",
   "description_nl": "Maak herleidbare analyses van Nederlandse wetgeving met de JAS-methode en formaliseer die naar RegelSpraak van de Belastingdienst, via een skill plus een meegeleverde wettenbank-MCP met controlemomenten voor menselijke beoordeling.",
-  "target": [
+  "subject": [
     "wetten-overheid",
     "belastingdienst"
   ],

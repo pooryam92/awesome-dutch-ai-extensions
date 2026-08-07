@@ -1,0 +1,24 @@
+{
+  "id": "albert-heijn-automation",
+  "name": "Albert Heijn Automation",
+  "category": "consumer-daily-life",
+  "description_en": "Plan meals and fill your Albert Heijn list from your own purchase history — cross the bonus folder with what you actually buy, and read the basket back as an eating pattern.",
+  "description_nl": "Plan maaltijden en vul je Albert Heijn-lijst op basis van je eigen aankoopgeschiedenis — leg de bonusfolder naast wat je echt koopt en lees het mandje terug als eetpatroon.",
+  "subject": [
+    "albert-heijn"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [
+      "albert-heijn"
+    ],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "robinbril",
+  "source_url": "https://github.com/robinbril/Albert-Heijn-Automation",
+  "last_checked": "2026-08-07"
+}
