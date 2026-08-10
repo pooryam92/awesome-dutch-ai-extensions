@@ -66,13 +66,12 @@ build-readme.py           regenerates README.md and assets/badges from data/
 validate.py               checks data/ against schema.json and across files
 ```
 
-CI runs both on every pull request, so a stale README or an invalid listing fails
-the build rather than reaching `main`. To check the same thing locally:
+CI validates every pull request, and regenerates `README.md` and `assets/badges/`
+after a merge — a PR only has to keep `data/` valid. To check that locally:
 
 ```
-pip install "jsonschema[format-nongpl]"    # once; build-readme.py needs nothing
+pip install "jsonschema[format-nongpl]"    # once
 python3 validate.py                        # reports every problem in one pass
-python3 build-readme.py                    # then commit README.md and assets/badges
 ```
 
 ## Rules
@@ -81,10 +80,11 @@ python3 build-readme.py                    # then commit README.md and assets/ba
 - Everything user-facing carries **both an English and a Dutch string** — `description_en`/`description_nl` per listing, `en`/`nl` per category title. One outcome-first sentence each for descriptions, same register, with product and vendor names left untranslated; Dutch titles use Dutch sentence case. The README renders the English strings today — the Dutch ones are stored for a Dutch surface, so write them even though nothing displays them yet.
 - `category` is a key from `data/categories.json`. **The title lives in `categories.json`, not in a filename** — reword a category by editing its title, and no listing has to change. Adding a category means adding one entry there.
 - `subject` is an array of keys from `data/subjects.json` — the Dutch service, data source, standard, or authority the integration connects to or covers. Reuse an existing key if it is already listed; add a registry entry (key + display `name`) if it isn't.
-- Don't edit `README.md` or `assets/badges/`. Run `python3 build-readme.py` and commit
-  the result — it renders every listing into its category table, sorted by name, and
-  writes the badge strip each row points at. `--check` reports either being stale
-  without writing. Each row comes out as:
+- Don't edit `README.md` or `assets/badges/` — CI regenerates both from `data/` after
+  a merge. To preview locally, `python3 build-readme.py` (stdlib-only) renders every
+  listing into its category table, sorted by name, and writes the badge strip each
+  row points at; `--check` reports either being stale without writing. Each row
+  comes out as:
 
   ```
   | [Name](source_url) | description_en <details><summary>Bundles 2 skills</summary><b>Skills</b> a · b</details> | Subject | ![Type · Origin](assets/badges/tags-type-origin.svg) |

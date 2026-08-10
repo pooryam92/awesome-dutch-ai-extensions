@@ -1,14 +1,10 @@
 name: Validate
 
-# The README and assets/badges are generated from data/, so a PR that edits a
-# listing without rerunning the build leaves the catalogue silently stale. These
-# two commands are the whole contract.
 on:
   pull_request:
   push:
     branches: [main]
 
-# Reading the checkout is the whole job — it never writes back to the repo.
 permissions:
   contents: read
 
@@ -26,10 +22,36 @@ jobs:
       # run at all; plain jsonschema treats "format" as an annotation and skips them.
       - run: pip install "jsonschema[format-nongpl]"
 
-      # First, because a bad listing gives a clearer error here than a KeyError
-      # or a wrong-looking badge out of the build.
       - name: Validate data/
         run: python3 validate.py
 
-      - name: Check README.md and assets/badges are current
-        run: python3 build-readme.py --check
+  # Regenerates README.md and assets/badges after a merge, so PRs only need to
+  # keep data/ valid. The bot's own commit re-triggers this and no-ops.
+  build:
+    if: github.event_name == 'push'
+    needs: validate
+    concurrency:
+      group: regenerate-readme
+      cancel-in-progress: false
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate README.md and assets/badges
+        run: python3 build-readme.py
+
+      - name: Commit the result if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898024+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/badges
+          if ! git diff --cached --quiet; then
+            git commit -m "Regenerate README.md and badges from data/"
+            git push
+          fi
