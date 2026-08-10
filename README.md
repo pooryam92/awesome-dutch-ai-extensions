@@ -67,7 +67,7 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 
 | Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
-| [Dutch Fluency MCP](https://dutchfluency.com) | Practise Dutch with CEFR placement tests, sentence correction, and NT2 and inburgering exam preparation. | Nederlands (taal) / Staatsexamen NT2 / Inburgeringsexamen | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
+| [Dutch Fluency MCP](https://mcp.dutchfluency.com/) | Practise Dutch with CEFR placement tests, sentence correction, and NT2 and inburgering exam preparation. | Nederlands (taal) / Staatsexamen NT2 / Inburgeringsexamen | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [Dutch Native](https://github.com/brunocous/dutch-native) | Rewrite Dutch text so it reads as native rather than translated, in either Netherlands or Belgian Dutch. | Nederlands (taal) | ![Skill · Community](assets/badges/tags-skill-community.svg) |
 
 ## E-commerce & Logistics
