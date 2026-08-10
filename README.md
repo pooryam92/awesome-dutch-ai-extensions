@@ -11,6 +11,7 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 | [Accounting & Finance](#accounting--finance)     |       18 | Exact Online, Moneybird, Adyen, Bitvavo, bunq, e-Boekhouden, … |
 | [Consumer & Daily Life](#consumer--daily-life)   |        8 | Albert Heijn, Picnic, Aldi, Buienradar, DA, …                  |
 | [Developers & Standards](#developers--standards) |        3 | developer.overheid.nl API Register, Geonovum, internet.nl      |
+| [Dutch Language](#dutch-language)                |        2 | Nederlands, Inburgeringsexamen, Staatsexamen NT2               |
 | [E-commerce & Logistics](#e-commerce--logistics) |        6 | Marktplaats, bol.com, Postcode.eu, PostNL                      |
 | [Government Services](#government-services)      |        4 | KVK, RDW, wetten.overheid.nl                                   |
 | [Housing & Property](#housing--property)         |        5 | BAG, EP-Online, Funda, Kadaster, Kamernet, Monumenten, PDOK, … |
@@ -61,6 +62,13 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 | [mcp-developer-overheid-api-register](https://github.com/dstotijn/mcp-developer-overheid-api-register) | Search the developer.overheid.nl API Register for Dutch government APIs and their source repositories. | developer.overheid.nl API Register | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [skills-geo](https://github.com/developer-overheid-nl/skills-geo) | Skills for Geonovum geo-standards — OGC API, NEN 3610, INSPIRE, and 3D geo-information. <details><summary>Bundles 6 skills</summary><b>Skills</b> geo · geo-3d · geo-api · geo-inspire · geo-meta · geo-model</details> | Geonovum | ![Plugin · Community](assets/badges/tags-plugin-community.svg) |
 | [skills-internet](https://github.com/developer-overheid-nl/skills-internet) | Skills for internet.nl standards — IPv6, DNSSEC, TLS, DMARC/DKIM/SPF, and DANE. <details><summary>Bundles 5 skills</summary><b>Skills</b> inet · inet-api · inet-mail · inet-toolbox · inet-web</details> | internet.nl | ![Plugin · Community](assets/badges/tags-plugin-community.svg) |
+
+## Dutch Language
+
+| Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+|---|---|---|---|
+| [Dutch Fluency MCP](https://dutchfluency.com) | Practise Dutch with CEFR placement tests, sentence correction, and NT2 and inburgering exam preparation. | Nederlands (taal) / Staatsexamen NT2 / Inburgeringsexamen | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
+| [Dutch Native](https://github.com/brunocous/dutch-native) | Rewrite Dutch text so it reads as native rather than translated, in either Netherlands or Belgian Dutch. | Nederlands (taal) | ![Skill · Community](assets/badges/tags-skill-community.svg) |
 
 ## E-commerce & Logistics
 
@@ -144,4 +152,4 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 
 ---
 
-_79 listings across 9 categories, bundling a further 78 skills, 18 commands, 2 agents, and 8 MCP servers._
+_81 listings across 10 categories, bundling a further 78 skills, 18 commands, 2 agents, and 8 MCP servers._

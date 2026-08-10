@@ -114,6 +114,9 @@
   "hoogvliet": {
     "name": "Hoogvliet"
   },
+  "inburgering": {
+    "name": "Inburgeringsexamen"
+  },
   "internet-nl": {
     "name": "internet.nl",
     "kind": "standard"
@@ -156,6 +159,9 @@
     "name": "Monumenten",
     "kind": "dataset"
   },
+  "nederlands": {
+    "name": "Nederlands (taal)"
+  },
   "netbeheerdata": {
     "name": "Netbeheerdata (Liander / Enexis / Stedin)",
     "kind": "dataset"
@@ -165,6 +171,9 @@
   },
   "ns": {
     "name": "NS (Nederlandse Spoorwegen)"
+  },
+  "nt2": {
+    "name": "Staatsexamen NT2"
   },
   "nvwa": {
     "name": "NVWA",

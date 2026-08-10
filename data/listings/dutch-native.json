@@ -1,0 +1,22 @@
+{
+  "id": "dutch-native",
+  "name": "Dutch Native",
+  "category": "dutch-language",
+  "description_en": "Rewrite Dutch text so it reads as native rather than translated, in either Netherlands or Belgian Dutch.",
+  "description_nl": "Herschrijf Nederlandse tekst zodat die native leest in plaats van vertaald, in Nederlands of Belgisch Nederlands.",
+  "subject": [
+    "nederlands"
+  ],
+  "type": "skill",
+  "bundles": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "live",
+  "publisher": "Bruno Coussement",
+  "source_url": "https://github.com/brunocous/dutch-native",
+  "last_checked": "2026-08-10"
+}
