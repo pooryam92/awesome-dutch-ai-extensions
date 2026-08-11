@@ -114,6 +114,10 @@
   "hoogvliet": {
     "name": "Hoogvliet"
   },
+  "iconclass": {
+    "name": "Iconclass",
+    "kind": "standard"
+  },
   "inburgering": {
     "name": "Inburgeringsexamen"
   },

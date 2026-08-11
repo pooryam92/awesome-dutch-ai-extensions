@@ -1,0 +1,25 @@
+{
+  "id": "rijksmuseum-mcp-plus",
+  "name": "rijksmuseum-mcp+",
+  "category": "open-data-culture",
+  "description_en": "Research the Rijksmuseum collection in depth with semantic and Iconclass search, provenance analysis, similarity comparisons and geographic queries — over an enriched copy of the museum's metadata, not its live API.",
+  "description_nl": "Onderzoek de Rijksmuseumcollectie diepgaand met semantisch en Iconclass-zoeken, herkomstonderzoek, gelijkenisvergelijkingen en geografische zoekopdrachten — op een verrijkte kopie van de museummetadata, niet op de live API.",
+  "subject": [
+    "rijksmuseum",
+    "iconclass"
+  ],
+  "type": "mcp",
+  "bundles": {
+    "skills": [
+      "rijksmuseum-mcp-plus"
+    ],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "origin": "community",
+  "status": "preview",
+  "publisher": "RISE, University of Basel",
+  "source_url": "https://github.com/kintopp/rijksmuseum-mcp-plus",
+  "last_checked": "2026-08-11"
+}

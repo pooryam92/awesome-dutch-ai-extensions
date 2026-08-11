@@ -17,7 +17,7 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 | [Housing & Property](#housing--property)         |        5 | BAG, EP-Online, Funda, Kadaster, Kamernet, Monumenten, PDOK, … |
 | [Legal & Compliance](#legal--compliance)         |       10 | Belastingdienst, wetten.overheid.nl, Rechtspraak.nl, AVG       |
 | [Mobility & Travel](#mobility--travel)           |        6 | NS, OVapi, ANWB, CBS ODiN                                      |
-| [Open Data & Culture](#open-data--culture)       |       19 | CBS StatLine, KNMI, PDOK, data.overheid.nl, DUO, Kadaster, …   |
+| [Open Data & Culture](#open-data--culture)       |       20 | CBS StatLine, KNMI, PDOK, data.overheid.nl, DUO, Kadaster, …   |
 
 ## Accounting & Finance
 
@@ -128,7 +128,7 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 
 ## Open Data & Culture
 
-| Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
 | [baarn-raadsinformatie](https://github.com/tiemenrtuinstra/baarn-raadsinformatie) | Search Gemeente Baarn council meetings, agendas, and documents via the Notubiz API, with keyword and semantic search. | Gemeente Baarn | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [cbs-statline-skill](https://github.com/linksmith/cbs-statline-skill) | Find CBS StatLine tables, read their metadata, and download and combine them for analysis, with recipes for Dutch housing and energy statistics and warnings for tables being retired. <details><summary>Bundles 1 skill</summary><b>Skills</b> cbs-statline-skill</details> | CBS StatLine | ![Plugin · Community](assets/badges/tags-plugin-community.svg) |
@@ -148,8 +148,9 @@ _Every listing is tagged with its type and origin; a status badge appears only w
 | [OpenTK MCP](https://github.com/r-huijts/opentk-mcp) | Query Tweede Kamer (Dutch parliament) debates, motions, and documents. | Tweede Kamer | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [rce-cho-mcp](https://github.com/jolietjakeblues/rce-cho-mcp) | Query the RCE Cultuurhistorische Objecten linked-data set over SPARQL, with ontology inspection, thesaurus label lookup, and query validation. | Rijksdienst voor het Cultureel Erfgoed (RCE) | ![MCP · Community · Beta](assets/badges/tags-mcp-community-beta.svg) |
 | [Rijksmuseum MCP](https://github.com/r-huijts/rijksmuseum-mcp) | Search and browse the Rijksmuseum's art collection by artist, work, and theme. | Rijksmuseum | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [rijksmuseum-mcp+](https://github.com/kintopp/rijksmuseum-mcp-plus) | Research the Rijksmuseum collection in depth with semantic and Iconclass search, provenance analysis, similarity comparisons and geographic queries — over an enriched copy of the museum's metadata, not its live API. <details><summary>Bundles 1 skill</summary><b>Skills</b> rijksmuseum-mcp-plus</details> | Rijksmuseum / Iconclass | ![MCP · Community · Preview](assets/badges/tags-mcp-community-preview.svg) |
 | [wonen-energie-alternatieve-bronnen](https://github.com/linksmith/wonen-energie-alternatieve-bronnen) | Combine grid-operator gas consumption per postcode with the PDOK/CBS buurtkaart to reach neighbourhood-level housing and energy findings when StatLine falls short, with the uncertainty spelled out. | Netbeheerdata (Liander / Enexis / Stedin) / PDOK / CBS StatLine | ![Skill · Community · Beta](assets/badges/tags-skill-community-beta.svg) |
 
 ---
 
-_81 listings across 10 categories, bundling a further 78 skills, 18 commands, 2 agents, and 8 MCP servers._
+_82 listings across 10 categories, bundling a further 79 skills, 18 commands, 2 agents, and 8 MCP servers._
