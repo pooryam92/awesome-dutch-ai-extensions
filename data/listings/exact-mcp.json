@@ -7,16 +7,24 @@
   "subject": [
     "exact-online"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "exact-online"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "exactonline.nl",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "lemon-official",
   "source_url": "https://github.com/lemon-official/exact-mcp",
-  "last_checked": "2026-07-27"
+  "last_checked": "2026-08-14"
 }

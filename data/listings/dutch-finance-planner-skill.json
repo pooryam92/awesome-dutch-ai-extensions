@@ -7,8 +7,7 @@
   "subject": [
     "belastingdienst"
   ],
-  "type": "plugin",
-  "bundles": {
+  "contains": {
     "skills": [
       "financial-planner"
     ],
@@ -16,9 +15,11 @@
     "agents": [],
     "mcp_servers": []
   },
+  "execution": "none",
+  "uses": [],
   "origin": "community",
   "status": "live",
   "publisher": "Jonne Kleijer",
   "source_url": "https://github.com/jonnekleijer/dutch-finance-planner-skill",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

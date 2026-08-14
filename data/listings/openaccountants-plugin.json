@@ -7,8 +7,7 @@
   "subject": [
     "belastingdienst"
   ],
-  "type": "plugin",
-  "bundles": {
+  "contains": {
     "skills": [
       "netherlands-bookkeeping",
       "netherlands-crypto-tax",
@@ -37,9 +36,16 @@
       "openaccountants"
     ]
   },
+  "execution": "both",
+  "uses": [
+    {
+      "domain": "openaccountants.com",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "OpenAccountants",
   "source_url": "https://github.com/openaccountants/openaccountants",
-  "last_checked": "2026-07-23"
+  "last_checked": "2026-08-14"
 }

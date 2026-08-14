@@ -7,8 +7,7 @@
   "subject": [
     "avg"
   ],
-  "type": "plugin",
-  "bundles": {
+  "contains": {
     "skills": [
       "samenvatten",
       "vergelijken"
@@ -27,9 +26,11 @@
       "slack"
     ]
   },
+  "execution": "remote",
+  "uses": [],
   "origin": "commercial",
   "status": "preview",
   "publisher": "ICTRecht",
   "source_url": "https://github.com/ICTRecht/Legal-GenAI-Resources",
-  "last_checked": "2026-08-07"
+  "last_checked": "2026-08-14"
 }

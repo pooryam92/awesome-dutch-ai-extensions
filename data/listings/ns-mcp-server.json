@@ -7,16 +7,24 @@
   "subject": [
     "ns"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "ns-server"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "ns.nl",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "r-huijts",
   "source_url": "https://github.com/r-huijts/ns-mcp-server",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

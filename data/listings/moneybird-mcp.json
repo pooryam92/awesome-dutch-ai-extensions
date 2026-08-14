@@ -7,16 +7,24 @@
   "subject": [
     "moneybird"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "Moneybird"
+    ]
   },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "moneybird.com",
+      "account": true
+    }
+  ],
   "origin": "official",
   "status": "live",
   "publisher": "Moneybird",
   "source_url": "https://developer.moneybird.com/tools/mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

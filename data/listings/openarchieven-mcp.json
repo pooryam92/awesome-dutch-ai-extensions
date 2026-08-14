@@ -7,16 +7,24 @@
   "subject": [
     "openarchieven"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "Open Archives"
+    ]
   },
+  "execution": "both",
+  "uses": [
+    {
+      "domain": "openarchieven.nl",
+      "account": false
+    }
+  ],
   "origin": "official",
   "status": "live",
   "publisher": "Open Archieven (coret)",
   "source_url": "https://github.com/coret/openarchieven-mcp-server",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

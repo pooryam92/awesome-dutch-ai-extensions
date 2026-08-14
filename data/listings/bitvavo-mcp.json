@@ -7,16 +7,24 @@
   "subject": [
     "bitvavo"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "bitvavo"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "bitvavo.com",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "aderik",
   "source_url": "https://github.com/aderik/bitvavo-mcp",
-  "last_checked": "2026-07-28"
+  "last_checked": "2026-08-14"
 }

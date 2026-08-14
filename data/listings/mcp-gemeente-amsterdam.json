@@ -7,16 +7,24 @@
   "subject": [
     "gemeente-amsterdam"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "amsterdam"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "amsterdam.nl",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "aronmartin",
   "source_url": "https://github.com/aronmartin/mcp-gemeente-amsterdam",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

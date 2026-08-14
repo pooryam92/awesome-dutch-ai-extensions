@@ -7,16 +7,19 @@
   "subject": [
     "wetten-overheid"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "machine-law-executor"
+    ]
   },
+  "execution": "both",
+  "uses": [],
   "origin": "official",
   "status": "concept",
   "publisher": "MinBZK",
   "source_url": "https://github.com/MinBZK/poc-machine-law",
-  "last_checked": "2026-07-20"
+  "last_checked": "2026-08-14"
 }

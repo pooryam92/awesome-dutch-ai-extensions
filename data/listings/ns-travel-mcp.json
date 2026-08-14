@@ -7,16 +7,24 @@
   "subject": [
     "ns"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "ns-mcp-server"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "ns.nl",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "lauragift21",
   "source_url": "https://github.com/lauragift21/ns-travel-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

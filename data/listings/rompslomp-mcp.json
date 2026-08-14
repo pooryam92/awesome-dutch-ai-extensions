@@ -7,16 +7,24 @@
   "subject": [
     "rompslomp"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "rompslomp"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "rompslomp.nl",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "lmolema",
   "source_url": "https://github.com/lmolema/rompslomp-mcp",
-  "last_checked": "2026-07-23"
+  "last_checked": "2026-08-14"
 }

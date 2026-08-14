@@ -7,16 +7,24 @@
   "subject": [
     "rdw"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "rdw"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "rdw.nl",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "rantuma",
   "source_url": "https://github.com/rantuma/rdw-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

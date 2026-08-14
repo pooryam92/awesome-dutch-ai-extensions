@@ -9,16 +9,32 @@
     "ep-online",
     "pdok"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "metadata-demo"
+    ]
   },
+  "execution": "both",
+  "uses": [
+    {
+      "domain": "pdok.nl",
+      "account": false
+    },
+    {
+      "domain": "ep-online.nl",
+      "account": true
+    },
+    {
+      "domain": "openstreetmap.org",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "concept",
   "publisher": "David Golverdingen",
   "source_url": "https://github.com/DaveGold/mcp-metadata-demo",
-  "last_checked": "2026-08-07"
+  "last_checked": "2026-08-14"
 }

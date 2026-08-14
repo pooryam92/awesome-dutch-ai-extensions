@@ -8,8 +8,7 @@
     "wetten-overheid",
     "belastingdienst"
   ],
-  "type": "skill",
-  "bundles": {
+  "contains": {
     "skills": [
       "regelspraak",
       "wetsanalyse"
@@ -20,9 +19,20 @@
       "wettenbank"
     ]
   },
+  "execution": "both",
+  "uses": [
+    {
+      "domain": "ipalm.nl",
+      "account": true
+    },
+    {
+      "domain": "overheid.nl",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "palmw01",
   "source_url": "https://github.com/palmw01/wetsanalyse-ai",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

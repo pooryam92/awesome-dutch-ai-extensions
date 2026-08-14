@@ -12,24 +12,12 @@ Two ways to add an integration:
 - **Descriptions must match what the project says about itself.** Don't repeat a marketing claim the source contradicts — if the material is unreviewed, unfinished, or read-only, the description says so.
 - **Commercial listings need public evidence.** A hosted, closed-source integration qualifies only if its public docs name the actual tools or scope and the service is reachable today. A waitlist, a pricing page, or a marketing site with no tool documentation is not a listing.
 
-## Type
+## Contains
 
-Pick by **the outermost unit the publisher ships** — the type answers *how you install this*, never *what it can do*. A plugin row can hold a dozen skills; [Bundles](#bundles) is where they get named. The three tokens are the same words the Claude and Codex ecosystems use:
-
-`mcp` — exposes tools to an agent over the Model Context Protocol, however the publisher markets it ("connector", "app", "AI integration" are all product names for an MCP server).
-`skill` — one or more `SKILL.md` files you copy in yourself. No install manifest.
-`plugin` — ships an install manifest or marketplace entry (`.claude-plugin/plugin.json`, a Codex plugin), whatever it bundles — a plugin bundling an MCP server is still `plugin`, because the outermost unit wins.
-
-The `skill`/`plugin` line is manifest presence, not size — a plugin may ship a single `SKILL.md` at its root, and a `skill` listing may cover several files.
-
-**Project configuration is not an install manifest.** Skills under `.claude/skills/` next to a project `.mcp.json` are `skill`: that setup works only inside the checkout it lives in, there is nothing to `/plugin install`, and adopting it means copying the skill directories out. Wetsanalyse AI is the worked example — two skills and a `wettenbank` server, named under [Bundles](#bundles), on a `skill` row.
-
-## Bundles
-
-One row is one installable unit, so a plugin holding eighteen skills is still one row. `bundles` names what is inside it, so a reader searching for *NEN 3610* or *box 3* can still find it.
+One row is one installable unit, so a plugin holding eighteen skills is still one row. `contains` names everything that unit gives you, so a reader searching for *NEN 3610* or *box 3* can still find it.
 
 ```json
-"bundles": {
+"contains": {
   "skills": ["inkomstenbelasting-boxen", "omzetbelasting-btw"],
   "commands": ["ib-aangifte", "btw-aangifte"],
   "agents": [],
@@ -37,14 +25,49 @@ One row is one installable unit, so a plugin holding eighteen skills is still on
 }
 ```
 
-- **All four arrays are required.** Empty means none of that kind — never "we didn't look".
-- **A one-artifact listing bundles nothing.** For a lone MCP server or a single copy-in skill, the row *is* the artifact, so all four stay empty.
-- **Use the publisher's names**: the directory holding each `SKILL.md`, the basename of each file in `commands/` and `agents/`, and the keys of the bundled `mcpServers` config.
+- **All four arrays are required, and at least one carries a name.** Empty means none of that kind — never "we didn't look" — and a listing where all four are empty holds nothing, which the schema refuses.
+- **A listing lists itself.** A lone MCP server names its own server under `mcp_servers`, a lone copy-in skill names itself under `skills`. There is no separate field saying what a listing *is*: one kind of thing is that kind, several is a bundle, and the README's first badge is read off exactly that.
+- **Use the publisher's names**: the directory holding each `SKILL.md`, the basename of each file in `commands/` and `agents/`, and the keys of the `mcpServers` config. Fall back to the listing's `id` where the publisher ships no name, as a vendor endpoint with no published config key does.
 - **Leave out infrastructure.** Shared-resource pseudo-skills (`_shared`) and the publisher's own plumbing — a bundled Grafana or admin-API server is not something the listing offers you.
 - **A multi-jurisdiction bundle lists only its Dutch entries.** OpenAccountants ships 781 skills; the eighteen `nl-*`/`netherlands-*` ones are what belong here. This is about jurisdiction-specific *content*, not about connectors: a bundled Slack or Box MCP server is where the user's own documents live, so it stays in even though nothing about it is Dutch.
 - **Don't enumerate MCP tools.** `subject` and the description already carry that.
 
-`mcp_servers` is what lets a single row say *server **and** skills* — the one thing the `type` token cannot express.
+Wetsanalyse AI is the worked example of why one row needs four arrays: two skills and a `wettenbank` server, on a single row that no one word describes.
+
+## Execution
+
+Where the code has to run. This is the one limit a visitor's assistant cannot work around — products that register an MCP server from their own cloud cannot spawn a process on the visitor's machine, so a `local` listing simply does not appear there.
+
+`local` — a process on the visitor's own machine: `npx`, `uvx`, `docker run`, a cloned repo.
+`remote` — an HTTPS server the publisher already runs; the visitor pastes a URL.
+`both` — the *same* server offered either way.
+`none` — nothing executes, such as instructions you copy in.
+
+- **Read it off the source, never off the shape.** A vendor's own documentation page can be local-only and a GitHub repo remote-only, and what a listing contains does not predict it either.
+- **Shipping an HTTP transport is not `remote`.** Plenty of repos can be deployed as a server; unless the publisher already runs one at a URL you can paste, the visitor still has to start the process, so it is `local`.
+- **A bundle takes its most restrictive part.** Any local-only server in it makes the whole listing `local`, because what a visitor needs to know is whether they can use the whole thing from a cloud-side product.
+- **`none` means nothing runs, not that nobody checked.** A listing naming a server under `contains.mcp_servers` may not claim it, and the schema refuses that combination.
+
+## Uses
+
+One row per external party the listing reaches, keyed by registrable domain, each saying whether an account there stands between the visitor and the listing.
+
+```json
+"uses": [
+  { "domain": "moneybird.nl", "account": true },
+  { "domain": "rdw.nl", "account": false }
+]
+```
+
+- **`false` is worth writing.** About half the catalogue reaches a genuinely open service — RDW, CBS, wetten.nl, KNMI — and an empty array would make that indistinguishable from a listing that reaches nothing at all. Empty is for the listings that really do reach nothing.
+- **Write what it calls, not what it is about.** A listing serving its own copy of somebody's data reaches nobody, however famous the collection: `subject` says what it covers, `uses` says who it talks to, and the two are allowed to disagree.
+- **One row per domain.** A service gets one row, whatever it costs the listing to reach it; two rows for the same domain contradict each other and `validate.py` rejects them.
+- **Registrable domain, never the portal subdomain.** NS issues keys at `apiportal.ns.nl` and the value here is `ns.nl`.
+- **The domain the listing actually calls, even when the party has several.** A subdomain reduces to its registrable domain, but a genuinely different domain does not fold into the one that looks tidier: KNMI's app API is `knmi.cloud`, WeFact's API is `mijnwefact.nl`, Moneybird's API and MCP endpoint are both `moneybird.com`, and the official-publications repository is `officiele-overheidspublicaties.nl` even though the search service next to it is `overheid.nl`. Two listings reaching the same organisation through different domains get different rows, and that is the record working: what a visitor's traffic goes to is a fact about the listing, not about the brand. Where the service does run one estate under a country domain, name the one a Dutch visitor deals with: `exactonline.nl`.
+- **`account` is about the account, not its price or its form.** A free self-serve developer key and a paid subscription are both `true`; API key and OAuth are both `true`. What a service costs is a fact about the service, not about the listing.
+- **`true` only when nothing works without it.** Where a listing reaches one party several ways — an open dataset and a keyed API on the same domain — the row is `false`, because the visitor can install it and get answers. The same domain can be `true` on one listing and `false` on another, and usually should be: `kvk.nl` is a wall for the two listings built on the paid API and free for the one that searches the open register.
+- **A host that supplies data is a party; one that supplies a library is not.** A CDN serving a charting script is plumbing and gets no row. Where the data itself comes from somebody's static host, that is a party.
+- **Name the services, not the hosting.** Where a third party runs a hosted server in front of someone else's service, the row is the service you have an account with. The host becomes a party of its own only when it asks for something itself — a subscription of its own on top of the service it wraps.
 
 ## Status
 
@@ -58,7 +81,7 @@ One row is one installable unit, so a plugin holding eighteen skills is still on
 data/listings/<id>.json   one file per listing, filename = id
 data/categories.json      category key -> { en, nl } title
 data/subjects.json        subject key -> { name, kind? }
-data/labels.json          display names and colours for type / origin / status
+data/labels.json          display names and colours for kind / origin / status
 schema.json               the listing schema; every field is required
 README.md                 a readable view, generated — never edit by hand
 assets/badges/            generated tag strips, one SVG per tag combination
@@ -87,11 +110,13 @@ python3 validate.py                        # reports every problem in one pass
   comes out as:
 
   ```
-  | [Name](source_url) | description_en <details><summary>Bundles 2 skills</summary><b>Skills</b> a · b</details> | Subject | ![Type · Origin](assets/badges/tags-type-origin.svg) |
+  | [Name](source_url) | description_en <details><summary>Contains 2 skills</summary><b>Skills</b> a · b</details> | Subject | ![Kind · Origin](assets/badges/tags-kind-origin.svg) |
   ```
 
-  The badge carries the same three axes the data does: type and origin always, and
-  a third pill only when `status` is not `live` — `MCP · Community · Beta`. Its text
+  The `<details>` opens from the second artifact on: a one-artifact listing names
+  itself and the row already carries that name. The badge carries kind and origin
+  always — kind derived from `contains`, not stored — and a third pill only when
+  `status` is not `live`: `MCP · Community · Beta`. Its text
   and colours come from `data/labels.json`, so renaming or recolouring a label there
   changes every strip on the next run. Badges are self-hosted rather than fetched
   from shields.io, because an outage there broke every image through GitHub's camo

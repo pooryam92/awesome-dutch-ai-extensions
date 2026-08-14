@@ -7,16 +7,24 @@
   "subject": [
     "magister"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "magister"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "magister.net",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "israelroldan",
   "source_url": "https://github.com/israelroldan/unofficial-magister-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

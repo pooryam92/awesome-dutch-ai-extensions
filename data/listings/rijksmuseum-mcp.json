@@ -7,16 +7,24 @@
   "subject": [
     "rijksmuseum"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "rijksmuseum-server"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "rijksmuseum.nl",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "r-huijts",
   "source_url": "https://github.com/r-huijts/rijksmuseum-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

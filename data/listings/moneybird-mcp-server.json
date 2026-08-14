@@ -7,16 +7,24 @@
   "subject": [
     "moneybird"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "moneybird"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "moneybird.com",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "vanderheijden86",
   "source_url": "https://github.com/vanderheijden86/moneybird-mcp-server",
-  "last_checked": "2026-07-20"
+  "last_checked": "2026-08-14"
 }

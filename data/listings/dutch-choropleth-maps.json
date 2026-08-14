@@ -8,16 +8,28 @@
     "pdok",
     "cbs-statline"
   ],
-  "type": "skill",
-  "bundles": {
-    "skills": [],
+  "contains": {
+    "skills": [
+      "dutch-choropleth-maps"
+    ],
     "commands": [],
     "agents": [],
     "mcp_servers": []
   },
+  "execution": "none",
+  "uses": [
+    {
+      "domain": "pdok.nl",
+      "account": false
+    },
+    {
+      "domain": "cartomap.github.io",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "linksmith",
   "source_url": "https://github.com/linksmith/dutch-choropleth-maps",
-  "last_checked": "2026-07-20"
+  "last_checked": "2026-08-14"
 }

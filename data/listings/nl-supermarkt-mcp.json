@@ -25,16 +25,32 @@
     "douglas",
     "de-online-drogist"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "nl-supermarkt"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "checkjebon.nl",
+      "account": false
+    },
+    {
+      "domain": "folderz.nl",
+      "account": false
+    },
+    {
+      "domain": "themealdb.com",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "Samvox1",
   "source_url": "https://github.com/Samvox1/nl-supermarkt-mcp",
-  "last_checked": "2026-07-20"
+  "last_checked": "2026-08-14"
 }

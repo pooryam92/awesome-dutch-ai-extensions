@@ -7,16 +7,24 @@
   "subject": [
     "kvk"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "kvk-connect"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "kvk.nl",
+      "account": true
+    }
+  ],
   "origin": "official",
   "status": "live",
   "publisher": "MinBZK",
   "source_url": "https://github.com/MinBZK/kvk-connect",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

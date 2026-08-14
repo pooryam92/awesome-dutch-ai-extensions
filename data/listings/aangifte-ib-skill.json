@@ -7,16 +7,68 @@
   "subject": [
     "belastingdienst"
   ],
-  "type": "skill",
-  "bundles": {
-    "skills": [],
+  "contains": {
+    "skills": [
+      "aangifte-ib"
+    ],
     "commands": [],
     "agents": [],
     "mcp_servers": []
   },
+  "execution": "none",
+  "uses": [
+    {
+      "domain": "belastingdienst.nl",
+      "account": false
+    },
+    {
+      "domain": "toeslagen.nl",
+      "account": false
+    },
+    {
+      "domain": "rijksoverheid.nl",
+      "account": false
+    },
+    {
+      "domain": "overheid.nl",
+      "account": false
+    },
+    {
+      "domain": "officielebekendmakingen.nl",
+      "account": false
+    },
+    {
+      "domain": "svb.nl",
+      "account": false
+    },
+    {
+      "domain": "uwv.nl",
+      "account": false
+    },
+    {
+      "domain": "rijksfinancien.nl",
+      "account": false
+    },
+    {
+      "domain": "cbs.nl",
+      "account": false
+    },
+    {
+      "domain": "consumentenbond.nl",
+      "account": false
+    },
+    {
+      "domain": "berekenhet.nl",
+      "account": false
+    },
+    {
+      "domain": "supabase.com",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "mischacoster",
   "source_url": "https://github.com/mischacoster/aangifte-ib-skill",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

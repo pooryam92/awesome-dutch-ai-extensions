@@ -7,16 +7,24 @@
   "subject": [
     "picnic"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "picnic"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "picnic.app",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "ivo-toby",
   "source_url": "https://github.com/ivo-toby/mcp-picnic",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

@@ -7,8 +7,7 @@
   "subject": [
     "internet-nl"
   ],
-  "type": "plugin",
-  "bundles": {
+  "contains": {
     "skills": [
       "inet",
       "inet-api",
@@ -20,9 +19,20 @@
     "agents": [],
     "mcp_servers": []
   },
+  "execution": "none",
+  "uses": [
+    {
+      "domain": "internet.nl",
+      "account": true
+    },
+    {
+      "domain": "ripe.net",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "developer-overheid-nl",
   "source_url": "https://github.com/developer-overheid-nl/skills-internet",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

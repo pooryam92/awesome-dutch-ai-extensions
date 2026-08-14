@@ -7,16 +7,24 @@
   "subject": [
     "e-boekhouden"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "e-boekhouden"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "e-boekhouden.nl",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "CodeMill Solutions",
   "source_url": "https://github.com/CodeMill-Solutions/e-boekhouden-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

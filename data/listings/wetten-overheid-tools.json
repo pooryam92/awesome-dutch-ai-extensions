@@ -7,16 +7,28 @@
   "subject": [
     "wetten-overheid"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "wettenbank"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "overheid.nl",
+      "account": false
+    },
+    {
+      "domain": "officiele-overheidspublicaties.nl",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "palmw01",
   "source_url": "https://github.com/palmw01/wetten-overheid-tools",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

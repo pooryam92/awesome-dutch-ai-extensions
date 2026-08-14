@@ -7,16 +7,24 @@
   "subject": [
     "adyen"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "adyen-mcp-server"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "adyen.com",
+      "account": true
+    }
+  ],
   "origin": "official",
   "status": "preview",
   "publisher": "Adyen",
   "source_url": "https://docs.adyen.com/development-resources/mcp-server/",
-  "last_checked": "2026-07-28"
+  "last_checked": "2026-08-14"
 }

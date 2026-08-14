@@ -7,16 +7,36 @@
   "subject": [
     "exact-online"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "finance-mcp"
+    ]
   },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "financemcp.nl",
+      "account": true
+    },
+    {
+      "domain": "exactonline.nl",
+      "account": true
+    },
+    {
+      "domain": "moneybird.com",
+      "account": true
+    },
+    {
+      "domain": "microsoft.com",
+      "account": true
+    }
+  ],
   "origin": "commercial",
   "status": "live",
   "publisher": "Productivity Advisors BV",
   "source_url": "https://financemcp.nl/",
-  "last_checked": "2026-07-20"
+  "last_checked": "2026-08-14"
 }

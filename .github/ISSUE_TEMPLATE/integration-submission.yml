@@ -24,23 +24,34 @@ body:
       description: The Dutch service(s), data source(s), standard(s), or authority it connects to or covers — separate multiple with commas.
     validations:
       required: true
-  - type: dropdown
-    id: type
-    attributes:
-      label: Type
-      options: [mcp, skill, plugin]
-    validations:
-      required: true
   - type: textarea
-    id: bundles
+    id: contains
     attributes:
-      label: What it bundles (optional)
-      description: If this ships more than one thing — skills, slash commands, subagents, an MCP server — name them, one per line or comma-separated. We list them under the description so each one stays findable. Leave blank for a single MCP server or a single skill.
+      label: What it contains
+      description: Name what this gives you — skills, slash commands, subagents, MCP servers — one kind per line, using the publisher's own names. A single MCP server or a single skill counts — name it, since that is what the listing is. We list them under the description so each one stays findable.
       placeholder: |
         skills: inkomstenbelasting-boxen, omzetbelasting-btw
         commands: ib-aangifte, btw-aangifte
     validations:
-      required: false
+      required: true
+  - type: dropdown
+    id: execution
+    attributes:
+      label: Where does it run?
+      description: Anything started with npx, uvx, docker or a cloned repo is local. A URL you paste into an assistant is remote — a repo you could deploy yourself is still local, even when it speaks HTTP, because nobody is running it for you yet. Both is the same server offered either way. Instructions you copy in run nothing.
+      options: [local, remote, both, none]
+    validations:
+      required: true
+  - type: textarea
+    id: uses
+    attributes:
+      label: Which services does it reach?
+      description: One per line — the service's own domain, and whether you need an account there before it does anything. Say so when it needs none; an open service is worth knowing about. Write "none" if it reaches nothing at all — a listing that talks to nobody is a real answer.
+      placeholder: |
+        ns.nl — account needed
+        rdw.nl — no account needed
+    validations:
+      required: true
   - type: input
     id: relationship
     attributes:

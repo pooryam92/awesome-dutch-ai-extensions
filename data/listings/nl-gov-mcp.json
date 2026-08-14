@@ -20,16 +20,132 @@
     "duo",
     "bag"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "nl-gov-mcp"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "overheid.nl",
+      "account": false
+    },
+    {
+      "domain": "cbs.nl",
+      "account": false
+    },
+    {
+      "domain": "tweedekamer.nl",
+      "account": false
+    },
+    {
+      "domain": "rijksoverheid.nl",
+      "account": false
+    },
+    {
+      "domain": "rijksbegroting.nl",
+      "account": false
+    },
+    {
+      "domain": "duo.nl",
+      "account": false
+    },
+    {
+      "domain": "onderwijsregistratie.nl",
+      "account": false
+    },
+    {
+      "domain": "knmi.nl",
+      "account": true
+    },
+    {
+      "domain": "pdok.nl",
+      "account": false
+    },
+    {
+      "domain": "kadaster.nl",
+      "account": false
+    },
+    {
+      "domain": "rechtspraak.nl",
+      "account": false
+    },
+    {
+      "domain": "rdw.nl",
+      "account": false
+    },
+    {
+      "domain": "luchtmeetnet.nl",
+      "account": false
+    },
+    {
+      "domain": "rijkswaterstaat.nl",
+      "account": false
+    },
+    {
+      "domain": "ndw.nu",
+      "account": false
+    },
+    {
+      "domain": "openraadsinformatie.nl",
+      "account": false
+    },
+    {
+      "domain": "nationaalgeoregister.nl",
+      "account": false
+    },
+    {
+      "domain": "rivm.nl",
+      "account": false
+    },
+    {
+      "domain": "cultureelerfgoed.nl",
+      "account": false
+    },
+    {
+      "domain": "europa.eu",
+      "account": false
+    },
+    {
+      "domain": "broservices.nl",
+      "account": false
+    },
+    {
+      "domain": "ned.nl",
+      "account": true
+    },
+    {
+      "domain": "ep-online.nl",
+      "account": true
+    },
+    {
+      "domain": "ns.nl",
+      "account": true
+    },
+    {
+      "domain": "dnb.nl",
+      "account": true
+    },
+    {
+      "domain": "nza.nl",
+      "account": false
+    },
+    {
+      "domain": "ovapi.nl",
+      "account": false
+    },
+    {
+      "domain": "dcat-ap-donl.nl",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "WAINUT",
   "source_url": "https://github.com/WAINUTAI/nl-gov-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

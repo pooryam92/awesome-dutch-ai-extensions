@@ -7,16 +7,24 @@
   "subject": [
     "developer-overheid-register"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "developer-overheid-api-register"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "overheid.nl",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "David Stotijn",
   "source_url": "https://github.com/dstotijn/mcp-developer-overheid-api-register",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

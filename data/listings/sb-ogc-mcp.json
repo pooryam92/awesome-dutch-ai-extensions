@@ -7,16 +7,24 @@
   "subject": [
     "cbs-odin"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "sb-ogc-api"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "studiobereikbaar.nl",
+      "account": false
+    }
+  ],
   "origin": "commercial",
   "status": "live",
   "publisher": "Studio Bereikbaar",
   "source_url": "https://github.com/Studio-Bereikbaar/sb-ogc-mcp",
-  "last_checked": "2026-07-20"
+  "last_checked": "2026-08-14"
 }

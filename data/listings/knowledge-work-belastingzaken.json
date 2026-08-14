@@ -7,8 +7,7 @@
   "subject": [
     "belastingdienst"
   ],
-  "type": "plugin",
-  "bundles": {
+  "contains": {
     "skills": [
       "aftrekposten-en-regelingen",
       "belasting-intake-en-dossiervorming",
@@ -32,9 +31,20 @@
     "agents": [],
     "mcp_servers": []
   },
+  "execution": "none",
+  "uses": [
+    {
+      "domain": "belastingdienst.nl",
+      "account": false
+    },
+    {
+      "domain": "overheid.nl",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "johnhout",
   "source_url": "https://github.com/johnhout/knowledge-work-belastingzaken",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

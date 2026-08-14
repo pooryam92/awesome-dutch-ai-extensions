@@ -7,8 +7,7 @@
   "subject": [
     "rj"
   ],
-  "type": "plugin",
-  "bundles": {
+  "contains": {
     "skills": [
       "ai-readiness-mkb",
       "doorrol-schema",
@@ -24,9 +23,11 @@
     "agents": [],
     "mcp_servers": []
   },
+  "execution": "none",
+  "uses": [],
   "origin": "community",
   "status": "beta",
   "publisher": "Start 2 Scale",
   "source_url": "https://github.com/start2scale/finance-skills-nl",
-  "last_checked": "2026-07-20"
+  "last_checked": "2026-08-14"
 }

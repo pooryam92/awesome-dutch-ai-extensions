@@ -7,16 +7,24 @@
   "subject": [
     "nmbrs"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "Nmbrs AI Connector"
+    ]
   },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "nmbrs.com",
+      "account": true
+    }
+  ],
   "origin": "official",
   "status": "beta",
   "publisher": "Nmbrs",
   "source_url": "https://www.nmbrs.com/ai-connector",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

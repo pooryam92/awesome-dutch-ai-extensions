@@ -8,16 +8,28 @@
     "cbs-statline",
     "data-overheid-nl"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "nl-opendata-mcp"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "cbs.nl",
+      "account": false
+    },
+    {
+      "domain": "overheid.nl",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "beta",
   "publisher": "soulnai",
   "source_url": "https://github.com/soulnai/nl-opendata-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

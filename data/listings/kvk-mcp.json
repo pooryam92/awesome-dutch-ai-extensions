@@ -7,16 +7,24 @@
   "subject": [
     "kvk"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "kvk-mcp"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "kvk.nl",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "BartWaardenburg",
   "source_url": "https://github.com/BartWaardenburg/kvk-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

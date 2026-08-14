@@ -14,8 +14,7 @@
     "nvwa",
     "big-register"
   ],
-  "type": "plugin",
-  "bundles": {
+  "contains": {
     "skills": [
       "browser-lookup",
       "dutch-sources",
@@ -31,9 +30,72 @@
     ],
     "mcp_servers": []
   },
+  "execution": "none",
+  "uses": [
+    {
+      "domain": "cbs.nl",
+      "account": false
+    },
+    {
+      "domain": "duo.nl",
+      "account": false
+    },
+    {
+      "domain": "overheid.nl",
+      "account": false
+    },
+    {
+      "domain": "wooverheid.nl",
+      "account": false
+    },
+    {
+      "domain": "kvk.nl",
+      "account": false
+    },
+    {
+      "domain": "rvo.nl",
+      "account": false
+    },
+    {
+      "domain": "europa.eu",
+      "account": false
+    },
+    {
+      "domain": "nvwa.nl",
+      "account": false
+    },
+    {
+      "domain": "rivm.nl",
+      "account": false
+    },
+    {
+      "domain": "onderwijsinspectie.nl",
+      "account": false
+    },
+    {
+      "domain": "ind.nl",
+      "account": false
+    },
+    {
+      "domain": "zorgkaartnederland.nl",
+      "account": false
+    },
+    {
+      "domain": "bigregister.nl",
+      "account": false
+    },
+    {
+      "domain": "rechtspraak.nl",
+      "account": false
+    },
+    {
+      "domain": "openraadsinformatie.nl",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "beta",
   "publisher": "linksmith",
   "source_url": "https://github.com/linksmith/data-journalist-ai-agent-plugin-with-skills",
-  "last_checked": "2026-07-28"
+  "last_checked": "2026-08-14"
 }

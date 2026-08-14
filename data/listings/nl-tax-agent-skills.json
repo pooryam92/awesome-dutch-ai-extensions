@@ -7,8 +7,7 @@
   "subject": [
     "belastingdienst"
   ],
-  "type": "plugin",
-  "bundles": {
+  "contains": {
     "skills": [
       "nl-tax-annual-return",
       "nl-tax-box1-home",
@@ -28,9 +27,11 @@
     ],
     "mcp_servers": []
   },
+  "execution": "none",
+  "uses": [],
   "origin": "community",
   "status": "live",
   "publisher": "cyanxxy",
   "source_url": "https://github.com/cyanxxy/nl-tax-agent-skills",
-  "last_checked": "2026-07-22"
+  "last_checked": "2026-08-14"
 }

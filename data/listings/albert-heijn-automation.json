@@ -7,18 +7,26 @@
   "subject": [
     "albert-heijn"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [
       "albert-heijn"
     ],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "ah"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "ah.nl",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "robinbril",
   "source_url": "https://github.com/robinbril/Albert-Heijn-Automation",
-  "last_checked": "2026-08-07"
+  "last_checked": "2026-08-14"
 }

@@ -7,16 +7,24 @@
   "subject": [
     "ovapi"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "ov-mcp"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "ovapi.nl",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "laulauland",
   "source_url": "https://github.com/laulauland/ov-mcp",
-  "last_checked": "2026-07-22"
+  "last_checked": "2026-08-14"
 }

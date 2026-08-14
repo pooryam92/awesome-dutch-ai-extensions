@@ -7,16 +7,28 @@
   "subject": [
     "marktplaats"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "marktplaats-2dehands"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "marktplaats.nl",
+      "account": false
+    },
+    {
+      "domain": "2dehands.be",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "gjoris",
   "source_url": "https://github.com/gjoris/marktplaats-2dehands-mcp",
-  "last_checked": "2026-07-20"
+  "last_checked": "2026-08-14"
 }

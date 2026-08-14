@@ -7,16 +7,28 @@
   "subject": [
     "exact-online"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "exact-online"
+    ]
   },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "praatmetjeboekhouding.nl",
+      "account": true
+    },
+    {
+      "domain": "exactonline.nl",
+      "account": true
+    }
+  ],
   "origin": "commercial",
   "status": "live",
   "publisher": "Praat met je Boekhouding",
   "source_url": "https://praatmetjeboekhouding.nl/en/exact-online-mcp-server",
-  "last_checked": "2026-07-27"
+  "last_checked": "2026-08-14"
 }

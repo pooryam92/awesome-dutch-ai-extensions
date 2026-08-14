@@ -7,16 +7,28 @@
   "subject": [
     "rechtspraak"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "rechtspraak"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "rechtspraak.nl",
+      "account": false
+    },
+    {
+      "domain": "overheid.nl",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "PrudAI",
   "source_url": "https://github.com/Prudai/rechtspraak-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

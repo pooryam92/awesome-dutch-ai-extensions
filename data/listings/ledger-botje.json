@@ -7,16 +7,28 @@
   "subject": [
     "exact-online"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "ledgerbotje"
+    ]
   },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "ledgerbotje.nl",
+      "account": true
+    },
+    {
+      "domain": "exactonline.nl",
+      "account": true
+    }
+  ],
   "origin": "commercial",
   "status": "live",
   "publisher": "Industrial IT",
   "source_url": "https://ledgerbotje.nl/",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

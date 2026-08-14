@@ -7,16 +7,24 @@
   "subject": [
     "bol"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "bol-mcp"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "bol.com",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "BartWaardenburg",
   "source_url": "https://github.com/BartWaardenburg/bol-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

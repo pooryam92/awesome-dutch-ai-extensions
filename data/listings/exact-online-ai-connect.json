@@ -7,8 +7,7 @@
   "subject": [
     "exact-online"
   ],
-  "type": "plugin",
-  "bundles": {
+  "contains": {
     "skills": [
       "btw-aangifte-assistent",
       "cashflow-analyse",
@@ -22,19 +21,30 @@
       "resultatenrekening-analyse"
     ],
     "commands": [
-      "balans",
-      "omzet",
-      "openstaande-debiteuren",
-      "ouderdomsanalyse"
+      "exact-balans",
+      "exact-omzet",
+      "exact-openstaande-debiteuren",
+      "exact-ouderdomsanalyse"
     ],
     "agents": [],
     "mcp_servers": [
       "exact-online"
     ]
   },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "exactonline.nl",
+      "account": true
+    },
+    {
+      "domain": "iwebdevelopment.com",
+      "account": true
+    }
+  ],
   "origin": "commercial",
   "status": "live",
   "publisher": "iWebDevelopment",
   "source_url": "https://github.com/iwebdevnl/exact-online-ai-connect",
-  "last_checked": "2026-07-28"
+  "last_checked": "2026-08-14"
 }

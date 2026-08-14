@@ -8,16 +8,19 @@
     "cbs-statline",
     "kadaster"
   ],
-  "type": "skill",
-  "bundles": {
-    "skills": [],
+  "contains": {
+    "skills": [
+      "data-cleaning-dutch"
+    ],
     "commands": [],
     "agents": [],
     "mcp_servers": []
   },
+  "execution": "none",
+  "uses": [],
   "origin": "community",
   "status": "live",
   "publisher": "linksmith",
   "source_url": "https://github.com/linksmith/data-cleaning-dutch",
-  "last_checked": "2026-07-20"
+  "last_checked": "2026-08-14"
 }

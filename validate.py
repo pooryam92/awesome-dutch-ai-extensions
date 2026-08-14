@@ -13,7 +13,8 @@ present. This is the strict pass — types, patterns, enums, and date/URI format
 It also covers what JSON Schema cannot see, because those rules span files: a
 listing's category and subjects must resolve to real registry entries, every
 registry entry must be reachable from some listing, and data/labels.json must
-carry a label for every enum value the schema allows.
+carry a label for every enum value the schema allows — plus the kind tokens
+build-readme.py derives from `contains`, which no enum lists.
 
 Every problem is reported in one run — a contributor fixing a submission should
 not have to rerun this once per typo.
@@ -30,8 +31,12 @@ LISTINGS = ROOT / "data" / "listings"
 # labels.json needs an entry per enum value, and each entry needs all three keys.
 # A missing one is invisible on inspection: build-readme.py falls back to a grey
 # pill and renders the raw token, so the badge looks deliberate rather than broken.
-LABEL_GROUPS = ("type", "origin", "status")
+LABEL_GROUPS = ("origin", "status")
 LABEL_KEYS = ("en", "nl", "color")
+
+# The kind pill is derived from `contains` rather than stored, so its tokens are in
+# no schema enum and have to be named here — the one label group nothing else lists.
+KIND_TOKENS = ("mcp", "skill", "command", "agent", "bundle")
 COLOR = re.compile(r"^[0-9a-f]{6}$")
 
 
@@ -79,6 +84,12 @@ def reference_errors(listings, categories, subjects):
             yield f"{name}: source_url is a duplicate of {seen_urls[url]}"
         elif url:
             seen_urls[url] = name
+        # One row per party is the whole point of `uses`; two rows for the same
+        # domain contradict each other the moment their `account` flags differ,
+        # and uniqueItems only catches the case where they do not.
+        domains = [row.get("domain") for row in listing.get("uses", [])]
+        for domain in sorted({d for d in domains if domains.count(d) > 1}):
+            yield f"{name}: uses names {domain!r} more than once"
 
     # An unreferenced registry entry is dead weight that still shows up when the
     # next contributor greps for a key to reuse.
@@ -96,8 +107,10 @@ def registry_errors(schema, categories, subjects, labels):
         if not subject.get("name"):
             yield f"data/subjects.json: {key!r} has no name"
 
-    for group in LABEL_GROUPS:
-        for token in schema["properties"][group]["enum"]:
+    groups = [(group, schema["properties"][group]["enum"]) for group in LABEL_GROUPS]
+    groups.append(("kind", KIND_TOKENS))
+    for group, tokens in groups:
+        for token in tokens:
             label = labels.get(group, {}).get(token)
             if label is None:
                 yield f"data/labels.json: no {group} label for {token!r}"

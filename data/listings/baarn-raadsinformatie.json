@@ -7,16 +7,32 @@
   "subject": [
     "gemeente-baarn"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "baarn-raadsinformatie"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "notubiz.nl",
+      "account": false
+    },
+    {
+      "domain": "raadsinformatie.nl",
+      "account": false
+    },
+    {
+      "domain": "baarn.nl",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "tiemenrtuinstra",
   "source_url": "https://github.com/tiemenrtuinstra/baarn-raadsinformatie",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

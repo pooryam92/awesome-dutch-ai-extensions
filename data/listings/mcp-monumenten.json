@@ -8,16 +8,28 @@
     "monumenten",
     "rce"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "monumenten"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "kadaster.nl",
+      "account": false
+    },
+    {
+      "domain": "cultureelerfgoed.nl",
+      "account": false
+    }
+  ],
   "origin": "official",
   "status": "live",
   "publisher": "Woonstad Rotterdam",
   "source_url": "https://github.com/woonstadrotterdam/mcp-monumenten",
-  "last_checked": "2026-07-20"
+  "last_checked": "2026-08-14"
 }

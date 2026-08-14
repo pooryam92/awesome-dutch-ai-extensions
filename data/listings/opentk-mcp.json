@@ -7,16 +7,24 @@
   "subject": [
     "tweede-kamer"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "opentk"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "berthub.eu",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "r-huijts",
   "source_url": "https://github.com/r-huijts/opentk-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

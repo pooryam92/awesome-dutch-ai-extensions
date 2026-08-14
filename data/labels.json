@@ -1,5 +1,5 @@
 {
-  "type": {
+  "kind": {
     "mcp": {
       "en": "MCP",
       "nl": "MCP",
@@ -10,9 +10,19 @@
       "nl": "Skill",
       "color": "6c3fc9"
     },
-    "plugin": {
-      "en": "Plugin",
-      "nl": "Plugin",
+    "command": {
+      "en": "Command",
+      "nl": "Command",
+      "color": "0a6e5b"
+    },
+    "agent": {
+      "en": "Agent",
+      "nl": "Agent",
+      "color": "8a4b8a"
+    },
+    "bundle": {
+      "en": "Bundle",
+      "nl": "Bundel",
       "color": "9e5b0a"
     }
   },

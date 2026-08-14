@@ -7,16 +7,24 @@
   "subject": [
     "knmi"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "knmi-weather"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "knmi.cloud",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "dstotijn",
   "source_url": "https://github.com/dstotijn/knmi-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

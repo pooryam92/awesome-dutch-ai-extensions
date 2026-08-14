@@ -9,16 +9,36 @@
     "pdok",
     "cbs-statline"
   ],
-  "type": "skill",
-  "bundles": {
-    "skills": [],
+  "contains": {
+    "skills": [
+      "wonen-energie-alternatieve-bronnen"
+    ],
     "commands": [],
     "agents": [],
     "mcp_servers": []
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "pdok.nl",
+      "account": false
+    },
+    {
+      "domain": "liander.nl",
+      "account": false
+    },
+    {
+      "domain": "ep-online.nl",
+      "account": true
+    },
+    {
+      "domain": "overheid.io",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "beta",
   "publisher": "linksmith",
   "source_url": "https://github.com/linksmith/wonen-energie-alternatieve-bronnen",
-  "last_checked": "2026-07-28"
+  "last_checked": "2026-08-14"
 }

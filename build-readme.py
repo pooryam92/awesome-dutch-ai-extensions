@@ -18,33 +18,47 @@ BADGES_DIR = ROOT / "assets" / "badges"
 
 HEADER = """# Awesome Dutch AI Extensions
 
-> MCP servers, skills, and plugins that connect an AI assistant to, or give it working knowledge of, a Dutch service, data source, standard, or authority.
+> MCP servers, skills, and the bundles that carry them — connecting an AI assistant to, or giving it working knowledge of, a Dutch service, data source, standard, or authority.
 
 To add an integration, see [CONTRIBUTING.md](CONTRIBUTING.md). Only ever edit the JSON in `data/` — one file per listing in [`data/listings/`](data/listings), described in [`schema.json`](schema.json). The list below is generated from it by `build-readme.py`.
 
-_Every listing is tagged with its type and origin; a status badge appears only when it is **not** live (beta, preview, concept, abandoned). The type is the unit you install — where that unit bundles skills, commands, agents, or MCP servers, they are named under its description._
+_Every listing is tagged with what it is and where it came from; a status badge appears only when it is **not** live (beta, preview, concept, abandoned). What it is comes from what it contains — one kind of thing is that kind, several is a bundle — and where a listing holds more than one artifact, they are named under its description._
 """
 
-# A row is one install unit, so a plugin bundling twelve skills is still one row —
+# A row is one install unit, so a plugin holding twelve skills is still one row —
 # which would bury every name inside it. Render the contents as a <details> in the
 # Description cell: GitHub allows the element inside a table cell, so the names are
 # findable with Ctrl-F and the table keeps its four columns.
-BUNDLE_KINDS = (
+CONTAINS_KINDS = (
     ("skills", "skill", "skills", "Skills"),
     ("commands", "command", "commands", "Commands"),
     ("agents", "agent", "agents", "Agents"),
     ("mcp_servers", "MCP server", "MCP servers", "MCP servers"),
 )
 
+# The kind pill is derived rather than stored: a listing carrying one kind of thing
+# is that kind, one carrying several is a bundle. Keys are the singular tokens in
+# data/labels.json under "kind"; "bundle" is the fallthrough.
+KIND_TOKENS = {"skills": "skill", "commands": "command", "agents": "agent", "mcp_servers": "mcp"}
+
 # Every field the catalogue reads. schema.json is the real contract, but nothing in
 # this repo enforces it, so name the offending file rather than dying on a KeyError.
 REQUIRED_FIELDS = (
-    "name", "category", "description_en", "subject", "type", "bundles", "origin", "status", "source_url",
+    "name", "category", "description_en", "subject", "contains", "origin", "status", "source_url",
 )
 
 
 def load(path):
     return json.loads((ROOT / path).read_text(encoding="utf-8"))
+
+
+def kind_of(contains):
+    """What a listing is, read off what it holds. Every listing lists itself, so a
+    lone MCP server carries exactly one name and comes out `mcp`; a plugin holding
+    skills and commands comes out `bundle`. A listing holding several of one kind
+    is still that kind — six skills in a plugin manifest is a skill listing."""
+    present = [key for key, *_ in CONTAINS_KINDS if contains.get(key)]
+    return KIND_TOKENS[present[0]] if len(present) == 1 else "bundle"
 
 
 # --- badges -----------------------------------------------------------------
@@ -131,8 +145,8 @@ class Badges:
         self.needed = {}
 
     def tag_badge(self, listing):
-        """Type and origin always; a status pill only when the listing is not live."""
-        tokens = [("type", listing["type"]), ("origin", listing["origin"])]
+        """Kind and origin always; a status pill only when the listing is not live."""
+        tokens = [("kind", kind_of(listing["contains"])), ("origin", listing["origin"])]
         if listing["status"] != "live":
             tokens.append(("status", listing["status"]))
         parts = [
@@ -191,17 +205,19 @@ def list_phrase(parts):
     return ", ".join(parts[:-1]) + ", and " + parts[-1]
 
 
-def bundle_details(bundles):
-    present = [k for k in BUNDLE_KINDS if bundles.get(k[0])]
-    if not present:
+def contains_details(contains):
+    """Nothing to open for a one-artifact listing: it names itself, and the row
+    already carries that name. The block earns its place from the second entry on."""
+    present = [k for k in CONTAINS_KINDS if contains.get(k[0])]
+    if sum(len(contains[key]) for key, *_ in present) < 2:
         return ""
-    summary = " · ".join(count_phrase(one, many, len(bundles[key])) for key, one, many, _ in present)
-    # Bundled names are slugs, but a cell is pipe-delimited — never trust that,
+    summary = " · ".join(count_phrase(one, many, len(contains[key])) for key, one, many, _ in present)
+    # Contained names are slugs, but a cell is pipe-delimited — never trust that,
     # and escape_cell covers backslashes and link brackets on the same pass.
     body = "<br>".join(
-        f"<b>{label}</b> " + " · ".join(escape_cell(n) for n in bundles[key]) for key, _, _, label in present
+        f"<b>{label}</b> " + " · ".join(escape_cell(n) for n in contains[key]) for key, _, _, label in present
     )
-    return f" <details><summary>Bundles {summary}</summary>{body}</details>"
+    return f" <details><summary>Contains {summary}</summary>{body}</details>"
 
 
 def tags_header(max_strip_width):
@@ -295,8 +311,8 @@ def render(check):
         where = listing.get("id", "<listing with no id>")
         if missing := [f for f in REQUIRED_FIELDS if f not in listing]:
             sys.exit(f"{where}: missing required field(s): {', '.join(missing)}")
-        if absent := [key for key, *_ in BUNDLE_KINDS if key not in listing["bundles"]]:
-            sys.exit(f"{where}: bundles is missing {', '.join(absent)} — write [] when there are none")
+        if absent := [key for key, *_ in CONTAINS_KINDS if key not in listing["contains"]]:
+            sys.exit(f"{where}: contains is missing {', '.join(absent)} — write [] when there are none")
         if listing["category"] not in category_titles:
             sys.exit(f"{where}: category {listing['category']!r} is not in data/categories.json")
         for sid in listing["subject"]:
@@ -327,7 +343,7 @@ def render(check):
             widths.append(width)
             cells = [
                 f"[{escape_cell(listing['name'])}]({listing['source_url']})",
-                escape_cell(listing["description_en"]) + bundle_details(listing["bundles"]),
+                escape_cell(listing["description_en"]) + contains_details(listing["contains"]),
                 escape_cell(" / ".join(subjects.get(s, {}).get("name", s) for s in listing["subject"])),
                 markdown,
             ]
@@ -335,13 +351,13 @@ def render(check):
         out += [tags_header(max(widths)), "|---|---|---|---|", *rendered, ""]
 
     # The listing count alone understates the catalogue: most skills reach a user
-    # inside a plugin, so a type tally reads as MCP-dominated when the skill count
-    # is comparable. Spell the bundled totals out.
+    # inside a bundle, so a tally by row reads as MCP-dominated when the skill count
+    # is comparable. Spell out what the rows hold between them.
     totals = [
-        (one, many, sum(len(d["bundles"][key]) for d in listings)) for key, one, many, _ in BUNDLE_KINDS
+        (one, many, sum(len(d["contains"][key]) for d in listings)) for key, one, many, _ in CONTAINS_KINDS
     ]
-    bundled = [count_phrase(one, many, n) for one, many, n in totals if n]
-    clause = f", bundling a further {list_phrase(bundled)}" if bundled else ""
+    held = [count_phrase(one, many, n) for one, many, n in totals if n]
+    clause = f", holding {list_phrase(held)}" if held else ""
     counted = count_phrase("listing", "listings", len(listings))
     across = count_phrase("category", "categories", len(categories))
     out += ["---", "", f"_{counted} across {across}{clause}._"]

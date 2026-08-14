@@ -7,16 +7,24 @@
   "subject": [
     "wefact"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "wefact"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "mijnwefact.nl",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "Nick Aldewereld",
   "source_url": "https://github.com/NickAldewereld/wefact-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

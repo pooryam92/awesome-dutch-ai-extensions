@@ -7,16 +7,24 @@
   "subject": [
     "simplicate"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "simplicate"
+    ]
   },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "simplicate.com",
+      "account": true
+    }
+  ],
   "origin": "official",
   "status": "live",
   "publisher": "Simplicate",
   "source_url": "https://developer.simplicate.com/docs/mcp/getting_started/",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

@@ -7,16 +7,24 @@
   "subject": [
     "albert-heijn"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "ah"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "ah.nl",
+      "account": true
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "mrserzhan",
   "source_url": "https://github.com/mrserzhan/ah-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

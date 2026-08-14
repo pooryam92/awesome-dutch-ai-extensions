@@ -7,16 +7,19 @@
   "subject": [
     "nederlands"
   ],
-  "type": "skill",
-  "bundles": {
-    "skills": [],
+  "contains": {
+    "skills": [
+      "dutch-native"
+    ],
     "commands": [],
     "agents": [],
     "mcp_servers": []
   },
+  "execution": "none",
+  "uses": [],
   "origin": "community",
   "status": "live",
   "publisher": "Bruno Coussement",
   "source_url": "https://github.com/brunocous/dutch-native",
-  "last_checked": "2026-08-10"
+  "last_checked": "2026-08-14"
 }

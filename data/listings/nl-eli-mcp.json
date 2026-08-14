@@ -8,16 +8,32 @@
     "wetten-overheid",
     "rechtspraak"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "nl-eli-mcp"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "overheid.nl",
+      "account": false
+    },
+    {
+      "domain": "rechtspraak.nl",
+      "account": false
+    },
+    {
+      "domain": "officiele-overheidspublicaties.nl",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "matematicsolutions",
   "source_url": "https://github.com/matematicsolutions/nl-eli-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

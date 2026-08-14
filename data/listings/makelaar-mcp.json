@@ -7,16 +7,28 @@
   "subject": [
     "funda"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "makelaar"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "funda.nl",
+      "account": false
+    },
+    {
+      "domain": "walterliving.com",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "spyrosavl",
   "source_url": "https://github.com/spyrosavl/makelaar-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

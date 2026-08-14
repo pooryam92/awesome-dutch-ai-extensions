@@ -7,16 +7,24 @@
   "subject": [
     "anwb"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "anwb-mcp"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "anwb.nl",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "BartWaardenburg",
   "source_url": "https://github.com/BartWaardenburg/anwb-mcp",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }

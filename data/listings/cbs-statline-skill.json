@@ -7,8 +7,7 @@
   "subject": [
     "cbs-statline"
   ],
-  "type": "plugin",
-  "bundles": {
+  "contains": {
     "skills": [
       "cbs-statline-skill"
     ],
@@ -16,9 +15,20 @@
     "agents": [],
     "mcp_servers": []
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "cbs.nl",
+      "account": false
+    },
+    {
+      "domain": "pdok.nl",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "linksmith",
   "source_url": "https://github.com/linksmith/cbs-statline-skill",
-  "last_checked": "2026-07-28"
+  "last_checked": "2026-08-14"
 }

@@ -9,16 +9,24 @@
     "nt2",
     "inburgering"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "dutch-fluency"
+    ]
   },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "dutchfluency.com",
+      "account": false
+    }
+  ],
   "origin": "commercial",
   "status": "live",
   "publisher": "Dutch Fluency",
   "source_url": "https://mcp.dutchfluency.com/",
-  "last_checked": "2026-08-10"
+  "last_checked": "2026-08-14"
 }

@@ -7,16 +7,24 @@
   "subject": [
     "cbs-statline"
   ],
-  "type": "mcp",
-  "bundles": {
+  "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": []
+    "mcp_servers": [
+      "cbs-cijfers-open-data"
+    ]
   },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "cbs.nl",
+      "account": false
+    }
+  ],
   "origin": "community",
   "status": "live",
   "publisher": "dstotijn",
   "source_url": "https://github.com/dstotijn/mcp-cbs-cijfers-open-data",
-  "last_checked": "2026-07-19"
+  "last_checked": "2026-08-14"
 }
