@@ -18,7 +18,7 @@
   "execution": "local",
   "uses": [
     {
-      "domain": "funda.nl",
+      "domain": "funda.io",
       "account": false
     },
     {

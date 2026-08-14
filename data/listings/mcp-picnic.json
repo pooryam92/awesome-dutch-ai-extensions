@@ -18,8 +18,12 @@
   "execution": "local",
   "uses": [
     {
-      "domain": "picnic.app",
+      "domain": "picnicinternational.com",
       "account": true
+    },
+    {
+      "domain": "picnic.app",
+      "account": false
     }
   ],
   "origin": "community",

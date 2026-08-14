@@ -28,6 +28,10 @@
     {
       "domain": "overheid.nl",
       "account": false
+    },
+    {
+      "domain": "officiele-overheidspublicaties.nl",
+      "account": false
     }
   ],
   "origin": "community",
