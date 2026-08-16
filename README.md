@@ -11,7 +11,7 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 | [Accounting & Finance](#accounting--finance)     |       18 | Exact Online, Moneybird, Adyen, Bitvavo, bunq, e-Boekhouden, … |
 | [Consumer & Daily Life](#consumer--daily-life)   |        8 | Albert Heijn, Picnic, Aldi, Buienradar, DA, …                  |
 | [Developers & Standards](#developers--standards) |        3 | developer.overheid.nl API Register, Geonovum, internet.nl      |
-| [Dutch Language](#dutch-language)                |        2 | Nederlands, Inburgeringsexamen, Staatsexamen NT2               |
+| [Dutch Language](#dutch-language)                |        3 | Nederlands, Inburgeringsexamen, Staatsexamen NT2               |
 | [E-commerce & Logistics](#e-commerce--logistics) |        6 | Marktplaats, bol.com, Postcode.eu, PostNL                      |
 | [Government Services](#government-services)      |        4 | KVK, RDW, wetten.overheid.nl                                   |
 | [Housing & Property](#housing--property)         |        5 | BAG, EP-Online, Funda, Kadaster, Kamernet, Monumenten, PDOK, … |
@@ -69,6 +69,7 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 |---|---|---|---|
 | [Dutch Fluency MCP](https://mcp.dutchfluency.com/) | Practise Dutch with CEFR placement tests, sentence correction, and NT2 and inburgering exam preparation. | Nederlands (taal) / Staatsexamen NT2 / Inburgeringsexamen | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [Dutch Native](https://github.com/brunocous/dutch-native) | Rewrite Dutch text so it reads as native rather than translated, in either Netherlands or Belgian Dutch. | Nederlands (taal) | ![Skill · Community](assets/badges/tags-skill-community.svg) |
+| [The Dutch Directory](https://thedutchdirectory.com/mcp) | Compare ways to learn Dutch — schools, universities, tutors, apps, podcasts, and exams — through editorial shortlists, city gaps, and NT2 and inburgering study paths; it maps the market rather than teaching, and flags its own publisher's entries. | Nederlands (taal) / Staatsexamen NT2 / Inburgeringsexamen | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 
 ## E-commerce & Logistics
 
@@ -153,4 +154,4 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 
 ---
 
-_82 listings across 10 categories, holding 85 skills, 18 commands, 2 agents, and 72 MCP servers._
+_83 listings across 10 categories, holding 85 skills, 18 commands, 2 agents, and 73 MCP servers._
