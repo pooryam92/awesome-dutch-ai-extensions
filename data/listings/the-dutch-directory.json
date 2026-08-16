@@ -1,0 +1,32 @@
+{
+  "id": "the-dutch-directory",
+  "name": "The Dutch Directory",
+  "category": "dutch-language",
+  "description_en": "Compare ways to learn Dutch — schools, universities, tutors, apps, podcasts, and exams — through editorial shortlists, city gaps, and NT2 and inburgering study paths; it maps the market rather than teaching, and flags its own publisher's entries.",
+  "description_nl": "Vergelijk manieren om Nederlands te leren — scholen, universiteiten, docenten, apps, podcasts en examens — met redactionele shortlists, hiaten per stad en leerroutes voor NT2 en inburgering; het brengt het aanbod in kaart in plaats van les te geven, en markeert de eigen producten van de uitgever.",
+  "subject": [
+    "nederlands",
+    "nt2",
+    "inburgering"
+  ],
+  "contains": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "the-dutch-directory"
+    ]
+  },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "thedutchdirectory.com",
+      "account": false
+    }
+  ],
+  "origin": "commercial",
+  "status": "live",
+  "publisher": "Dutch Fluency",
+  "source_url": "https://thedutchdirectory.com/mcp",
+  "last_checked": "2026-08-16"
+}
