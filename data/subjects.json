@@ -2,6 +2,9 @@
   "adyen": {
     "name": "Adyen"
   },
+  "afas-profit": {
+    "name": "AFAS Profit"
+  },
   "albert-heijn": {
     "name": "Albert Heijn"
   },
@@ -271,5 +274,8 @@
   "woogle": {
     "name": "Woogle",
     "kind": "dataset"
+  },
+  "yuki": {
+    "name": "Yuki"
   }
 }

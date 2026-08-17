@@ -1,0 +1,39 @@
+{
+  "id": "twinfield-ai-connect",
+  "name": "Twinfield AI Connect",
+  "category": "accounting-finance",
+  "description_en": "Put a Twinfield administration behind your assistant without installing anything, for outstanding items, aging, and result and balance figures, where every booking waits for your confirmation before it posts.",
+  "description_nl": "Zet een Twinfield-administratie achter je assistent zonder iets te installeren, voor openstaande posten, ouderdomsanalyse en resultaat- en balanscijfers, waarbij elke boeking wacht op jouw bevestiging voordat die wordt verwerkt.",
+  "subject": [
+    "twinfield"
+  ],
+  "contains": {
+    "skills": [],
+    "commands": [
+      "twinfield-balans",
+      "twinfield-omzet",
+      "twinfield-openstaande-debiteuren",
+      "twinfield-ouderdomsanalyse"
+    ],
+    "agents": [],
+    "mcp_servers": [
+      "twinfield"
+    ]
+  },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "twinfield.com",
+      "account": true
+    },
+    {
+      "domain": "iwebdevelopment.com",
+      "account": true
+    }
+  ],
+  "origin": "commercial",
+  "status": "live",
+  "publisher": "iWebDevelopment",
+  "source_url": "https://github.com/iwebdevnl/twinfield-ai-connect",
+  "last_checked": "2026-08-17"
+}
