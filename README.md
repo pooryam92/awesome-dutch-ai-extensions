@@ -8,8 +8,8 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 
 | Category                                         | Listings | Covers                                                         |
 | ------------------------------------------------ | -------: | -------------------------------------------------------------- |
-| [Accounting & Finance](#accounting--finance)     |       18 | Exact Online, Moneybird, Adyen, Bitvavo, bunq, e-Boekhouden, … |
-| [Consumer & Daily Life](#consumer--daily-life)   |        8 | Albert Heijn, Picnic, Aldi, Buienradar, DA, …                  |
+| [Accounting & Finance](#accounting--finance)     |       22 | Exact Online, Moneybird, Twinfield, WeFact, Adyen, …           |
+| [Consumer & Daily Life](#consumer--daily-life)   |       10 | Albert Heijn, Jumbo, Plus, Picnic, Aldi, Buienradar, DA, …     |
 | [Developers & Standards](#developers--standards) |        3 | developer.overheid.nl API Register, Geonovum, internet.nl      |
 | [Dutch Language](#dutch-language)                |        3 | Nederlands, Inburgeringsexamen, Staatsexamen NT2               |
 | [E-commerce & Logistics](#e-commerce--logistics) |        6 | Marktplaats, bol.com, Postcode.eu, PostNL                      |
@@ -24,6 +24,7 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 | Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
 | [Adyen MCP](https://docs.adyen.com/development-resources/mcp-server/) | Take Adyen payments — sessions, payment links, refunds, and cancellations — and manage merchant accounts, terminals, and webhooks, enabling only the tools a use case needs. | Adyen | ![MCP · Official · Preview](assets/badges/tags-mcp-official-preview.svg) |
+| [AFAS AI Connect](https://github.com/iwebdevnl/afas-ai-connect) | Reach an AFAS Profit environment through an AppConnector an administrator enables once, for outstanding items, aging, and result and balance figures, with every booking prepared as a draft you confirm. <details><summary>Contains 4 commands · 1 MCP server</summary><b>Commands</b> afas-balans · afas-omzet · afas-openstaande-debiteuren · afas-ouderdomsanalyse<br><b>MCP servers</b> afas</details> | AFAS Profit | ![Bundle · Commercial](assets/badges/tags-bundle-commercial.svg) |
 | [bitvavo-mcp](https://github.com/aderik/bitvavo-mcp) | Inspect a Bitvavo account read-only — balances, portfolio value, trades, deposits, withdrawals, and average-cost P&L; it ships no trading or withdrawal tools. | Bitvavo | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [bunq Partner MCP](https://github.com/bunq/partner-mcp) | Automate bunq banking through the Partner API — onboarding, KYC, accounts, payments, cards, and compliance. | bunq | ![MCP · Official · Beta](assets/badges/tags-mcp-official-beta.svg) |
 | [e-Boekhouden MCP](https://github.com/CodeMill-Solutions/e-boekhouden-mcp) | Read and write e-Boekhouden administration using your own API credentials. | e-Boekhouden | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
@@ -39,8 +40,11 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 | [Praat met je Boekhouding](https://praatmetjeboekhouding.nl/en/exact-online-mcp-server) | Query Exact Online bookkeeping across 111 tools — invoicing, BTW/ICP, and reporting — read-only by default. | Exact Online | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [rompslomp-mcp](https://github.com/lmolema/rompslomp-mcp) | Manage Rompslomp bookkeeping across 61 tools — invoices, contacts, payments, quotations, journal entries, hours, and rides. | Rompslomp | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [Simplicate MCP](https://developer.simplicate.com/docs/mcp/getting_started/) | Work with Simplicate project, CRM, and invoicing data through a per-domain hosted endpoint. | Simplicate | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
+| [Twinfield AI Connect](https://github.com/iwebdevnl/twinfield-ai-connect) | Put a Twinfield administration behind your assistant without installing anything, for outstanding items, aging, and result and balance figures, where every booking waits for your confirmation before it posts. <details><summary>Contains 4 commands · 1 MCP server</summary><b>Commands</b> twinfield-balans · twinfield-omzet · twinfield-openstaande-debiteuren · twinfield-ouderdomsanalyse<br><b>MCP servers</b> twinfield</details> | Twinfield | ![Bundle · Commercial](assets/badges/tags-bundle-commercial.svg) |
 | [Twinfield MCP](https://github.com/CodeMill-Solutions/twinfield-mcp) | Query and update Twinfield bookkeeping over its SOAP API. | Twinfield | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [WeFact MCP](https://github.com/NickAldewereld/wefact-mcp) | Manage WeFact debtors, invoices, products, and subscriptions. | WeFact | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [wefact-mcp (CodeMill)](https://github.com/CodeMill-Solutions/wefact-mcp) | Work a WeFact administration across all 17 API controllers — invoices, subscriptions, quotes, purchase invoices, bank transactions and CRM — read-only until you enable writes, with a separate opt-in before any tool emails a customer; it installs from a clone, because the npm package its README documents was never published. | WeFact | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [Yuki MCP](https://github.com/CodeMill-Solutions/yuki-mcp) | Book invoices, journal entries and archive documents in Yuki over its SOAP API — it writes as well as reads, and starts from a node path because the package ships no npx entry point. | Yuki | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 
 ## Consumer & Daily Life
 
@@ -53,6 +57,8 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 | [mcp-picnic](https://github.com/ivo-toby/mcp-picnic) | Shop Picnic groceries — search products and manage the cart, orders, and deliveries. | Picnic | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [nl-supermarkt-mcp](https://github.com/Samvox1/nl-supermarkt-mcp) | Search products, compare prices, and plan groceries across Dutch supermarkets and drugstores. | Albert Heijn / Jumbo / Lidl / Aldi / Plus / DekaMarkt / Dirk / Vomar / Hoogvliet / Spar / Picnic / Poiesz / Kruidvat / Etos / Trekpleister / DA / Holland & Barrett / Douglas / De Online Drogist | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [orderfood](https://github.com/henkas/orderfood) | Search Thuisbezorgd.nl restaurants, read menus, and build a cart — placing the order is not supported, because checkout needs a browser payment flow. | Thuisbezorgd.nl | ![MCP · Community · Beta](assets/badges/tags-mcp-community-beta.svg) |
+| [Pepesto Agent to Cart](https://www.pepesto.com/agent-to-cart/) | Hand a shopping list from any MCP client to the Pepesto app to fill an Albert Heijn, Jumbo, or Plus cart — the connector returns a deep link to open on your phone, not a priced basket. | Albert Heijn / Jumbo / Plus | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
+| [Pepesto MCP Server](https://github.com/pepesto-solutions/pepesto-mcp) | Turn a recipe URL, text, or photo into a matched Albert Heijn, Jumbo, or Plus basket with live prices — it ends at a checkout link and does not place the order. | Albert Heijn / Jumbo / Plus | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [unofficial-magister-mcp](https://github.com/israelroldan/unofficial-magister-mcp) | Look up Dutch school schedules from Magister — daily and weekly timetables plus drop-off and pick-up times, for student and parent accounts. | Magister | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 
 ## Developers & Standards
@@ -154,4 +160,4 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 
 ---
 
-_83 listings across 10 categories, holding 85 skills, 18 commands, 2 agents, and 73 MCP servers._
+_89 listings across 10 categories, holding 85 skills, 26 commands, 2 agents, and 79 MCP servers._
