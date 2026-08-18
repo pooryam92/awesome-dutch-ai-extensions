@@ -1,7 +1,7 @@
 {
   "id": "postcode-eu-ai-tools",
   "name": "postcode-eu-ai-tools",
-  "category": "bedrijf",
+  "category": "data",
   "description_en": "Validate and autocomplete Dutch addresses through the official Postcode.eu API.",
   "description_nl": "Valideer Nederlandse adressen en vul ze automatisch aan via de officiële Postcode.eu API.",
   "subject": [

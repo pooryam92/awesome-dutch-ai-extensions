@@ -20,16 +20,16 @@
     "nl": "Geld"
   },
   "historie": {
-    "en": "Heritage",
+    "en": "History",
     "nl": "Historie"
   },
   "onderwijs": {
     "en": "Education",
     "nl": "Onderwijs"
   },
-  "politiek": {
-    "en": "Politics",
-    "nl": "Politiek"
+  "overheid": {
+    "en": "Government",
+    "nl": "Overheid"
   },
   "recht": {
     "en": "Law",
@@ -40,7 +40,7 @@
     "nl": "Reizen"
   },
   "spullen": {
-    "en": "Buying & Selling",
+    "en": "Marketplaces",
     "nl": "Spullen"
   },
   "taal": {

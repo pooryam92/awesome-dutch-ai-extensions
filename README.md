@@ -6,22 +6,22 @@ To add an integration, see [CONTRIBUTING.md](CONTRIBUTING.md). Only ever edit th
 
 _Every listing is tagged with what it is and where it came from; a status badge appears only when it is **not** live (beta, preview, concept, abandoned). What it is comes from what it contains — one kind of thing is that kind, several is a bundle — and where a listing holds more than one artifact, they are named under its description._
 
-| Category                             | Listings | Covers                                                      |
-| ------------------------------------ | -------: | ----------------------------------------------------------- |
-| [Accounting](#accounting)            |       19 | Exact Online, Moneybird, Twinfield, WeFact, AFAS Profit, …  |
-| [Business](#business)                |        6 | KVK, Adyen, internet.nl, Mollie, Postcode.eu                |
-| [Buying & Selling](#buying--selling) |        5 | Marktplaats, bol.com, PostNL                                |
-| [Data](#data)                        |       13 | CBS StatLine, data.overheid.nl, DUO, Kadaster, PDOK, BAG, … |
-| [Education](#education)              |        1 | Magister                                                    |
-| [Groceries](#groceries)              |        7 | Albert Heijn, Jumbo, Plus, Picnic, Aldi, DA, …              |
-| [Heritage](#heritage)                |        6 | Rijksdienst voor het Cultureel Erfgoed, Rijksmuseum, …      |
-| [Housing](#housing)                  |        6 | PDOK, BAG, CBS StatLine, EP-Online, Funda, HomeWizard, …    |
-| [Language](#language)                |        3 | Nederlands, Inburgeringsexamen, Staatsexamen NT2            |
-| [Law](#law)                          |        6 | wetten.overheid.nl, Rechtspraak.nl, AVG, Belastingdienst    |
-| [Money](#money)                      |        6 | Belastingdienst, Bitvavo, bunq                              |
-| [Politics](#politics)                |        2 | Gemeente Baarn, Tweede Kamer                                |
-| [Travel](#travel)                    |        6 | NS, OVapi, ANWB, RDW                                        |
-| [Weather](#weather)                  |        2 | KNMI                                                        |
+| Category                      | Listings | Covers                                                     |
+| ----------------------------- | -------: | ---------------------------------------------------------- |
+| [Accounting](#accounting)     |       19 | Exact Online, Moneybird, Twinfield, WeFact, AFAS Profit, … |
+| [Business](#business)         |        5 | KVK, Adyen, internet.nl, Mollie                            |
+| [Data](#data)                 |        8 | CBS StatLine, CBS ODiN, Geonovum, Kadaster, PDOK, …        |
+| [Education](#education)       |        1 | Magister                                                   |
+| [Government](#government)     |        8 | CBS StatLine, data.overheid.nl, DUO, Tweede Kamer, BAG, …  |
+| [Groceries](#groceries)       |        7 | Albert Heijn, Jumbo, Plus, Picnic, Aldi, DA, …             |
+| [History](#history)           |        6 | Rijksdienst voor het Cultureel Erfgoed, Rijksmuseum, …     |
+| [Housing](#housing)           |        6 | PDOK, BAG, CBS StatLine, EP-Online, Funda, HomeWizard, …   |
+| [Language](#language)         |        3 | Nederlands, Inburgeringsexamen, Staatsexamen NT2           |
+| [Law](#law)                   |        6 | wetten.overheid.nl, Rechtspraak.nl, AVG, Belastingdienst   |
+| [Marketplaces](#marketplaces) |        5 | Marktplaats, bol.com, PostNL                               |
+| [Money](#money)               |        6 | Belastingdienst, Bitvavo, bunq                             |
+| [Travel](#travel)             |        6 | NS, OVapi, ANWB, RDW                                       |
+| [Weather](#weather)           |        2 | KNMI                                                       |
 
 ## Accounting
 
@@ -55,34 +55,18 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 | [kvk-connect (MinBZK)](https://github.com/MinBZK/kvk-connect) | Query and track KVK Handelsregister company data — profiles, history, search, and change notifications — from a self-hosted store you run with your own KVK API key. | KVK | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [kvk-mcp](https://github.com/BartWaardenburg/kvk-mcp) | Query the KVK Handelsregister for Dutch company profiles and search, across 10 tools. | KVK | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [Mollie MCP](https://docs.mollie.com/docs/mollie-mcp-server) | Manage the full Mollie stack — payments, customers, invoices, subscriptions, balances, settlements, terminals, and webhooks. | Mollie | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
-| [postcode-eu-ai-tools](https://github.com/postcode-nl/postcode-eu-ai-tools-python) | Validate and autocomplete Dutch addresses through the official Postcode.eu API. | Postcode.eu | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [skills-internet](https://github.com/developer-overheid-nl/skills-internet) | Skills for internet.nl standards — IPv6, DNSSEC, TLS, DMARC/DKIM/SPF, and DANE. <details><summary>Contains 5 skills</summary><b>Skills</b> inet · inet-api · inet-mail · inet-toolbox · inet-web</details> | internet.nl | ![Skill · Community](assets/badges/tags-skill-community.svg) |
-
-## Buying & Selling
-
-| Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-|---|---|---|---|
-| [bol-mcp](https://github.com/BartWaardenburg/bol-mcp) | Reach bol.com's Retailer API through 76 tools spanning orders, offers, and product listings. | bol.com | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
-| [marktplaats-2dehands-mcp](https://github.com/gjoris/marktplaats-2dehands-mcp) | Search Marktplaats and 2dehands listings, categories, and sellers, with saved searches that return only what is new; an optional login adds your own messages, ads, favourites, and bids. | Marktplaats | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
-| [marktplaats-mcp](https://github.com/PonClick/marktplaats-mcp) | Search and read listings from Marktplaats.nl. | Marktplaats | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
-| [marktplaats-mcp (jasp-nerd)](https://github.com/jasp-nerd/marktplaats-mcp) | Search Marktplaats and 2dehands classifieds with seller-trust signals and new-listing monitoring, no account needed. | Marktplaats | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
-| [PostNL MCP](https://github.com/BartWaardenburg/postnl-mcp) | Create shipments and track PostNL parcels, barcodes, and pickup-point locations. | PostNL | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 
 ## Data
 
-| Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
 | [cbs-statline-skill](https://github.com/linksmith/cbs-statline-skill) | Find CBS StatLine tables, read their metadata, and download and combine them for analysis, with recipes for Dutch housing and energy statistics and warnings for tables being retired. | CBS StatLine | ![Skill · Community](assets/badges/tags-skill-community.svg) |
-| [Data Journalist AI Agent Plugin](https://github.com/linksmith/data-journalist-ai-agent-plugin-with-skills) | Research Dutch investigative stories with API patterns for CBS, DUO, KVK, Woogle, and officielebekendmakingen, browser lookups where no API exists, Woo request drafting, and investigation state tracking. <details><summary>Contains 4 skills · 2 commands · 1 agent</summary><b>Skills</b> browser-lookup · dutch-sources · story-state · woo-draft<br><b>Commands</b> new-investigation · weekly-digest<br><b>Agents</b> research-assistant</details> | CBS StatLine / DUO (Dienst Uitvoering Onderwijs) / KVK / Woogle / officielebekendmakingen.nl / RVO (Rijksdienst voor Ondernemend Nederland) / NVWA / BIG-register | ![Bundle · Community · Beta](assets/badges/tags-bundle-community-beta.svg) |
 | [data-analysis-journalism](https://github.com/linksmith/data-analysis-journalism) | Run an eight-step exploratory analysis over a Dutch open dataset and report it as story leads in Dutch — headline finding, key figures, and outliers set against the national average. | CBS StatLine | ![Skill · Community · Beta](assets/badges/tags-skill-community-beta.svg) |
 | [data-cleaning-dutch](https://github.com/linksmith/data-cleaning-dutch) | Clean Dutch government CSV and Excel exports in pandas — semicolon separators with comma decimals, encoding detection, Dutch missing-value markers, day-first dates, postcode validation, and merged cells. | CBS StatLine / Kadaster | ![Skill · Community](assets/badges/tags-skill-community.svg) |
 | [dutch-choropleth-maps](https://github.com/linksmith/dutch-choropleth-maps) | Build choropleth maps of Dutch regions — detect gemeente, wijk, or buurt level from CBS region codes, fetch PDOK boundaries, reproject from RD to WGS84, and render with geopandas, Folium, or Plotly. | PDOK / CBS StatLine | ![Skill · Community](assets/badges/tags-skill-community.svg) |
 | [mcp-cbs-cijfers-open-data](https://github.com/dstotijn/mcp-cbs-cijfers-open-data) | Makes official Dutch statistics from CBS (StatLine) accessible for AI assistants. | CBS StatLine | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
-| [mcp-developer-overheid-api-register](https://github.com/dstotijn/mcp-developer-overheid-api-register) | Search the developer.overheid.nl API Register for Dutch government APIs and their source repositories. | developer.overheid.nl API Register | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
-| [mcp-gemeente-amsterdam](https://github.com/aronmartin/mcp-gemeente-amsterdam) | Query Amsterdam's open APIs across buildings, WOZ, parking, waste, monuments, permits, soil, and more from one server. | Gemeente Amsterdam | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
-| [nl-gov-mcp](https://github.com/WAINUTAI/nl-gov-mcp) | Reach 39 Dutch government data sources through one server — CBS, RDW, KNMI, PDOK, Rechtspraak, DUO, and more. | CBS StatLine / RDW / KNMI / Rechtspraak.nl / PDOK / Kadaster / Rijksdienst voor het Cultureel Erfgoed (RCE) / wetten.overheid.nl / OVapi / NS (Nederlandse Spoorwegen) / data.overheid.nl / Tweede Kamer / DUO (Dienst Uitvoering Onderwijs) / BAG (Basisregistratie Adressen en Gebouwen) | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
-| [nl-opendata-mcp](https://github.com/soulnai/nl-opendata-mcp) | Search, query, download, and locally analyse CBS (OData) and data.overheid.nl datasets in CSV or Parquet. | CBS StatLine / data.overheid.nl | ![MCP · Community · Beta](assets/badges/tags-mcp-community-beta.svg) |
-| [open-utrecht-datasets](https://github.com/Terminal-WOO/open-utrecht-datasets) | Search, explore, and download Municipality of Utrecht open datasets across six tools, with experimental Woo-relevance tagging (full Woo-document search is planned). | Gemeente Utrecht | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [postcode-eu-ai-tools](https://github.com/postcode-nl/postcode-eu-ai-tools-python) | Validate and autocomplete Dutch addresses through the official Postcode.eu API. | Postcode.eu | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [SB OGC MCP](https://github.com/Studio-Bereikbaar/sb-ogc-mcp) | Query Dutch mobility data through Studio Bereikbaar's OGC API — the CBS ODiN travel survey, national traffic-model networks, administrative boundaries, and accessibility maps. | CBS ODiN | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [skills-geo](https://github.com/developer-overheid-nl/skills-geo) | Skills for Geonovum geo-standards — OGC API, NEN 3610, INSPIRE, and 3D geo-information. <details><summary>Contains 6 skills</summary><b>Skills</b> geo · geo-3d · geo-api · geo-inspire · geo-meta · geo-model</details> | Geonovum | ![Skill · Community](assets/badges/tags-skill-community.svg) |
 
@@ -91,6 +75,19 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 | Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
 | [unofficial-magister-mcp](https://github.com/israelroldan/unofficial-magister-mcp) | Look up Dutch school schedules from Magister — daily and weekly timetables plus drop-off and pick-up times, for student and parent accounts. | Magister | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+
+## Government
+
+| Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+|---|---|---|---|
+| [baarn-raadsinformatie](https://github.com/tiemenrtuinstra/baarn-raadsinformatie) | Search Gemeente Baarn council meetings, agendas, and documents via the Notubiz API, with keyword and semantic search. | Gemeente Baarn | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [Data Journalist AI Agent Plugin](https://github.com/linksmith/data-journalist-ai-agent-plugin-with-skills) | Research Dutch investigative stories with API patterns for CBS, DUO, KVK, Woogle, and officielebekendmakingen, browser lookups where no API exists, Woo request drafting, and investigation state tracking. <details><summary>Contains 4 skills · 2 commands · 1 agent</summary><b>Skills</b> browser-lookup · dutch-sources · story-state · woo-draft<br><b>Commands</b> new-investigation · weekly-digest<br><b>Agents</b> research-assistant</details> | CBS StatLine / DUO (Dienst Uitvoering Onderwijs) / KVK / Woogle / officielebekendmakingen.nl / RVO (Rijksdienst voor Ondernemend Nederland) / NVWA / BIG-register | ![Bundle · Community · Beta](assets/badges/tags-bundle-community-beta.svg) |
+| [mcp-developer-overheid-api-register](https://github.com/dstotijn/mcp-developer-overheid-api-register) | Search the developer.overheid.nl API Register for Dutch government APIs and their source repositories. | developer.overheid.nl API Register | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [mcp-gemeente-amsterdam](https://github.com/aronmartin/mcp-gemeente-amsterdam) | Query Amsterdam's open APIs across buildings, WOZ, parking, waste, monuments, permits, soil, and more from one server. | Gemeente Amsterdam | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [nl-gov-mcp](https://github.com/WAINUTAI/nl-gov-mcp) | Reach 39 Dutch government data sources through one server — CBS, RDW, KNMI, PDOK, Rechtspraak, DUO, and more. | CBS StatLine / RDW / KNMI / Rechtspraak.nl / PDOK / Kadaster / Rijksdienst voor het Cultureel Erfgoed (RCE) / wetten.overheid.nl / OVapi / NS (Nederlandse Spoorwegen) / data.overheid.nl / Tweede Kamer / DUO (Dienst Uitvoering Onderwijs) / BAG (Basisregistratie Adressen en Gebouwen) | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [nl-opendata-mcp](https://github.com/soulnai/nl-opendata-mcp) | Search, query, download, and locally analyse CBS (OData) and data.overheid.nl datasets in CSV or Parquet. | CBS StatLine / data.overheid.nl | ![MCP · Community · Beta](assets/badges/tags-mcp-community-beta.svg) |
+| [open-utrecht-datasets](https://github.com/Terminal-WOO/open-utrecht-datasets) | Search, explore, and download Municipality of Utrecht open datasets across six tools, with experimental Woo-relevance tagging (full Woo-document search is planned). | Gemeente Utrecht | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [OpenTK MCP](https://github.com/r-huijts/opentk-mcp) | Query Tweede Kamer (Dutch parliament) debates, motions, and documents. | Tweede Kamer | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 
 ## Groceries
 
@@ -104,7 +101,7 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 | [Pepesto Agent to Cart](https://www.pepesto.com/agent-to-cart/) | Hand a shopping list from any MCP client to the Pepesto app to fill an Albert Heijn, Jumbo, or Plus cart — the connector returns a deep link to open on your phone, not a priced basket. | Albert Heijn / Jumbo / Plus | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [Pepesto MCP Server](https://github.com/pepesto-solutions/pepesto-mcp) | Turn a recipe URL, text, or photo into a matched Albert Heijn, Jumbo, or Plus basket with live prices — it ends at a checkout link and does not place the order. | Albert Heijn / Jumbo / Plus | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 
-## Heritage
+## History
 
 | Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
@@ -145,6 +142,16 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 | [Wetsanalyse AI](https://github.com/palmw01/wetsanalyse-ai) | Produce source-traceable analyses of Dutch legislation with the JAS method and formalise them into Belastingdienst RegelSpraak, through a skill plus a bundled wettenbank MCP with human-review checkpoints. <details><summary>Contains 2 skills · 1 MCP server</summary><b>Skills</b> regelspraak · wetsanalyse<br><b>MCP servers</b> wettenbank</details> | wetten.overheid.nl / Belastingdienst | ![Bundle · Community](assets/badges/tags-bundle-community.svg) |
 | [wetten-overheid-tools](https://github.com/palmw01/wetten-overheid-tools) | Search Dutch legislation on wetten.overheid.nl and retrieve its structure, articles, and terms. | wetten.overheid.nl | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 
+## Marketplaces
+
+| Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+|---|---|---|---|
+| [bol-mcp](https://github.com/BartWaardenburg/bol-mcp) | Reach bol.com's Retailer API through 76 tools spanning orders, offers, and product listings. | bol.com | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [marktplaats-2dehands-mcp](https://github.com/gjoris/marktplaats-2dehands-mcp) | Search Marktplaats and 2dehands listings, categories, and sellers, with saved searches that return only what is new; an optional login adds your own messages, ads, favourites, and bids. | Marktplaats | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [marktplaats-mcp](https://github.com/PonClick/marktplaats-mcp) | Search and read listings from Marktplaats.nl. | Marktplaats | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [marktplaats-mcp (jasp-nerd)](https://github.com/jasp-nerd/marktplaats-mcp) | Search Marktplaats and 2dehands classifieds with seller-trust signals and new-listing monitoring, no account needed. | Marktplaats | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [PostNL MCP](https://github.com/BartWaardenburg/postnl-mcp) | Create shipments and track PostNL parcels, barcodes, and pickup-point locations. | PostNL | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+
 ## Money
 
 | Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
@@ -155,13 +162,6 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 | [bunq Partner MCP](https://github.com/bunq/partner-mcp) | Automate bunq banking through the Partner API — onboarding, KYC, accounts, payments, cards, and compliance. | bunq | ![MCP · Official · Beta](assets/badges/tags-mcp-official-beta.svg) |
 | [dutch-finance-planner-skill](https://github.com/jonnekleijer/dutch-finance-planner-skill) | Coach personal finances for the Netherlands through a guided interview — box 1/2/3, toeslagen, AOW/pension, mortgage/HRA, the 30% ruling, and gift/inheritance tax. | Belastingdienst | ![Skill · Community](assets/badges/tags-skill-community.svg) |
 | [nl-tax-agent-skills](https://github.com/cyanxxy/nl-tax-agent-skills) | Turn your own tax documents into a source-cited workpack mapped to Mijn Belastingdienst fields for the income-tax return and voorlopige aanslag — you still enter the figures yourself. <details><summary>Contains 11 skills · 1 agent</summary><b>Skills</b> nl-tax-annual-return · nl-tax-box1-home · nl-tax-box2 · nl-tax-box3 · nl-tax-evidence-indexer · nl-tax-field-mapper · nl-tax-intake · nl-tax-partner-deductions · nl-tax-provisional-assessment · nl-tax-submit-companion · nl-tax-winst<br><b>Agents</b> nl-tax-specialist-reviewer</details> | Belastingdienst | ![Bundle · Community](assets/badges/tags-bundle-community.svg) |
-
-## Politics
-
-| Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-|---|---|---|---|
-| [baarn-raadsinformatie](https://github.com/tiemenrtuinstra/baarn-raadsinformatie) | Search Gemeente Baarn council meetings, agendas, and documents via the Notubiz API, with keyword and semantic search. | Gemeente Baarn | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
-| [OpenTK MCP](https://github.com/r-huijts/opentk-mcp) | Query Tweede Kamer (Dutch parliament) debates, motions, and documents. | Tweede Kamer | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 
 ## Travel
 
