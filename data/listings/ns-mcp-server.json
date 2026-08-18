@@ -1,7 +1,7 @@
 {
   "id": "ns-mcp-server",
   "name": "NS MCP Server",
-  "category": "mobility-travel",
+  "category": "reizen",
   "description_en": "Look up NS train departures and disruptions and plan train journeys.",
   "description_nl": "Bekijk vertrektijden en storingen van de NS en plan treinreizen.",
   "subject": [

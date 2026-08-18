@@ -1,7 +1,7 @@
 {
   "id": "ns-travel-mcp",
   "name": "ns-travel-mcp",
-  "category": "mobility-travel",
+  "category": "reizen",
   "description_en": "Plan NS journeys and check real-time train data and disruption alerts.",
   "description_nl": "Plan NS-reizen en bekijk actuele treingegevens en storingsmeldingen.",
   "subject": [

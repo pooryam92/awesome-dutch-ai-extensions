@@ -1,7 +1,7 @@
 {
   "id": "ledger-botje",
   "name": "Ledger Botje",
-  "category": "accounting-finance",
+  "category": "boekhouding",
   "description_en": "Handle Exact Online invoices, orders, inventory, and deliveries through a hosted MCP.",
   "description_nl": "Verwerk facturen, orders, voorraad en leveringen in Exact Online via een gehoste MCP.",
   "subject": [

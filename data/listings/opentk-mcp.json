@@ -1,7 +1,7 @@
 {
   "id": "opentk-mcp",
   "name": "OpenTK MCP",
-  "category": "open-data-culture",
+  "category": "politiek",
   "description_en": "Query Tweede Kamer (Dutch parliament) debates, motions, and documents.",
   "description_nl": "Bevraag debatten, moties en documenten van de Tweede Kamer.",
   "subject": [

@@ -1,7 +1,7 @@
 {
   "id": "aangifte-ib-skill",
   "name": "aangifte-ib-skill",
-  "category": "legal-compliance",
+  "category": "geld",
   "description_en": "A skill that prepares a sourced Dutch personal income-tax return with an adaptive interview and review dossier.",
   "description_nl": "Een skill die een onderbouwde Nederlandse aangifte inkomstenbelasting voorbereidt met een meebewegend vraaggesprek en een controledossier.",
   "subject": [

@@ -1,7 +1,7 @@
 {
   "id": "baarn-raadsinformatie",
   "name": "baarn-raadsinformatie",
-  "category": "open-data-culture",
+  "category": "politiek",
   "description_en": "Search Gemeente Baarn council meetings, agendas, and documents via the Notubiz API, with keyword and semantic search.",
   "description_nl": "Zoek raadsvergaderingen, agenda's en documenten van gemeente Baarn via de Notubiz API, met zoeken op trefwoord en semantisch zoeken.",
   "subject": [

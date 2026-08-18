@@ -1,7 +1,7 @@
 {
   "id": "mcp-developer-overheid-api-register",
   "name": "mcp-developer-overheid-api-register",
-  "category": "developer-standards",
+  "category": "data",
   "description_en": "Search the developer.overheid.nl API Register for Dutch government APIs and their source repositories.",
   "description_nl": "Zoek in het API Register van developer.overheid.nl naar Nederlandse overheids-API's en hun broncode-repositories.",
   "subject": [

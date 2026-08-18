@@ -1,7 +1,7 @@
 {
   "id": "mcp-cbs-cijfers-open-data",
   "name": "mcp-cbs-cijfers-open-data",
-  "category": "open-data-culture",
+  "category": "data",
   "description_en": "Makes official Dutch statistics from CBS (StatLine) accessible for AI assistants.",
   "description_nl": "Maakt officiële Nederlandse statistieken van het CBS (StatLine) toegankelijk voor AI-assistenten.",
   "subject": [

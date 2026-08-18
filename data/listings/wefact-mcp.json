@@ -1,7 +1,7 @@
 {
   "id": "wefact-mcp",
   "name": "WeFact MCP",
-  "category": "accounting-finance",
+  "category": "boekhouding",
   "description_en": "Manage WeFact debtors, invoices, products, and subscriptions.",
   "description_nl": "Beheer debiteuren, facturen, producten en abonnementen in WeFact.",
   "subject": [

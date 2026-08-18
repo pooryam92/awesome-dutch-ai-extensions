@@ -1,7 +1,7 @@
 {
   "id": "rijksmuseum-mcp",
   "name": "Rijksmuseum MCP",
-  "category": "open-data-culture",
+  "category": "historie",
   "description_en": "Search and browse the Rijksmuseum's art collection by artist, work, and theme.",
   "description_nl": "Zoek en verken de kunstcollectie van het Rijksmuseum op kunstenaar, werk en thema.",
   "subject": [

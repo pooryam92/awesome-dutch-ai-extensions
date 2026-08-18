@@ -1,7 +1,7 @@
 {
   "id": "poc-machine-law",
   "name": "poc-machine-law",
-  "category": "government-services",
+  "category": "recht",
   "description_en": "Query Dutch legislation and check benefits eligibility through the RegelRecht machine-law server.",
   "description_nl": "Bevraag Nederlandse wetgeving en controleer of iemand recht heeft op toeslagen via de machine-law-server RegelRecht.",
   "subject": [

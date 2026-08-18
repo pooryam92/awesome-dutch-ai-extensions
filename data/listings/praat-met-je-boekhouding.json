@@ -1,7 +1,7 @@
 {
   "id": "praat-met-je-boekhouding",
   "name": "Praat met je Boekhouding",
-  "category": "accounting-finance",
+  "category": "boekhouding",
   "description_en": "Query Exact Online bookkeeping across 111 tools — invoicing, BTW/ICP, and reporting — read-only by default.",
   "description_nl": "Bevraag je boekhouding in Exact Online met 111 tools — facturatie, BTW/ICP en rapportage — standaard alleen-lezen.",
   "subject": [

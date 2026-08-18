@@ -1,7 +1,7 @@
 {
   "id": "homewizard-mcp-server",
   "name": "homewizard-mcp-server",
-  "category": "consumer-daily-life",
+  "category": "wonen",
   "description_en": "Read live HomeWizard P1 smart-meter data — power, per-phase voltages and currents, cumulative kWh, and gas — over the local API, read-only.",
   "description_nl": "Lees live gegevens van je HomeWizard P1-slimme meter — vermogen, spanning en stroom per fase, cumulatieve kWh en gas — via de lokale API, alleen-lezen.",
   "subject": [

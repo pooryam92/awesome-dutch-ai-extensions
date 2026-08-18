@@ -1,7 +1,7 @@
 {
   "id": "dutch-native",
   "name": "Dutch Native",
-  "category": "dutch-language",
+  "category": "taal",
   "description_en": "Rewrite Dutch text so it reads as native rather than translated, in either Netherlands or Belgian Dutch.",
   "description_nl": "Herschrijf Nederlandse tekst zodat die native leest in plaats van vertaald, in Nederlands of Belgisch Nederlands.",
   "subject": [

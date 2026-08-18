@@ -1,7 +1,7 @@
 {
   "id": "simplicate-mcp",
   "name": "Simplicate MCP",
-  "category": "accounting-finance",
+  "category": "boekhouding",
   "description_en": "Work with Simplicate project, CRM, and invoicing data through a per-domain hosted endpoint.",
   "description_nl": "Werk met project-, CRM- en factuurgegevens uit Simplicate via een gehost endpoint per domein.",
   "subject": [

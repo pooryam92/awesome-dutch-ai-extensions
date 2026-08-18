@@ -1,7 +1,7 @@
 {
   "id": "mcp-metadata-demo",
   "name": "mcp-metadata-demo",
-  "category": "housing-property",
+  "category": "wonen",
   "description_en": "Profile a Dutch building from its address by fusing BAG and EP-Online, returning construction era, energy label, and advisory alerts against Bouwbesluit, BENG, and Paris Proof thresholds.",
   "description_nl": "Stel op adres een gebouwprofiel samen uit BAG en EP-Online, met bouwperiode, energielabel en signaleringen getoetst aan Bouwbesluit, BENG en Paris Proof-drempels.",
   "subject": [

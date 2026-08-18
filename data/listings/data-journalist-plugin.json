@@ -1,7 +1,7 @@
 {
   "id": "data-journalist-plugin",
   "name": "Data Journalist AI Agent Plugin",
-  "category": "open-data-culture",
+  "category": "data",
   "description_en": "Research Dutch investigative stories with API patterns for CBS, DUO, KVK, Woogle, and officielebekendmakingen, browser lookups where no API exists, Woo request drafting, and investigation state tracking.",
   "description_nl": "Onderzoek Nederlandse verhalen met API-patronen voor CBS, DUO, KVK, Woogle en officielebekendmakingen, browserlookups waar geen API is, het opstellen van Woo-verzoeken en het bijhouden van de onderzoeksstatus.",
   "subject": [

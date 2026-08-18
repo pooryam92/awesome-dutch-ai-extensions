@@ -1,42 +1,58 @@
 {
-  "accounting-finance": {
-    "en": "Accounting & Finance",
-    "nl": "Boekhouding & financiën"
+  "bedrijf": {
+    "en": "Business",
+    "nl": "Bedrijf"
   },
-  "consumer-daily-life": {
-    "en": "Consumer & Daily Life",
-    "nl": "Consument & dagelijks leven"
+  "boekhouding": {
+    "en": "Accounting",
+    "nl": "Boekhouding"
   },
-  "developer-standards": {
-    "en": "Developers & Standards",
-    "nl": "Developers & standaarden"
+  "boodschappen": {
+    "en": "Groceries",
+    "nl": "Boodschappen"
   },
-  "dutch-language": {
-    "en": "Dutch Language",
-    "nl": "Nederlandse taal"
+  "data": {
+    "en": "Data",
+    "nl": "Data"
   },
-  "ecommerce-logistics": {
-    "en": "E-commerce & Logistics",
-    "nl": "E-commerce & logistiek"
+  "geld": {
+    "en": "Money",
+    "nl": "Geld"
   },
-  "government-services": {
-    "en": "Government Services",
-    "nl": "Overheidsdiensten"
+  "historie": {
+    "en": "Heritage",
+    "nl": "Historie"
   },
-  "housing-property": {
-    "en": "Housing & Property",
-    "nl": "Wonen & vastgoed"
+  "onderwijs": {
+    "en": "Education",
+    "nl": "Onderwijs"
   },
-  "legal-compliance": {
-    "en": "Legal & Compliance",
-    "nl": "Recht & compliance"
+  "politiek": {
+    "en": "Politics",
+    "nl": "Politiek"
   },
-  "mobility-travel": {
-    "en": "Mobility & Travel",
-    "nl": "Mobiliteit & reizen"
+  "recht": {
+    "en": "Law",
+    "nl": "Recht"
   },
-  "open-data-culture": {
-    "en": "Open Data & Culture",
-    "nl": "Open data & cultuur"
+  "reizen": {
+    "en": "Travel",
+    "nl": "Reizen"
+  },
+  "spullen": {
+    "en": "Buying & Selling",
+    "nl": "Spullen"
+  },
+  "taal": {
+    "en": "Language",
+    "nl": "Taal"
+  },
+  "weer": {
+    "en": "Weather",
+    "nl": "Weer"
+  },
+  "wonen": {
+    "en": "Housing",
+    "nl": "Wonen"
   }
 }

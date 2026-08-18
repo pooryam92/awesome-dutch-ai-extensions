@@ -1,7 +1,7 @@
 {
   "id": "ictrecht-legal-genai",
   "name": "ICTRecht Legal GenAI Resources",
-  "category": "legal-compliance",
+  "category": "recht",
   "description_en": "Summarise and compare contracts against Dutch and EU law — DPAs, NDAs, and copyright transfers — with prompts and templates validated by an IT-law firm.",
   "description_nl": "Vat contracten samen en vergelijk ze met Nederlands en Europees recht — verwerkersovereenkomsten, NDA's en auteursrechtoverdrachten — met prompts en templates getoetst door een ICT-jurist.",
   "subject": [

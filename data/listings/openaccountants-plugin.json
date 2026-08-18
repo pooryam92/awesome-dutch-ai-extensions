@@ -1,7 +1,7 @@
 {
   "id": "openaccountants-plugin",
   "name": "OpenAccountants Plugin",
-  "category": "legal-compliance",
+  "category": "boekhouding",
   "description_en": "Classify transactions and apply Dutch tax guidance — VAT, income tax, payroll, and zzp deductions — sourced to Wet IB 2001; the Dutch package is not yet accountant-signed off.",
   "description_nl": "Categoriseer transacties en pas Nederlandse fiscale richtlijnen toe — BTW, inkomstenbelasting, loonheffingen en zzp-aftrekposten — met bronverwijzing naar Wet IB 2001; het Nederlandse pakket is nog niet door een accountant goedgekeurd.",
   "subject": [

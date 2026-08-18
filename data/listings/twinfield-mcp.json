@@ -1,7 +1,7 @@
 {
   "id": "twinfield-mcp",
   "name": "Twinfield MCP",
-  "category": "accounting-finance",
+  "category": "boekhouding",
   "description_en": "Query and update Twinfield bookkeeping over its SOAP API.",
   "description_nl": "Bevraag de boekhouding in Twinfield en werk die bij via de SOAP API.",
   "subject": [

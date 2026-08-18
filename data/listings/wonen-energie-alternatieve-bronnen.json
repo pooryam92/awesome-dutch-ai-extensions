@@ -1,7 +1,7 @@
 {
   "id": "wonen-energie-alternatieve-bronnen",
   "name": "wonen-energie-alternatieve-bronnen",
-  "category": "open-data-culture",
+  "category": "wonen",
   "description_en": "Combine grid-operator gas consumption per postcode with the PDOK/CBS buurtkaart to reach neighbourhood-level housing and energy findings when StatLine falls short, with the uncertainty spelled out.",
   "description_nl": "Combineer gasverbruik per postcode van netbeheerders met de PDOK/CBS-buurtkaart voor bevindingen over wonen en energie op buurtniveau wanneer StatLine tekortschiet, met de onzekerheid expliciet benoemd.",
   "subject": [

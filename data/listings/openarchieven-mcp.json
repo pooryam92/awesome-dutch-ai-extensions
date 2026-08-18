@@ -1,7 +1,7 @@
 {
   "id": "openarchieven-mcp",
   "name": "openarchieven-mcp",
-  "category": "open-data-culture",
+  "category": "historie",
   "description_en": "Search Open Archieven genealogy records through a no-auth hosted endpoint.",
   "description_nl": "Zoek genealogische akten in Open Archieven via een gehost endpoint zonder authenticatie.",
   "subject": [

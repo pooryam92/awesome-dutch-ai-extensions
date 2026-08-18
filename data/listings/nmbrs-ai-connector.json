@@ -1,7 +1,7 @@
 {
   "id": "nmbrs-ai-connector",
   "name": "Nmbrs AI Connector",
-  "category": "accounting-finance",
+  "category": "boekhouding",
   "description_en": "Run Dutch payroll actions in Nmbrs, with every write gated behind explicit confirmation.",
   "description_nl": "Voer Nederlandse salarisadministratie uit in Nmbrs, waarbij elke schrijfactie pas doorgaat na expliciete bevestiging.",
   "subject": [

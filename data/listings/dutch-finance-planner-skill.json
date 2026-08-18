@@ -1,7 +1,7 @@
 {
   "id": "dutch-finance-planner-skill",
   "name": "dutch-finance-planner-skill",
-  "category": "legal-compliance",
+  "category": "geld",
   "description_en": "Coach personal finances for the Netherlands through a guided interview — box 1/2/3, toeslagen, AOW/pension, mortgage/HRA, the 30% ruling, and gift/inheritance tax.",
   "description_nl": "Begeleid je persoonlijke financiën in Nederland via een gestuurd vraaggesprek — box 1/2/3, toeslagen, AOW/pensioen, hypotheek/HRA, de 30%-regeling en schenk- en erfbelasting.",
   "subject": [

@@ -1,7 +1,7 @@
 {
   "id": "finance-mcp",
   "name": "Finance MCP",
-  "category": "accounting-finance",
+  "category": "boekhouding",
   "description_en": "Query Exact Online bookkeeping read-only through a hosted EU MCP endpoint, with more Dutch accounting platforms planned.",
   "description_nl": "Bevraag de boekhouding in Exact Online alleen-lezen via een gehost MCP-endpoint in de EU; meer Nederlandse boekhoudplatformen staan op de planning.",
   "subject": [

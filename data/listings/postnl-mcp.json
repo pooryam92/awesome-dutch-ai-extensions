@@ -1,7 +1,7 @@
 {
   "id": "postnl-mcp",
   "name": "PostNL MCP",
-  "category": "ecommerce-logistics",
+  "category": "spullen",
   "description_en": "Create shipments and track PostNL parcels, barcodes, and pickup-point locations.",
   "description_nl": "Maak zendingen aan en volg pakketten, barcodes en pakketpunten van PostNL.",
   "subject": [

@@ -1,7 +1,7 @@
 {
   "id": "orderfood",
   "name": "orderfood",
-  "category": "consumer-daily-life",
+  "category": "boodschappen",
   "description_en": "Search Thuisbezorgd.nl restaurants, read menus, and build a cart — placing the order is not supported, because checkout needs a browser payment flow.",
   "description_nl": "Zoek restaurants op Thuisbezorgd.nl, lees menu's en vul een mandje — de bestelling plaatsen kan niet, omdat afrekenen een betaalflow in de browser vereist.",
   "subject": [

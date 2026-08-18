@@ -1,7 +1,7 @@
 {
   "id": "rechtspraak-mcp",
   "name": "rechtspraak-mcp",
-  "category": "legal-compliance",
+  "category": "recht",
   "description_en": "Search Rechtspraak open data and resolve legal citations through LiDO, across six tools.",
   "description_nl": "Zoek in de open data van de Rechtspraak en los juridische verwijzingen op via LiDO, met zes tools.",
   "subject": [

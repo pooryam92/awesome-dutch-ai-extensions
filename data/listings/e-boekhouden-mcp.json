@@ -1,7 +1,7 @@
 {
   "id": "e-boekhouden-mcp",
   "name": "e-Boekhouden MCP",
-  "category": "accounting-finance",
+  "category": "boekhouding",
   "description_en": "Read and write e-Boekhouden administration using your own API credentials.",
   "description_nl": "Lees en muteer je administratie in e-Boekhouden met je eigen API-gegevens.",
   "subject": [

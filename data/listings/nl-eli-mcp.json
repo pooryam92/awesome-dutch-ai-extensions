@@ -1,7 +1,7 @@
 {
   "id": "nl-eli-mcp",
   "name": "nl-eli-mcp",
-  "category": "legal-compliance",
+  "category": "recht",
   "description_en": "Retrieve versioned Dutch legislation (BWB) and Rechtspraak rulings, keyless.",
   "description_nl": "Haal geversioneerde Nederlandse wetgeving (BWB) en uitspraken van de Rechtspraak op, zonder API-key.",
   "subject": [
