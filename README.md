@@ -9,7 +9,7 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 | Category                                         | Listings | Covers                                                         |
 | ------------------------------------------------ | -------: | -------------------------------------------------------------- |
 | [Accounting & Finance](#accounting--finance)     |       22 | Exact Online, Moneybird, Twinfield, WeFact, Adyen, …           |
-| [Consumer & Daily Life](#consumer--daily-life)   |       10 | Albert Heijn, Jumbo, Plus, Picnic, Aldi, Buienradar, DA, …     |
+| [Consumer & Daily Life](#consumer--daily-life)   |        9 | Albert Heijn, Jumbo, Plus, Picnic, Aldi, DA, …                 |
 | [Developers & Standards](#developers--standards) |        3 | developer.overheid.nl API Register, Geonovum, internet.nl      |
 | [Dutch Language](#dutch-language)                |        3 | Nederlands, Inburgeringsexamen, Staatsexamen NT2               |
 | [E-commerce & Logistics](#e-commerce--logistics) |        6 | Marktplaats, bol.com, Postcode.eu, PostNL                      |
@@ -52,7 +52,6 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 |---|---|---|---|
 | [ah-mcp](https://github.com/mrserzhan/ah-mcp) | Browse Albert Heijn products and Bonus deals, and manage your cart, orders, lists, and receipts. | Albert Heijn | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [Albert Heijn Automation](https://github.com/robinbril/Albert-Heijn-Automation) | Plan meals and fill your Albert Heijn list from your own purchase history — cross the bonus folder with what you actually buy, and read the basket back as an eating pattern. <details><summary>Contains 1 skill · 1 MCP server</summary><b>Skills</b> albert-heijn<br><b>MCP servers</b> ah</details> | Albert Heijn | ![Bundle · Community](assets/badges/tags-bundle-community.svg) |
-| [buienradar-mcp-server](https://github.com/wpnbos/buienradar-mcp-server) | Pull a Buienradar rain nowcast — a 2-hour precipitation forecast by coordinates. | Buienradar | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [homewizard-mcp-server](https://github.com/mrksmts/homewizard-mcp-server) | Read live HomeWizard P1 smart-meter data — power, per-phase voltages and currents, cumulative kWh, and gas — over the local API, read-only. | HomeWizard | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [mcp-picnic](https://github.com/ivo-toby/mcp-picnic) | Shop Picnic groceries — search products and manage the cart, orders, and deliveries. | Picnic | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [nl-supermarkt-mcp](https://github.com/Samvox1/nl-supermarkt-mcp) | Search products, compare prices, and plan groceries across Dutch supermarkets and drugstores. | Albert Heijn / Jumbo / Lidl / Aldi / Plus / DekaMarkt / Dirk / Vomar / Hoogvliet / Spar / Picnic / Poiesz / Kruidvat / Etos / Trekpleister / DA / Holland & Barrett / Douglas / De Online Drogist | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
@@ -160,4 +159,4 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 
 ---
 
-_89 listings across 10 categories, holding 85 skills, 26 commands, 2 agents, and 79 MCP servers._
+_88 listings across 10 categories, holding 85 skills, 26 commands, 2 agents, and 78 MCP servers._
