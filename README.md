@@ -13,10 +13,10 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 | [Data](#data)                 |        8 | CBS StatLine, CBS ODiN, Geonovum, Kadaster, PDOK, …        |
 | [Education](#education)       |        1 | Magister                                                   |
 | [Government](#government)     |        8 | CBS StatLine, data.overheid.nl, DUO, Tweede Kamer, BAG, …  |
-| [Groceries](#groceries)       |        7 | Albert Heijn, Jumbo, Plus, Picnic, Aldi, DA, …             |
+| [Groceries](#groceries)       |        8 | Albert Heijn, Jumbo, Plus, Picnic, Aldi, DA, …             |
 | [History](#history)           |        6 | Rijksdienst voor het Cultureel Erfgoed, Rijksmuseum, …     |
-| [Housing](#housing)           |        6 | PDOK, BAG, CBS StatLine, EP-Online, Funda, HomeWizard, …   |
-| [Language](#language)         |        3 | Nederlands, Inburgeringsexamen, Staatsexamen NT2           |
+| [Housing](#housing)           |        5 | CBS StatLine, Funda, HomeWizard, Kadaster, Kamernet, …     |
+| [Language](#language)         |        2 | Nederlands, Inburgeringsexamen, Staatsexamen NT2           |
 | [Law](#law)                   |        6 | wetten.overheid.nl, Rechtspraak.nl, AVG, Belastingdienst   |
 | [Marketplaces](#marketplaces) |        5 | Marktplaats, bol.com, PostNL                               |
 | [Money](#money)               |        6 | Belastingdienst, Bitvavo, bunq                             |
@@ -97,6 +97,7 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 | [Albert Heijn Automation](https://github.com/robinbril/Albert-Heijn-Automation) | Plan meals and fill your Albert Heijn list from your own purchase history — cross the bonus folder with what you actually buy, and read the basket back as an eating pattern. <details><summary>Contains 1 skill · 1 MCP server</summary><b>Skills</b> albert-heijn<br><b>MCP servers</b> ah</details> | Albert Heijn | ![Bundle · Community](assets/badges/tags-bundle-community.svg) |
 | [mcp-picnic](https://github.com/ivo-toby/mcp-picnic) | Shop Picnic groceries — search products and manage the cart, orders, and deliveries. | Picnic | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [nl-supermarkt-mcp](https://github.com/Samvox1/nl-supermarkt-mcp) | Search products, compare prices, and plan groceries across Dutch supermarkets and drugstores. | Albert Heijn / Jumbo / Lidl / Aldi / Plus / DekaMarkt / Dirk / Vomar / Hoogvliet / Spar / Picnic / Poiesz / Kruidvat / Etos / Trekpleister / DA / Holland & Barrett / Douglas / De Online Drogist | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [open-supermarkets](https://github.com/abracadabra50/open-supermarkets) | Search Albert Heijn products through open-supermarkets' grocery MCP and CLI, without an AH account; Dutch support is search-only. <details><summary>Contains 1 skill · 1 MCP server</summary><b>Skills</b> open-supermarkets<br><b>MCP servers</b> groceries</details> | Albert Heijn | ![Bundle · Community](assets/badges/tags-bundle-community.svg) |
 | [orderfood](https://github.com/henkas/orderfood) | Search Thuisbezorgd.nl restaurants, read menus, and build a cart — placing the order is not supported, because checkout needs a browser payment flow. | Thuisbezorgd.nl | ![MCP · Community · Beta](assets/badges/tags-mcp-community-beta.svg) |
 | [Pepesto Agent to Cart](https://www.pepesto.com/agent-to-cart/) | Hand a shopping list from any MCP client to the Pepesto app to fill an Albert Heijn, Jumbo, or Plus cart — the connector returns a deep link to open on your phone, not a priced basket. | Albert Heijn / Jumbo / Plus | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [Pepesto MCP Server](https://github.com/pepesto-solutions/pepesto-mcp) | Turn a recipe URL, text, or photo into a matched Albert Heijn, Jumbo, or Plus basket with live prices — it ends at a checkout link and does not place the order. | Albert Heijn / Jumbo / Plus | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
@@ -114,13 +115,12 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 
 ## Housing
 
-| Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
 | [homewizard-mcp-server](https://github.com/mrksmts/homewizard-mcp-server) | Read live HomeWizard P1 smart-meter data — power, per-phase voltages and currents, cumulative kWh, and gas — over the local API, read-only. | HomeWizard | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [kadaster-mcp](https://github.com/jolietjakeblues/kadaster-mcp) | Query the Kadaster Knowledge Graph of Dutch land-registry and parcel data. | Kadaster | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [kamernet-mcp](https://github.com/jasp-nerd/kamernet-mcp) | Search Kamernet rooms, studios, and apartments, read full bilingual listings, and monitor new ones against your budget. | Kamernet | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [makelaar-mcp](https://github.com/spyrosavl/makelaar-mcp) | Search Funda listings and run NHG, NIBUD, mortgage, and closing-cost calculations. | Funda | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
-| [mcp-metadata-demo](https://github.com/DaveGold/mcp-metadata-demo) | Profile a Dutch building from its address by fusing BAG and EP-Online, returning construction era, energy label, and advisory alerts against Bouwbesluit, BENG, and Paris Proof thresholds. | BAG (Basisregistratie Adressen en Gebouwen) / EP-Online / PDOK | ![MCP · Community · Concept](assets/badges/tags-mcp-community-concept.svg) |
 | [wonen-energie-alternatieve-bronnen](https://github.com/linksmith/wonen-energie-alternatieve-bronnen) | Combine grid-operator gas consumption per postcode with the PDOK/CBS buurtkaart to reach neighbourhood-level housing and energy findings when StatLine falls short, with the uncertainty spelled out. | Netbeheerdata (Liander / Enexis / Stedin) / PDOK / CBS StatLine | ![Skill · Community · Beta](assets/badges/tags-skill-community-beta.svg) |
 
 ## Language
@@ -129,15 +129,14 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 |---|---|---|---|
 | [Dutch Fluency MCP](https://mcp.dutchfluency.com/) | Practise Dutch with CEFR placement tests, sentence correction, and NT2 and inburgering exam preparation. | Nederlands (taal) / Staatsexamen NT2 / Inburgeringsexamen | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [Dutch Native](https://github.com/brunocous/dutch-native) | Rewrite Dutch text so it reads as native rather than translated, in either Netherlands or Belgian Dutch. | Nederlands (taal) | ![Skill · Community](assets/badges/tags-skill-community.svg) |
-| [The Dutch Directory](https://thedutchdirectory.com/mcp) | Compare ways to learn Dutch — schools, tutors, apps, podcasts and exams — via editorial shortlists, city gaps and NT2/inburgering paths, with the publisher's own entries flagged. | Nederlands (taal) / Staatsexamen NT2 / Inburgeringsexamen | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 
 ## Law
 
 | Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
+| [Ansvar Gateway](https://ansvar.eu/coverage/netherlands) | Search cited Dutch statutes, case law, and data-protection sources through Ansvar's hosted OAuth MCP gateway. | wetten.overheid.nl / Rechtspraak.nl / AVG (Algemene verordening gegevensbescherming) | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [ICTRecht Legal GenAI Resources](https://github.com/ICTRecht/Legal-GenAI-Resources) | Summarise and compare contracts against Dutch and EU law — DPAs, NDAs, and copyright transfers — with prompts and templates validated by an IT-law firm. <details><summary>Contains 2 skills · 3 commands · 5 MCP servers</summary><b>Skills</b> samenvatten · vergelijken<br><b>Commands</b> DPA · NDA · overdracht auteursrecht<br><b>MCP servers</b> atlassian · box · egnyte · ms365 · slack</details> | AVG (Algemene verordening gegevensbescherming) | ![Bundle · Commercial · Preview](assets/badges/tags-bundle-commercial-preview.svg) |
 | [nl-eli-mcp](https://github.com/matematicsolutions/nl-eli-mcp) | Retrieve versioned Dutch legislation (BWB) and Rechtspraak rulings, keyless. | wetten.overheid.nl / Rechtspraak.nl | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
-| [poc-machine-law](https://github.com/MinBZK/poc-machine-law) | Query Dutch legislation and check benefits eligibility through the RegelRecht machine-law server. | wetten.overheid.nl | ![MCP · Official · Concept](assets/badges/tags-mcp-official-concept.svg) |
 | [rechtspraak-mcp](https://github.com/Prudai/rechtspraak-mcp) | Search Rechtspraak open data and resolve legal citations through LiDO, across six tools. | Rechtspraak.nl | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [Wetsanalyse AI](https://github.com/palmw01/wetsanalyse-ai) | Produce source-traceable analyses of Dutch legislation with the JAS method and formalise them into Belastingdienst RegelSpraak, via a skill plus a bundled wettenbank MCP with human-review checkpoints. <details><summary>Contains 2 skills · 1 MCP server</summary><b>Skills</b> regelspraak · wetsanalyse<br><b>MCP servers</b> wettenbank</details> | wetten.overheid.nl / Belastingdienst | ![Bundle · Community](assets/badges/tags-bundle-community.svg) |
 | [wetten-overheid-tools](https://github.com/palmw01/wetten-overheid-tools) | Search Dutch legislation on wetten.overheid.nl and retrieve its structure, articles, and terms. | wetten.overheid.nl | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
@@ -183,4 +182,4 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 
 ---
 
-_88 listings across 14 categories, holding 85 skills, 26 commands, 2 agents, and 78 MCP servers._
+_87 listings across 14 categories, holding 86 skills, 26 commands, 2 agents, and 77 MCP servers._

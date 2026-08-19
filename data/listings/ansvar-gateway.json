@@ -1,0 +1,32 @@
+{
+  "id": "ansvar-gateway",
+  "name": "Ansvar Gateway",
+  "category": "recht",
+  "description_en": "Search cited Dutch statutes, case law, and data-protection sources through Ansvar's hosted OAuth MCP gateway.",
+  "description_nl": "Doorzoek geciteerde Nederlandse wetgeving, rechtspraak en AVG-bronnen via de gehoste OAuth-MCP-gateway van Ansvar.",
+  "subject": [
+    "wetten-overheid",
+    "rechtspraak",
+    "avg"
+  ],
+  "contains": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "ansvar-gateway"
+    ]
+  },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "ansvar.eu",
+      "account": true
+    }
+  ],
+  "origin": "commercial",
+  "status": "live",
+  "publisher": "Ansvar Systems AB",
+  "source_url": "https://ansvar.eu/coverage/netherlands",
+  "last_checked": "2026-08-19"
+}

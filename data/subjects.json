@@ -76,10 +76,6 @@
   "e-boekhouden": {
     "name": "e-Boekhouden"
   },
-  "ep-online": {
-    "name": "EP-Online",
-    "kind": "dataset"
-  },
   "etos": {
     "name": "Etos"
   },
