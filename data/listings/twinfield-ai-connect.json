@@ -2,8 +2,8 @@
   "id": "twinfield-ai-connect",
   "name": "Twinfield AI Connect",
   "category": "boekhouding",
-  "description_en": "Put a Twinfield administration behind your assistant without installing anything, for outstanding items, aging, and result and balance figures, where every booking waits for your confirmation before it posts.",
-  "description_nl": "Zet een Twinfield-administratie achter je assistent zonder iets te installeren, voor openstaande posten, ouderdomsanalyse en resultaat- en balanscijfers, waarbij elke boeking wacht op jouw bevestiging voordat die wordt verwerkt.",
+  "description_en": "Put a Twinfield administration behind your assistant without installing anything — outstanding items, aging, and result and balance figures, with every booking waiting for your confirmation.",
+  "description_nl": "Zet een Twinfield-administratie achter je assistent zonder iets te installeren — openstaande posten, ouderdomsanalyse en resultaat- en balanscijfers; elke boeking wacht op jouw bevestiging.",
   "subject": [
     "twinfield"
   ],

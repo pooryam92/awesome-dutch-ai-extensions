@@ -2,8 +2,8 @@
   "id": "wefact-mcp-codemill",
   "name": "wefact-mcp (CodeMill)",
   "category": "boekhouding",
-  "description_en": "Work a WeFact administration across all 17 API controllers — invoices, subscriptions, quotes, purchase invoices, bank transactions and CRM — read-only until you enable writes, with a separate opt-in before any tool emails a customer; it installs from a clone, because the npm package its README documents was never published.",
-  "description_nl": "Werk in een WeFact-administratie over alle 17 API-controllers — facturen, abonnementen, offertes, inkoopfacturen, banktransacties en CRM — standaard alleen-lezen tot je schrijven aanzet, met een aparte opt-in voordat een tool een klant mailt; installeren gaat via een clone, omdat het npm-pakket uit de README nooit is gepubliceerd.",
+  "description_en": "Work a WeFact administration across all 17 API controllers — invoices, subscriptions, bank transactions and CRM — writes and customer emails each need an opt-in; installs from a clone, not npm.",
+  "description_nl": "Werk in een WeFact-administratie met alle 17 API-controllers — facturen, abonnementen, banktransacties en CRM — schrijven en klantmails hebben elk een opt-in; je installeert via een clone, niet npm.",
   "subject": [
     "wefact"
   ],

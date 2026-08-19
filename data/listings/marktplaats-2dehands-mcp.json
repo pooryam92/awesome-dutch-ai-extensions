@@ -3,7 +3,7 @@
   "name": "marktplaats-2dehands-mcp",
   "category": "spullen",
   "description_en": "Search Marktplaats and 2dehands listings, categories, and sellers, with saved searches that return only what is new; an optional login adds your own messages, ads, favourites, and bids.",
-  "description_nl": "Zoek advertenties, categorieën en verkopers op Marktplaats en 2dehands, met bewaarde zoekopdrachten die alleen nieuwe resultaten teruggeven; een optionele login voegt je eigen berichten, advertenties, favorieten en biedingen toe.",
+  "description_nl": "Zoek advertenties, categorieën en verkopers op Marktplaats en 2dehands; bewaarde zoekopdrachten geven alleen het nieuwe terug, een login voegt je berichten, advertenties, favorieten en biedingen toe.",
   "subject": [
     "marktplaats"
   ],

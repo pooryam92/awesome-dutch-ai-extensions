@@ -2,8 +2,8 @@
   "id": "rijksmuseum-mcp-plus",
   "name": "rijksmuseum-mcp+",
   "category": "historie",
-  "description_en": "Research the Rijksmuseum collection in depth with semantic and Iconclass search, provenance analysis, similarity comparisons and geographic queries — over an enriched copy of the museum's metadata, not its live API.",
-  "description_nl": "Onderzoek de Rijksmuseumcollectie diepgaand met semantisch en Iconclass-zoeken, herkomstonderzoek, gelijkenisvergelijkingen en geografische zoekopdrachten — op een verrijkte kopie van de museummetadata, niet op de live API.",
+  "description_en": "Research the Rijksmuseum collection with semantic and Iconclass search, provenance analysis, similarity comparisons and geographic queries — on an enriched copy of the metadata, not the live API.",
+  "description_nl": "Onderzoek de Rijksmuseumcollectie met semantisch en Iconclass-zoeken, herkomstonderzoek, gelijkenisvergelijkingen en geografisch zoeken — op een verrijkte kopie van de metadata, niet op de live API.",
   "subject": [
     "rijksmuseum",
     "iconclass"

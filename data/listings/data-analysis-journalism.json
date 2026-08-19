@@ -3,7 +3,7 @@
   "name": "data-analysis-journalism",
   "category": "data",
   "description_en": "Run an eight-step exploratory analysis over a Dutch open dataset and report it as story leads in Dutch — headline finding, key figures, and outliers set against the national average.",
-  "description_nl": "Voer een verkennende analyse in acht stappen uit op een Nederlandse open dataset en rapporteer die als verhaallijnen in het Nederlands — hoofdbevinding, kerngetallen en uitschieters tegen het landelijk gemiddelde.",
+  "description_nl": "Verken een Nederlandse open dataset in acht stappen en rapporteer verhaallijnen in het Nederlands — hoofdbevinding, kerngetallen en uitschieters tegen het landelijk gemiddelde.",
   "subject": [
     "cbs-statline"
   ],

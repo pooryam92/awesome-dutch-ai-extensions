@@ -40,12 +40,14 @@
     "description_en": {
       "type": "string",
       "minLength": 1,
-      "description": "One outcome-first sentence."
+      "maxLength": 200,
+      "description": "One outcome-first sentence. At most 200 characters: the cards that quote it clamp at three lines."
     },
     "description_nl": {
       "type": "string",
       "minLength": 1,
-      "description": "Dutch mirror of description_en: one outcome-first sentence, same register. Product/vendor names stay untranslated."
+      "maxLength": 200,
+      "description": "Dutch mirror of description_en: one outcome-first sentence, same register, at most 200 characters. Product/vendor names stay untranslated."
     },
     "subject": {
       "type": "array",
