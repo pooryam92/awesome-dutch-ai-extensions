@@ -32,6 +32,9 @@
   "bitvavo": {
     "name": "Bitvavo"
   },
+  "business-central": {
+    "name": "Microsoft Dynamics 365 Business Central"
+  },
   "bol": {
     "name": "bol.com"
   },

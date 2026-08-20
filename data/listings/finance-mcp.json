@@ -2,10 +2,13 @@
   "id": "finance-mcp",
   "name": "Finance MCP",
   "category": "boekhouding",
-  "description_en": "Query Exact Online bookkeeping read-only through a hosted EU MCP endpoint, with more Dutch accounting platforms planned.",
-  "description_nl": "Bevraag de boekhouding in Exact Online alleen-lezen via een gehost MCP-endpoint in de EU; meer Nederlandse boekhoudplatformen staan op de planning.",
+  "description_en": "Query Exact Online, Moneybird, Business Central, and Twinfield bookkeeping read-only through one hosted EU MCP endpoint and a shared financial data model.",
+  "description_nl": "Bevraag boekhoudingen in Exact Online, Moneybird, Business Central en Twinfield alleen-lezen via één gehost EU-MCP-endpoint met een gedeeld financieel datamodel.",
   "subject": [
-    "exact-online"
+    "exact-online",
+    "moneybird",
+    "business-central",
+    "twinfield"
   ],
   "contains": {
     "skills": [],
@@ -32,11 +35,15 @@
     {
       "domain": "microsoft.com",
       "account": true
+    },
+    {
+      "domain": "twinfield.com",
+      "account": true
     }
   ],
   "origin": "commercial",
   "status": "live",
-  "publisher": "Productivity Advisors BV",
+  "publisher": "Productivity Advisors B.V.",
   "source_url": "https://financemcp.nl/",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-20"
 }
