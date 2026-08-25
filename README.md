@@ -8,7 +8,7 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 
 | Category                      | Listings | Covers                                                     |
 | ----------------------------- | -------: | ---------------------------------------------------------- |
-| [Accounting](#accounting)     |       19 | Exact Online, Moneybird, Twinfield, WeFact, AFAS Profit, … |
+| [Accounting](#accounting)     |       20 | Exact Online, Moneybird, Twinfield, WeFact, AFAS Profit, … |
 | [Business](#business)         |        5 | KVK, Adyen, internet.nl, Mollie                            |
 | [Data](#data)                 |        8 | CBS StatLine, CBS ODiN, Geonovum, Kadaster, PDOK, …        |
 | [Education](#education)       |        1 | Magister                                                   |
@@ -33,6 +33,7 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 | [exact-mcp](https://github.com/lemon-official/exact-mcp) | Read and write Exact Online orders and accounting data with encrypted OAuth tokens, allowlisted OData queries, and per-division rate-limit handling. | Exact Online | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [Finance MCP](https://financemcp.nl/) | Query Exact Online, Moneybird, Business Central, and Twinfield bookkeeping read-only through one hosted EU MCP endpoint and a shared financial data model. | Exact Online / Moneybird / Microsoft Dynamics 365 Business Central / Twinfield | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [finance-skills-nl](https://github.com/start2scale/finance-skills-nl) | Draft month-close packages, reconcile the general ledger, and audit Excel models for Dutch SME finance teams, with every output flagged for human sign-off. <details><summary>Contains 9 skills</summary><b>Skills</b> ai-readiness-mkb · doorrol-schema · excel-controle · grootboek-aansluiting · maandafsluiting · transitorische-posten · variantie-toelichting · verschillen-traceren · xlsx-author</details> | Raad voor de Jaarverslaggeving (RJ) | ![Skill · Community · Beta](assets/badges/tags-skill-community-beta.svg) |
+| [Jortt MCP](https://www.jortt.nl/koppelingen/mcp-koppeling/) | Work a Jortt administration — customers, invoices, quotes, expenses, categories and reports — read-only or read-and-write, chosen when you connect. | Jortt | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [Ledger Botje](https://ledgerbotje.nl/) | Handle Exact Online invoices, orders, inventory, and deliveries through a hosted MCP. | Exact Online | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [Moneybird MCP](https://developer.moneybird.com/tools/mcp) | Keep Moneybird bookkeeping up to date — invoices, contacts, and ledger data. | Moneybird | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [moneybird-mcp-server](https://github.com/vanderheijden86/moneybird-mcp-server) | Work with Moneybird contacts, sales invoices, financial accounts, payments, products, projects, and time entries, with custom API requests for the rest. | Moneybird | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
@@ -182,4 +183,4 @@ _Every listing is tagged with what it is and where it came from; a status badge 
 
 ---
 
-_87 listings across 14 categories, holding 86 skills, 26 commands, 2 agents, and 77 MCP servers._
+_88 listings across 14 categories, holding 86 skills, 26 commands, 2 agents, and 78 MCP servers._
