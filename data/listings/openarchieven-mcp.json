@@ -2,8 +2,8 @@
   "id": "openarchieven-mcp",
   "name": "openarchieven-mcp",
   "category": "historie",
-  "description_en": "Search Open Archieven genealogy records through a no-auth hosted endpoint.",
-  "description_nl": "Zoek genealogische akten in Open Archieven via een gehost endpoint zonder authenticatie.",
+  "description_en": "Search Open Archieven's Dutch genealogy records and full-text transcriptions of historical documents through a hosted endpoint that needs no account.",
+  "description_nl": "Doorzoek de Nederlandse genealogische akten en volledige paginatranscripties van Open Archieven via een gehost endpoint zonder account.",
   "subject": [
     "openarchieven"
   ],
@@ -24,7 +24,7 @@
   ],
   "origin": "official",
   "status": "live",
-  "publisher": "Open Archieven (coret)",
+  "publisher": "Coret Genealogy",
   "source_url": "https://github.com/coret/openarchieven-mcp-server",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-30"
 }

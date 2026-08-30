@@ -2,8 +2,8 @@
   "id": "rdw-mcp",
   "name": "rdw-mcp",
   "category": "reizen",
-  "description_en": "Query RDW vehicle-registration and open data — keyless, no credentials needed.",
-  "description_nl": "Bevraag kentekengegevens en open data van de RDW — zonder API-key of inloggegevens.",
+  "description_en": "Look up a Dutch license plate and get the full RDW record — registration, fuel and emissions, axles and bodywork — from RDW open data, no API key needed.",
+  "description_nl": "Zoek een Nederlands kenteken op en krijg het volledige RDW-record — tenaamstelling, brandstof en emissies, assen en carrosserie — uit RDW open data, zonder API-key.",
   "subject": [
     "rdw"
   ],
@@ -23,8 +23,8 @@
     }
   ],
   "origin": "community",
-  "status": "live",
+  "status": "beta",
   "publisher": "rantuma",
   "source_url": "https://github.com/rantuma/rdw-mcp",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-30"
 }

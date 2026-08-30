@@ -2,8 +2,8 @@
   "id": "open-utrecht-datasets",
   "name": "open-utrecht-datasets",
   "category": "overheid",
-  "description_en": "Search, explore, and download Municipality of Utrecht open datasets across six tools, with experimental Woo-relevance tagging (full Woo-document search is planned).",
-  "description_nl": "Zoek, verken en download open datasets van de gemeente Utrecht met zes tools, met experimentele markering van Woo-relevantie (volledig zoeken in Woo-documenten staat op de planning).",
+  "description_en": "Search, explore, and download Gemeente Utrecht open datasets and the national data.overheid.nl catalogue, with keyword-based Woo-relevance tagging (Woo-document search is still planned).",
+  "description_nl": "Zoek, verken en download open datasets van de gemeente Utrecht en de landelijke catalogus data.overheid.nl, met Woo-relevantie op trefwoorden (zoeken in Woo-documenten staat nog op de planning).",
   "subject": [
     "gemeente-utrecht"
   ],
@@ -30,5 +30,5 @@
   "status": "live",
   "publisher": "Terminal-WOO",
   "source_url": "https://github.com/Terminal-WOO/open-utrecht-datasets",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-30"
 }

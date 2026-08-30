@@ -2,8 +2,8 @@
   "id": "nl-gov-mcp",
   "name": "nl-gov-mcp",
   "category": "overheid",
-  "description_en": "Reach 39 Dutch government data sources through one server — CBS, RDW, KNMI, PDOK, Rechtspraak, DUO, and more.",
-  "description_nl": "Bereik 39 Nederlandse overheidsbronnen via één server — CBS, RDW, KNMI, PDOK, Rechtspraak, DUO en meer.",
+  "description_en": "Reach 44 Dutch government data sources through one server — CBS, RDW, KNMI, PDOK, Rechtspraak, DUO, and more.",
+  "description_nl": "Bereik 44 Nederlandse overheidsbronnen via één server — CBS, RDW, KNMI, PDOK, Rechtspraak, DUO en meer.",
   "subject": [
     "cbs-statline",
     "rdw",
@@ -18,7 +18,9 @@
     "data-overheid-nl",
     "tweede-kamer",
     "duo",
-    "bag"
+    "bag",
+    "tenderned",
+    "officiele-bekendmakingen"
   ],
   "contains": {
     "skills": [],
@@ -141,11 +143,19 @@
     {
       "domain": "dcat-ap-donl.nl",
       "account": false
+    },
+    {
+      "domain": "tenderned.nl",
+      "account": false
+    },
+    {
+      "domain": "verkiezingsuitslagen.nl",
+      "account": false
     }
   ],
   "origin": "community",
-  "status": "live",
+  "status": "beta",
   "publisher": "WAINUT",
   "source_url": "https://github.com/WAINUTAI/nl-gov-mcp",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-30"
 }

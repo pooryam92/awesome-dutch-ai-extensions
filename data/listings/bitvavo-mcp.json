@@ -2,8 +2,8 @@
   "id": "bitvavo-mcp",
   "name": "bitvavo-mcp",
   "category": "geld",
-  "description_en": "Inspect a Bitvavo account read-only — balances, portfolio value, trades, deposits, withdrawals, and average-cost P&L; it ships no trading or withdrawal tools.",
-  "description_nl": "Bekijk een Bitvavo-rekening alleen-lezen — saldi, portefeuillewaarde, trades, stortingen, opnames en P&L op gemiddelde kostprijs; tools om te handelen of op te nemen ontbreken.",
+  "description_en": "Inspect a Bitvavo account read-only — balances, portfolio value, trades, deposits, withdrawals and average-cost P&L; no trading tools, and app Buy/Sell and Convert orders only via CSV import.",
+  "description_nl": "Bekijk een Bitvavo-rekening alleen-lezen — saldi, portefeuillewaarde, trades, stortingen, opnames en P&L op gemiddelde kostprijs; geen handelstools, Buy/Sell en Convert alleen via CSV-import.",
   "subject": [
     "bitvavo"
   ],
@@ -23,8 +23,8 @@
     }
   ],
   "origin": "community",
-  "status": "live",
+  "status": "beta",
   "publisher": "aderik",
   "source_url": "https://github.com/aderik/bitvavo-mcp",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-30"
 }

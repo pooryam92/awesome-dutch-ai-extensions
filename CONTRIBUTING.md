@@ -34,7 +34,7 @@ One row is one installable unit, so a plugin holding eighteen skills is still on
 - **A multi-jurisdiction bundle lists only its Dutch entries.** OpenAccountants ships 781 skills; the eighteen `nl-*`/`netherlands-*` ones are what belong here. This is about jurisdiction-specific *content*, not about connectors: a bundled Slack or Box MCP server is where the user's own documents live, so it stays in even though nothing about it is Dutch.
 - **Don't enumerate MCP tools.** `subject` and the description already carry that.
 
-Wetsanalyse AI is the worked example of why one row needs four arrays: two skills and a `wettenbank` server, on a single row that no one word describes.
+Knowledge Work Belastingzaken is the worked example of why one row needs four arrays: eight skills, eight commands and four wired MCP servers, on a single row that no one word describes. It replaced Wetsanalyse AI here on 2026-08-30, when a recheck found that row down to one skill and no server — an example is only worth keeping while its source still says what it is quoted for.
 
 ## Execution
 
@@ -46,7 +46,7 @@ Where the code has to run. This is the one limit a visitor's assistant cannot wo
 `none` — nothing executes, such as instructions you copy in.
 
 - **Read it off the source, never off the shape.** A vendor's own documentation page can be local-only and a GitHub repo remote-only, and what a listing contains does not predict it either.
-- **Shipping an HTTP transport is not `remote`.** Plenty of repos can be deployed as a server; unless the publisher already runs one at a URL you can paste, the visitor still has to start the process, so it is `local`.
+- **Shipping an HTTP transport is not `remote`.** Plenty of repos can be deployed as a server; unless the publisher already runs one at a URL you can paste, the visitor still has to start the process, so it is `local`. **And a URL nobody published is not one you can paste**: an endpoint you found by reading the source, or running on a host the documentation never names, leaves a visitor exactly where they started, so it does not make a listing `remote`.
 - **A bundle takes its most restrictive part.** Any local-only server in it makes the whole listing `local`, because what a visitor needs to know is whether they can use the whole thing from a cloud-side product.
 - **`none` means nothing runs, not that nobody checked.** A listing naming a server under `contains.mcp_servers` may not claim it, and the schema refuses that combination.
 
@@ -81,7 +81,10 @@ One row per external party the listing reaches, keyed by registrable domain, eac
 Read it off the source, in this order, and stop at the first thing that answers:
 
 1. **What the publisher calls it.** "Beta (v0.2.0-beta)" in a README settles it. So does a heading
-   reading *Alpha* — the nearest term here is `preview`.
+   reading *Alpha* — the nearest term here is `preview`. A packaging classifier counts here too,
+   but only where the version agrees with it: PyPI's `Development Status :: 3 - Alpha` beside a
+   `0.1.1` is the publisher speaking, and beside a `1.8.2` with four recent releases it is a stale
+   template line that step three overrules.
 2. **A disclaimer.** "Not production ready and should not be used for production" is `concept`,
    whatever else the page says, because the publisher is telling you not to depend on it.
 3. **The version.** `0.x` is `beta`; `1.0.0` or later is `live`. A manifest counts — `plugin.json`,

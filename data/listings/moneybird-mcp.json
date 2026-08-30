@@ -2,8 +2,8 @@
   "id": "moneybird-mcp",
   "name": "Moneybird MCP",
   "category": "boekhouding",
-  "description_en": "Keep Moneybird bookkeeping up to date — invoices, contacts, and ledger data.",
-  "description_nl": "Houd je boekhouding in Moneybird bij — facturen, contacten en grootboekgegevens.",
+  "description_en": "Work a Moneybird administration from your assistant — contacts, invoices, financial accounts and time entries — over a read-only or a read-write endpoint; deleting is not supported.",
+  "description_nl": "Werk vanuit je assistent in een Moneybird-administratie — contacten, facturen, financiële rekeningen en urenregistratie — via een read-only of read-write endpoint; verwijderen kan niet.",
   "subject": [
     "moneybird"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "Moneybird",
   "source_url": "https://developer.moneybird.com/tools/mcp",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-30"
 }
