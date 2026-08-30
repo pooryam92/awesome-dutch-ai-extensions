@@ -5,6 +5,10 @@
   "afas-profit": {
     "name": "AFAS Profit"
   },
+  "ai-verordening": {
+    "name": "AI-verordening (AI Act)",
+    "kind": "standard"
+  },
   "albert-heijn": {
     "name": "Albert Heijn"
   },
@@ -171,6 +175,10 @@
   "netbeheerdata": {
     "name": "Netbeheerdata (Liander / Enexis / Stedin)",
     "kind": "dataset"
+  },
+  "nis2": {
+    "name": "NIS2-richtlijn",
+    "kind": "standard"
   },
   "ns": {
     "name": "NS (Nederlandse Spoorwegen)"
