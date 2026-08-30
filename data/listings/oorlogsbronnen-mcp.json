@@ -2,8 +2,8 @@
   "id": "oorlogsbronnen-mcp",
   "name": "oorlogsbronnen-mcp",
   "category": "historie",
-  "description_en": "Search Oorlogsbronnen's archive of 12 million Dutch WWII sources.",
-  "description_nl": "Zoek in het archief van Oorlogsbronnen met 12 miljoen Nederlandse bronnen over de Tweede Wereldoorlog.",
+  "description_en": "Search Oorlogsbronnen's archive of Dutch WWII sources — the published npm package declares no command, so the documented npx install does not work.",
+  "description_nl": "Zoek in het archief van Oorlogsbronnen met Nederlandse bronnen over de Tweede Wereldoorlog — het npm-pakket levert geen commando, dus de npx-installatie werkt niet.",
   "subject": [
     "oorlogsbronnen"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "r-huijts",
   "source_url": "https://github.com/r-huijts/oorlogsbronnen-mcp",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-30"
 }
