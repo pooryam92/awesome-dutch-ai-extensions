@@ -16,6 +16,8 @@ Two ways to add an integration:
 
 One row is one installable unit, so a plugin holding eighteen skills is still one row. `contains` names everything that unit gives you, so a reader searching for *NEN 3610* or *box 3* can still find it.
 
+**A marketplace is one row too**, even though its plugins install one at a time. What a visitor finds and adds is the marketplace; `contains` then names every skill across all of its plugins, the same way it does for a single plugin. Splitting a marketplace into a row per plugin puts a helper that other skills call — an xlsx writer, a shared reference — on the same footing as the work someone actually came for.
+
 ```json
 "contains": {
   "skills": ["inkomstenbelasting-boxen", "omzetbelasting-btw"],
@@ -61,6 +63,7 @@ One row per external party the listing reaches, keyed by registrable domain, eac
 
 - **`false` is worth writing.** About half the catalogue reaches a genuinely open service — RDW, CBS, wetten.nl, KNMI — and an empty array would make that indistinguishable from a listing that reaches nothing at all. Empty is for the listings that really do reach nothing.
 - **Write what it calls, not what it is about.** A listing serving its own copy of somebody's data reaches nobody, however famous the collection: `subject` says what it covers, `uses` says who it talks to, and the two are allowed to disagree.
+- **For a skill, the instructions are what it calls.** A skill ships no code, so what it tells an assistant to go and fetch is the only mechanism it has, and those sources get rows. Read the source the same way it reads itself: where a reference file separates the sources it queries from the ones it cites for background, only the first kind is a party. And name the host that actually answers — where a listing reaches an organisation through somebody else's portal, or by a request that returns data by e-mail, the row is the door you knock on, not the brand behind it.
 - **One row per domain.** A service gets one row, whatever it costs the listing to reach it; two rows for the same domain contradict each other and `validate.py` rejects them.
 - **Registrable domain, never the portal subdomain.** NS issues keys at `apiportal.ns.nl` and the value here is `ns.nl`.
 - **The domain the listing actually calls, even when the party has several.** A subdomain reduces to its registrable domain, but a genuinely different domain does not fold into the one that looks tidier: KNMI's app API is `knmi.cloud`, WeFact's API is `mijnwefact.nl`, Moneybird's API and MCP endpoint are both `moneybird.com`, and the official-publications repository is `officiele-overheidspublicaties.nl` even though the search service next to it is `overheid.nl`. Two listings reaching the same organisation through different domains get different rows, and that is the record working: what a visitor's traffic goes to is a fact about the listing, not about the brand. Where the service does run one estate under a country domain, name the one a Dutch visitor deals with: `exactonline.nl`.
@@ -74,6 +77,22 @@ One row per external party the listing reaches, keyed by registrable domain, eac
 `live` · `beta` · `preview` — working software, in decreasing order of stability.
 `concept` — a proof of concept or unreleased design; not something to depend on.
 `abandoned` — no longer maintained, but still listed because it remains useful or is the only option for its subject. Delist rather than mark `abandoned` when it no longer runs at all.
+
+Read it off the source, in this order, and stop at the first thing that answers:
+
+1. **What the publisher calls it.** "Beta (v0.2.0-beta)" in a README settles it. So does a heading
+   reading *Alpha* — the nearest term here is `preview`.
+2. **A disclaimer.** "Not production ready and should not be used for production" is `concept`,
+   whatever else the page says, because the publisher is telling you not to depend on it.
+3. **The version.** `0.x` is `beta`; `1.0.0` or later is `live`. A manifest counts — `plugin.json`,
+   `package.json`, a skill's frontmatter — and where a marketplace ships several, they agree or the
+   lowest wins.
+4. **Nothing at all** is `live`. Working software with no caveat anywhere is what `live` means, and a
+   quiet `beta` we invented tells a visitor something the publisher never said. Stars, age, and how
+   obscure a repository is are not maturity signals.
+
+Tags and releases are not required: plenty of good repositories have none. Where you override this
+ladder on judgement, the reason belongs in the backlog, or the next recheck will simply flag it again.
 
 ## Layout
 
