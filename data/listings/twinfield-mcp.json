@@ -2,8 +2,8 @@
   "id": "twinfield-mcp",
   "name": "Twinfield MCP",
   "category": "boekhouding",
-  "description_en": "Query and update Twinfield bookkeeping over its SOAP API.",
-  "description_nl": "Bevraag de boekhouding in Twinfield en werk die bij via de SOAP API.",
+  "description_en": "Query and update Twinfield bookkeeping over its SOAP API — it starts from a node path, because the package ships no npx entry point.",
+  "description_nl": "Bevraag de boekhouding in Twinfield en werk die bij via de SOAP API — je start via een node-pad, omdat het pakket geen npx-ingang levert.",
   "subject": [
     "twinfield"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "CodeMill Solutions",
   "source_url": "https://github.com/CodeMill-Solutions/twinfield-mcp",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-30"
 }
