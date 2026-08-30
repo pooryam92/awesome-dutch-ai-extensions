@@ -27,9 +27,30 @@
     ]
   },
   "execution": "remote",
-  "uses": [],
+  "uses": [
+    {
+      "domain": "slack.com",
+      "account": true
+    },
+    {
+      "domain": "box.com",
+      "account": true
+    },
+    {
+      "domain": "egnyte.com",
+      "account": true
+    },
+    {
+      "domain": "atlassian.com",
+      "account": true
+    },
+    {
+      "domain": "microsoft.com",
+      "account": true
+    }
+  ],
   "origin": "commercial",
-  "status": "preview",
+  "status": "live",
   "publisher": "ICTRecht",
   "source_url": "https://github.com/ICTRecht/Legal-GenAI-Resources",
   "last_checked": "2026-08-29"

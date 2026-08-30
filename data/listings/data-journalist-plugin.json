@@ -91,11 +91,35 @@
     {
       "domain": "openraadsinformatie.nl",
       "account": false
+    },
+    {
+      "domain": "kadaster.nl",
+      "account": false
+    },
+    {
+      "domain": "opencorporates.com",
+      "account": false
+    },
+    {
+      "domain": "icij.org",
+      "account": false
+    },
+    {
+      "domain": "raadvanstate.nl",
+      "account": false
+    },
+    {
+      "domain": "asylumlawdatabase.eu",
+      "account": false
+    },
+    {
+      "domain": "scholenopdekaart.nl",
+      "account": false
     }
   ],
   "origin": "community",
   "status": "beta",
   "publisher": "linksmith",
   "source_url": "https://github.com/linksmith/data-journalist-ai-agent-plugin-with-skills",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-29"
 }

@@ -2,8 +2,8 @@
   "id": "praat-met-je-boekhouding",
   "name": "Praat met je Boekhouding",
   "category": "boekhouding",
-  "description_en": "Query Exact Online bookkeeping across 119 tools — invoicing, BTW/ICP, and reporting — read-only by default.",
-  "description_nl": "Bevraag je boekhouding in Exact Online met 119 tools — facturatie, BTW/ICP en rapportage — standaard alleen-lezen.",
+  "description_en": "Query Exact Online bookkeeping across 119 tools — invoicing, BTW, and reporting — read-only by default.",
+  "description_nl": "Bevraag je boekhouding in Exact Online met 119 tools — facturatie, BTW en rapportage — standaard alleen-lezen.",
   "subject": [
     "exact-online"
   ],
@@ -28,7 +28,7 @@
   ],
   "origin": "commercial",
   "status": "live",
-  "publisher": "Praat met je Boekhouding",
+  "publisher": "Chef Data",
   "source_url": "https://praatmetjeboekhouding.nl/en/exact-online-mcp-server",
   "last_checked": "2026-08-29"
 }

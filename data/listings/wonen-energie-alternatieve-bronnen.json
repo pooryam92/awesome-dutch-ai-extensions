@@ -34,11 +34,27 @@
     {
       "domain": "overheid.io",
       "account": true
+    },
+    {
+      "domain": "partnersinenergie.nl",
+      "account": true
+    },
+    {
+      "domain": "databank.nl",
+      "account": false
+    },
+    {
+      "domain": "kadaster.nl",
+      "account": false
+    },
+    {
+      "domain": "overheid.nl",
+      "account": false
     }
   ],
   "origin": "community",
-  "status": "beta",
+  "status": "live",
   "publisher": "linksmith",
   "source_url": "https://github.com/linksmith/wonen-energie-alternatieve-bronnen",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-29"
 }

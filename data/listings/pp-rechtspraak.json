@@ -1,0 +1,32 @@
+{
+  "id": "pp-rechtspraak",
+  "name": "pp-rechtspraak",
+  "category": "recht",
+  "description_en": "Narrow Dutch case law by keyword, phrase and exclusion against a local index, walk the cassation chain, and export vindplaatsen as BibTeX.",
+  "description_nl": "Filter Nederlandse jurisprudentie op trefwoord, zinsdeel en uitsluiting via een lokale index, loop de cassatieketen na en exporteer vindplaatsen als BibTeX.",
+  "subject": [
+    "rechtspraak"
+  ],
+  "contains": {
+    "skills": [
+      "pp-rechtspraak"
+    ],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "rechtspraak-pp-mcp"
+    ]
+  },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "rechtspraak.nl",
+      "account": false
+    }
+  ],
+  "origin": "community",
+  "status": "live",
+  "publisher": "Printing Press",
+  "source_url": "https://github.com/mvanhorn/printing-press-library/tree/main/library/other/rechtspraak",
+  "last_checked": "2026-08-29"
+}

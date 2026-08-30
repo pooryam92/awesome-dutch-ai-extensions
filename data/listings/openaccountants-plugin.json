@@ -40,7 +40,7 @@
   "uses": [
     {
       "domain": "openaccountants.com",
-      "account": true
+      "account": false
     }
   ],
   "origin": "community",
