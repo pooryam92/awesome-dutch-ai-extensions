@@ -78,6 +78,8 @@ One row per external party the listing reaches, keyed by registrable domain, eac
 `concept` — a proof of concept or unreleased design; not something to depend on.
 `abandoned` — no longer maintained, but still listed because it remains useful or is the only option for its subject. Delist rather than mark `abandoned` when it no longer runs at all.
 
+`abandoned` needs the publisher to say so — an archived repository, a deprecation notice, a successor named in the README. Time since the last commit is not that: a small server that does its job may go a year without a commit and still be exactly what a visitor came for.
+
 Read it off the source, in this order, and stop at the first thing that answers:
 
 0. **Does the documented install run?** `live` means working software, and a row whose only
