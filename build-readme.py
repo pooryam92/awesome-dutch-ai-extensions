@@ -23,6 +23,8 @@ HEADER = """# Awesome Dutch AI Extensions
 To add an integration, see [CONTRIBUTING.md](CONTRIBUTING.md). Only ever edit the JSON in `data/` — one file per listing in [`data/listings/`](data/listings), described in [`schema.json`](schema.json). The list below is generated from it by `build-readme.py`.
 
 _Every listing is tagged with what it is and where it came from; a status badge appears only when it is **not** live (beta, preview, concept, abandoned). What it is comes from what it contains — one kind of thing is that kind, several is a bundle — and where a listing holds more than one artifact, they are named under its description._
+
+_Every listing was checked against its source on or after {CHECKED}._
 """
 
 # A row is one install unit, so a plugin holding twelve skills is still one row —
@@ -45,7 +47,12 @@ KIND_TOKENS = {"skills": "skill", "commands": "command", "agents": "agent", "mcp
 # this repo enforces it, so name the offending file rather than dying on a KeyError.
 REQUIRED_FIELDS = (
     "name", "category", "description_en", "subject", "contains", "origin", "status", "source_url",
+    "last_checked",
 )
+
+
+MONTHS = ("January", "February", "March", "April", "May", "June",
+          "July", "August", "September", "October", "November", "December")
 
 
 def load(path):
@@ -330,7 +337,12 @@ def render(check):
     )
 
     badges = Badges(labels)
-    out = [HEADER, *index_table(categories, subjects), ""]
+    # The oldest check in the catalogue, not the newest: it is the date the whole
+    # list can be vouched for, and it slips visibly as rows go stale.
+    oldest = min(d["last_checked"] for d in listings)
+    y, m, day = (int(x) for x in oldest.split("-"))
+    checked = f"{day} {MONTHS[m - 1]} {y}"
+    out = [HEADER.replace("{CHECKED}", checked), *index_table(categories, subjects), ""]
 
     for title, rows in categories:
         out += [f"## {title}", ""]
