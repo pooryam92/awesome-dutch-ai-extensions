@@ -2,7 +2,7 @@
   "id": "ictrecht-plugin-suite",
   "name": "ICTRecht Plugin Suite",
   "category": "recht",
-  "description_en": "Work Dutch legal tasks by role — DPIA, breach assessment, contract and NDA review, AI Act, NIS2 and DSA checks — in ICTRecht's method; analyses run on the model's own knowledge, no knowledge base yet.",
+  "description_en": "Work Dutch legal tasks by role — DPIA, breach assessment, contract and NDA review, AI Act, NIS2 and DSA checks — in ICTRecht's method; the knowledge-base connector is still in a closed beta.",
   "description_nl": "Juridisch werk per rol — DPIA, datalekbeoordeling, contract- en NDA-review, AI-verordening-, NIS2- en DSA-toetsen — volgens de ICTRecht-werkwijze; de kennisbankconnector zit nog in closed beta.",
   "subject": [
     "avg",
