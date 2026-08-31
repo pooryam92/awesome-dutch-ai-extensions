@@ -165,8 +165,11 @@
         "beta",
         "preview",
         "concept",
-        "abandoned"
-      ]
+        "abandoned",
+        "broken"
+      ],
+      "description": "How far along the listing is, read off the source by the ladder in CONTRIBUTING.md. `live`, `beta`, `preview` and `concept` are a maturity ladder and every value on it but `live` comes from the publisher's own words — a README calling it beta, an *Alpha* heading, a disclaimer — because nothing here infers maturity from a version digit any more than from stars or age. `abandoned` and `broken` are off that ladder and are conditions we observed: `abandoned` needs the publisher to say so, and `broken` means the documented install does not run while another route does. So a status other than `live` always means either the publisher said it or somebody checked it, never that we guessed.",
+      "$comment": "`broken` is appended rather than slotted in so the enum order still reads as the ladder followed by the two terminal conditions."
     },
     "publisher": {
       "type": "string",

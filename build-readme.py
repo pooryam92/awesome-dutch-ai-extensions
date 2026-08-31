@@ -22,7 +22,7 @@ HEADER = """# Awesome Dutch AI Extensions
 
 To add an integration, see [CONTRIBUTING.md](CONTRIBUTING.md). Only ever edit the JSON in `data/` — one file per listing in [`data/listings/`](data/listings), described in [`schema.json`](schema.json). The list below is generated from it by `build-readme.py`.
 
-_Every listing is tagged with what it is and where it came from; a status badge appears only when it is **not** live (beta, preview, concept, abandoned). What it is comes from what it contains — one kind of thing is that kind, several is a bundle — and where a listing holds more than one artifact, they are named under its description._
+_Every listing is tagged with what it is and where it came from. What it is comes from what it contains — one kind of thing is that kind, several is a bundle — and where a listing holds more than one artifact, they are named under its description. A status badge appears only when a listing is **not** live, and always because the publisher said so or because we checked — never inferred from a version number._
 
 _Every listing was checked against its source on or after {CHECKED}._
 """
@@ -152,7 +152,14 @@ class Badges:
         self.needed = {}
 
     def tag_badge(self, listing):
-        """Kind and origin always; a status pill only when the listing is not live."""
+        """Kind and origin always, plus any status but `live`.
+
+        The status pill needs no exceptions now that the ladder has none. Every value
+        below `live` is either the publisher's own words or a broken install somebody
+        checked, so a pill is never our guess dressed as a warning. It only reads that
+        way while the ladder infers: reading `0.x` as `beta` put a warning on twenty-seven
+        working listings no publisher had ever qualified, and once a visitor finds one
+        warning unearned the other ten stop working too."""
         tokens = [("kind", kind_of(listing["contains"])), ("origin", listing["origin"])]
         if listing["status"] != "live":
             tokens.append(("status", listing["status"]))

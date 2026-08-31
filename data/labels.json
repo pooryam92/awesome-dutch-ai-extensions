@@ -68,6 +68,11 @@
       "en": "Abandoned",
       "nl": "Niet meer onderhouden",
       "color": "cf222e"
+    },
+    "broken": {
+      "en": "Install broken",
+      "nl": "Installatie werkt niet",
+      "color": "bc4c00"
     }
   }
 }

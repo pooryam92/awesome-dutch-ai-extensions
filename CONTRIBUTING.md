@@ -64,6 +64,7 @@ One row per external party the listing reaches, keyed by registrable domain, eac
 - **`false` is worth writing.** About half the catalogue reaches a genuinely open service — RDW, CBS, wetten.nl, KNMI — and an empty array would make that indistinguishable from a listing that reaches nothing at all. Empty is for the listings that really do reach nothing.
 - **Write what it calls, not what it is about.** A listing serving its own copy of somebody's data reaches nobody, however famous the collection: `subject` says what it covers, `uses` says who it talks to, and the two are allowed to disagree.
 - **For a skill, the instructions are what it calls.** A skill ships no code, so what it tells an assistant to go and fetch is the only mechanism it has, and those sources get rows. Read the source the same way it reads itself: where a reference file separates the sources it queries from the ones it cites for background, only the first kind is a party. And name the host that actually answers — where a listing reaches an organisation through somebody else's portal, or by a request that returns data by e-mail, the row is the door you knock on, not the brand behind it. **Read `allowed-tools` before counting domains**, because a skill that ships its sources reaches nobody: two Dutch income-tax skills can cite the same registers hundreds of times and belong at twelve rows and at none, and the line that tells them apart is whether the front matter grants a fetching tool at all.
+- **A hosted connector is named by the party behind it, not by its host.** The door you knock on above is the rule for a skill fetching a URL, where the fetch target is the whole fact. A connector somebody else operates for you is the other case: `ms365` answers at `microsoft365.mcp.claude.com`, but the data and the account gate are Microsoft's, and a `claude.com` row would record only that the visitor uses Claude — true of everyone reading this. Name the party whose account stands in the way: `microsoft.com`.
 - **One row per domain.** A service gets one row, whatever it costs the listing to reach it; two rows for the same domain contradict each other and `validate.py` rejects them.
 - **Registrable domain, never the portal subdomain.** NS issues keys at `apiportal.ns.nl` and the value here is `ns.nl`.
 - **The domain the listing actually calls, even when the party has several.** A subdomain reduces to its registrable domain, but a genuinely different domain does not fold into the one that looks tidier: KNMI's app API is `knmi.cloud`, WeFact's API is `mijnwefact.nl`, Moneybird's API and MCP endpoint are both `moneybird.com`, and the official-publications repository is `officiele-overheidspublicaties.nl` even though the search service next to it is `overheid.nl`. Two listings reaching the same organisation through different domains get different rows, and that is the record working: what a visitor's traffic goes to is a fact about the listing, not about the brand. Where the service does run one estate under a country domain, name the one a Dutch visitor deals with: `exactonline.nl`.
@@ -77,32 +78,42 @@ One row per external party the listing reaches, keyed by registrable domain, eac
 `live` · `beta` · `preview` — working software, in decreasing order of stability.
 `concept` — a proof of concept or unreleased design; not something to depend on.
 `abandoned` — no longer maintained, but still listed because it remains useful or is the only option for its subject. Delist rather than mark `abandoned` when it no longer runs at all.
+`broken` — the documented install does not run, but another route does. Off the ladder above: it says nothing about how far along the listing is, only that the route its own README gives you fails.
 
 `abandoned` needs the publisher to say so — an archived repository, a deprecation notice, a successor named in the README. Time since the last commit is not that: a small server that does its job may go a year without a commit and still be exactly what a visitor came for.
 
 Read it off the source, in this order, and stop at the first thing that answers:
 
 0. **Does the documented install run?** `live` means working software, and a row whose only
-   documented route does not run is not that, whatever the version says. Mark it `beta` where
-   another route works — a clone, a node path — and delist where none does.
+   documented route does not run is not that, whatever the version says. Mark it `broken` where
+   another route works — a clone, a node path — and delist where none does. Check what the README
+   actually tells you to run: a `package.json` at `1.0.0` with a proper `bin` still leaves `npx` dead
+   if nobody published the package.
 1. **What the publisher calls it.** "Beta (v0.2.0-beta)" in a README settles it. So does a heading
    reading *Alpha* — the nearest term here is `preview`. A packaging classifier counts here too,
    but only where the version agrees with it: PyPI's `Development Status :: 3 - Alpha` beside a
    `0.1.1` is the publisher speaking, and beside a `1.8.2` with four recent releases it is a stale
-   template line that step three overrules.
+   template line nobody edited — read past it rather than treating it as a declaration.
 2. **A disclaimer.** "Not production ready and should not be used for production" is `concept`,
    whatever else the page says, because the publisher is telling you not to depend on it.
-3. **The version.** `0.x` is `beta`; `1.0.0` or later is `live`. A manifest counts — `plugin.json`,
-   `package.json`, a skill's frontmatter — and where a marketplace ships several, they agree or the
-   lowest wins. A date-stamped version makes no claim to read — `2026.8.1` is when it
-   shipped, not how far along it is — so it falls through to step four rather than counting as
-   `1.0.0` or later.
-4. **Nothing at all** is `live`. Working software with no caveat anywhere is what `live` means, and a
-   quiet `beta` we invented tells a visitor something the publisher never said. Stars, age, and how
-   obscure a repository is are not maturity signals.
+3. **Nothing at all** is `live`. Working software with no caveat anywhere is what `live` means, and a
+   quiet `beta` we invented tells a visitor something the publisher never said. Stars, age, a version
+   digit, and how obscure a repository is are not maturity signals.
+
+   **A version digit least of all**, because it is the one that looks like evidence. `0.x` is the
+   resting state of this ecosystem rather than a stage in it — a server can sit at `0.4.2` for two
+   years, do its job perfectly, and never be released again — while plenty of `1.0.0`s are a
+   generator's default nobody edited. This ladder used to read `0.x` as `beta`, and that rung alone
+   produced twenty-seven of the twenty-nine betas in the catalogue: a warning on twenty-seven working
+   listings that no publisher had ever given.
 
 Tags and releases are not required: plenty of good repositories have none. Where you override this
 ladder on judgement, say why in the pull request that does it, or the next recheck will simply flag it again.
+
+What the ladder buys is one invariant worth keeping: **a status other than `live` is always either
+the publisher's own words or something we checked** — never something we inferred. That is what
+makes it safe to badge. Add a rung that guesses and every badge on the list gets quieter, because a
+visitor who finds one warning unearned stops reading the rest.
 
 ## Layout
 
