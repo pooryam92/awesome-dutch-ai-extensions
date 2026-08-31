@@ -94,7 +94,9 @@ Read it off the source, in this order, and stop at the first thing that answers:
    whatever else the page says, because the publisher is telling you not to depend on it.
 3. **The version.** `0.x` is `beta`; `1.0.0` or later is `live`. A manifest counts — `plugin.json`,
    `package.json`, a skill's frontmatter — and where a marketplace ships several, they agree or the
-   lowest wins.
+   lowest wins. A date-stamped version makes no claim to read — `2026.8.1` is when it
+   shipped, not how far along it is — so it falls through to step four rather than counting as
+   `1.0.0` or later.
 4. **Nothing at all** is `live`. Working software with no caveat anywhere is what `live` means, and a
    quiet `beta` we invented tells a visitor something the publisher never said. Stars, age, and how
    obscure a repository is are not maturity signals.
