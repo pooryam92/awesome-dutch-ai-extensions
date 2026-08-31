@@ -13,9 +13,7 @@
     ],
     "commands": [],
     "agents": [],
-    "mcp_servers": [
-      "groceries"
-    ]
+    "mcp_servers": []
   },
   "execution": "local",
   "uses": [
