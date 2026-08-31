@@ -16,7 +16,7 @@ Two ways to add an integration:
 
 One row is one installable unit, so a plugin holding eighteen skills is still one row. `contains` names everything that unit gives you, so a reader searching for *NEN 3610* or *box 3* can still find it.
 
-**A marketplace is one row too**, even though its plugins install one at a time. What a visitor finds and adds is the marketplace; `contains` then names every skill across all of its plugins, the same way it does for a single plugin. Splitting a marketplace into a row per plugin puts a helper that other skills call — an xlsx writer, a shared reference — on the same footing as the work someone actually came for.
+**A marketplace is one row too**, even though its plugins install one at a time. What a visitor finds and adds is the marketplace; `contains` then names every skill across all of its plugins, the same way it does for a single plugin. Splitting a marketplace into a row per plugin puts a helper that other skills call — an xlsx writer, a shared reference — on the same footing as the work someone actually came for. The opposite case is a library of standalone installables: where each entry ships as its own command with its own install, the entry is the unit and gets its own row — the library is where you found it, not what you add. Printing Press is that case, which is why its Dutch entries sit in rows of their own.
 
 ```json
 "contains": {
