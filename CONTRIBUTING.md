@@ -80,6 +80,9 @@ One row per external party the listing reaches, keyed by registrable domain, eac
 
 Read it off the source, in this order, and stop at the first thing that answers:
 
+0. **Does the documented install run?** `live` means working software, and a row whose only
+   documented route does not run is not that, whatever the version says. Mark it `beta` where
+   another route works — a clone, a node path — and delist where none does.
 1. **What the publisher calls it.** "Beta (v0.2.0-beta)" in a README settles it. So does a heading
    reading *Alpha* — the nearest term here is `preview`. A packaging classifier counts here too,
    but only where the version agrees with it: PyPI's `Development Status :: 3 - Alpha` beside a
