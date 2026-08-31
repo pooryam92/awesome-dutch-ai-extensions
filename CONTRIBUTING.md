@@ -102,7 +102,7 @@ Read it off the source, in this order, and stop at the first thing that answers:
    obscure a repository is are not maturity signals.
 
 Tags and releases are not required: plenty of good repositories have none. Where you override this
-ladder on judgement, the reason belongs in the backlog, or the next recheck will simply flag it again.
+ladder on judgement, say why in the pull request that does it, or the next recheck will simply flag it again.
 
 ## Layout
 
