@@ -66,10 +66,6 @@
   "dekamarkt": {
     "name": "DekaMarkt"
   },
-  "developer-overheid-register": {
-    "name": "developer.overheid.nl API Register",
-    "kind": "dataset"
-  },
   "dirk": {
     "name": "Dirk"
   },
@@ -88,9 +84,6 @@
   },
   "exact-online": {
     "name": "Exact Online"
-  },
-  "funda": {
-    "name": "Funda"
   },
   "gemeente-amsterdam": {
     "name": "Gemeente Amsterdam",
@@ -193,9 +186,6 @@
   "officiele-bekendmakingen": {
     "name": "officielebekendmakingen.nl",
     "kind": "dataset"
-  },
-  "oorlogsbronnen": {
-    "name": "Oorlogsbronnen"
   },
   "openarchieven": {
     "name": "Open Archieven"
