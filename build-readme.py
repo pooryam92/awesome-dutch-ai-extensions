@@ -152,14 +152,7 @@ class Badges:
         self.needed = {}
 
     def tag_badge(self, listing):
-        """Kind and origin always, plus any status but `live`.
-
-        The status pill needs no exceptions now that the ladder has none. Every value
-        below `live` is either the publisher's own words or a broken install somebody
-        checked, so a pill is never our guess dressed as a warning. It only reads that
-        way while the ladder infers: reading `0.x` as `beta` put a warning on twenty-seven
-        working listings no publisher had ever qualified, and once a visitor finds one
-        warning unearned the other ten stop working too."""
+        """Kind and origin always, plus any status but `live`."""
         tokens = [("kind", kind_of(listing["contains"])), ("origin", listing["origin"])]
         if listing["status"] != "live":
             tokens.append(("status", listing["status"]))
@@ -245,8 +238,8 @@ def tags_header(max_strip_width):
 
 def anchor(title):
     """GitHub heading anchor: lowercase, drop punctuation, spaces -> hyphens.
-    Each space becomes its own hyphen — dropping "&" from "Legal & Compliance"
-    leaves two spaces, and GitHub's anchor keeps both as "legal--compliance"."""
+    Each space becomes its own hyphen — a title like "Legal & Tax" drops the "&",
+    leaving two spaces that GitHub keeps as "legal--tax"."""
     kept = "".join(ch for ch in title.lower() if ch.isalnum() or ch in " _-")
     return kept.strip().replace(" ", "-")
 
@@ -255,7 +248,7 @@ def anchor(title):
 # many listings it holds, and names the services it covers. The "Covers" cell is
 # derived from the listings' subjects — most-listed first, so the biggest names in
 # a category surface. Capped by width, not name count: a count cap lets a row of
-# long names (Legal & Compliance) balloon to double the width of its neighbours.
+# long names balloon to double the width of its neighbours.
 COVERS_MAX_CHARS = 60
 
 

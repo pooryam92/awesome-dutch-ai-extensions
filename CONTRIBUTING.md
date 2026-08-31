@@ -34,7 +34,7 @@ One row is one installable unit, so a plugin holding eighteen skills is still on
 - **A multi-jurisdiction bundle lists only its Dutch entries.** OpenAccountants ships 781 skills; the eighteen `nl-*`/`netherlands-*` ones are what belong here. This is about jurisdiction-specific *content*, not about connectors: a bundled Slack or Box MCP server is where the user's own documents live, so it stays in even though nothing about it is Dutch.
 - **Don't enumerate MCP tools.** `subject` and the description already carry that.
 
-Knowledge Work Belastingzaken is the worked example of why one row needs four arrays: eight skills, eight commands and four wired MCP servers, on a single row that no one word describes. It replaced Wetsanalyse AI here on 2026-08-30, when a recheck found that row down to one skill and no server — an example is only worth keeping while its source still says what it is quoted for.
+Knowledge Work Belastingzaken is the worked example of why one row needs four arrays: eight skills, eight commands and four wired MCP servers, on a single row that no one word describes.
 
 ## Execution
 
@@ -103,9 +103,7 @@ Read it off the source, in this order, and stop at the first thing that answers:
    **A version digit least of all**, because it is the one that looks like evidence. `0.x` is the
    resting state of this ecosystem rather than a stage in it — a server can sit at `0.4.2` for two
    years, do its job perfectly, and never be released again — while plenty of `1.0.0`s are a
-   generator's default nobody edited. This ladder used to read `0.x` as `beta`, and that rung alone
-   produced twenty-seven of the twenty-nine betas in the catalogue: a warning on twenty-seven working
-   listings that no publisher had ever given.
+   generator's default nobody edited.
 
 Tags and releases are not required: plenty of good repositories have none. Where you override this
 ladder on judgement, say why in the pull request that does it, or the next recheck will simply flag it again.
@@ -140,7 +138,7 @@ python3 validate.py                        # reports every problem in one pass
 ## Rules
 
 - One file per artifact, named after its `id`. Every field in `schema.json` is required — there are no optional fields.
-- Everything user-facing carries **both an English and a Dutch string** — `description_en`/`description_nl` per listing, `en`/`nl` per category title. One outcome-first sentence each for descriptions, same register, at most 200 characters (the cards that quote them clamp at three lines), with product and vendor names left untranslated; Dutch titles use Dutch sentence case. The README renders the English strings today — the Dutch ones are stored for a Dutch surface, so write them even though nothing displays them yet.
+- Everything user-facing carries **both an English and a Dutch string** — `description_en`/`description_nl` per listing, `en`/`nl` per category title. One outcome-first sentence each for descriptions, same register, at most 200 characters, with product and vendor names left untranslated; Dutch titles use Dutch sentence case. Both are required even though the README renders only the English strings today.
 - `category` is a key from `data/categories.json`. **The title lives in `categories.json`, not in a filename** — reword a category by editing its title, and no listing has to change. Adding a category means adding one entry there.
 - **Categorise by what the reader wants, not by who publishes the source.** RDW, KVK, Kadaster and the Belastingdienst are all government bodies, and their listings sit in `reizen`, `bedrijf`, `wonen` and `geld` — because someone reaching for them wants a car, a company, a house or their taxes. `overheid` is for wanting to know what government is doing, or for open data as such; read it as an owner rather than a need and it swallows half the list. There is no `overig` category on purpose: a listing nothing fits earns either a better reading of an existing category or a new one.
 - `subject` is an array of keys from `data/subjects.json` — the Dutch service, data source, standard, or authority the integration connects to or covers. Reuse an existing key if it is already listed; add a registry entry (key + display `name`) if it isn't.
