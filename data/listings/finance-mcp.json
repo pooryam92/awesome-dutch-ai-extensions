@@ -2,13 +2,14 @@
   "id": "finance-mcp",
   "name": "Finance MCP",
   "category": "boekhouding",
-  "description_en": "Query Exact Online, Moneybird, Business Central, and Twinfield bookkeeping read-only through one hosted EU MCP endpoint and a shared financial data model.",
-  "description_nl": "Bevraag boekhoudingen in Exact Online, Moneybird, Business Central en Twinfield alleen-lezen via één gehost EU-MCP-endpoint met een gedeeld financieel datamodel.",
+  "description_en": "Query Exact Online, Moneybird, Business Central, Twinfield, and e-Boekhouden.nl bookkeeping read-only through one hosted EU MCP endpoint and a shared RGS-based financial data model.",
+  "description_nl": "Bevraag boekhoudingen in Exact Online, Moneybird, Business Central, Twinfield en e-Boekhouden.nl alleen-lezen via één gehost EU-MCP-endpoint met een gedeeld financieel datamodel op RGS-basis.",
   "subject": [
     "exact-online",
     "moneybird",
     "business-central",
-    "twinfield"
+    "twinfield",
+    "e-boekhouden"
   ],
   "contains": {
     "skills": [],
@@ -39,11 +40,15 @@
     {
       "domain": "twinfield.com",
       "account": true
+    },
+    {
+      "domain": "e-boekhouden.nl",
+      "account": true
     }
   ],
   "origin": "commercial",
   "status": "live",
   "publisher": "Productivity Advisors B.V.",
   "source_url": "https://financemcp.nl/",
-  "last_checked": "2026-08-20"
+  "last_checked": "2026-08-30"
 }

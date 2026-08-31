@@ -2,8 +2,8 @@
   "id": "mcp-picnic",
   "name": "mcp-picnic",
   "category": "boodschappen",
-  "description_en": "Shop Picnic groceries — search products and manage the cart, orders, and deliveries.",
-  "description_nl": "Doe je boodschappen bij Picnic — zoek producten en beheer je mandje, bestellingen en bezorgingen.",
+  "description_en": "Shop Picnic groceries — search products, browse recipes, and manage the cart, orders, and deliveries.",
+  "description_nl": "Doe je boodschappen bij Picnic — zoek producten, blader door recepten en beheer je mandje, bestellingen en bezorgingen.",
   "subject": [
     "picnic"
   ],
@@ -30,5 +30,5 @@
   "status": "live",
   "publisher": "ivo-toby",
   "source_url": "https://github.com/ivo-toby/mcp-picnic",
-  "last_checked": "2026-08-19"
+  "last_checked": "2026-08-30"
 }

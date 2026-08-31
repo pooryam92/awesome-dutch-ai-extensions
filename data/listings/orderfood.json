@@ -2,8 +2,8 @@
   "id": "orderfood",
   "name": "orderfood",
   "category": "boodschappen",
-  "description_en": "Search Thuisbezorgd.nl restaurants, read menus, and build a cart — placing the order is not supported, because checkout needs a browser payment flow.",
-  "description_nl": "Zoek restaurants op Thuisbezorgd.nl, lees menu's en vul een mandje — de bestelling plaatsen kan niet, omdat afrekenen een betaalflow in de browser vereist.",
+  "description_en": "Search Uber Eats and Thuisbezorgd restaurants, read menus, and build a cart — placing the order is not supported, because checkout needs a browser payment flow.",
+  "description_nl": "Zoek restaurants op Uber Eats en Thuisbezorgd, lees menu's en vul een mandje — de bestelling plaatsen kan niet, omdat afrekenen een betaalflow in de browser vereist.",
   "subject": [
     "thuisbezorgd"
   ],
@@ -27,8 +27,8 @@
     }
   ],
   "origin": "community",
-  "status": "beta",
+  "status": "live",
   "publisher": "henkas",
   "source_url": "https://github.com/henkas/orderfood",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-29"
 }

@@ -2,29 +2,21 @@
   "id": "wetsanalyse-ai",
   "name": "Wetsanalyse AI",
   "category": "recht",
-  "description_en": "Produce source-traceable analyses of Dutch legislation with the JAS method and formalise them into Belastingdienst RegelSpraak, via a skill plus a bundled wettenbank MCP with human-review checkpoints.",
-  "description_nl": "Maak herleidbare analyses van Nederlandse wetgeving met de JAS-methode en formaliseer ze naar Belastingdienst-RegelSpraak, via een skill plus meegeleverde wettenbank-MCP met menselijke controle.",
+  "description_en": "Mark and classify Dutch statutory text into the thirteen JAS classes, each marking traceable to its article, in a self-hosted workbench where a jurist reviews every proposal; RegelSpraak is not built.",
+  "description_nl": "Markeer en classificeer Nederlandse wetteksten in de dertien JAS-klassen, elke markering herleidbaar tot het artikel, in een zelfgehoste werkplek waar een jurist ze beoordeelt; RegelSpraak ontbreekt.",
   "subject": [
-    "wetten-overheid",
-    "belastingdienst"
+    "wetten-overheid"
   ],
   "contains": {
     "skills": [
-      "regelspraak",
       "wetsanalyse"
     ],
     "commands": [],
     "agents": [],
-    "mcp_servers": [
-      "wettenbank"
-    ]
+    "mcp_servers": []
   },
-  "execution": "both",
+  "execution": "local",
   "uses": [
-    {
-      "domain": "ipalm.nl",
-      "account": true
-    },
     {
       "domain": "overheid.nl",
       "account": false
@@ -38,5 +30,5 @@
   "status": "live",
   "publisher": "palmw01",
   "source_url": "https://github.com/palmw01/wetsanalyse-ai",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-30"
 }

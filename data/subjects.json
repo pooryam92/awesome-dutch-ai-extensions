@@ -5,6 +5,10 @@
   "afas-profit": {
     "name": "AFAS Profit"
   },
+  "ai-verordening": {
+    "name": "AI-verordening (AI Act)",
+    "kind": "standard"
+  },
   "albert-heijn": {
     "name": "Albert Heijn"
   },
@@ -62,10 +66,6 @@
   "dekamarkt": {
     "name": "DekaMarkt"
   },
-  "developer-overheid-register": {
-    "name": "developer.overheid.nl API Register",
-    "kind": "dataset"
-  },
   "dirk": {
     "name": "Dirk"
   },
@@ -84,9 +84,6 @@
   },
   "exact-online": {
     "name": "Exact Online"
-  },
-  "funda": {
-    "name": "Funda"
   },
   "gemeente-amsterdam": {
     "name": "Gemeente Amsterdam",
@@ -172,8 +169,9 @@
     "name": "Netbeheerdata (Liander / Enexis / Stedin)",
     "kind": "dataset"
   },
-  "nmbrs": {
-    "name": "Nmbrs"
+  "nis2": {
+    "name": "NIS2-richtlijn",
+    "kind": "standard"
   },
   "ns": {
     "name": "NS (Nederlandse Spoorwegen)"
@@ -188,9 +186,6 @@
   "officiele-bekendmakingen": {
     "name": "officielebekendmakingen.nl",
     "kind": "dataset"
-  },
-  "oorlogsbronnen": {
-    "name": "Oorlogsbronnen"
   },
   "openarchieven": {
     "name": "Open Archieven"
@@ -247,6 +242,10 @@
   },
   "spar": {
     "name": "Spar"
+  },
+  "tenderned": {
+    "name": "TenderNed",
+    "kind": "dataset"
   },
   "thuisbezorgd": {
     "name": "Thuisbezorgd.nl"

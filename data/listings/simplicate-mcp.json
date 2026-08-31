@@ -2,8 +2,8 @@
   "id": "simplicate-mcp",
   "name": "Simplicate MCP",
   "category": "boekhouding",
-  "description_en": "Work with Simplicate project, CRM, and invoicing data through a per-domain hosted endpoint.",
-  "description_nl": "Werk met project-, CRM- en factuurgegevens uit Simplicate via een gehost endpoint per domein.",
+  "description_en": "Register hours and mileage on Simplicate projects, look up projects, sales, contacts and invoices, and create or update sales — through a hosted endpoint on your own Simplicate domain.",
+  "description_nl": "Schrijf uren en kilometers op Simplicate-projecten, zoek projecten, sales, contacten en facturen op, en maak of wijzig sales — via een gehost endpoint op je eigen Simplicate-domein.",
   "subject": [
     "simplicate"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "Simplicate",
   "source_url": "https://developer.simplicate.com/docs/mcp/getting_started/",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-30"
 }

@@ -14,7 +14,7 @@
     "commands": [],
     "agents": [],
     "mcp_servers": [
-      "ansvar-gateway"
+      "ansvar"
     ]
   },
   "execution": "remote",
@@ -28,5 +28,5 @@
   "status": "live",
   "publisher": "Ansvar Systems AB",
   "source_url": "https://ansvar.eu/coverage/netherlands",
-  "last_checked": "2026-08-19"
+  "last_checked": "2026-08-30"
 }

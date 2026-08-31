@@ -2,8 +2,8 @@
   "id": "postcode-eu-ai-tools",
   "name": "postcode-eu-ai-tools",
   "category": "data",
-  "description_en": "Validate and autocomplete Dutch addresses through the official Postcode.eu API.",
-  "description_nl": "Valideer Nederlandse adressen en vul ze automatisch aan via de officiële Postcode.eu API.",
+  "description_en": "Look up Dutch addresses by postcode and house number and validate international addresses, through the official Postcode.eu API.",
+  "description_nl": "Zoek Nederlandse adressen op postcode en huisnummer op en valideer internationale adressen via de officiële Postcode.eu API.",
   "subject": [
     "postcode-eu"
   ],
@@ -24,7 +24,7 @@
   ],
   "origin": "official",
   "status": "live",
-  "publisher": "Postcode.nl",
+  "publisher": "Postcode.eu",
   "source_url": "https://github.com/postcode-nl/postcode-eu-ai-tools-python",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-30"
 }

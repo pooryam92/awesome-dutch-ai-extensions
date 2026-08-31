@@ -2,8 +2,8 @@
   "id": "finance-skills-nl",
   "name": "finance-skills-nl",
   "category": "boekhouding",
-  "description_en": "Draft month-close packages, reconcile the general ledger, and audit Excel models for Dutch SME finance teams, with every output flagged for human sign-off.",
-  "description_nl": "Stel maandafsluitingen op, sluit het grootboek aan en controleer Excel-modellen voor financiële teams in het Nederlandse mkb, waarbij elke uitkomst gemarkeerd wordt voor menselijke goedkeuring.",
+  "description_en": "Draft month-close packages, reconcile the general ledger, audit Excel models, and self-assess AI readiness for Dutch SME finance teams, with every output flagged for human sign-off.",
+  "description_nl": "Stel maandafsluitingen op, sluit het grootboek aan, controleer Excel-modellen en toets de AI-gereedheid van finance-teams in het Nederlandse mkb; elke uitkomst gaat eerst langs een mens.",
   "subject": [
     "rj"
   ],
@@ -26,8 +26,8 @@
   "execution": "none",
   "uses": [],
   "origin": "community",
-  "status": "beta",
+  "status": "live",
   "publisher": "Start 2 Scale",
   "source_url": "https://github.com/start2scale/finance-skills-nl",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-29"
 }

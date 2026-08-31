@@ -23,8 +23,8 @@
     }
   ],
   "origin": "official",
-  "status": "beta",
+  "status": "live",
   "publisher": "bunq",
   "source_url": "https://github.com/bunq/partner-mcp",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-29"
 }

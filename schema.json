@@ -25,7 +25,7 @@
     "id": {
       "type": "string",
       "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Stable slug, and the filename. Join key for every surface and later usage events."
+      "description": "Stable slug, and the filename."
     },
     "name": {
       "type": "string",
@@ -41,7 +41,7 @@
       "type": "string",
       "minLength": 1,
       "maxLength": 200,
-      "description": "One outcome-first sentence. At most 200 characters: the cards that quote it clamp at three lines."
+      "description": "One outcome-first sentence, at most 200 characters."
     },
     "description_nl": {
       "type": "string",
@@ -74,7 +74,7 @@
         { "properties": { "agents": { "minItems": 1 } } },
         { "properties": { "mcp_servers": { "minItems": 1 } } }
       ],
-      "$comment": "All four arrays empty is what the old `bundles` meant by a one-artifact listing; under the self-listing rule it means a listing that gives you nothing, which is never a real submission — and it is the shape that makes the derived kind fall through to `bundle`.",
+      "$comment": "All four arrays empty would mean a listing that gives you nothing, which is never a real submission — and it is the shape that makes the derived kind fall through to `bundle`.",
       "description": "Everything the listing gives you, each kind in its own array, so the capabilities inside a single row stay findable. All four arrays are required and at least one carries a name — a listing that holds nothing is not a listing. Empty means none of that kind. A listing lists itself: a lone MCP server carries its own server name under `mcp_servers`, a lone skill its own name under `skills`. Names follow the publisher, falling back to the listing's `id` where the publisher ships no name. For a large multi-jurisdiction bundle, list only the Dutch-relevant entries. What kind of thing a listing is is read off these arrays — one kind is that kind, several is a bundle — rather than stored a second time.",
       "properties": {
         "skills": {
@@ -123,13 +123,12 @@
         "both",
         "none"
       ],
-      "description": "Where the code has to execute: `local` is a process on the visitor's own machine (stdio — `npx`, `uvx`, `docker run`), `remote` is an HTTPS server the publisher already runs, `both` is the same server offered either way, `none` is a listing that runs nothing, such as instructions you copy in. A server that merely *supports* an HTTP transport is still `local` — what makes a listing `remote` is that a URL exists to paste, not that one could be made to exist. It decides whether a listing can be used at all: products that register a server from their own cloud cannot spawn a local process, so a `local` listing is unreachable there whatever the visitor does. A listing whose parts disagree takes the value of its most restrictive part — any local-only server in a bundle makes the listing `local`. Read it off the source; it follows neither the host nor `contains`. `none` means nothing executes, never that nobody checked, which is why a listing carrying an `mcp_servers` entry may not claim it.",
-      "$comment": "Spelled out rather than left blank: an empty string would read as unverified in the one field where that confusion is most expensive."
+      "description": "Where the code has to execute: `local` is a process on the visitor's own machine (stdio — `npx`, `uvx`, `docker run`), `remote` is an HTTPS server the publisher already runs, `both` is the same server offered either way, `none` is a listing that runs nothing, such as instructions you copy in. A server that merely *supports* an HTTP transport is still `local` — what makes a listing `remote` is that a URL exists to paste, not that one could be made to exist. It decides whether a listing can be used at all: products that register a server from their own cloud cannot spawn a local process, so a `local` listing is unreachable there whatever the visitor does. A listing whose parts disagree takes the value of its most restrictive part — any local-only server in a bundle makes the listing `local`. Read it off the source; it follows neither the host nor `contains`. `none` means nothing executes, never that nobody checked, which is why a listing carrying an `mcp_servers` entry may not claim it."
     },
     "uses": {
       "type": "array",
       "uniqueItems": true,
-      "description": "Every external party the listing reaches, one entry per registrable domain, empty where it reaches none. Each entry says whether an account there stands between the visitor and the listing — a row rather than a bare list of required accounts, so the record can also say that a listing reaches an open service freely, which is roughly half the catalogue.",
+      "description": "Every external party the listing reaches, one entry per registrable domain, empty where it reaches none. Each entry says whether an account there stands between the visitor and the listing — a row rather than a bare list of required accounts, so the record can also say that a listing reaches an open service freely.",
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -145,7 +144,7 @@
           },
           "account": {
             "type": "boolean",
-            "description": "Whether the visitor must already hold an account here before the listing does anything. `false` is the informative direction and covers about half the catalogue — RDW, CBS, wetten.nl, KNMI and the rest of the open half. It records that an account stands in the way, not what it costs: a free self-serve developer key and a paid subscription are the same `true`, because price is a fact about the service and is not stored per listing. Not derivable from `subject` — one Rijksmuseum listing needs a key and another needs nothing, because it queries its own copy."
+            "description": "Whether the visitor must already hold an account here before the listing does anything. It records that an account stands in the way, not what it costs: a free self-serve developer key and a paid subscription are the same `true`, because price is a fact about the service and is not stored per listing. Not derivable from `subject` — two listings covering the same service can differ, because one queries its own copy."
           }
         }
       }
@@ -165,8 +164,11 @@
         "beta",
         "preview",
         "concept",
-        "abandoned"
-      ]
+        "abandoned",
+        "broken"
+      ],
+      "description": "How far along the listing is, read off the source by the ladder in CONTRIBUTING.md. `live`, `beta`, `preview` and `concept` are a maturity ladder, and every value on it but `live` comes from the publisher's own words — a README calling it beta, an *Alpha* heading, a disclaimer. `abandoned` and `broken` sit off that ladder and record observed conditions: `abandoned` needs the publisher to say so, and `broken` means the documented install does not run while another route does.",
+      "$comment": "`broken` is appended rather than slotted in so the enum order still reads as the ladder followed by the two terminal conditions."
     },
     "publisher": {
       "type": "string",
@@ -186,7 +188,7 @@
   },
   "allOf": [
     {
-      "$comment": "A listing that carries an MCP server executes something, so it cannot claim nothing does. This is what keeps a source nobody managed to read from being filed as `none` instead of being read.",
+      "$comment": "A listing that carries an MCP server executes something, so it cannot claim nothing does.",
       "if": {
         "required": ["contains"],
         "properties": {

@@ -2,8 +2,8 @@
   "id": "moneybird-mcp-server",
   "name": "moneybird-mcp-server",
   "category": "boekhouding",
-  "description_en": "Work with Moneybird contacts, sales invoices, financial accounts, payments, products, projects, and time entries, with custom API requests for the rest.",
-  "description_nl": "Werk met contacten, verkoopfacturen, financiële rekeningen, betalingen, producten, projecten en uren in Moneybird, met eigen API-verzoeken voor al het overige.",
+  "description_en": "Read Moneybird contacts, sales invoices, estimates, products, projects, time entries and ledger accounts through three generic list/get tools, with a raw API call for everything else.",
+  "description_nl": "Lees contacten, verkoopfacturen, offertes, producten, projecten, uren en grootboekrekeningen in Moneybird via drie generieke list/get-tools, met een rauwe API-aanroep voor al het overige.",
   "subject": [
     "moneybird"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "vanderheijden86",
   "source_url": "https://github.com/vanderheijden86/moneybird-mcp-server",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-30"
 }

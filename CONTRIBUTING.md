@@ -16,6 +16,8 @@ Two ways to add an integration:
 
 One row is one installable unit, so a plugin holding eighteen skills is still one row. `contains` names everything that unit gives you, so a reader searching for *NEN 3610* or *box 3* can still find it.
 
+**A marketplace is one row too**, even though its plugins install one at a time. What a visitor finds and adds is the marketplace; `contains` then names every skill across all of its plugins, the same way it does for a single plugin. Splitting a marketplace into a row per plugin puts a helper that other skills call — an xlsx writer, a shared reference — on the same footing as the work someone actually came for. The opposite case is a library of standalone installables: where each entry ships as its own command with its own install, the entry is the unit and gets its own row — the library is where you found it, not what you add. Printing Press is that case, which is why its Dutch entries sit in rows of their own.
+
 ```json
 "contains": {
   "skills": ["inkomstenbelasting-boxen", "omzetbelasting-btw"],
@@ -32,7 +34,7 @@ One row is one installable unit, so a plugin holding eighteen skills is still on
 - **A multi-jurisdiction bundle lists only its Dutch entries.** OpenAccountants ships 781 skills; the eighteen `nl-*`/`netherlands-*` ones are what belong here. This is about jurisdiction-specific *content*, not about connectors: a bundled Slack or Box MCP server is where the user's own documents live, so it stays in even though nothing about it is Dutch.
 - **Don't enumerate MCP tools.** `subject` and the description already carry that.
 
-Wetsanalyse AI is the worked example of why one row needs four arrays: two skills and a `wettenbank` server, on a single row that no one word describes.
+Knowledge Work Belastingzaken is the worked example of why one row needs four arrays: eight skills, eight commands and four wired MCP servers, on a single row that no one word describes.
 
 ## Execution
 
@@ -44,7 +46,7 @@ Where the code has to run. This is the one limit a visitor's assistant cannot wo
 `none` — nothing executes, such as instructions you copy in.
 
 - **Read it off the source, never off the shape.** A vendor's own documentation page can be local-only and a GitHub repo remote-only, and what a listing contains does not predict it either.
-- **Shipping an HTTP transport is not `remote`.** Plenty of repos can be deployed as a server; unless the publisher already runs one at a URL you can paste, the visitor still has to start the process, so it is `local`.
+- **Shipping an HTTP transport is not `remote`.** Plenty of repos can be deployed as a server; unless the publisher already runs one at a URL you can paste, the visitor still has to start the process, so it is `local`. **And a URL nobody published is not one you can paste**: an endpoint you found by reading the source, or running on a host the documentation never names, leaves a visitor exactly where they started, so it does not make a listing `remote`.
 - **A bundle takes its most restrictive part.** Any local-only server in it makes the whole listing `local`, because what a visitor needs to know is whether they can use the whole thing from a cloud-side product.
 - **`none` means nothing runs, not that nobody checked.** A listing naming a server under `contains.mcp_servers` may not claim it, and the schema refuses that combination.
 
@@ -61,6 +63,8 @@ One row per external party the listing reaches, keyed by registrable domain, eac
 
 - **`false` is worth writing.** About half the catalogue reaches a genuinely open service — RDW, CBS, wetten.nl, KNMI — and an empty array would make that indistinguishable from a listing that reaches nothing at all. Empty is for the listings that really do reach nothing.
 - **Write what it calls, not what it is about.** A listing serving its own copy of somebody's data reaches nobody, however famous the collection: `subject` says what it covers, `uses` says who it talks to, and the two are allowed to disagree.
+- **For a skill, the instructions are what it calls.** A skill ships no code, so what it tells an assistant to go and fetch is the only mechanism it has, and those sources get rows. Read the source the same way it reads itself: where a reference file separates the sources it queries from the ones it cites for background, only the first kind is a party. And name the host that actually answers — where a listing reaches an organisation through somebody else's portal, or by a request that returns data by e-mail, the row is the door you knock on, not the brand behind it. **Read `allowed-tools` before counting domains**, because a skill that ships its sources reaches nobody: two Dutch income-tax skills can cite the same registers hundreds of times and belong at twelve rows and at none, and the line that tells them apart is whether the front matter grants a fetching tool at all.
+- **A hosted connector is named by the party behind it, not by its host.** The door you knock on above is the rule for a skill fetching a URL, where the fetch target is the whole fact. A connector somebody else operates for you is the other case: `ms365` answers at `microsoft365.mcp.claude.com`, but the data and the account gate are Microsoft's, and a `claude.com` row would record only that the visitor uses Claude — true of everyone reading this. Name the party whose account stands in the way: `microsoft.com`.
 - **One row per domain.** A service gets one row, whatever it costs the listing to reach it; two rows for the same domain contradict each other and `validate.py` rejects them.
 - **Registrable domain, never the portal subdomain.** NS issues keys at `apiportal.ns.nl` and the value here is `ns.nl`.
 - **The domain the listing actually calls, even when the party has several.** A subdomain reduces to its registrable domain, but a genuinely different domain does not fold into the one that looks tidier: KNMI's app API is `knmi.cloud`, WeFact's API is `mijnwefact.nl`, Moneybird's API and MCP endpoint are both `moneybird.com`, and the official-publications repository is `officiele-overheidspublicaties.nl` even though the search service next to it is `overheid.nl`. Two listings reaching the same organisation through different domains get different rows, and that is the record working: what a visitor's traffic goes to is a fact about the listing, not about the brand. Where the service does run one estate under a country domain, name the one a Dutch visitor deals with: `exactonline.nl`.
@@ -74,6 +78,40 @@ One row per external party the listing reaches, keyed by registrable domain, eac
 `live` · `beta` · `preview` — working software, in decreasing order of stability.
 `concept` — a proof of concept or unreleased design; not something to depend on.
 `abandoned` — no longer maintained, but still listed because it remains useful or is the only option for its subject. Delist rather than mark `abandoned` when it no longer runs at all.
+`broken` — the documented install does not run, but another route does. Off the ladder above: it says nothing about how far along the listing is, only that the route its own README gives you fails.
+
+`abandoned` needs the publisher to say so — an archived repository, a deprecation notice, a successor named in the README. Time since the last commit is not that: a small server that does its job may go a year without a commit and still be exactly what a visitor came for.
+
+Read it off the source, in this order, and stop at the first thing that answers:
+
+0. **Does the documented install run?** `live` means working software, and a row whose only
+   documented route does not run is not that, whatever the version says. Mark it `broken` where
+   another route works — a clone, a node path — and delist where none does. Check what the README
+   actually tells you to run: a `package.json` at `1.0.0` with a proper `bin` still leaves `npx` dead
+   if nobody published the package.
+1. **What the publisher calls it.** "Beta (v0.2.0-beta)" in a README settles it. So does a heading
+   reading *Alpha* — the nearest term here is `preview`. A packaging classifier counts here too,
+   but only where the version agrees with it: PyPI's `Development Status :: 3 - Alpha` beside a
+   `0.1.1` is the publisher speaking, and beside a `1.8.2` with four recent releases it is a stale
+   template line nobody edited — read past it rather than treating it as a declaration.
+2. **A disclaimer.** "Not production ready and should not be used for production" is `concept`,
+   whatever else the page says, because the publisher is telling you not to depend on it.
+3. **Nothing at all** is `live`. Working software with no caveat anywhere is what `live` means, and a
+   quiet `beta` we invented tells a visitor something the publisher never said. Stars, age, a version
+   digit, and how obscure a repository is are not maturity signals.
+
+   **A version digit least of all**, because it is the one that looks like evidence. `0.x` is the
+   resting state of this ecosystem rather than a stage in it — a server can sit at `0.4.2` for two
+   years, do its job perfectly, and never be released again — while plenty of `1.0.0`s are a
+   generator's default nobody edited.
+
+Tags and releases are not required: plenty of good repositories have none. Where you override this
+ladder on judgement, say why in the pull request that does it, or the next recheck will simply flag it again.
+
+What the ladder buys is one invariant worth keeping: **a status other than `live` is always either
+the publisher's own words or something we checked** — never something we inferred. That is what
+makes it safe to badge. Add a rung that guesses and every badge on the list gets quieter, because a
+visitor who finds one warning unearned stops reading the rest.
 
 ## Layout
 
@@ -100,7 +138,7 @@ python3 validate.py                        # reports every problem in one pass
 ## Rules
 
 - One file per artifact, named after its `id`. Every field in `schema.json` is required — there are no optional fields.
-- Everything user-facing carries **both an English and a Dutch string** — `description_en`/`description_nl` per listing, `en`/`nl` per category title. One outcome-first sentence each for descriptions, same register, at most 200 characters (the cards that quote them clamp at three lines), with product and vendor names left untranslated; Dutch titles use Dutch sentence case. The README renders the English strings today — the Dutch ones are stored for a Dutch surface, so write them even though nothing displays them yet.
+- Everything user-facing carries **both an English and a Dutch string** — `description_en`/`description_nl` per listing, `en`/`nl` per category title. One outcome-first sentence each for descriptions, same register, at most 200 characters, with product and vendor names left untranslated; Dutch titles use Dutch sentence case. Both are required even though the README renders only the English strings today.
 - `category` is a key from `data/categories.json`. **The title lives in `categories.json`, not in a filename** — reword a category by editing its title, and no listing has to change. Adding a category means adding one entry there.
 - **Categorise by what the reader wants, not by who publishes the source.** RDW, KVK, Kadaster and the Belastingdienst are all government bodies, and their listings sit in `reizen`, `bedrijf`, `wonen` and `geld` — because someone reaching for them wants a car, a company, a house or their taxes. `overheid` is for wanting to know what government is doing, or for open data as such; read it as an owner rather than a need and it swallows half the list. There is no `overig` category on purpose: a listing nothing fits earns either a better reading of an existing category or a new one.
 - `subject` is an array of keys from `data/subjects.json` — the Dutch service, data source, standard, or authority the integration connects to or covers. Reuse an existing key if it is already listed; add a registry entry (key + display `name`) if it isn't.

@@ -23,11 +23,15 @@
     {
       "domain": "rijksmuseum.nl",
       "account": false
+    },
+    {
+      "domain": "micr.io",
+      "account": false
     }
   ],
   "origin": "community",
   "status": "preview",
   "publisher": "RISE, University of Basel",
   "source_url": "https://github.com/kintopp/rijksmuseum-mcp-plus",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-29"
 }

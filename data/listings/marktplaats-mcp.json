@@ -2,8 +2,8 @@
   "id": "marktplaats-mcp",
   "name": "marktplaats-mcp",
   "category": "spullen",
-  "description_en": "Search and read listings from Marktplaats.nl.",
-  "description_nl": "Zoek en lees advertenties van Marktplaats.nl.",
+  "description_en": "Search Marktplaats.nl with category filters like RAM or frame height, read full ads with all photos, and check a seller's rating and verification.",
+  "description_nl": "Zoek op Marktplaats.nl met categoriefilters zoals RAM of framehoogte, lees volledige advertenties met alle foto's en bekijk beoordeling en verificatie van de verkoper.",
   "subject": [
     "marktplaats"
   ],
@@ -24,7 +24,7 @@
   ],
   "origin": "community",
   "status": "live",
-  "publisher": "PonClick",
+  "publisher": "lessClick AI",
   "source_url": "https://github.com/PonClick/marktplaats-mcp",
-  "last_checked": "2026-08-14"
+  "last_checked": "2026-08-30"
 }
