@@ -1,0 +1,30 @@
+{
+  "id": "rdw-mcp-server",
+  "name": "rdw-mcp-server",
+  "category": "reizen",
+  "description_en": "Look up a Dutch license plate over npx and get the RDW record — registration, fuel and emissions, axles and bodywork — from RDW open data, no API key needed.",
+  "description_nl": "Zoek via npx een Nederlands kenteken op en krijg het RDW-record — registratie, brandstof en emissies, assen en carrosserie — uit RDW open data, zonder API-key.",
+  "subject": [
+    "rdw"
+  ],
+  "contains": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "rdw"
+    ]
+  },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "rdw.nl",
+      "account": false
+    }
+  ],
+  "origin": "community",
+  "status": "live",
+  "publisher": "jodur",
+  "source_url": "https://github.com/jodur/RDW-MCP",
+  "last_checked": "2026-09-02"
+}
