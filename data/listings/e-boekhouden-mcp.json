@@ -2,8 +2,8 @@
   "id": "e-boekhouden-mcp",
   "name": "e-Boekhouden MCP",
   "category": "boekhouding",
-  "description_en": "Read and write e-Boekhouden administration using your own API credentials — it starts from a node path, because the advertised global npm install ships no command.",
-  "description_nl": "Lees en muteer je administratie in e-Boekhouden met je eigen API-gegevens — je start via een node-pad, omdat de aangeprezen globale npm-install geen commando oplevert.",
+  "description_en": "Read an e-Boekhouden administration with your own API token, and book invoices and payments behind an opt-in — it starts from a node path, because the advertised global npm install ships no command.",
+  "description_nl": "Lees je administratie in e-Boekhouden met je eigen API-token en boek facturen en betalingen na een opt-in — je start via een node-pad, omdat de aangeprezen globale npm-install geen commando oplevert.",
   "subject": [
     "e-boekhouden"
   ],
@@ -26,5 +26,5 @@
   "status": "broken",
   "publisher": "CodeMill Solutions",
   "source_url": "https://github.com/CodeMill-Solutions/e-boekhouden-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-02"
 }
