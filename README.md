@@ -22,7 +22,7 @@ _Every listing was checked against its source on or after 29 August 2026._
 | [Law](#law)                   |        9 | Rechtspraak.nl, wetten.overheid.nl, AVG, NIS2-richtlijn, …     |
 | [Marketplaces](#marketplaces) |        5 | Marktplaats, bol.com, PostNL                                   |
 | [Money](#money)               |        6 | Belastingdienst, Bitvavo, bunq                                 |
-| [Travel](#travel)             |        6 | NS, OVapi, ANWB, RDW                                           |
+| [Travel](#travel)             |        7 | NS, OVapi, RDW, ANWB                                           |
 | [Weather](#weather)           |        2 | KNMI                                                           |
 
 ## Accounting
@@ -30,7 +30,7 @@ _Every listing was checked against its source on or after 29 August 2026._
 | Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
 | [AFAS AI Connect](https://github.com/iwebdevnl/afas-ai-connect) | Reach an AFAS Profit environment through an AppConnector an administrator enables once — outstanding items, aging, and result and balance figures, with every booking staged as a draft you confirm. <details><summary>Contains 4 commands · 1 MCP server</summary><b>Commands</b> afas-balans · afas-omzet · afas-openstaande-debiteuren · afas-ouderdomsanalyse<br><b>MCP servers</b> afas</details> | AFAS Profit | ![Bundle · Commercial](assets/badges/tags-bundle-commercial.svg) |
-| [e-Boekhouden MCP](https://github.com/CodeMill-Solutions/e-boekhouden-mcp) | Read and write e-Boekhouden administration using your own API credentials — it starts from a node path, because the advertised global npm install ships no command. | e-Boekhouden | ![MCP · Community · Install broken](assets/badges/tags-mcp-community-broken.svg) |
+| [e-Boekhouden MCP](https://github.com/CodeMill-Solutions/e-boekhouden-mcp) | Read an e-Boekhouden administration with your own API token, and book invoices and payments behind an opt-in — it starts from a node path, because the advertised global npm install ships no command. | e-Boekhouden | ![MCP · Community · Install broken](assets/badges/tags-mcp-community-broken.svg) |
 | [Exact Online AI Connect](https://github.com/iwebdevnl/exact-online-ai-connect) | Query Exact Online administrations and generate aging, P&L, and balance-sheet reports through a hosted MCP, where every write lands as a draft you approve first. <details><summary>Contains 10 skills · 4 commands · 1 MCP server</summary><b>Skills</b> btw-aangifte-assistent · cashflow-analyse · creditcard-aflettering · debiteurenbeheer · exact-afletter-logica · grootboek-anomalie-detectie · management-informatie · periodeafsluiting · reporting · resultatenrekening-analyse<br><b>Commands</b> exact-balans · exact-omzet · exact-openstaande-debiteuren · exact-ouderdomsanalyse<br><b>MCP servers</b> exact-online</details> | Exact Online | ![Bundle · Commercial](assets/badges/tags-bundle-commercial.svg) |
 | [exact-mcp](https://github.com/lemon-official/exact-mcp) | Read and write Exact Online orders and accounting data, plus 330 further resources through a registry-gated endpoint tool, with encrypted OAuth tokens and allowlisted OData queries. | Exact Online | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [Finance MCP](https://financemcp.nl/) | Query Exact Online, Moneybird, Business Central, Twinfield, and e-Boekhouden.nl bookkeeping read-only through one hosted EU MCP endpoint and a shared RGS-based financial data model. | Exact Online / Moneybird / Microsoft Dynamics 365 Business Central / Twinfield / e-Boekhouden | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
@@ -174,6 +174,7 @@ _Every listing was checked against its source on or after 29 August 2026._
 | [ov-mcp](https://github.com/laulauland/ov-mcp) | Search Dutch public-transport stops, find stops near a coordinate, and look up routes across every operator from the national GTFS feed, without an API key. | OVapi | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [ovapi-mcp-server](https://github.com/henrrrik/ovapi-mcp-server) | Look up Dutch bus, tram, metro, and ferry departures from the OVapi real-time feed — search stops, find stops nearby, and inspect lines and journeys. | OVapi | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [rdw-mcp](https://github.com/rantuma/rdw-mcp) | Look up a Dutch license plate and get the full RDW record — registration, fuel and emissions, axles and bodywork — from RDW open data, no API key needed. | RDW | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [rdw-mcp-server](https://github.com/jodur/RDW-MCP) | Look up a Dutch license plate over npx and get the RDW record — registration, fuel and emissions, axles and bodywork — from RDW open data, no API key needed. | RDW | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 
 ## Weather
 
@@ -184,4 +185,4 @@ _Every listing was checked against its source on or after 29 August 2026._
 
 ---
 
-_87 listings across 14 categories, holding 139 skills, 26 commands, 2 agents, and 78 MCP servers._
+_88 listings across 14 categories, holding 139 skills, 26 commands, 2 agents, and 79 MCP servers._
