@@ -16,7 +16,7 @@ _Every listing was checked against its source on or after 29 August 2026._
 | [Education](#education)       |        1 | Magister                                                    |
 | [Government](#government)     |        7 | CBS StatLine, data.overheid.nl, DUO, …                      |
 | [Groceries](#groceries)       |        7 | Albert Heijn, Jumbo, Plus, Picnic, Aldi, DA, …              |
-| [History](#history)           |        5 | Rijksdienst voor het Cultureel Erfgoed, Rijksmuseum, …      |
+| [History](#history)           |        6 | Rijksdienst voor het Cultureel Erfgoed, Rijksmuseum, …      |
 | [Housing](#housing)           |        3 | CBS StatLine, Kadaster, Kamernet, Netbeheerdata, PDOK       |
 | [Language](#language)         |        2 | Nederlands, Inburgeringsexamen, Staatsexamen NT2            |
 | [Law](#law)                   |        9 | Rechtspraak.nl, wetten.overheid.nl, AVG, NIS2-richtlijn, …  |
@@ -107,6 +107,7 @@ _Every listing was checked against its source on or after 29 August 2026._
 
 | Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
+| [GeneaGenie](https://www.geneagenie.be/nl/ai/) | Search 23 Dutch archives, the Belgian Rijksarchief, Flemish city and Familiekunde databases and the French INSEE death index for genealogy records, and match your uploaded family tree find by find. | Alle Friezen / Alle Groningers / Brabants Historisch Informatie Centrum (BHIC) / Rijksarchief (België) / Familiekunde Vlaanderen | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [mcp-monumenten](https://github.com/woonstadrotterdam/mcp-monumenten) | Look up a Dutch building's monument status from BAG, RCE, and municipal records. | Monumenten / Rijksdienst voor het Cultureel Erfgoed (RCE) | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [openarchieven-mcp](https://github.com/coret/openarchieven-mcp-server) | Search Open Archieven's Dutch genealogy records and full-text transcriptions of historical documents through a hosted endpoint that needs no account. | Open Archieven | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [rce-cho-mcp](https://github.com/jolietjakeblues/rce-cho-mcp) | Query the RCE Cultuurhistorische Objecten linked-data set over SPARQL, with ontology inspection, thesaurus label lookup, and query validation. | Rijksdienst voor het Cultureel Erfgoed (RCE) | ![MCP · Community · Beta](assets/badges/tags-mcp-community-beta.svg) |
@@ -184,4 +185,4 @@ _Every listing was checked against its source on or after 29 August 2026._
 
 ---
 
-_87 listings across 14 categories, holding 139 skills, 26 commands, 2 agents, and 78 MCP servers._
+_88 listings across 14 categories, holding 139 skills, 26 commands, 2 agents, and 79 MCP servers._

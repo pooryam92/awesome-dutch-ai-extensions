@@ -1,0 +1,34 @@
+{
+  "id": "geneagenie",
+  "name": "GeneaGenie",
+  "category": "historie",
+  "description_en": "Search 23 Dutch archives, the Belgian Rijksarchief, Flemish city and Familiekunde databases and the French INSEE death index for genealogy records, and match your uploaded family tree find by find.",
+  "description_nl": "Doorzoek 23 Nederlandse archieven, het Belgische Rijksarchief, Vlaamse stads- en Familiekunde-databanken en de Franse INSEE-overlijdensindex op akten, en leg je stamboom er vondst voor vondst naast.",
+  "subject": [
+    "alle-friezen",
+    "alle-groningers",
+    "bhic",
+    "rijksarchief-belgie",
+    "familiekunde-vlaanderen"
+  ],
+  "contains": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "GeneaGenie"
+    ]
+  },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "geneagenie.be",
+      "account": true
+    }
+  ],
+  "origin": "official",
+  "status": "live",
+  "publisher": "CodeControl",
+  "source_url": "https://www.geneagenie.be/nl/ai/",
+  "last_checked": "2026-09-03"
+}
