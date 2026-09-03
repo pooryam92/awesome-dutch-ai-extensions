@@ -8,22 +8,22 @@ _Every listing is tagged with what it is and where it came from. What it is come
 
 _Every listing was checked against its source on or after 29 August 2026._
 
-| Category                      | Listings | Covers                                                         |
-| ----------------------------- | -------: | -------------------------------------------------------------- |
-| [Accounting](#accounting)     |       19 | Exact Online, Moneybird, Twinfield, e-Boekhouden, WeFact, …    |
-| [Business](#business)         |        6 | KVK, Adyen, internet.nl, Mollie, TenderNed                     |
-| [Data](#data)                 |        8 | CBS StatLine, CBS ODiN, Geonovum, Kadaster, PDOK, …            |
-| [Education](#education)       |        1 | Magister                                                       |
-| [Government](#government)     |        7 | CBS StatLine, data.overheid.nl, DUO, …                         |
-| [Groceries](#groceries)       |        7 | Albert Heijn, Jumbo, Plus, Picnic, Aldi, DA, …                 |
-| [History](#history)           |        5 | Rijksdienst voor het Cultureel Erfgoed, Rijksmuseum, …         |
-| [Housing](#housing)           |        4 | CBS StatLine, HomeWizard, Kadaster, Kamernet, Netbeheerdata, … |
-| [Language](#language)         |        2 | Nederlands, Inburgeringsexamen, Staatsexamen NT2               |
-| [Law](#law)                   |        9 | Rechtspraak.nl, wetten.overheid.nl, AVG, NIS2-richtlijn, …     |
-| [Marketplaces](#marketplaces) |        5 | Marktplaats, bol.com, PostNL                                   |
-| [Money](#money)               |        6 | Belastingdienst, Bitvavo, bunq                                 |
-| [Travel](#travel)             |        7 | NS, OVapi, RDW, ANWB                                           |
-| [Weather](#weather)           |        2 | KNMI                                                           |
+| Category                      | Listings | Covers                                                      |
+| ----------------------------- | -------: | ----------------------------------------------------------- |
+| [Accounting](#accounting)     |       19 | Exact Online, Moneybird, Twinfield, e-Boekhouden, WeFact, … |
+| [Business](#business)         |        6 | KVK, Adyen, internet.nl, Mollie, TenderNed                  |
+| [Data](#data)                 |        8 | CBS StatLine, CBS ODiN, Geonovum, Kadaster, PDOK, …         |
+| [Education](#education)       |        1 | Magister                                                    |
+| [Government](#government)     |        7 | CBS StatLine, data.overheid.nl, DUO, …                      |
+| [Groceries](#groceries)       |        7 | Albert Heijn, Jumbo, Plus, Picnic, Aldi, DA, …              |
+| [History](#history)           |        5 | Rijksdienst voor het Cultureel Erfgoed, Rijksmuseum, …      |
+| [Housing](#housing)           |        3 | CBS StatLine, Kadaster, Kamernet, Netbeheerdata, PDOK       |
+| [Language](#language)         |        2 | Nederlands, Inburgeringsexamen, Staatsexamen NT2            |
+| [Law](#law)                   |        9 | Rechtspraak.nl, wetten.overheid.nl, AVG, NIS2-richtlijn, …  |
+| [Marketplaces](#marketplaces) |        5 | Marktplaats, bol.com, PostNL                                |
+| [Money](#money)               |        6 | Belastingdienst, Bitvavo, bunq                              |
+| [Travel](#travel)             |        7 | NS, OVapi, RDW, ANWB                                        |
+| [Weather](#weather)           |        2 | KNMI                                                        |
 
 ## Accounting
 
@@ -117,7 +117,6 @@ _Every listing was checked against its source on or after 29 August 2026._
 
 | Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
-| [homewizard-mcp-server](https://github.com/mrksmts/homewizard-mcp-server) | Read live HomeWizard P1 smart-meter data — power, per-phase voltages and currents, cumulative kWh, and gas — over the local API, read-only. | HomeWizard | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [kadaster-mcp](https://github.com/jolietjakeblues/kadaster-mcp) | Query the Kadaster Knowledge Graph of Dutch land-registry and parcel data. | Kadaster | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [kamernet-mcp](https://github.com/jasp-nerd/kamernet-mcp) | Search Kamernet rooms, studios, and apartments, read full bilingual listings, and monitor new ones against your budget. | Kamernet | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [wonen-energie-alternatieve-bronnen](https://github.com/linksmith/wonen-energie-alternatieve-bronnen) | Combine grid-operator gas consumption per postcode with the PDOK/CBS buurtkaart to reach neighbourhood-level housing and energy findings when StatLine falls short, with the uncertainty spelled out. | Netbeheerdata (Liander / Enexis / Stedin) / PDOK / CBS StatLine | ![Skill · Community](assets/badges/tags-skill-community.svg) |
@@ -185,4 +184,4 @@ _Every listing was checked against its source on or after 29 August 2026._
 
 ---
 
-_88 listings across 14 categories, holding 139 skills, 26 commands, 2 agents, and 79 MCP servers._
+_87 listings across 14 categories, holding 139 skills, 26 commands, 2 agents, and 78 MCP servers._
