@@ -249,6 +249,9 @@
     "name": "RVO (Rijksdienst voor Ondernemend Nederland)",
     "kind": "dataset"
   },
+  "sendcloud": {
+    "name": "Sendcloud"
+  },
   "simplicate": {
     "name": "Simplicate"
   },

@@ -11,7 +11,7 @@ _Every listing was checked against its source on or after 29 August 2026._
 | Category                      | Listings | Covers                                                      |
 | ----------------------------- | -------: | ----------------------------------------------------------- |
 | [Accounting](#accounting)     |       19 | Exact Online, Moneybird, Twinfield, e-Boekhouden, WeFact, … |
-| [Business](#business)         |        6 | KVK, Adyen, internet.nl, Mollie, TenderNed                  |
+| [Business](#business)         |        8 | KVK, Adyen, bol.com, internet.nl, Mollie, Sendcloud, …      |
 | [Data](#data)                 |        8 | CBS StatLine, CBS ODiN, Geonovum, Kadaster, PDOK, …         |
 | [Education](#education)       |        1 | Magister                                                    |
 | [Government](#government)     |        7 | CBS StatLine, data.overheid.nl, DUO, …                      |
@@ -54,10 +54,12 @@ _Every listing was checked against its source on or after 29 August 2026._
 | Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
 | [Adyen MCP](https://docs.adyen.com/development-resources/mcp-server/) | Take Adyen payments — sessions, payment links, refunds, and cancellations — and manage merchant accounts, terminals, and webhooks, enabling only the tools a use case needs. | Adyen | ![MCP · Official · Preview](assets/badges/tags-mcp-official-preview.svg) |
+| [Bol MCP van Rylee](https://rylee.nl/nl/solutions/bol-mcp) | Analyse bol.com sales, margins, returns, stock and advertising through your Rylee account — read-only, without changing prices or campaigns. | bol.com | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [kvk-connect (MinBZK)](https://github.com/MinBZK/kvk-connect) | Query and track KVK Handelsregister company data — profiles, history, search, and change signals that need their own KVK subscription — from a store you self-host with your own API key. | KVK | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [kvk-mcp](https://github.com/BartWaardenburg/kvk-mcp) | Query the KVK Handelsregister for Dutch company profiles and search, across 10 tools. | KVK | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [Mollie MCP](https://docs.mollie.com/docs/mollie-mcp-server) | Manage the full Mollie stack — payments, customers, invoices, subscriptions, balances, settlements, terminals, and webhooks. | Mollie | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [pp-tenderned](https://github.com/mvanhorn/printing-press-library/tree/main/library/sales-and-crm/tenderned) | Search Dutch public tenders including the sub-threshold long tail TED never carries, and download the bestek — read-only and keyless; only the eForms XML feed needs a key. <details><summary>Contains 1 skill · 1 MCP server</summary><b>Skills</b> pp-tenderned<br><b>MCP servers</b> tenderned-pp-mcp</details> | TenderNed | ![Bundle · Community](assets/badges/tags-bundle-community.svg) |
+| [Sendcloud MCP](https://sendcloud.dev/docs/getting-started/mcp-server) | Create, cancel and track shipments and handle returns, pickups and service points in Sendcloud via its hosted MCP. Shipments you create hit your live account and are invoiced. | Sendcloud | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [skills-internet](https://github.com/developer-overheid-nl/skills-internet) | Skills for internet.nl standards — IPv6, DNSSEC, TLS, DMARC/DKIM/SPF, and DANE. <details><summary>Contains 5 skills</summary><b>Skills</b> inet · inet-api · inet-mail · inet-toolbox · inet-web</details> | internet.nl | ![Skill · Community · Concept](assets/badges/tags-skill-community-concept.svg) |
 
 ## Data
@@ -185,4 +187,4 @@ _Every listing was checked against its source on or after 29 August 2026._
 
 ---
 
-_88 listings across 14 categories, holding 139 skills, 26 commands, 2 agents, and 79 MCP servers._
+_90 listings across 14 categories, holding 139 skills, 26 commands, 2 agents, and 81 MCP servers._
