@@ -2,8 +2,8 @@
   "id": "nl-supermarkt-mcp",
   "name": "nl-supermarkt-mcp",
   "category": "boodschappen",
-  "description_en": "Search products, compare prices, and plan groceries across Dutch supermarkets and drugstores.",
-  "description_nl": "Zoek producten, vergelijk prijzen en plan je boodschappen bij Nederlandse supermarkten en drogisterijen.",
+  "description_en": "Compare supermarket prices and supermarket and drugstore deals using Checkjebon and Folderz, and build a shopping list within your budget.",
+  "description_nl": "Vergelijk supermarktprijzen en aanbiedingen van supermarkten en drogisten via Checkjebon en Folderz en stel een boodschappenlijst samen binnen je budget.",
   "subject": [
     "albert-heijn",
     "jumbo",
@@ -52,5 +52,5 @@
   "status": "live",
   "publisher": "Samvox1",
   "source_url": "https://github.com/Samvox1/nl-supermarkt-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

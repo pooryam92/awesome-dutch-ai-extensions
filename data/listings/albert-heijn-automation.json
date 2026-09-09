@@ -2,8 +2,8 @@
   "id": "albert-heijn-automation",
   "name": "Albert Heijn Automation",
   "category": "boodschappen",
-  "description_en": "Plan meals and fill your Albert Heijn list from your own purchase history — cross the bonus folder with what you actually buy, and read the basket back as an eating pattern.",
-  "description_nl": "Plan maaltijden en vul je Albert Heijn-lijst op basis van je eigen aankoopgeschiedenis — leg de bonusfolder naast wat je echt koopt en lees het mandje terug als eetpatroon.",
+  "description_en": "Plan meals and fill your AH list or cart using past purchases, recipes and relevant Bonus deals.",
+  "description_nl": "Plan maaltijden en vul je AH-lijst of mandje op basis van eerdere aankopen, recepten en passende Bonus-aanbiedingen.",
   "subject": [
     "albert-heijn"
   ],
@@ -28,5 +28,5 @@
   "status": "live",
   "publisher": "robinbril",
   "source_url": "https://github.com/robinbril/Albert-Heijn-Automation",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

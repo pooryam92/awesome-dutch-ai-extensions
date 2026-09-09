@@ -2,8 +2,8 @@
   "id": "wonen-energie-alternatieve-bronnen",
   "name": "wonen-energie-alternatieve-bronnen",
   "category": "wonen",
-  "description_en": "Combine grid-operator gas consumption per postcode with the PDOK/CBS buurtkaart to reach neighbourhood-level housing and energy findings when StatLine falls short, with the uncertainty spelled out.",
-  "description_nl": "Combineer gasverbruik per postcode van netbeheerders met de PDOK/CBS-buurtkaart voor bevindingen over wonen en energie op buurtniveau wanneer StatLine tekortschiet, met de onzekerheid benoemd.",
+  "description_en": "Research housing and energy by neighbourhood using grid-operator data and PDOK/CBS maps and turn the findings into tables and charts.",
+  "description_nl": "Onderzoek wonen en energie per buurt met netbeheerdata en PDOK/CBS-kaarten en maak tabellen en grafieken van de uitkomsten.",
   "subject": [
     "netbeheerdata",
     "pdok",
@@ -56,5 +56,5 @@
   "status": "live",
   "publisher": "linksmith",
   "source_url": "https://github.com/linksmith/wonen-energie-alternatieve-bronnen",
-  "last_checked": "2026-08-29"
+  "last_checked": "2026-09-09"
 }

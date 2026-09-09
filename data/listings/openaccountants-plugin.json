@@ -2,32 +2,13 @@
   "id": "openaccountants-plugin",
   "name": "OpenAccountants Plugin",
   "category": "boekhouding",
-  "description_en": "Classify transactions and apply Dutch tax guidance — VAT, income tax, payroll, and zzp deductions — sourced to Wet IB 2001; the Dutch package is not yet accountant-signed off.",
-  "description_nl": "Categoriseer transacties en pas fiscale regels toe — BTW, inkomstenbelasting, loonheffingen en zzp-aftrekposten — onderbouwd met Wet IB 2001; het Nederlandse pakket heeft nog geen accountantsakkoord.",
+  "description_en": "Prepare Dutch bookkeeping and tax returns with sources on VAT, income tax and self-employed deductions.",
+  "description_nl": "Bereid Nederlandse boekhouding en belastingaangiften voor met bronverwijzingen over btw, inkomstenbelasting en zzp-aftrek.",
   "subject": [
     "belastingdienst"
   ],
   "contains": {
-    "skills": [
-      "netherlands-bookkeeping",
-      "netherlands-crypto-tax",
-      "netherlands-financial-statements",
-      "netherlands-formation",
-      "netherlands-payroll",
-      "netherlands-references",
-      "netherlands-tax-optimization",
-      "netherlands-transfer-pricing",
-      "netherlands-vat-return",
-      "nl-corporate-tax",
-      "nl-deductions",
-      "nl-freelance-intake",
-      "nl-income-tax",
-      "nl-individual-return",
-      "nl-payroll-tax",
-      "nl-return-assembly",
-      "nl-tax-objection",
-      "nl-zzp-deductions"
-    ],
+    "skills": [],
     "commands": [
       "openaccountants"
     ],
@@ -36,16 +17,16 @@
       "openaccountants"
     ]
   },
-  "execution": "both",
+  "execution": "remote",
   "uses": [
     {
       "domain": "openaccountants.com",
-      "account": false
+      "account": true
     }
   ],
   "origin": "community",
   "status": "live",
   "publisher": "OpenAccountants",
-  "source_url": "https://github.com/openaccountants/openaccountants",
-  "last_checked": "2026-08-29"
+  "source_url": "https://github.com/openaccountants/openaccountants/tree/main/plugins/openaccountants",
+  "last_checked": "2026-09-09"
 }

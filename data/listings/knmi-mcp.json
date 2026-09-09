@@ -2,8 +2,8 @@
   "id": "knmi-mcp",
   "name": "knmi-mcp",
   "category": "weer",
-  "description_en": "Pull KNMI real-time weather observations (10-minute measurements) for Dutch locations.",
-  "description_nl": "Haal actuele weerobservaties van het KNMI op (metingen per 10 minuten) voor Nederlandse locaties.",
+  "description_en": "Check temperature, rainfall and wind at the KNMI weather station nearest your location, with readings every ten minutes.",
+  "description_nl": "Bekijk temperatuur, neerslag en wind bij het KNMI-meetstation dat het dichtst bij je plaats ligt, met metingen per tien minuten.",
   "subject": [
     "knmi"
   ],
@@ -30,5 +30,5 @@
   "status": "live",
   "publisher": "wolkwork",
   "source_url": "https://github.com/wolkwork/knmi-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

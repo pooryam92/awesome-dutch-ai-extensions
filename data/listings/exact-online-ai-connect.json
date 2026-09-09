@@ -2,8 +2,8 @@
   "id": "exact-online-ai-connect",
   "name": "Exact Online AI Connect",
   "category": "boekhouding",
-  "description_en": "Query Exact Online administrations and generate aging, P&L, and balance-sheet reports through a hosted MCP, where every write lands as a draft you approve first.",
-  "description_nl": "Bevraag Exact Online-administraties en genereer ouderdoms-, resultaat- en balansrapportages via een hosted MCP, waarbij elke schrijfactie eerst als concept ter goedkeuring klaarstaat.",
+  "description_en": "Analyse cash flow, receivables and profit in Exact Online and prepare VAT returns and period closing with bundled skills.",
+  "description_nl": "Analyseer cashflow, debiteuren en resultaat in Exact Online en bereid btw-aangiften en periodeafsluitingen voor met meegeleverde skills.",
   "subject": [
     "exact-online"
   ],
@@ -46,5 +46,5 @@
   "status": "live",
   "publisher": "iWebDevelopment",
   "source_url": "https://github.com/iwebdevnl/exact-online-ai-connect",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

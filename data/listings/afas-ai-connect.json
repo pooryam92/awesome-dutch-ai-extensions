@@ -2,8 +2,8 @@
   "id": "afas-ai-connect",
   "name": "AFAS AI Connect",
   "category": "boekhouding",
-  "description_en": "Reach an AFAS Profit environment through an AppConnector an administrator enables once — outstanding items, aging, and result and balance figures, with every booking staged as a draft you confirm.",
-  "description_nl": "Bereik een AFAS Profit-omgeving via een AppConnector die een beheerder eenmalig aanzet — openstaande posten, ouderdomsanalyse, resultaat- en balanscijfers; boekingen blijven concept tot je bevestigt.",
+  "description_en": "View outstanding items, balance sheets and profit and loss in AFAS Profit and prepare postings.",
+  "description_nl": "Bekijk openstaande posten, balans en resultaat in AFAS Profit en bereid boekingen voor.",
   "subject": [
     "afas-profit"
   ],
@@ -35,5 +35,5 @@
   "status": "live",
   "publisher": "iWebDevelopment",
   "source_url": "https://github.com/iwebdevnl/afas-ai-connect",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

@@ -2,8 +2,8 @@
   "id": "ov-mcp",
   "name": "ov-mcp",
   "category": "reizen",
-  "description_en": "Search Dutch public-transport stops, find stops near a coordinate, and look up routes across every operator from the national GTFS feed, without an API key.",
-  "description_nl": "Zoek haltes in het Nederlandse openbaar vervoer, vind haltes bij een coördinaat en bekijk routes van alle vervoerders uit de landelijke GTFS-feed, zonder API-key.",
+  "description_en": "Find public transport stops by name or location and look up Dutch operators’ routes in the national timetable.",
+  "description_nl": "Zoek ov-haltes op naam of locatie en bekijk de lijnen van Nederlandse vervoerders in de landelijke dienstregeling.",
   "subject": [
     "ovapi"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "laulauland",
   "source_url": "https://github.com/laulauland/ov-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

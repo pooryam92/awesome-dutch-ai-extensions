@@ -2,8 +2,8 @@
   "id": "jortt-mcp",
   "name": "Jortt MCP",
   "category": "boekhouding",
-  "description_en": "Work a Jortt administration — customers, invoices, quotes, expenses, categories and reports — read-only or read-and-write, chosen when you connect.",
-  "description_nl": "Werk in je Jortt-administratie — klanten, facturen, offertes, uitgaven, categorieën en rapporten — alleen lezen of lezen en schrijven, gekozen bij het koppelen.",
+  "description_en": "View your Jortt accounts, create invoices and book expenses.",
+  "description_nl": "Bekijk je Jortt-boekhouding, maak facturen en boek uitgaven.",
   "subject": [
     "jortt"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "Jortt",
   "source_url": "https://www.jortt.nl/koppelingen/mcp-koppeling/",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

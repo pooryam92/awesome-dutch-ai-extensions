@@ -2,8 +2,8 @@
   "id": "ictrecht-plugin-suite",
   "name": "ICTRecht Plugin Suite",
   "category": "recht",
-  "description_en": "Work Dutch legal tasks by role — DPIA, breach assessment, contract and NDA review, AI Act, NIS2 and DSA checks — following ICTRecht's method; the knowledge-base connector is still in closed beta.",
-  "description_nl": "Juridisch werk per rol — DPIA, datalekbeoordeling, contract- en NDA-review, AI-verordening-, NIS2- en DSA-toetsen — volgens de ICTRecht-werkwijze; de kennisbankconnector zit nog in closed beta.",
+  "description_en": "Review contracts, privacy issues and EU rules with workflows for each legal role.",
+  "description_nl": "Beoordeel contracten, privacyvragen en Europese regels met werkwijzen per juridische rol.",
   "subject": [
     "avg",
     "ai-verordening",
@@ -69,5 +69,5 @@
   "status": "live",
   "publisher": "ICTRecht",
   "source_url": "https://github.com/ICTRecht/claude-plugin",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

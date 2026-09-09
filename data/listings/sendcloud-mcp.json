@@ -2,8 +2,8 @@
   "id": "sendcloud-mcp",
   "name": "Sendcloud MCP",
   "category": "bedrijf",
-  "description_en": "Create, cancel and track shipments and handle returns, pickups and service points in Sendcloud via its hosted MCP. Shipments you create hit your live account and are invoiced.",
-  "description_nl": "Maak, annuleer en volg zendingen en regel retouren, ophalingen en servicepunten in Sendcloud via de gehoste MCP. Aangemaakte zendingen gelden voor je echte account en kosten geld.",
+  "description_en": "Create shipping labels, track parcels and arrange returns and pickups in Sendcloud; shipments created on your live account can incur charges.",
+  "description_nl": "Maak verzendlabels, volg pakketten en regel retouren en ophalingen in Sendcloud; zendingen op je echte account kunnen kosten opleveren.",
   "subject": [
     "sendcloud"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "Sendcloud",
   "source_url": "https://sendcloud.dev/docs/getting-started/mcp-server",
-  "last_checked": "2026-09-06"
+  "last_checked": "2026-09-09"
 }

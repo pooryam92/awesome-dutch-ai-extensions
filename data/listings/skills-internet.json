@@ -2,8 +2,8 @@
   "id": "skills-internet",
   "name": "skills-internet",
   "category": "bedrijf",
-  "description_en": "Skills for internet.nl standards — IPv6, DNSSEC, TLS, DMARC/DKIM/SPF, and DANE.",
-  "description_nl": "Skills voor de standaarden van internet.nl — IPv6, DNSSEC, TLS, DMARC/DKIM/SPF en DANE.",
+  "description_en": "Check website and email settings against internet.nl standards, with configuration guidance and checks across multiple domains at once.",
+  "description_nl": "Controleer website- en mailinstellingen op internet.nl-standaarden, met configuratiehulp en controles voor meerdere domeinen tegelijk.",
   "subject": [
     "internet-nl"
   ],
@@ -28,11 +28,15 @@
     {
       "domain": "ripe.net",
       "account": false
+    },
+    {
+      "domain": "github.com",
+      "account": false
     }
   ],
   "origin": "community",
   "status": "concept",
   "publisher": "developer-overheid-nl",
   "source_url": "https://github.com/developer-overheid-nl/skills-internet",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

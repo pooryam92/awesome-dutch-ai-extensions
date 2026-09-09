@@ -2,8 +2,8 @@
   "id": "wetten-overheid-tools",
   "name": "wetten-overheid-tools",
   "category": "recht",
-  "description_en": "Search Dutch legislation on wetten.overheid.nl and retrieve its structure, articles, and terms.",
-  "description_nl": "Zoek Nederlandse wetgeving op wetten.overheid.nl en haal de structuur, artikelen en begrippen op.",
+  "description_en": "Find Dutch laws, explore their structure and retrieve specific articles or passages containing a search term from the official Wettenbank.",
+  "description_nl": "Zoek Nederlandse wetten, bekijk hun indeling en haal specifieke artikelen of passages met een zoekterm op uit de officiële Wettenbank.",
   "subject": [
     "wetten-overheid"
   ],
@@ -30,5 +30,5 @@
   "status": "live",
   "publisher": "palmw01",
   "source_url": "https://github.com/palmw01/wetten-overheid-tools",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

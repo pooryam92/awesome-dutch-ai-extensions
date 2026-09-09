@@ -2,8 +2,8 @@
   "id": "mollie-mcp",
   "name": "Mollie MCP",
   "category": "bedrijf",
-  "description_en": "Manage the full Mollie stack — payments, customers, invoices, subscriptions, balances, settlements, terminals, and webhooks.",
-  "description_nl": "Beheer de volledige Mollie-stack — betalingen, klanten, facturen, abonnementen, saldi, uitbetalingen, terminals en webhooks.",
+  "description_en": "Create payment links and manage payments, customers, invoices and subscriptions in Mollie.",
+  "description_nl": "Maak betaallinks en beheer betalingen, klanten, facturen en abonnementen in Mollie.",
   "subject": [
     "mollie"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "Mollie",
   "source_url": "https://docs.mollie.com/docs/mollie-mcp-server",
-  "last_checked": "2026-08-29"
+  "last_checked": "2026-09-09"
 }

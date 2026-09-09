@@ -2,8 +2,8 @@
   "id": "unofficial-magister-mcp",
   "name": "unofficial-magister-mcp",
   "category": "onderwijs",
-  "description_en": "Look up Dutch school schedules from Magister — daily and weekly timetables plus drop-off and pick-up times, for student and parent accounts.",
-  "description_nl": "Bekijk schoolroosters uit Magister — dag- en weekroosters plus breng- en ophaaltijden, voor leerling- en ouderaccounts.",
+  "description_en": "Check daily and weekly Magister timetables and school start and finish times for dropping off and picking up your child.",
+  "description_nl": "Bekijk dag- en weekroosters in Magister en begin- en eindtijden voor het brengen en ophalen van je kind.",
   "subject": [
     "magister"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "israelroldan",
   "source_url": "https://github.com/israelroldan/unofficial-magister-mcp",
-  "last_checked": "2026-08-29"
+  "last_checked": "2026-09-09"
 }

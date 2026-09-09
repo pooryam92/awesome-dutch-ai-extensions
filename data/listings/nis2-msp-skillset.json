@@ -2,8 +2,8 @@
   "id": "nis2-msp-skillset",
   "name": "NIS2 MSP-skillset",
   "category": "recht",
-  "description_en": "Check Cbw (NIS2) scope and coach the 24h/72h meldplicht as an MSP; three of the six skills exist to deploy, wire up and sell the publisher's white-label quickscan rather than to apply the law.",
-  "description_nl": "Bepaal Cbw-scope (NIS2) en begeleid de 24u/72u-meldplicht als MSP; drie van de zes skills dienen om de white-label quickscan van de uitgever te plaatsen, te koppelen en te verkopen.",
+  "description_en": "Help IT service clients assess NIS2 scope and incident reporting, discuss their quickscan report and set up the quickscan for sale under your own brand.",
+  "description_nl": "Help als IT-dienstverlener klanten met NIS2-scope en incidentmeldingen, bespreek hun quickscanrapport en richt de quickscan in voor verkoop onder je eigen naam.",
   "subject": [
     "nis2"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "Dxfferent",
   "source_url": "https://github.com/Dxfferent/nis2-quickscan",
-  "last_checked": "2026-09-02"
+  "last_checked": "2026-09-09"
 }

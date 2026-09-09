@@ -2,8 +2,8 @@
   "id": "minbzk-kvk-connect",
   "name": "kvk-connect (MinBZK)",
   "category": "bedrijf",
-  "description_en": "Query and track KVK Handelsregister company data — profiles, history, search, and change signals that need their own KVK subscription — from a store you self-host with your own API key.",
-  "description_nl": "Bevraag en volg bedrijfsgegevens uit het KVK Handelsregister — profielen, historie, zoeken en mutatiesignalen waarvoor een apart abonnement nodig is — vanuit self-hosted opslag met je eigen API-key.",
+  "description_en": "Search company records and their change history in your own KVK database.",
+  "description_nl": "Doorzoek bedrijfsgegevens en wijzigingshistorie in je eigen KVK-database.",
   "subject": [
     "kvk"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "MinBZK",
   "source_url": "https://github.com/MinBZK/kvk-connect",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

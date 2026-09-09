@@ -2,8 +2,8 @@
   "id": "dutch-finance-planner-skill",
   "name": "dutch-finance-planner-skill",
   "category": "geld",
-  "description_en": "Coach personal finances for the Netherlands through a guided interview — box 1/2/3, toeslagen, AOW/pension, mortgage/HRA, the 30% ruling, and gift/inheritance tax.",
-  "description_nl": "Begeleid je persoonlijke financiën in Nederland via een gestuurd vraaggesprek — box 1/2/3, toeslagen, AOW/pensioen, hypotheek/HRA, de 30%-regeling en schenk- en erfbelasting.",
+  "description_en": "Build a monthly budget and action plan for saving, debt and retirement through a personal interview, taking Dutch taxes and benefits into account.",
+  "description_nl": "Maak via een persoonlijk vraaggesprek een maandbudget en actieplan voor sparen, schulden en pensioen, met aandacht voor Nederlandse belastingen en toeslagen.",
   "subject": [
     "belastingdienst"
   ],
@@ -21,5 +21,5 @@
   "status": "live",
   "publisher": "NautilusIT",
   "source_url": "https://github.com/jonnekleijer/dutch-finance-planner-skill",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

@@ -2,8 +2,8 @@
   "id": "ictrecht-legal-genai",
   "name": "ICTRecht Legal GenAI Resources",
   "category": "recht",
-  "description_en": "Pick prompts, skills and GRC templates for Dutch and EU law from an IT-law firm's open library — contract summaries and comparisons, DPAs, NDAs and copyright transfers.",
-  "description_nl": "Kies prompts, skills en GRC-templates voor Nederlands en Europees recht uit de open bibliotheek van een ICT-juridisch bureau — contracten samenvatten en vergelijken, DPA's, NDA's en auteursrecht.",
+  "description_en": "Summarise contracts, compare versions and draft NDAs and data processing agreements with ICTRecht prompts and skills for Dutch law.",
+  "description_nl": "Vat contracten samen, vergelijk versies en stel NDA’s en verwerkersovereenkomsten op met prompts en skills van ICTRecht voor Nederlands recht.",
   "subject": [
     "avg"
   ],
@@ -53,5 +53,5 @@
   "status": "live",
   "publisher": "ICTRecht",
   "source_url": "https://github.com/ICTRecht/Legal-GenAI-Resources",
-  "last_checked": "2026-08-29"
+  "last_checked": "2026-09-09"
 }

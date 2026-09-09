@@ -2,8 +2,8 @@
   "id": "geneagenie",
   "name": "GeneaGenie",
   "category": "historie",
-  "description_en": "Search 23 Dutch archives, the Belgian Rijksarchief, Flemish city and Familiekunde databases and the French INSEE death index for genealogy records, and match your uploaded family tree find by find.",
-  "description_nl": "Doorzoek 23 Nederlandse archieven, het Belgische Rijksarchief, Vlaamse stads- en Familiekunde-databanken en de Franse INSEE-overlijdensindex op akten, en leg je stamboom er vondst voor vondst naast.",
+  "description_en": "Find family records, combine discoveries with your own family tree data, confirm matches and manage your searches.",
+  "description_nl": "Zoek familieakten, combineer vondsten met je eigen stamboomgegevens, bevestig matches en beheer je zoekopdrachten.",
   "subject": [
     "alle-friezen",
     "alle-groningers",
@@ -30,5 +30,5 @@
   "status": "live",
   "publisher": "CodeControl",
   "source_url": "https://www.geneagenie.be/nl/ai/",
-  "last_checked": "2026-09-03"
+  "last_checked": "2026-09-09"
 }

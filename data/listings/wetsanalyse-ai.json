@@ -2,8 +2,8 @@
   "id": "wetsanalyse-ai",
   "name": "Wetsanalyse AI",
   "category": "recht",
-  "description_en": "Mark and classify Dutch statutory text into the thirteen JAS classes, each marking traceable to its article, in a self-hosted workbench where a jurist reviews every proposal; RegelSpraak is not built.",
-  "description_nl": "Markeer en classificeer Nederlandse wetteksten in de dertien JAS-klassen, elke markering herleidbaar tot het artikel, in een zelfgehoste werkplek waar een jurist ze beoordeelt; RegelSpraak ontbreekt.",
+  "description_en": "Mark rights, conditions and deadlines in Dutch legislation using the JAS method, with article references and a legal professional reviewing each proposed marking.",
+  "description_nl": "Markeer rechten, voorwaarden en termijnen in Nederlandse wetteksten volgens de JAS-methode, met artikelverwijzingen en beoordeling van elke voorgestelde markering door een jurist.",
   "subject": [
     "wetten-overheid"
   ],
@@ -30,5 +30,5 @@
   "status": "live",
   "publisher": "palmw01",
   "source_url": "https://github.com/palmw01/wetsanalyse-ai",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

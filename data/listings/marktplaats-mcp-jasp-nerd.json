@@ -2,8 +2,8 @@
   "id": "marktplaats-mcp-jasp-nerd",
   "name": "marktplaats-mcp (jasp-nerd)",
   "category": "spullen",
-  "description_en": "Search Marktplaats and 2dehands classifieds with seller-trust signals and new-listing monitoring, no account needed.",
-  "description_nl": "Zoek advertenties op Marktplaats en 2dehands met betrouwbaarheidssignalen over verkopers en meldingen bij nieuwe advertenties, zonder account.",
+  "description_en": "Search Marktplaats and 2dehands, check seller ratings and verification, and find ads posted since your previous search.",
+  "description_nl": "Zoek op Marktplaats en 2dehands, bekijk verkopersbeoordelingen en verificaties en vind advertenties die sinds je vorige zoekopdracht zijn geplaatst.",
   "subject": [
     "marktplaats"
   ],
@@ -27,8 +27,8 @@
     }
   ],
   "origin": "community",
-  "status": "live",
+  "status": "beta",
   "publisher": "jasp-nerd",
   "source_url": "https://github.com/jasp-nerd/marktplaats-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

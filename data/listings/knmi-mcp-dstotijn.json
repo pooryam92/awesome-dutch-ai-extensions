@@ -2,8 +2,8 @@
   "id": "knmi-mcp-dstotijn",
   "name": "knmi-mcp (dstotijn)",
   "category": "weer",
-  "description_en": "Query KNMI weather observations and forecasts through KNMI's open data API.",
-  "description_nl": "Bevraag weerobservaties en verwachtingen van het KNMI via de open data-API van het KNMI.",
+  "description_en": "Check KNMI weather for your Dutch town, including current conditions, hourly and daily forecasts, and weather warnings.",
+  "description_nl": "Bekijk het KNMI-weer voor je woonplaats, met huidige omstandigheden, verwachtingen per uur en per dag en weerwaarschuwingen.",
   "subject": [
     "knmi"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "dstotijn",
   "source_url": "https://github.com/dstotijn/knmi-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

@@ -2,8 +2,8 @@
   "id": "wefact-mcp",
   "name": "WeFact MCP",
   "category": "boekhouding",
-  "description_en": "Read and modify a WeFact administration from your MCP client — debtors, invoices, products, subscriptions and purchase invoices — with a generic call for any other WeFact endpoint.",
-  "description_nl": "Lees en wijzig een WeFact-administratie vanuit je MCP-client — debiteuren, facturen, producten, abonnementen en inkoopfacturen — met een generieke aanroep voor elk ander WeFact-endpoint.",
+  "description_en": "Manage customers, send or credit invoices and view products, subscriptions and purchase invoices in WeFact.",
+  "description_nl": "Beheer klanten, verstuur of crediteer facturen en bekijk producten, abonnementen en inkoopfacturen in WeFact.",
   "subject": [
     "wefact"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "Nick Aldewereld",
   "source_url": "https://github.com/NickAldewereld/wefact-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

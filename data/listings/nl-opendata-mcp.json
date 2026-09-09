@@ -2,8 +2,8 @@
   "id": "nl-opendata-mcp",
   "name": "nl-opendata-mcp",
   "category": "overheid",
-  "description_en": "Search, query, download, and locally analyse CBS (OData) and data.overheid.nl datasets in CSV or Parquet.",
-  "description_nl": "Zoek, bevraag, download en analyseer datasets van het CBS (OData) en data.overheid.nl lokaal in CSV of Parquet.",
+  "description_en": "Find and filter datasets from CBS and data.overheid.nl and download them for analysis.",
+  "description_nl": "Zoek en filter datasets van CBS en data.overheid.nl en download ze voor analyse.",
   "subject": [
     "cbs-statline",
     "data-overheid-nl"
@@ -31,5 +31,5 @@
   "status": "concept",
   "publisher": "soulnai",
   "source_url": "https://github.com/soulnai/nl-opendata-mcp",
-  "last_checked": "2026-08-29"
+  "last_checked": "2026-09-09"
 }

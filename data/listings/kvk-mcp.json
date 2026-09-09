@@ -2,8 +2,8 @@
   "id": "kvk-mcp",
   "name": "kvk-mcp",
   "category": "bedrijf",
-  "description_en": "Query the KVK Handelsregister for Dutch company profiles and search, across 10 tools.",
-  "description_nl": "Bevraag het KVK Handelsregister voor Nederlandse bedrijfsprofielen en zoekopdrachten, met 10 tools.",
+  "description_en": "Find companies, branches and trade names in the KVK Handelsregister and view change notifications.",
+  "description_nl": "Zoek bedrijven, vestigingen en handelsnamen in het KVK Handelsregister en bekijk wijzigingssignalen.",
   "subject": [
     "kvk"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "BartWaardenburg",
   "source_url": "https://github.com/BartWaardenburg/kvk-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

@@ -2,8 +2,8 @@
   "id": "rompslomp-mcp",
   "name": "rompslomp-mcp",
   "category": "boekhouding",
-  "description_en": "Manage Rompslomp bookkeeping across 61 tools — invoices, contacts, payments, quotations, journal entries, hours, and rides.",
-  "description_nl": "Beheer de boekhouding in Rompslomp met 61 tools — facturen, contacten, betalingen, offertes, journaalposten, uren en ritten.",
+  "description_en": "Create and update invoices, quotes, expenses and payments in Rompslomp, maintain contacts and record journal entries, time and mileage.",
+  "description_nl": "Maak en wijzig facturen, offertes, uitgaven en betalingen in Rompslomp, houd contacten bij en registreer boekingen, uren en ritten.",
   "subject": [
     "rompslomp"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "lmolema",
   "source_url": "https://github.com/lmolema/rompslomp-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

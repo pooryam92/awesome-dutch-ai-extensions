@@ -9,7 +9,7 @@ Two ways to add an integration:
 
 - **Usable outside the publisher's own organisation.** Tooling that only works inside one company or agency — internal deploy platforms, credentials nobody else can obtain — is out of scope, however open the source is.
 - **Meaningful Dutch coverage.** A multi-jurisdiction project qualifies on the strength of its Dutch content, not on the Netherlands appearing in a jurisdiction list.
-- **Descriptions must match what the project says about itself.** Don't repeat a marketing claim the source contradicts — if the material is unreviewed, unfinished, or read-only, the description says so.
+- **Descriptions explain what the uitbreiding does.** Name concrete tasks and useful capabilities supported by the source. Use precise verbs: a tool that prepares a tax return prepares it, and a tool that reads records reads them. Leave status, installation, execution, accounts, publisher and origin to the listing metadata shown elsewhere on the card. Include a short qualification when omitting it would materially misrepresent the tool’s action, required human step, or direct cost, and existing metadata cannot express that fact. Keep general warnings, professional-review advice and lists of unsupported features out of the description.
 - **Commercial listings need public evidence.** A hosted, closed-source integration qualifies only if its public docs name the actual tools or scope and the service is reachable today. A waitlist, a pricing page, or a marketing site with no tool documentation is not a listing.
 
 ## Contains
@@ -31,7 +31,7 @@ One row is one installable unit, so a plugin holding eighteen skills is still on
 - **A listing lists itself.** A lone MCP server names its own server under `mcp_servers`, a lone copy-in skill names itself under `skills`. There is no separate field saying what a listing *is*: one kind of thing is that kind, several is a bundle, and the README's first badge is read off exactly that.
 - **Use the publisher's names**: the directory holding each `SKILL.md`, the basename of each file in `commands/` and `agents/`, and the keys of the `mcpServers` config. Fall back to the listing's `id` where the publisher ships no name, as a vendor endpoint with no published config key does.
 - **Leave out infrastructure.** Shared-resource pseudo-skills (`_shared`) and the publisher's own plumbing — a bundled Grafana or admin-API server is not something the listing offers you.
-- **A multi-jurisdiction bundle lists only its Dutch entries.** OpenAccountants ships 781 skills; the eighteen `nl-*`/`netherlands-*` ones are what belong here. This is about jurisdiction-specific *content*, not about connectors: a bundled Slack or Box MCP server is where the user's own documents live, so it stays in even though nothing about it is Dutch.
+- **A multi-jurisdiction bundle lists only its Dutch entries.** Only enumerate Dutch skills actually installed by the unit. OpenAccountants’ hosted plugin installs a command and a remote MCP server; separately distributed Dutch skills do not belong in its `contains`. This is about jurisdiction-specific *content*, not about connectors: a bundled Slack or Box MCP server is where the user's own documents live, so it stays in even though nothing about it is Dutch.
 - **Don't enumerate MCP tools.** `subject` and the description already carry that.
 
 Knowledge Work Belastingzaken is the worked example of why one row needs four arrays: eight skills, eight commands and four wired MCP servers, on a single row that no one word describes.

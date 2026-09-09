@@ -2,8 +2,8 @@
   "id": "pp-tenderned",
   "name": "pp-tenderned",
   "category": "bedrijf",
-  "description_en": "Search Dutch public tenders including the sub-threshold long tail TED never carries, and download the bestek — read-only and keyless; only the eForms XML feed needs a key.",
-  "description_nl": "Doorzoek Nederlandse aanbestedingen, inclusief de onderdrempelige lange staart die TED niet toont, en download het bestek — alleen lezen en zonder sleutel; alleen de eForms-XML-feed vraagt er een.",
+  "description_en": "Search TenderNed tenders, including those below EU thresholds, look up contracting authorities and download specifications.",
+  "description_nl": "Zoek aanbestedingen op TenderNed, ook onder de Europese drempel, bekijk opdrachtgevers en download bestekken.",
   "subject": [
     "tenderned"
   ],
@@ -14,7 +14,7 @@
     "commands": [],
     "agents": [],
     "mcp_servers": [
-      "tenderned-pp-mcp"
+      "tenderned"
     ]
   },
   "execution": "local",
@@ -28,5 +28,5 @@
   "status": "live",
   "publisher": "Printing Press",
   "source_url": "https://github.com/mvanhorn/printing-press-library/tree/main/library/sales-and-crm/tenderned",
-  "last_checked": "2026-08-29"
+  "last_checked": "2026-09-09"
 }

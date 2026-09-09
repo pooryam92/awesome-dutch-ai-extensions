@@ -2,8 +2,8 @@
   "id": "ns-mcp-server",
   "name": "NS MCP Server",
   "category": "reizen",
-  "description_en": "Look up NS departures, arrivals and disruptions, plan journeys, and check ticket prices and station facilities including OV-fiets.",
-  "description_nl": "Bekijk vertrek- en aankomsttijden en storingen van de NS, plan treinreizen en zoek ticketprijzen en stationsvoorzieningen op, inclusief OV-fiets.",
+  "description_en": "Plan NS train journeys, check departures, arrivals and disruptions, and look up ticket prices, station facilities and available OV-fiets bikes.",
+  "description_nl": "Plan je treinreis met NS, bekijk vertrektijden, aankomsten en storingen en zoek ticketprijzen, stationsvoorzieningen en beschikbare OV-fietsen op.",
   "subject": [
     "ns"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "r-huijts",
   "source_url": "https://github.com/r-huijts/ns-mcp-server",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

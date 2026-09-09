@@ -2,8 +2,8 @@
   "id": "pepesto-agent-to-cart",
   "name": "Pepesto Agent to Cart",
   "category": "boodschappen",
-  "description_en": "Hand a shopping list from any MCP client to the Pepesto app to fill an Albert Heijn, Jumbo, or Plus cart — the connector returns a deep link to open on your phone, not a priced basket.",
-  "description_nl": "Geef vanuit elke MCP-client een boodschappenlijst door aan de Pepesto-app om een mandje bij Albert Heijn, Jumbo of Plus te vullen — je krijgt een deeplink voor je telefoon, geen geprijsd mandje.",
+  "description_en": "Send your shopping list to the Pepesto app for a basket with products and prices at Albert Heijn, Jumbo or Plus.",
+  "description_nl": "Stuur je boodschappenlijst naar de Pepesto-app voor een boodschappenmandje met producten en prijzen bij Albert Heijn, Jumbo of Plus.",
   "subject": [
     "albert-heijn",
     "jumbo",
@@ -28,5 +28,5 @@
   "status": "live",
   "publisher": "Pepesto Solutions GmbH",
   "source_url": "https://www.pepesto.com/agent-to-cart/",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

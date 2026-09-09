@@ -2,8 +2,8 @@
   "id": "mcp-monumenten",
   "name": "mcp-monumenten",
   "category": "historie",
-  "description_en": "Look up a Dutch building's monument status from BAG, RCE, and municipal records.",
-  "description_nl": "Zoek de monumentstatus van een Nederlands gebouw op in BAG, RCE en gemeentelijke registers.",
+  "description_en": "Check a Dutch address or BAG identifier to see whether a property is a monument or lies in a protected townscape.",
+  "description_nl": "Controleer via een Nederlands adres of BAG-nummer of een pand een monument is of in een beschermd stads- of dorpsgezicht ligt.",
   "subject": [
     "monumenten",
     "rce"
@@ -31,5 +31,5 @@
   "status": "live",
   "publisher": "Woonstad Rotterdam",
   "source_url": "https://github.com/woonstadrotterdam/mcp-monumenten",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

@@ -2,8 +2,8 @@
   "id": "ns-travel-mcp",
   "name": "ns-travel-mcp",
   "category": "reizen",
-  "description_en": "Plan NS journeys and check real-time train data and disruption alerts.",
-  "description_nl": "Plan NS-reizen en bekijk actuele treingegevens en storingsmeldingen.",
+  "description_en": "Plan NS train journeys, check live departures and look up disruptions and engineering works.",
+  "description_nl": "Plan je treinreis met NS, bekijk actuele vertrektijden en controleer storingen en werkzaamheden.",
   "subject": [
     "ns"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "lauragift21",
   "source_url": "https://github.com/lauragift21/ns-travel-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

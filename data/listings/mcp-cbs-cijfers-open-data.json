@@ -2,8 +2,8 @@
   "id": "mcp-cbs-cijfers-open-data",
   "name": "mcp-cbs-cijfers-open-data",
   "category": "data",
-  "description_en": "Makes official Dutch statistics from CBS (StatLine) accessible for AI assistants.",
-  "description_nl": "Maakt officiële Nederlandse statistieken van het CBS (StatLine) toegankelijk voor AI-assistenten.",
+  "description_en": "Find CBS tables, inspect what the figures represent and select data by criteria such as period, region or population group.",
+  "description_nl": "Vind CBS-tabellen, bekijk wat de cijfers betekenen en selecteer gegevens op bijvoorbeeld periode, regio of bevolkingsgroep.",
   "subject": [
     "cbs-statline"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "dstotijn",
   "source_url": "https://github.com/dstotijn/mcp-cbs-cijfers-open-data",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

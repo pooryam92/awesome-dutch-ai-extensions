@@ -1,0 +1,32 @@
+{
+  "id": "pp-e-boekhouden",
+  "name": "pp-e-boekhouden",
+  "category": "boekhouding",
+  "description_en": "Create financial reports from your e-Boekhouden accounts, find invoices without payments and enter transactions.",
+  "description_nl": "Maak financiële overzichten van je e-Boekhouden-administratie, zoek facturen zonder betaling en voer boekingen in.",
+  "subject": [
+    "e-boekhouden"
+  ],
+  "contains": {
+    "skills": [
+      "pp-e-boekhouden"
+    ],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "e-boekhouden"
+    ]
+  },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "e-boekhouden.nl",
+      "account": true
+    }
+  ],
+  "origin": "community",
+  "status": "live",
+  "publisher": "Printing Press",
+  "source_url": "https://github.com/mvanhorn/printing-press-library/tree/main/library/payments/e-boekhouden",
+  "last_checked": "2026-09-09"
+}

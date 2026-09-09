@@ -2,8 +2,8 @@
   "id": "mcp-gemeente-amsterdam",
   "name": "mcp-gemeente-amsterdam",
   "category": "overheid",
-  "description_en": "Query Amsterdam's open APIs across buildings, WOZ, parking, waste, monuments, permits, soil, and more from one server.",
-  "description_nl": "Bevraag de open API's van Amsterdam over gebouwen, WOZ, parkeren, afval, monumenten, vergunningen, bodem en meer vanuit één server.",
+  "description_en": "Look up Amsterdam addresses, monuments, waste collection and parking in municipal data.",
+  "description_nl": "Zoek Amsterdamse adressen, monumenten, afvalinzameling en parkeergegevens op in de gegevens van de gemeente.",
   "subject": [
     "gemeente-amsterdam"
   ],
@@ -23,8 +23,8 @@
     }
   ],
   "origin": "community",
-  "status": "live",
+  "status": "abandoned",
   "publisher": "aronmartin",
   "source_url": "https://github.com/aronmartin/mcp-gemeente-amsterdam",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

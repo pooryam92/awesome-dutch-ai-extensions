@@ -2,8 +2,8 @@
   "id": "pepesto-mcp",
   "name": "Pepesto MCP Server",
   "category": "boodschappen",
-  "description_en": "Turn a recipe URL, text, or photo into a matched Albert Heijn, Jumbo, or Plus basket with live prices — it ends at a checkout link and does not place the order.",
-  "description_nl": "Zet een recept-URL, tekst of foto om in een gevuld mandje bij Albert Heijn, Jumbo of Plus met actuele prijzen — het eindigt bij een afrekenlink en plaatst de bestelling niet.",
+  "description_en": "Turn recipes into baskets with prices and checkout links for Albert Heijn, Jumbo or Plus using paid API credit; sending a shopping list to the app is free.",
+  "description_nl": "Maak van recepten mandjes met prijzen en afrekenlinks voor Albert Heijn, Jumbo of Plus met betaald API-tegoed; een boodschappenlijst naar de app sturen is gratis.",
   "subject": [
     "albert-heijn",
     "jumbo",
@@ -21,12 +21,12 @@
   "uses": [
     {
       "domain": "pepesto.com",
-      "account": true
+      "account": false
     }
   ],
   "origin": "commercial",
   "status": "live",
   "publisher": "Pepesto Solutions GmbH",
   "source_url": "https://github.com/pepesto-solutions/pepesto-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

@@ -185,9 +185,6 @@
   "ns": {
     "name": "NS (Nederlandse Spoorwegen)"
   },
-  "nt2": {
-    "name": "Staatsexamen NT2"
-  },
   "nvwa": {
     "name": "NVWA",
     "kind": "dataset"
@@ -202,6 +199,9 @@
   "ovapi": {
     "name": "OVapi",
     "kind": "dataset"
+  },
+  "paperdork": {
+    "name": "Paperdork"
   },
   "pdok": {
     "name": "PDOK",

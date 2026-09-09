@@ -2,8 +2,8 @@
   "id": "wefact-mcp-codemill",
   "name": "wefact-mcp (CodeMill)",
   "category": "boekhouding",
-  "description_en": "Work a WeFact administration across all 17 API controllers, writes and customer emails each behind an opt-in — but the npm package its README installs was never published, so only a clone works.",
-  "description_nl": "Werk in een WeFact-administratie met alle 17 API-controllers, met een opt-in voor schrijven en voor klantmails — maar het npm-pakket uit de README is nooit gepubliceerd, dus werkt alleen een clone.",
+  "description_en": "Manage invoices, quotes and subscriptions in WeFact and send emails to customers.",
+  "description_nl": "Beheer facturen, offertes en abonnementen in WeFact en verstuur e-mails naar klanten.",
   "subject": [
     "wefact"
   ],
@@ -26,5 +26,5 @@
   "status": "broken",
   "publisher": "CodeMill Solutions",
   "source_url": "https://github.com/CodeMill-Solutions/wefact-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

@@ -2,8 +2,8 @@
   "id": "rechtspraak-mcp",
   "name": "rechtspraak-mcp",
   "category": "recht",
-  "description_en": "Search Rechtspraak open data and resolve legal citations through LiDO, across six tools.",
-  "description_nl": "Zoek in de open data van de Rechtspraak en los juridische verwijzingen op via LiDO, met zes tools.",
+  "description_en": "Find Dutch rulings by date, court or legal area, read their full text and use LiDO to follow citations between rulings and laws.",
+  "description_nl": "Zoek Nederlandse uitspraken op datum, gerecht of rechtsgebied, lees de volledige tekst en volg via LiDO welke uitspraken en wetten elkaar aanhalen.",
   "subject": [
     "rechtspraak"
   ],
@@ -30,5 +30,5 @@
   "status": "live",
   "publisher": "PrudAI",
   "source_url": "https://github.com/Prudai/rechtspraak-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

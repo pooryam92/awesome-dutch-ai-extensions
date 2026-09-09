@@ -2,8 +2,8 @@
   "id": "rijksmuseum-mcp-plus",
   "name": "rijksmuseum-mcp+",
   "category": "historie",
-  "description_en": "Research the Rijksmuseum collection with semantic and Iconclass search, provenance analysis, similarity comparisons and geographic queries — on an enriched copy of the metadata, not the live API.",
-  "description_nl": "Onderzoek de Rijksmuseumcollectie met semantisch en Iconclass-zoeken, herkomstonderzoek, gelijkenisvergelijkingen en geografisch zoeken — op een verrijkte kopie van de metadata, niet op de live API.",
+  "description_en": "Find artworks by meaning, Iconclass or location and explore provenance and similarities in an enriched copy of the Rijksmuseum collection.",
+  "description_nl": "Zoek kunstwerken op betekenis, Iconclass of locatie en onderzoek herkomst en overeenkomsten in een verrijkte kopie van de Rijksmuseumcollectie.",
   "subject": [
     "rijksmuseum",
     "iconclass"
@@ -33,5 +33,5 @@
   "status": "preview",
   "publisher": "RISE, University of Basel",
   "source_url": "https://github.com/kintopp/rijksmuseum-mcp-plus",
-  "last_checked": "2026-08-29"
+  "last_checked": "2026-09-09"
 }

@@ -2,11 +2,10 @@
   "id": "dutch-fluency-mcp",
   "name": "Dutch Fluency MCP",
   "category": "taal",
-  "description_en": "Practise Dutch with CEFR placement tests, sentence correction, and NT2 and inburgering exam preparation.",
-  "description_nl": "Oefen Nederlands met CEFR-plaatsingstoetsen, zinscorrectie en voorbereiding op het NT2- en inburgeringsexamen.",
+  "description_en": "Get Dutch sentence corrections with explanations, estimate your language level and practise KNM civic integration questions.",
+  "description_nl": "Laat Nederlandse zinnen verbeteren met uitleg, schat je taalniveau in en oefen KNM-vragen voor inburgering.",
   "subject": [
     "nederlands",
-    "nt2",
     "inburgering"
   ],
   "contains": {
@@ -28,5 +27,5 @@
   "status": "live",
   "publisher": "Dutch Fluency",
   "source_url": "https://mcp.dutchfluency.com/",
-  "last_checked": "2026-08-29"
+  "last_checked": "2026-09-09"
 }

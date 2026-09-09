@@ -2,8 +2,8 @@
   "id": "bitvavo-mcp",
   "name": "bitvavo-mcp",
   "category": "geld",
-  "description_en": "Inspect a Bitvavo account read-only — balances, portfolio value, trades, deposits, withdrawals and average-cost P&L; no trading tools, and app Buy/Sell and Convert orders only via CSV import.",
-  "description_nl": "Bekijk een Bitvavo-rekening alleen-lezen — saldi, portefeuillewaarde, trades, stortingen, opnames en P&L op gemiddelde kostprijs; geen handelstools, Buy/Sell en Convert alleen via CSV-import.",
+  "description_en": "View the value, profit and loss of your Bitvavo holdings and include purchases and conversions made in the app by importing your transaction CSV.",
+  "description_nl": "Bekijk de waarde, winst en verlies van je Bitvavo-bezit en neem aankopen en omwisselingen uit de app mee door je transactie-CSV te importeren.",
   "subject": [
     "bitvavo"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "aderik",
   "source_url": "https://github.com/aderik/bitvavo-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

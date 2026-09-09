@@ -2,20 +2,29 @@
   "id": "rylee-bol-mcp",
   "name": "Bol MCP van Rylee",
   "category": "bedrijf",
-  "description_en": "Analyse bol.com sales, margins, returns, stock and advertising through your Rylee account — read-only, without changing prices or campaigns.",
-  "description_nl": "Analyseer bol.com-verkopen, marges, retouren, voorraad en advertenties via je Rylee-account — alleen-lezen, zonder prijzen of campagnes te wijzigen.",
-  "subject": ["bol"],
+  "description_en": "Analyse your bol.com sales, profit, stock, returns and advertising using data from Rylee.",
+  "description_nl": "Analyseer je bol.com-omzet, winst, voorraad, retouren en advertenties met gegevens uit Rylee.",
+  "subject": [
+    "bol"
+  ],
   "contains": {
     "skills": [],
     "commands": [],
     "agents": [],
-    "mcp_servers": ["rylee-bol-mcp"]
+    "mcp_servers": [
+      "rylee-bol-mcp"
+    ]
   },
   "execution": "remote",
-  "uses": [{ "domain": "rylee.nl", "account": true }],
+  "uses": [
+    {
+      "domain": "rylee.nl",
+      "account": true
+    }
+  ],
   "origin": "official",
   "status": "live",
   "publisher": "Rylee B.V.",
   "source_url": "https://rylee.nl/nl/solutions/bol-mcp",
-  "last_checked": "2026-09-06"
+  "last_checked": "2026-09-09"
 }

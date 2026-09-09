@@ -2,8 +2,8 @@
   "id": "data-analysis-journalism",
   "name": "data-analysis-journalism",
   "category": "data",
-  "description_en": "Run an eight-step exploratory analysis over a Dutch open dataset and report it as story leads in Dutch — headline finding, key figures, and outliers set against the national average.",
-  "description_nl": "Verken een Nederlandse open dataset in acht stappen en rapporteer verhaallijnen in het Nederlands — hoofdbevinding, kerngetallen en uitschieters tegen het landelijk gemiddelde.",
+  "description_en": "Find story leads in cleaned Dutch data: compare regions, spot trends and outliers, and develop follow-up questions.",
+  "description_nl": "Vind aanknopingspunten voor nieuws in opgeschoonde Nederlandse data: vergelijk regio’s, ontdek trends en uitschieters en formuleer vervolgvragen.",
   "subject": [
     "cbs-statline"
   ],
@@ -21,5 +21,5 @@
   "status": "live",
   "publisher": "linksmith",
   "source_url": "https://github.com/linksmith/data-analysis-journalism",
-  "last_checked": "2026-08-29"
+  "last_checked": "2026-09-09"
 }

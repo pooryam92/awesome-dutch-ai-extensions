@@ -2,8 +2,8 @@
   "id": "yuki-mcp",
   "name": "Yuki MCP",
   "category": "boekhouding",
-  "description_en": "Book invoices, journal entries and archive documents in Yuki over its SOAP API — it writes as well as reads, and starts from a node path because the package ships no npx entry point.",
-  "description_nl": "Boek facturen, memoriaalposten en archiefdocumenten in Yuki via de SOAP API — de server muteert en leest, en start via een node-pad omdat het pakket geen npx-ingang meelevert.",
+  "description_en": "View your Yuki accounts and outstanding invoices, post purchase and sales invoices and journal entries, and add documents to the archive.",
+  "description_nl": "Bekijk je Yuki-administraties en openstaande facturen, boek inkoop- en verkoopfacturen en memoriaalposten en voeg documenten toe aan het archief.",
   "subject": [
     "yuki"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "CodeMill Solutions",
   "source_url": "https://github.com/CodeMill-Solutions/yuki-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

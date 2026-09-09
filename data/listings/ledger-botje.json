@@ -2,8 +2,8 @@
   "id": "ledger-botje",
   "name": "Ledger Botje",
   "category": "boekhouding",
-  "description_en": "Handle Exact Online invoices, orders, inventory, and deliveries through a hosted MCP.",
-  "description_nl": "Verwerk facturen, orders, voorraad en leveringen in Exact Online via een gehoste MCP.",
+  "description_en": "Manage Exact Online orders, stock, production and invoices, down to warehouses, batches and serial numbers.",
+  "description_nl": "Beheer orders, voorraad, productie en facturen in Exact Online, tot op magazijn, batch en serienummer.",
   "subject": [
     "exact-online"
   ],
@@ -30,5 +30,5 @@
   "status": "live",
   "publisher": "Industrial IT",
   "source_url": "https://ledgerbotje.nl/",
-  "last_checked": "2026-08-29"
+  "last_checked": "2026-09-09"
 }

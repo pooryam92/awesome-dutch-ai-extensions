@@ -2,8 +2,8 @@
   "id": "rdw-mcp-server",
   "name": "rdw-mcp-server",
   "category": "reizen",
-  "description_en": "Look up a Dutch license plate over npx and get the RDW record — registration, fuel and emissions, axles and bodywork — from RDW open data, no API key needed.",
-  "description_nl": "Zoek via npx een Nederlands kenteken op en krijg het RDW-record — registratie, brandstof en emissies, assen en carrosserie — uit RDW open data, zonder API-key.",
+  "description_en": "Look up vehicle details, inspection expiry, fuel, emissions and towing limits by Dutch licence plate in open RDW records.",
+  "description_nl": "Bekijk op kenteken de voertuiggegevens, APK-vervaldatum, brandstof, uitstoot en trekgewichten uit de open RDW-registers.",
   "subject": [
     "rdw"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "jodur",
   "source_url": "https://github.com/jodur/RDW-MCP",
-  "last_checked": "2026-09-02"
+  "last_checked": "2026-09-09"
 }

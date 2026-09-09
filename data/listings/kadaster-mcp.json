@@ -2,8 +2,8 @@
   "id": "kadaster-mcp",
   "name": "kadaster-mcp",
   "category": "wonen",
-  "description_en": "Query the Kadaster Knowledge Graph of Dutch land-registry and parcel data.",
-  "description_nl": "Bevraag de Knowledge Graph van het Kadaster met gegevens uit de kadastrale registratie en over percelen.",
+  "description_en": "Research parcels and restrictions affecting them in the Kadaster Knowledge Graph, with tools to build queries, compare locations and check query results.",
+  "description_nl": "Onderzoek percelen en de beperkingen die erop rusten met de Knowledge Graph van het Kadaster, met hulp bij gegevens opvragen, locaties vergelijken en zoekresultaten controleren.",
   "subject": [
     "kadaster"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "jolietjakeblues",
   "source_url": "https://github.com/jolietjakeblues/kadaster-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

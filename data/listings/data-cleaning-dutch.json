@@ -2,8 +2,8 @@
   "id": "data-cleaning-dutch",
   "name": "data-cleaning-dutch",
   "category": "data",
-  "description_en": "Clean Dutch government CSV and Excel exports in pandas — semicolon separators, comma decimals, encoding detection, Dutch missing-value markers, day-first dates, postcode validation, and merged cells.",
-  "description_nl": "Maak overheidsexports (CSV, Excel) schoon in pandas — puntkomma's, komma-decimalen, encoding-detectie, Nederlandse aanduidingen voor lege waarden, dag-eerst-datums, postcodes en samengevoegde cellen.",
+  "description_en": "Clean Dutch CSV and Excel files for analysis: fix dates, decimal commas and column headers, and identify missing values.",
+  "description_nl": "Schoon Nederlandse CSV- en Excel-bestanden op voor analyse: herstel datums, decimale komma’s en kolomkoppen en herken ontbrekende waarden.",
   "subject": [
     "cbs-statline",
     "kadaster"
@@ -22,5 +22,5 @@
   "status": "live",
   "publisher": "linksmith",
   "source_url": "https://github.com/linksmith/data-cleaning-dutch",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

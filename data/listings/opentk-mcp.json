@@ -2,8 +2,8 @@
   "id": "opentk-mcp",
   "name": "OpenTK MCP",
   "category": "overheid",
-  "description_en": "Query Tweede Kamer (Dutch parliament) debates, motions, and documents.",
-  "description_nl": "Bevraag debatten, moties en documenten van de Tweede Kamer.",
+  "description_en": "Research parliamentary documents, votes and MPs through OpenTK, and identify relevant passages before reading long documents.",
+  "description_nl": "Onderzoek Kamerstukken, stemmingen en Kamerleden via OpenTK, en selecteer relevante passages voordat je lange documenten doorneemt.",
   "subject": [
     "tweede-kamer"
   ],
@@ -26,5 +26,5 @@
   "status": "live",
   "publisher": "r-huijts",
   "source_url": "https://github.com/r-huijts/opentk-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

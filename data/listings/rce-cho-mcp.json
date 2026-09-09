@@ -2,8 +2,8 @@
   "id": "rce-cho-mcp",
   "name": "rce-cho-mcp",
   "category": "historie",
-  "description_en": "Query the RCE Cultuurhistorische Objecten linked-data set over SPARQL, with ontology inspection, thesaurus label lookup, and query validation.",
-  "description_nl": "Bevraag de linked-dataset Cultuurhistorische Objecten van de RCE via SPARQL, met inzicht in de ontologie, het opzoeken van thesaurus-labels en validatie van queries.",
+  "description_en": "Research monuments and other heritage in RCE data, with help interpreting concepts and validating your SPARQL queries.",
+  "description_nl": "Onderzoek monumenten en ander erfgoed in RCE-data, met hulp bij de betekenis van begrippen en controle van je SPARQL-zoekvragen.",
   "subject": [
     "rce"
   ],
@@ -30,5 +30,5 @@
   "status": "beta",
   "publisher": "jolietjakeblues",
   "source_url": "https://github.com/jolietjakeblues/rce-cho-mcp",
-  "last_checked": "2026-08-29"
+  "last_checked": "2026-09-09"
 }

@@ -2,8 +2,8 @@
   "id": "sb-ogc-mcp",
   "name": "SB OGC MCP",
   "category": "data",
-  "description_en": "Query Dutch mobility data through Studio Bereikbaar's OGC API — the CBS ODiN travel survey, national traffic-model networks, administrative boundaries, and accessibility maps.",
-  "description_nl": "Bevraag Nederlandse mobiliteitsdata via de OGC API van Studio Bereikbaar — het CBS-reisonderzoek ODiN, netwerken uit landelijke verkeersmodellen, bestuurlijke grenzen en bereikbaarheidskaarten.",
+  "description_en": "Compare travel patterns between Dutch locations and create accessibility maps using CBS travel data and Studio Bereikbaar traffic networks.",
+  "description_nl": "Vergelijk reisgedrag tussen Nederlandse plaatsen en maak bereikbaarheidskaarten met CBS-reisdata en verkeersnetwerken van Studio Bereikbaar.",
   "subject": [
     "cbs-odin"
   ],
@@ -26,5 +26,5 @@
   "status": "preview",
   "publisher": "Studio Bereikbaar",
   "source_url": "https://github.com/Studio-Bereikbaar/sb-ogc-mcp",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

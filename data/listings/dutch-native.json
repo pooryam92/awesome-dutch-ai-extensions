@@ -2,8 +2,8 @@
   "id": "dutch-native",
   "name": "Dutch Native",
   "category": "taal",
-  "description_en": "Rewrite Dutch text so it reads as native rather than translated, in either Netherlands or Belgian Dutch.",
-  "description_nl": "Herschrijf Nederlandse tekst zodat die native leest in plaats van vertaald, in Nederlands of Belgisch Nederlands.",
+  "description_en": "Write and rewrite natural Dutch for the Netherlands or Belgium, with guidance on literal English translations, stiff sentences and unsuitable word choices.",
+  "description_nl": "Schrijf en herschrijf natuurlijk Nederlands voor Nederland of België, met hulp bij letterlijke Engelse vertalingen, stijve zinnen en onpassende woordkeuze.",
   "subject": [
     "nederlands"
   ],
@@ -21,5 +21,5 @@
   "status": "live",
   "publisher": "Bruno Coussement",
   "source_url": "https://github.com/brunocous/dutch-native",
-  "last_checked": "2026-08-30"
+  "last_checked": "2026-09-09"
 }

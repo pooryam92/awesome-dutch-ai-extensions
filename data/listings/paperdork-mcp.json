@@ -1,0 +1,30 @@
+{
+  "id": "paperdork-mcp",
+  "name": "Paperdork MCP",
+  "category": "boekhouding",
+  "description_en": "Send invoices and payment reminders and record expenses, time and mileage in Paperdork.",
+  "description_nl": "Verstuur facturen en betaalherinneringen en registreer uitgaven, uren en ritten in Paperdork.",
+  "subject": [
+    "paperdork"
+  ],
+  "contains": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "paperdork-mcp"
+    ]
+  },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "paperdork.nl",
+      "account": true
+    }
+  ],
+  "origin": "official",
+  "status": "live",
+  "publisher": "Paperdork B.V.",
+  "source_url": "https://paperdork.nl/paperdork-en-ai-koppelen-dit-kan-je-doen-met-onze-mcp-integratie/",
+  "last_checked": "2026-09-09"
+}
