@@ -126,6 +126,9 @@
   "inburgering": {
     "name": "Inburgeringsexamen"
   },
+  "intermediair": {
+    "name": "Intermediair"
+  },
   "internet-nl": {
     "name": "internet.nl",
     "kind": "standard"
@@ -170,6 +173,9 @@
   "monumenten": {
     "name": "Monumenten",
     "kind": "dataset"
+  },
+  "nationale-vacaturebank": {
+    "name": "Nationale Vacaturebank"
   },
   "nederlands": {
     "name": "Nederlands (taal)"

@@ -10,8 +10,8 @@ _Every listing was checked against its source on or after 9 September 2026._
 
 | Category                      | Listings | Covers                                                      |
 | ----------------------------- | -------: | ----------------------------------------------------------- |
-| [Accounting](#accounting)     |       21 | Exact Online, e-Boekhouden, Moneybird, Twinfield, WeFact, … |
-| [Business](#business)         |        8 | KVK, Adyen, bol.com, internet.nl, Mollie, Sendcloud, …      |
+| [Accounting](#accounting)     |       22 | Exact Online, Moneybird, e-Boekhouden, Twinfield, WeFact, … |
+| [Business](#business)         |       10 | KVK, Adyen, bol.com, Intermediair, internet.nl, Mollie, …   |
 | [Data](#data)                 |        8 | CBS StatLine, CBS ODiN, Geonovum, Kadaster, PDOK, …         |
 | [Education](#education)       |        1 | Magister                                                    |
 | [Government](#government)     |        7 | CBS StatLine, data.overheid.nl, DUO, …                      |
@@ -38,6 +38,7 @@ _Every listing was checked against its source on or after 9 September 2026._
 | [Jortt MCP](https://www.jortt.nl/koppelingen/mcp-koppeling/) | View your Jortt accounts, create invoices and book expenses. | Jortt | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [Ledger Botje](https://ledgerbotje.nl/) | Manage Exact Online orders, stock, production and invoices, down to warehouses, batches and serial numbers. | Exact Online | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [Moneybird MCP](https://developer.moneybird.com/tools/mcp) | View your Moneybird accounts and create or update contacts, invoices and time entries. | Moneybird | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
+| [Moneybird MCP (Espaye)](https://github.com/Espaye/moneybird-mcp-server) | Match bank transactions to the invoices they settle, read VAT, profit-and-loss and ledger reports, and search contacts and invoices in Moneybird; writing back is off until you enable it. | Moneybird | ![MCP · Community · Beta](assets/badges/tags-mcp-community-beta.svg) |
 | [moneybird-mcp-server](https://github.com/vanderheijden86/moneybird-mcp-server) | View Moneybird invoices, contacts, estimates and time entries, and use custom API calls to create, update or delete records. | Moneybird | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [OpenAccountants Plugin](https://github.com/openaccountants/openaccountants/tree/main/plugins/openaccountants) | Prepare Dutch bookkeeping and tax returns with sources on VAT, income tax and self-employed deductions. <details><summary>Contains 1 command · 1 MCP server</summary><b>Commands</b> openaccountants<br><b>MCP servers</b> openaccountants</details> | Belastingdienst | ![Bundle · Community](assets/badges/tags-bundle-community.svg) |
 | [Paperdork MCP](https://paperdork.nl/paperdork-en-ai-koppelen-dit-kan-je-doen-met-onze-mcp-integratie/) | Send invoices and payment reminders and record expenses, time and mileage in Paperdork. | Paperdork | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
@@ -57,9 +58,11 @@ _Every listing was checked against its source on or after 9 September 2026._
 |---|---|---|---|
 | [Adyen MCP](https://docs.adyen.com/development-resources/mcp-server/) | Create payment links, process payments and refunds, and manage Adyen payment terminals and webhooks. | Adyen | ![MCP · Official · Preview](assets/badges/tags-mcp-official-preview.svg) |
 | [Bol MCP van Rylee](https://rylee.nl/nl/solutions/bol-mcp) | Analyse your bol.com sales, profit, stock, returns and advertising using data from Rylee. | bol.com | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
+| [Intermediair Jobs](https://www.intermediair.nl/.well-known/mcp.json) | Search Intermediair's hbo and wo vacancies by role, place and radius, contract and salary, and fetch the full posting; a subset of the same DPG listings as Nationale Vacaturebank. | Intermediair | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [kvk-connect (MinBZK)](https://github.com/MinBZK/kvk-connect) | Search company records and their change history in your own KVK database. | KVK | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [kvk-mcp](https://github.com/BartWaardenburg/kvk-mcp) | Find companies, branches and trade names in the KVK Handelsregister and view change notifications. | KVK | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [Mollie MCP](https://docs.mollie.com/docs/mollie-mcp-server) | Create payment links and manage payments, customers, invoices and subscriptions in Mollie. | Mollie | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
+| [Nationale Vacaturebank Jobs](https://www.nationalevacaturebank.nl/.well-known/mcp.json) | Search Nationale Vacaturebank vacancies by role, place and radius, contract, education level and salary, and fetch the full posting. | Nationale Vacaturebank | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [pp-tenderned](https://github.com/mvanhorn/printing-press-library/tree/main/library/sales-and-crm/tenderned) | Search TenderNed tenders, including those below EU thresholds, look up contracting authorities and download specifications. <details><summary>Contains 1 skill · 1 MCP server</summary><b>Skills</b> pp-tenderned<br><b>MCP servers</b> tenderned</details> | TenderNed | ![Bundle · Community](assets/badges/tags-bundle-community.svg) |
 | [Sendcloud MCP](https://sendcloud.dev/docs/getting-started/mcp-server) | Create shipping labels, track parcels and arrange returns and pickups in Sendcloud; shipments created on your live account can incur charges. | Sendcloud | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [skills-internet](https://github.com/developer-overheid-nl/skills-internet) | Check website and email settings against internet.nl standards, with configuration guidance and checks across multiple domains at once. <details><summary>Contains 5 skills</summary><b>Skills</b> inet · inet-api · inet-mail · inet-toolbox · inet-web</details> | internet.nl | ![Skill · Community · Concept](assets/badges/tags-skill-community-concept.svg) |
@@ -189,4 +192,4 @@ _Every listing was checked against its source on or after 9 September 2026._
 
 ---
 
-_92 listings across 14 categories, holding 129 skills, 26 commands, 2 agents, and 83 MCP servers._
+_95 listings across 14 categories, holding 129 skills, 26 commands, 2 agents, and 86 MCP servers._

@@ -1,0 +1,30 @@
+{
+  "id": "nationale-vacaturebank-jobs",
+  "name": "Nationale Vacaturebank Jobs",
+  "category": "bedrijf",
+  "description_en": "Search Nationale Vacaturebank vacancies by role, place and radius, contract, education level and salary, and fetch the full posting.",
+  "description_nl": "Zoek vacatures op Nationale Vacaturebank op functie, plaats en afstand, contract, opleidingsniveau en salaris en haal de volledige vacaturetekst op.",
+  "subject": [
+    "nationale-vacaturebank"
+  ],
+  "contains": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "nationale-vacaturebank"
+    ]
+  },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "nationalevacaturebank.nl",
+      "account": false
+    }
+  ],
+  "origin": "official",
+  "status": "live",
+  "publisher": "DPG Media",
+  "source_url": "https://www.nationalevacaturebank.nl/.well-known/mcp.json",
+  "last_checked": "2026-09-09"
+}

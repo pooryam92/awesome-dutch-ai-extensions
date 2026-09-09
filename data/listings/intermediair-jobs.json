@@ -1,0 +1,30 @@
+{
+  "id": "intermediair-jobs",
+  "name": "Intermediair Jobs",
+  "category": "bedrijf",
+  "description_en": "Search Intermediair's hbo and wo vacancies by role, place and radius, contract and salary, and fetch the full posting; a subset of the same DPG listings as Nationale Vacaturebank.",
+  "description_nl": "Zoek hbo- en wo-vacatures op Intermediair op functie, plaats en afstand, contract en salaris en haal de volledige vacaturetekst op; een deelselectie van het DPG-aanbod van Nationale Vacaturebank.",
+  "subject": [
+    "intermediair"
+  ],
+  "contains": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "intermediair"
+    ]
+  },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "intermediair.nl",
+      "account": false
+    }
+  ],
+  "origin": "official",
+  "status": "live",
+  "publisher": "DPG Media",
+  "source_url": "https://www.intermediair.nl/.well-known/mcp.json",
+  "last_checked": "2026-09-09"
+}
