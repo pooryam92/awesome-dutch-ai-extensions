@@ -199,8 +199,20 @@
     "name": "officielebekendmakingen.nl",
     "kind": "dataset"
   },
+  "open-archivaris": {
+    "name": "Open Archivaris",
+    "kind": "dataset"
+  },
+  "open-raadsinformatie": {
+    "name": "Open Raadsinformatie",
+    "kind": "dataset"
+  },
   "openarchieven": {
     "name": "Open Archieven"
+  },
+  "openbesluitvorming": {
+    "name": "OpenBesluitvorming",
+    "kind": "dataset"
   },
   "ovapi": {
     "name": "OVapi",

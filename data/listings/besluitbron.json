@@ -1,0 +1,59 @@
+{
+  "id": "besluitbron",
+  "name": "BesluitBron",
+  "category": "overheid",
+  "description_en": "Search the decisions of Dutch municipalities, provinces, water authorities, parliament and the courts from one connector, and cite the underlying document for every answer.",
+  "description_nl": "Doorzoek de besluitvorming van Nederlandse gemeenten, provincies, waterschappen, het parlement en de rechtspraak vanuit één koppeling, met bij elk antwoord de bron erbij.",
+  "subject": [
+    "open-raadsinformatie",
+    "openbesluitvorming",
+    "tweede-kamer",
+    "officiele-bekendmakingen",
+    "rechtspraak",
+    "open-archivaris"
+  ],
+  "contains": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "besluitbron"
+    ]
+  },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "besluitbron.nl",
+      "account": false
+    },
+    {
+      "domain": "openraadsinformatie.nl",
+      "account": false
+    },
+    {
+      "domain": "openbesluitvorming.nl",
+      "account": false
+    },
+    {
+      "domain": "tweedekamer.nl",
+      "account": false
+    },
+    {
+      "domain": "overheid.nl",
+      "account": false
+    },
+    {
+      "domain": "rechtspraak.nl",
+      "account": false
+    },
+    {
+      "domain": "berthub.eu",
+      "account": false
+    }
+  ],
+  "origin": "community",
+  "status": "live",
+  "publisher": "Stichting Common Sense in Actie",
+  "source_url": "https://besluitbron.nl/nl/onboarding/unified",
+  "last_checked": "2026-09-10"
+}
