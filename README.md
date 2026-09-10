@@ -14,7 +14,7 @@ _Every listing was checked against its source on or after 9 September 2026._
 | [Business](#business)         |       10 | KVK, Adyen, bol.com, Intermediair, internet.nl, Mollie, …   |
 | [Data](#data)                 |        8 | CBS StatLine, CBS ODiN, Geonovum, Kadaster, PDOK, …         |
 | [Education](#education)       |        1 | Magister                                                    |
-| [Government](#government)     |        7 | CBS StatLine, data.overheid.nl, DUO, …                      |
+| [Government](#government)     |        8 | CBS StatLine, officielebekendmakingen.nl, Tweede Kamer, …   |
 | [Groceries](#groceries)       |        7 | Albert Heijn, Jumbo, Plus, Picnic, Aldi, DA, …              |
 | [History](#history)           |        5 | Rijksdienst voor het Cultureel Erfgoed, Alle Friezen, …     |
 | [Housing](#housing)           |        3 | CBS StatLine, Kadaster, Kamernet, Netbeheerdata, PDOK       |
@@ -91,6 +91,7 @@ _Every listing was checked against its source on or after 9 September 2026._
 | Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
 | [baarn-raadsinformatie](https://github.com/tiemenrtuinstra/baarn-raadsinformatie) | Search Baarn council meetings, agendas and documents by keyword or meaning, using information from Notubiz. | Gemeente Baarn | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+| [BesluitBron](https://besluitbron.nl/nl/onboarding/unified) | Search the decisions of Dutch municipalities, provinces, water authorities, parliament and the courts from one connector, and cite the underlying document for every answer. | Open Raadsinformatie / OpenBesluitvorming / Tweede Kamer / officielebekendmakingen.nl / Rechtspraak.nl / Open Archivaris | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [Data Journalist AI Agent Plugin](https://github.com/linksmith/data-journalist-ai-agent-plugin-with-skills) | Investigate stories with Dutch data sources, draft public information requests and track facts, sources and open questions for each investigation. <details><summary>Contains 4 skills · 2 commands · 1 agent</summary><b>Skills</b> browser-lookup · dutch-sources · story-state · woo-draft<br><b>Commands</b> new-investigation · weekly-digest<br><b>Agents</b> research-assistant</details> | CBS StatLine / DUO (Dienst Uitvoering Onderwijs) / KVK / Woogle / officielebekendmakingen.nl / RVO (Rijksdienst voor Ondernemend Nederland) / NVWA / BIG-register | ![Bundle · Community](assets/badges/tags-bundle-community.svg) |
 | [mcp-gemeente-amsterdam](https://github.com/aronmartin/mcp-gemeente-amsterdam) | Look up Amsterdam addresses, monuments, waste collection and parking in municipal data. | Gemeente Amsterdam | ![MCP · Community · Abandoned](assets/badges/tags-mcp-community-abandoned.svg) |
 | [nl-gov-mcp](https://github.com/WAINUTAI/nl-gov-mcp) | Combine statistics, parliamentary documents, court rulings and other Dutch government data with source references. | CBS StatLine / RDW / KNMI / Rechtspraak.nl / PDOK / Kadaster / Rijksdienst voor het Cultureel Erfgoed (RCE) / wetten.overheid.nl / OVapi / NS (Nederlandse Spoorwegen) / data.overheid.nl / Tweede Kamer / DUO (Dienst Uitvoering Onderwijs) / BAG (Basisregistratie Adressen en Gebouwen) / TenderNed / officielebekendmakingen.nl | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
@@ -192,4 +193,4 @@ _Every listing was checked against its source on or after 9 September 2026._
 
 ---
 
-_95 listings across 14 categories, holding 129 skills, 26 commands, 2 agents, and 86 MCP servers._
+_96 listings across 14 categories, holding 129 skills, 26 commands, 2 agents, and 87 MCP servers._
