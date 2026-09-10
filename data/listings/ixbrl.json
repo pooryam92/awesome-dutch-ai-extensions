@@ -1,0 +1,37 @@
+{
+  "id": "ixbrl",
+  "name": "iXBRL Skill",
+  "category": "boekhouding",
+  "description_en": "Prepare and check an iXBRL annual account for deposit at the KVK: pin the right NT taxonomy version, apply the SBR filing rules and validate the package with Arelle before it goes in.",
+  "description_nl": "Bereid een iXBRL-jaarrekening voor op deponering bij de KVK: prik de juiste NT-taxonomieversie, pas de SBR-filingregels toe en valideer het rapportagepakket met Arelle.",
+  "subject": [
+    "sbr",
+    "kvk",
+    "rj",
+    "afm"
+  ],
+  "contains": {
+    "skills": [
+      "ixbrl"
+    ],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "sbr-nl.nl",
+      "account": false
+    },
+    {
+      "domain": "nltaxonomie.nl",
+      "account": false
+    }
+  ],
+  "origin": "community",
+  "status": "live",
+  "publisher": "Max Schoon (Doc2iXBRL, Ontos B.V.)",
+  "source_url": "https://github.com/MaxSchoon/ixbrl",
+  "last_checked": "2026-09-10"
+}

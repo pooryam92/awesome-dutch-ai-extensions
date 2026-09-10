@@ -1,0 +1,36 @@
+{
+  "id": "neodemos",
+  "name": "NeoDemos",
+  "category": "overheid",
+  "description_en": "Draft Rotterdam council motions and questions in the format the RvO prescribes, review concept texts and pull CBS figures for the city; searching the council archive itself needs a paid account.",
+  "description_nl": "Stel Rotterdamse moties en schriftelijke vragen op in het format dat het RvO voorschrijft, laat concepten nakijken en haal er CBS-cijfers bij; het raadsarchief doorzoeken vereist een betaald account.",
+  "subject": [
+    "gemeente-rotterdam",
+    "open-raadsinformatie",
+    "cbs-statline"
+  ],
+  "contains": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "neodemos"
+    ]
+  },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "neodemos.nl",
+      "account": false
+    },
+    {
+      "domain": "cbs.nl",
+      "account": false
+    }
+  ],
+  "origin": "community",
+  "status": "preview",
+  "publisher": "D.P.A. Tak (NeoDemos)",
+  "source_url": "https://github.com/NeoDemosHQ/neodemos-plugins",
+  "last_checked": "2026-09-10"
+}

@@ -2,6 +2,9 @@
   "adyen": {
     "name": "Adyen"
   },
+  "afm": {
+    "name": "AFM (Autoriteit Financiële Markten)"
+  },
   "afas-profit": {
     "name": "AFAS Profit"
   },
@@ -103,6 +106,10 @@
   },
   "gemeente-baarn": {
     "name": "Gemeente Baarn",
+    "kind": "dataset"
+  },
+  "gemeente-rotterdam": {
+    "name": "Gemeente Rotterdam",
     "kind": "dataset"
   },
   "gemeente-utrecht": {
@@ -266,6 +273,10 @@
   "rvo": {
     "name": "RVO (Rijksdienst voor Ondernemend Nederland)",
     "kind": "dataset"
+  },
+  "sbr": {
+    "name": "SBR (Standard Business Reporting)",
+    "kind": "standard"
   },
   "sendcloud": {
     "name": "Sendcloud"
