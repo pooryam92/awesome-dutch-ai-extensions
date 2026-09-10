@@ -8,22 +8,22 @@ _Every listing is tagged with what it is and where it came from. What it is come
 
 _Every listing was checked against its source on or after 9 September 2026._
 
-| Category                      | Listings | Covers                                                      |
-| ----------------------------- | -------: | ----------------------------------------------------------- |
-| [Accounting](#accounting)     |       22 | Exact Online, Moneybird, e-Boekhouden, Twinfield, WeFact, … |
-| [Business](#business)         |       10 | KVK, Adyen, bol.com, Intermediair, internet.nl, Mollie, …   |
-| [Data](#data)                 |        8 | CBS StatLine, CBS ODiN, Geonovum, Kadaster, PDOK, …         |
-| [Education](#education)       |        1 | Magister                                                    |
-| [Government](#government)     |        8 | CBS StatLine, officielebekendmakingen.nl, Tweede Kamer, …   |
-| [Groceries](#groceries)       |        7 | Albert Heijn, Jumbo, Plus, Picnic, Aldi, DA, …              |
-| [History](#history)           |        5 | Rijksdienst voor het Cultureel Erfgoed, Alle Friezen, …     |
-| [Housing](#housing)           |        3 | CBS StatLine, Kadaster, Kamernet, Netbeheerdata, PDOK       |
-| [Language](#language)         |        2 | Nederlands, Inburgeringsexamen                              |
-| [Law](#law)                   |       10 | Rechtspraak.nl, wetten.overheid.nl, AVG, NIS2-richtlijn, …  |
-| [Marketplaces](#marketplaces) |        5 | Marktplaats, bol.com, PostNL                                |
-| [Money](#money)               |        6 | Belastingdienst, Bitvavo, bunq                              |
-| [Travel](#travel)             |        7 | NS, OVapi, RDW, ANWB                                        |
-| [Weather](#weather)           |        2 | KNMI                                                        |
+| Category                      | Listings | Covers                                                     |
+| ----------------------------- | -------: | ---------------------------------------------------------- |
+| [Accounting](#accounting)     |       23 | Exact Online, Moneybird, e-Boekhouden, Twinfield, …        |
+| [Business](#business)         |       10 | KVK, Adyen, bol.com, Intermediair, internet.nl, Mollie, …  |
+| [Data](#data)                 |        8 | CBS StatLine, CBS ODiN, Geonovum, Kadaster, PDOK, …        |
+| [Education](#education)       |        1 | Magister                                                   |
+| [Government](#government)     |        9 | CBS StatLine, officielebekendmakingen.nl, Tweede Kamer, …  |
+| [Groceries](#groceries)       |        7 | Albert Heijn, Jumbo, Plus, Picnic, Aldi, DA, …             |
+| [History](#history)           |        5 | Rijksdienst voor het Cultureel Erfgoed, Alle Friezen, …    |
+| [Housing](#housing)           |        3 | CBS StatLine, Kadaster, Kamernet, Netbeheerdata, PDOK      |
+| [Language](#language)         |        2 | Nederlands, Inburgeringsexamen                             |
+| [Law](#law)                   |       10 | Rechtspraak.nl, wetten.overheid.nl, AVG, NIS2-richtlijn, … |
+| [Marketplaces](#marketplaces) |        5 | Marktplaats, bol.com, PostNL                               |
+| [Money](#money)               |        6 | Belastingdienst, Bitvavo, bunq                             |
+| [Travel](#travel)             |        7 | NS, OVapi, RDW, ANWB                                       |
+| [Weather](#weather)           |        2 | KNMI                                                       |
 
 ## Accounting
 
@@ -35,6 +35,7 @@ _Every listing was checked against its source on or after 9 September 2026._
 | [exact-mcp](https://github.com/lemon-official/exact-mcp) | Create sales orders and goods deliveries in Exact Online, find unpaid invoices, and view or update other accounting records. | Exact Online | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [Finance MCP](https://financemcp.nl/) | View and compare accounting data from Exact Online, Moneybird, Business Central, Twinfield and e-Boekhouden.nl through one connection. | Exact Online / Moneybird / Microsoft Dynamics 365 Business Central / Twinfield / e-Boekhouden | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [finance-skills-nl](https://github.com/start2scale/finance-skills-nl) | Check Excel models and ledger discrepancies and prepare month-end closing under Dutch reporting rules. <details><summary>Contains 9 skills</summary><b>Skills</b> ai-readiness-mkb · doorrol-schema · excel-controle · grootboek-aansluiting · maandafsluiting · transitorische-posten · variantie-toelichting · verschillen-traceren · xlsx-author</details> | Raad voor de Jaarverslaggeving (RJ) | ![Skill · Community](assets/badges/tags-skill-community.svg) |
+| [iXBRL Skill](https://github.com/MaxSchoon/ixbrl) | Prepare and check an iXBRL annual account for deposit at the KVK: pin the right NT taxonomy version, apply the SBR filing rules and validate the package with Arelle before it goes in. | SBR (Standard Business Reporting) / KVK / Raad voor de Jaarverslaggeving (RJ) / AFM (Autoriteit Financiële Markten) | ![Skill · Community](assets/badges/tags-skill-community.svg) |
 | [Jortt MCP](https://www.jortt.nl/koppelingen/mcp-koppeling/) | View your Jortt accounts, create invoices and book expenses. | Jortt | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [Ledger Botje](https://ledgerbotje.nl/) | Manage Exact Online orders, stock, production and invoices, down to warehouses, batches and serial numbers. | Exact Online | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [Moneybird MCP](https://developer.moneybird.com/tools/mcp) | View your Moneybird accounts and create or update contacts, invoices and time entries. | Moneybird | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
@@ -94,6 +95,7 @@ _Every listing was checked against its source on or after 9 September 2026._
 | [BesluitBron](https://besluitbron.nl/nl/onboarding/unified) | Search the decisions of Dutch municipalities, provinces, water authorities, parliament and the courts from one connector, and cite the underlying document for every answer. | Open Raadsinformatie / OpenBesluitvorming / Tweede Kamer / officielebekendmakingen.nl / Rechtspraak.nl / Open Archivaris | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [Data Journalist AI Agent Plugin](https://github.com/linksmith/data-journalist-ai-agent-plugin-with-skills) | Investigate stories with Dutch data sources, draft public information requests and track facts, sources and open questions for each investigation. <details><summary>Contains 4 skills · 2 commands · 1 agent</summary><b>Skills</b> browser-lookup · dutch-sources · story-state · woo-draft<br><b>Commands</b> new-investigation · weekly-digest<br><b>Agents</b> research-assistant</details> | CBS StatLine / DUO (Dienst Uitvoering Onderwijs) / KVK / Woogle / officielebekendmakingen.nl / RVO (Rijksdienst voor Ondernemend Nederland) / NVWA / BIG-register | ![Bundle · Community](assets/badges/tags-bundle-community.svg) |
 | [mcp-gemeente-amsterdam](https://github.com/aronmartin/mcp-gemeente-amsterdam) | Look up Amsterdam addresses, monuments, waste collection and parking in municipal data. | Gemeente Amsterdam | ![MCP · Community · Abandoned](assets/badges/tags-mcp-community-abandoned.svg) |
+| [NeoDemos](https://github.com/NeoDemosHQ/neodemos-plugins) | Draft Rotterdam council motions and questions in the format the RvO prescribes, review concept texts and pull CBS figures for the city; searching the council archive itself needs a paid account. | Gemeente Rotterdam / Open Raadsinformatie / CBS StatLine | ![MCP · Community · Preview](assets/badges/tags-mcp-community-preview.svg) |
 | [nl-gov-mcp](https://github.com/WAINUTAI/nl-gov-mcp) | Combine statistics, parliamentary documents, court rulings and other Dutch government data with source references. | CBS StatLine / RDW / KNMI / Rechtspraak.nl / PDOK / Kadaster / Rijksdienst voor het Cultureel Erfgoed (RCE) / wetten.overheid.nl / OVapi / NS (Nederlandse Spoorwegen) / data.overheid.nl / Tweede Kamer / DUO (Dienst Uitvoering Onderwijs) / BAG (Basisregistratie Adressen en Gebouwen) / TenderNed / officielebekendmakingen.nl | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [nl-opendata-mcp](https://github.com/soulnai/nl-opendata-mcp) | Find and filter datasets from CBS and data.overheid.nl and download them for analysis. | CBS StatLine / data.overheid.nl | ![MCP · Community · Concept](assets/badges/tags-mcp-community-concept.svg) |
 | [open-utrecht-datasets](https://github.com/Terminal-WOO/open-utrecht-datasets) | Find open datasets from Utrecht and data.overheid.nl, view download links and identify datasets relevant to your public information research. | Gemeente Utrecht | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
@@ -193,4 +195,4 @@ _Every listing was checked against its source on or after 9 September 2026._
 
 ---
 
-_96 listings across 14 categories, holding 129 skills, 26 commands, 2 agents, and 87 MCP servers._
+_98 listings across 14 categories, holding 130 skills, 26 commands, 2 agents, and 88 MCP servers._
