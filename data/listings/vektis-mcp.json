@@ -1,0 +1,30 @@
+{
+  "id": "vektis-mcp",
+  "name": "Vektis MCP",
+  "category": "zorg",
+  "description_en": "Find care providers by name or AGB code and practices also by town or postcode in the Vektis AGB-register; view contacts, registration status, qualifications, recognitions and relationships.",
+  "description_nl": "Zoek zorgverleners op naam of AGB-code en praktijken ook op plaats of postcode in het Vektis AGB-register; bekijk contactgegevens, registratiestatus, kwalificaties, erkenningen en relaties.",
+  "subject": [
+    "agb-register"
+  ],
+  "contains": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "vektis"
+    ]
+  },
+  "execution": "local",
+  "uses": [
+    {
+      "domain": "vektis.nl",
+      "account": false
+    }
+  ],
+  "origin": "community",
+  "status": "live",
+  "publisher": "pooryam92",
+  "source_url": "https://github.com/pooryam92/vektis-mcp",
+  "last_checked": "2026-09-12"
+}

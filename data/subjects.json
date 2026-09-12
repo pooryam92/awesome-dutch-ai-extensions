@@ -8,6 +8,10 @@
   "afas-profit": {
     "name": "AFAS Profit"
   },
+  "agb-register": {
+    "name": "AGB-register (Vektis)",
+    "kind": "dataset"
+  },
   "ai-verordening": {
     "name": "AI-verordening (AI Act)",
     "kind": "standard"
