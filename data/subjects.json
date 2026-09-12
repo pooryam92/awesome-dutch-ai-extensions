@@ -297,6 +297,10 @@
   "trekpleister": {
     "name": "Trekpleister"
   },
+  "tuchtrecht": {
+    "name": "Tuchtrecht.nl",
+    "kind": "dataset"
+  },
   "tweede-kamer": {
     "name": "Tweede Kamer"
   },

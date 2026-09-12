@@ -1,0 +1,32 @@
+{
+  "id": "legalmike-golden-retriever",
+  "name": "LegalMike Golden Retriever",
+  "category": "recht",
+  "description_en": "Ask one question about Dutch law and get a reasoned answer from case law, legislation, disciplinary law, local rules, EU law and parliamentary papers, citing ECLI and CELEX.",
+  "description_nl": "Stel één vraag over het Nederlandse recht en krijg een onderbouwd antwoord uit rechtspraak, wetgeving, tuchtrecht, lokale regelgeving, EU-recht en kamerstukken, met ECLI- en CELEX-verwijzingen.",
+  "subject": [
+    "rechtspraak",
+    "wetten-overheid",
+    "tuchtrecht"
+  ],
+  "contains": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "lmcp"
+    ]
+  },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "legalmike.ai",
+      "account": true
+    }
+  ],
+  "origin": "commercial",
+  "status": "live",
+  "publisher": "Novitec B.V. (LegalMike)",
+  "source_url": "https://legalmike.ai/golden-retriever-mcp/",
+  "last_checked": "2026-09-12"
+}
