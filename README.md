@@ -16,6 +16,7 @@ _Every listing was checked against its source on or after 9 September 2026._
 | [Education](#education)       |        1 | Magister                                                   |
 | [Government](#government)     |        9 | CBS StatLine, officielebekendmakingen.nl, Tweede Kamer, …  |
 | [Groceries](#groceries)       |        7 | Albert Heijn, Jumbo, Plus, Picnic, Aldi, DA, …             |
+| [Health](#health)             |        1 | AGB-register                                               |
 | [History](#history)           |        5 | Rijksdienst voor het Cultureel Erfgoed, Alle Friezen, …    |
 | [Housing](#housing)           |        3 | CBS StatLine, Kadaster, Kamernet, Netbeheerdata, PDOK      |
 | [Language](#language)         |        2 | Nederlands, Inburgeringsexamen                             |
@@ -113,6 +114,12 @@ _Every listing was checked against its source on or after 9 September 2026._
 | [Pepesto Agent to Cart](https://www.pepesto.com/agent-to-cart/) | Send your shopping list to the Pepesto app for a basket with products and prices at Albert Heijn, Jumbo or Plus. | Albert Heijn / Jumbo / Plus | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [Pepesto MCP Server](https://github.com/pepesto-solutions/pepesto-mcp) | Turn recipes into baskets with prices and checkout links for Albert Heijn, Jumbo or Plus using paid API credit; sending a shopping list to the app is free. | Albert Heijn / Jumbo / Plus | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 
+## Health
+
+| Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+|---|---|---|---|
+| [Vektis MCP](https://github.com/pooryam92/vektis-mcp) | Find care providers by name or AGB code and practices also by town or postcode in the Vektis AGB-register; view contacts, registration status, qualifications, recognitions and relationships. | AGB-register (Vektis) | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
+
 ## History
 
 | Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
@@ -196,4 +203,4 @@ _Every listing was checked against its source on or after 9 September 2026._
 
 ---
 
-_99 listings across 14 categories, holding 130 skills, 26 commands, 2 agents, and 89 MCP servers._
+_100 listings across 15 categories, holding 130 skills, 26 commands, 2 agents, and 90 MCP servers._
