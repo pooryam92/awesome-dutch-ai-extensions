@@ -1,0 +1,34 @@
+{
+  "id": "bouw-botje",
+  "name": "Bouw Botje",
+  "category": "boekhouding",
+  "description_en": "Manage Exact Online Bouw projects, calculations, hour logs and instalment invoices for Dutch construction and installation firms.",
+  "description_nl": "Beheer projecten, calculaties, manurenregistratie en termijnfacturen in Exact Online Bouw voor aannemers en installateurs.",
+  "subject": [
+    "exact-online"
+  ],
+  "contains": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "bouwbotje"
+    ]
+  },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "bouwbotje.nl",
+      "account": true
+    },
+    {
+      "domain": "exactonline.nl",
+      "account": true
+    }
+  ],
+  "origin": "commercial",
+  "status": "live",
+  "publisher": "Industrial IT",
+  "source_url": "https://bouwbotje.nl/",
+  "last_checked": "2026-09-13"
+}
