@@ -10,7 +10,7 @@ _Every listing was checked against its source on or after 9 September 2026._
 
 | Category                      | Listings | Covers                                                     |
 | ----------------------------- | -------: | ---------------------------------------------------------- |
-| [Accounting](#accounting)     |       23 | Exact Online, Moneybird, e-Boekhouden, Twinfield, …        |
+| [Accounting](#accounting)     |       24 | Exact Online, Moneybird, e-Boekhouden, Twinfield, …        |
 | [Business](#business)         |       10 | KVK, Adyen, bol.com, Intermediair, internet.nl, Mollie, …  |
 | [Data](#data)                 |        8 | CBS StatLine, CBS ODiN, Geonovum, Kadaster, PDOK, …        |
 | [Education](#education)       |        1 | Magister                                                   |
@@ -31,6 +31,7 @@ _Every listing was checked against its source on or after 9 September 2026._
 | Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
 | [AFAS AI Connect](https://github.com/iwebdevnl/afas-ai-connect) | View outstanding items, balance sheets and profit and loss in AFAS Profit and prepare postings. <details><summary>Contains 4 commands · 1 MCP server</summary><b>Commands</b> afas-balans · afas-omzet · afas-openstaande-debiteuren · afas-ouderdomsanalyse<br><b>MCP servers</b> afas</details> | AFAS Profit | ![Bundle · Commercial](assets/badges/tags-bundle-commercial.svg) |
+| [Bouw Botje](https://bouwbotje.nl/) | Manage Exact Online Bouw projects, calculations, hour logs and instalment invoices for Dutch construction and installation firms. | Exact Online | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [e-Boekhouden MCP](https://github.com/CodeMill-Solutions/e-boekhouden-mcp) | View your e-Boekhouden accounts and post invoices, payments and expenses. | e-Boekhouden | ![MCP · Community · Install broken](assets/badges/tags-mcp-community-broken.svg) |
 | [Exact Online AI Connect](https://github.com/iwebdevnl/exact-online-ai-connect) | Analyse cash flow, receivables and profit in Exact Online and prepare VAT returns and period closing with bundled skills. <details><summary>Contains 10 skills · 4 commands · 1 MCP server</summary><b>Skills</b> btw-aangifte-assistent · cashflow-analyse · creditcard-aflettering · debiteurenbeheer · exact-afletter-logica · grootboek-anomalie-detectie · management-informatie · periodeafsluiting · reporting · resultatenrekening-analyse<br><b>Commands</b> exact-balans · exact-omzet · exact-openstaande-debiteuren · exact-ouderdomsanalyse<br><b>MCP servers</b> exact-online</details> | Exact Online | ![Bundle · Commercial](assets/badges/tags-bundle-commercial.svg) |
 | [exact-mcp](https://github.com/lemon-official/exact-mcp) | Create sales orders and goods deliveries in Exact Online, find unpaid invoices, and view or update other accounting records. | Exact Online | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
@@ -203,4 +204,4 @@ _Every listing was checked against its source on or after 9 September 2026._
 
 ---
 
-_100 listings across 15 categories, holding 130 skills, 26 commands, 2 agents, and 90 MCP servers._
+_101 listings across 15 categories, holding 130 skills, 26 commands, 2 agents, and 91 MCP servers._
