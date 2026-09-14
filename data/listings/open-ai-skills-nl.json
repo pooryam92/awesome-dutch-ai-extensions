@@ -1,0 +1,38 @@
+{
+  "id": "open-ai-skills-nl",
+  "name": "Open-source AI Skills NL",
+  "category": "taal",
+  "description_en": "Take a Dutch text from idea to publication with editorial roles that research, write, fact-check and critique it, and test a business idea from opportunity to evidence.",
+  "description_nl": "Breng een Nederlandse tekst van idee tot publicatie met redactierollen die onderzoeken, schrijven, factchecken en tegenlezen, en test een businessidee van kans tot bewijs.",
+  "subject": [
+    "nederlands"
+  ],
+  "contains": {
+    "skills": [
+      "de-hoofdredacteur",
+      "de-uitvrager",
+      "de-onderzoeker",
+      "de-schrijver",
+      "de-cliche-verwijderaar",
+      "de-factchecker",
+      "de-schrijfwijzer",
+      "de-structuurlezer",
+      "de-tegenlezer",
+      "de-kansverkenner",
+      "de-aannamejager",
+      "de-klantverkenner",
+      "de-eerste-versiebouwer",
+      "de-bewijsweger"
+    ],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": []
+  },
+  "execution": "none",
+  "uses": [],
+  "origin": "community",
+  "status": "live",
+  "publisher": "Erwin Blom",
+  "source_url": "https://github.com/erwinblom/open-ai-skills-nl",
+  "last_checked": "2026-09-14"
+}
