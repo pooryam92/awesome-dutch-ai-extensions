@@ -1,0 +1,30 @@
+{
+  "id": "autoverzekering-nl-mcp",
+  "name": "Autoverzekering.nl MCP",
+  "category": "geld",
+  "description_en": "Compare Dutch car-insurance policies by license plate, birth date, postcode, claim-free years and coverage (WA to volledig casco), then continue to Autoverzekering.nl to take out a policy.",
+  "description_nl": "Vergelijk autoverzekeringen op kenteken, geboortedatum, postcode, schadevrije jaren en dekking (WA tot volledig casco), en ga naar Autoverzekering.nl om een polis af te sluiten.",
+  "subject": [
+    "autoverzekering-nl"
+  ],
+  "contains": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "autoverzekering-nl-mcp"
+    ]
+  },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "autoverzekering.nl",
+      "account": false
+    }
+  ],
+  "origin": "official",
+  "status": "live",
+  "publisher": "Overstappen.nl B.V.",
+  "source_url": "https://www.autoverzekering.nl/",
+  "last_checked": "2026-09-14"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "overstappen-nl-energy-mcp",
+  "name": "Overstappen.nl MCP",
+  "category": "wonen",
+  "description_en": "Compare Dutch energy contracts by address, electricity and gas use and solar feed-in, with tariffs, discounts and estimated annual costs, then continue to Overstappen.nl to switch.",
+  "description_nl": "Vergelijk energiecontracten op adres, stroom- en gasverbruik en teruglevering, met tarieven, kortingen en geschatte jaarkosten, en ga naar Overstappen.nl om over te stappen.",
+  "subject": [
+    "overstappen-nl"
+  ],
+  "contains": {
+    "skills": [],
+    "commands": [],
+    "agents": [],
+    "mcp_servers": [
+      "overstappen-nl-energy-mcp"
+    ]
+  },
+  "execution": "remote",
+  "uses": [
+    {
+      "domain": "overstappen.nl",
+      "account": false
+    }
+  ],
+  "origin": "official",
+  "status": "live",
+  "publisher": "Overstappen.nl B.V.",
+  "source_url": "https://www.overstappen.nl/energie/",
+  "last_checked": "2026-09-14"
+}

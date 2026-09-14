@@ -31,6 +31,9 @@
   "anwb": {
     "name": "ANWB"
   },
+  "autoverzekering-nl": {
+    "name": "Autoverzekering.nl"
+  },
   "avg": {
     "name": "AVG (Algemene verordening gegevensbescherming)",
     "kind": "standard"
@@ -228,6 +231,9 @@
   "ovapi": {
     "name": "OVapi",
     "kind": "dataset"
+  },
+  "overstappen-nl": {
+    "name": "Overstappen.nl"
   },
   "paperdork": {
     "name": "Paperdork"
