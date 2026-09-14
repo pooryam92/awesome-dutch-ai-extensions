@@ -18,11 +18,11 @@ _Every listing was checked against its source on or after 9 September 2026._
 | [Groceries](#groceries)       |        7 | Albert Heijn, Jumbo, Plus, Picnic, Aldi, DA, …             |
 | [Health](#health)             |        1 | AGB-register                                               |
 | [History](#history)           |        5 | Rijksdienst voor het Cultureel Erfgoed, Alle Friezen, …    |
-| [Housing](#housing)           |        3 | CBS StatLine, Kadaster, Kamernet, Netbeheerdata, PDOK      |
+| [Housing](#housing)           |        4 | CBS StatLine, Kadaster, Kamernet, Netbeheerdata, …         |
 | [Language](#language)         |        2 | Nederlands, Inburgeringsexamen                             |
 | [Law](#law)                   |       11 | Rechtspraak.nl, wetten.overheid.nl, AVG, NIS2-richtlijn, … |
 | [Marketplaces](#marketplaces) |        5 | Marktplaats, bol.com, PostNL                               |
-| [Money](#money)               |        6 | Belastingdienst, Bitvavo, bunq                             |
+| [Money](#money)               |        7 | Belastingdienst, Autoverzekering.nl, Bitvavo, bunq         |
 | [Travel](#travel)             |        7 | NS, OVapi, RDW, ANWB                                       |
 | [Weather](#weather)           |        2 | KNMI                                                       |
 
@@ -137,6 +137,7 @@ _Every listing was checked against its source on or after 9 September 2026._
 |---|---|---|---|
 | [kadaster-mcp](https://github.com/jolietjakeblues/kadaster-mcp) | Research parcels and restrictions affecting them in the Kadaster Knowledge Graph, with tools to build queries, compare locations and check query results. | Kadaster | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [kamernet-mcp](https://github.com/jasp-nerd/kamernet-mcp) | Search Kamernet for rooms, studios and apartments within your budget, compare rent, deposits and address-registration options, and check new listings. | Kamernet | ![MCP · Community · Beta](assets/badges/tags-mcp-community-beta.svg) |
+| [Overstappen.nl MCP](https://www.overstappen.nl/energie/) | Compare Dutch energy contracts by address, electricity and gas use and solar feed-in, with tariffs, discounts and estimated annual costs, then continue to Overstappen.nl to switch. | Overstappen.nl | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [wonen-energie-alternatieve-bronnen](https://github.com/linksmith/wonen-energie-alternatieve-bronnen) | Research housing and energy by neighbourhood using grid-operator data and PDOK/CBS maps and turn the findings into tables and charts. | Netbeheerdata (Liander / Enexis / Stedin) / PDOK / CBS StatLine | ![Skill · Community](assets/badges/tags-skill-community.svg) |
 
 ## Language
@@ -177,6 +178,7 @@ _Every listing was checked against its source on or after 9 September 2026._
 | Name | Description | Subject | Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---|---|---|---|
 | [aangifte-ib-skill](https://github.com/mischacoster/aangifte-ib-skill) | Prepare your Dutch income tax return through an interview about your situation and a dossier with sources for each field. | Belastingdienst | ![Skill · Community](assets/badges/tags-skill-community.svg) |
+| [Autoverzekering.nl MCP](https://www.autoverzekering.nl/) | Compare Dutch car-insurance policies by license plate, birth date, postcode, claim-free years and coverage (WA to volledig casco), then continue to Autoverzekering.nl to take out a policy. | Autoverzekering.nl | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
 | [Belastingzaken skills](https://github.com/johnhout/knowledge-work-belastingzaken) | Prepare tax returns and objection letters for individuals, sole traders and Dutch limited companies, checking official sources. <details><summary>Contains 8 skills · 8 commands · 4 MCP servers</summary><b>Skills</b> aftrekposten-en-regelingen · belasting-intake-en-dossiervorming · bezwaar-en-correspondentie · inkomstenbelasting-boxen · loonheffingen-en-werkkosten · officiele-bronverificatie · omzetbelasting-btw · vennootschapsbelasting-vpb<br><b>Commands</b> aftrekcheck · bezwaar-brief · btw-aangifte · ib-aangifte · intake · loonheffingen · tax-calendar · vpb-aangifte<br><b>MCP servers</b> bigquery · ms365 · notion · slack</details> | Belastingdienst | ![Bundle · Community](assets/badges/tags-bundle-community.svg) |
 | [bitvavo-mcp](https://github.com/aderik/bitvavo-mcp) | View the value, profit and loss of your Bitvavo holdings and include purchases and conversions made in the app by importing your transaction CSV. | Bitvavo | ![MCP · Community](assets/badges/tags-mcp-community.svg) |
 | [bunq Partner MCP](https://github.com/bunq/partner-mcp) | As a bunq partner, handle customer onboarding, identity checks, accounts, payments and cards. | bunq | ![MCP · Official](assets/badges/tags-mcp-official.svg) |
@@ -204,4 +206,4 @@ _Every listing was checked against its source on or after 9 September 2026._
 
 ---
 
-_101 listings across 15 categories, holding 130 skills, 26 commands, 2 agents, and 91 MCP servers._
+_103 listings across 15 categories, holding 130 skills, 26 commands, 2 agents, and 93 MCP servers._
