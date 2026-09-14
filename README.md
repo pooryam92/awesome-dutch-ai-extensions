@@ -19,7 +19,7 @@ _Every listing was checked against its source on or after 9 September 2026._
 | [Health](#health)             |        1 | AGB-register                                               |
 | [History](#history)           |        5 | Rijksdienst voor het Cultureel Erfgoed, Alle Friezen, …    |
 | [Housing](#housing)           |        4 | CBS StatLine, Kadaster, Kamernet, Netbeheerdata, …         |
-| [Language](#language)         |        2 | Nederlands, Inburgeringsexamen                             |
+| [Language](#language)         |        3 | Nederlands, Inburgeringsexamen                             |
 | [Law](#law)                   |       11 | Rechtspraak.nl, wetten.overheid.nl, AVG, NIS2-richtlijn, … |
 | [Marketplaces](#marketplaces) |        5 | Marktplaats, bol.com, PostNL                               |
 | [Money](#money)               |        7 | Belastingdienst, Autoverzekering.nl, Bitvavo, bunq         |
@@ -146,6 +146,7 @@ _Every listing was checked against its source on or after 9 September 2026._
 |---|---|---|---|
 | [Dutch Fluency MCP](https://mcp.dutchfluency.com/) | Get Dutch sentence corrections with explanations, estimate your language level and practise KNM civic integration questions. | Nederlands (taal) / Inburgeringsexamen | ![MCP · Commercial](assets/badges/tags-mcp-commercial.svg) |
 | [Dutch Native](https://github.com/brunocous/dutch-native) | Write and rewrite natural Dutch for the Netherlands or Belgium, with guidance on literal English translations, stiff sentences and unsuitable word choices. | Nederlands (taal) | ![Skill · Community](assets/badges/tags-skill-community.svg) |
+| [Open-source AI Skills NL](https://github.com/erwinblom/open-ai-skills-nl) | Take a Dutch text from idea to publication with editorial roles that research, write, fact-check and critique it, and test a business idea from opportunity to evidence. <details><summary>Contains 14 skills</summary><b>Skills</b> de-hoofdredacteur · de-uitvrager · de-onderzoeker · de-schrijver · de-cliche-verwijderaar · de-factchecker · de-schrijfwijzer · de-structuurlezer · de-tegenlezer · de-kansverkenner · de-aannamejager · de-klantverkenner · de-eerste-versiebouwer · de-bewijsweger</details> | Nederlands (taal) | ![Skill · Community](assets/badges/tags-skill-community.svg) |
 
 ## Law
 
@@ -206,4 +207,4 @@ _Every listing was checked against its source on or after 9 September 2026._
 
 ---
 
-_103 listings across 15 categories, holding 130 skills, 26 commands, 2 agents, and 93 MCP servers._
+_104 listings across 15 categories, holding 144 skills, 26 commands, 2 agents, and 93 MCP servers._
