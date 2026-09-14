@@ -26,5 +26,6 @@
   "status": "live",
   "publisher": "Jortt",
   "source_url": "https://www.jortt.nl/koppelingen/mcp-koppeling/",
-  "last_checked": "2026-09-09"
+  "endpoint": "https://mcp.jortt.nl/mcp",
+  "last_checked": "2026-09-14"
 }

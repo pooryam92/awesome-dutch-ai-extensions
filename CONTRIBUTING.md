@@ -50,6 +50,21 @@ Where the code has to run. This is the one limit a visitor's assistant cannot wo
 - **A bundle takes its most restrictive part.** Any local-only server in it makes the whole listing `local`, because what a visitor needs to know is whether they can use the whole thing from a cloud-side product.
 - **`none` means nothing runs, not that nobody checked.** A listing naming a server under `contains.mcp_servers` may not claim it, and the schema refuses that combination.
 
+## Endpoint
+
+The HTTPS URL a visitor pastes into their assistant to reach a `remote` or `both` listing. It is the one optional field in `schema.json`: carry a verified, publisher-documented address whenever the listing has one, including when `source_url` already shows it.
+
+```json
+"endpoint": "https://mcp.example.nl/mcp"
+```
+
+- **The address itself, never a page about it.** What a reader copies into their MCP client, not the documentation describing it — `source_url` is where a page belongs, and the two are never the same URL.
+- **Only `remote` and `both` may carry one.** A `local` or `none` listing hosts nothing, so there is no address to paste, and the schema refuses it.
+- **Verify the documented connection route.** Record a successful MCP `initialize`, or an authentication challenge consistent with the publisher's documented MCP service. An authentication challenge establishes that the protected route is reachable, not that its tools were tested. A generic HTTP error or an HTML page is not enough. For legacy HTTP+SSE servers, use the advertised message URL and read the initialization result from the event stream; a POST to the SSE URL alone is not the handshake.
+- **Absence does not mean local.** Leave the field out for bundles of third-party connectors with no single address of their own, and for tenant-specific URL templates that require substitution. Never store credentials or placeholders in this field.
+- **It does not waive the Execution rule.** *A URL nobody published is not one you can paste* still decides whether a listing is `remote`. This field records where a published server answers; it is not a licence to list a server found by reading somebody's source.
+- **One listing per address.** Two listings pasting the same URL are one server, and `validate.py` rejects the second.
+
 ## Uses
 
 One row per external party the listing reaches, keyed by registrable domain, each saying whether an account there stands between the visitor and the listing.
@@ -120,7 +135,7 @@ data/listings/<id>.json   one file per listing, filename = id
 data/categories.json      category key -> { en, nl } title
 data/subjects.json        subject key -> { name, kind? }
 data/labels.json          display names and colours for kind / origin / status
-schema.json               the listing schema; every field is required
+schema.json               the listing schema; every field required but `endpoint`
 README.md                 a readable view, generated — never edit by hand
 assets/badges/            generated tag strips, one SVG per tag combination
 build-readme.py           regenerates README.md and assets/badges from data/
@@ -137,7 +152,7 @@ python3 validate.py                        # reports every problem in one pass
 
 ## Rules
 
-- One file per artifact, named after its `id`. Every field in `schema.json` is required — there are no optional fields.
+- One file per artifact, named after its `id`. Every field in `schema.json` is required except `endpoint`, which only a `remote` or `both` listing may carry.
 - Everything user-facing carries **both an English and a Dutch string** — `description_en`/`description_nl` per listing, `en`/`nl` per category title. One outcome-first sentence each for descriptions, same register, at most 200 characters, with product and vendor names left untranslated; Dutch titles use Dutch sentence case. Both are required even though the README renders only the English strings today.
 - `category` is a key from `data/categories.json`. **The title lives in `categories.json`, not in a filename** — reword a category by editing its title, and no listing has to change. Adding a category means adding one entry there.
 - **Categorise by what the reader wants, not by who publishes the source.** RDW, KVK, Kadaster and the Belastingdienst are all government bodies, and their listings sit in `reizen`, `bedrijf`, `wonen` and `geld` — because someone reaching for them wants a car, a company, a house or their taxes. `overheid` is for wanting to know what government is doing, or for open data as such; read it as an owner rather than a need and it swallows half the list. There is no `overig` category on purpose: a listing nothing fits earns either a better reading of an existing category or a new one.

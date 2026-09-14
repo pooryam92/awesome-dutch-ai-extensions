@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/pooryam92/awesome-dutch-ai-extensions/raw/main/schema.json",
   "title": "Dutch AI extension listing",
-  "description": "One file per listing in data/listings/, named <id>.json. Every field is required; no optional fields.",
+  "description": "One file per listing in data/listings/, named <id>.json. Every field is required except `endpoint`, which only a hosted listing can carry.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -180,6 +180,12 @@
       "format": "uri",
       "description": "Canonical repo / vendor / package page."
     },
+    "endpoint": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "A verified, publisher-documented HTTPS connection URL for a `remote` or `both` listing, including when source_url already shows it. Verify the MCP handshake or a documented authentication challenge; the latter does not establish tool functionality. Store the address itself, never a documentation page, credentials or a tenant-specific template. Omit it for connector bundles with no single address of their own."
+    },
     "last_checked": {
       "type": "string",
       "format": "date",
@@ -208,6 +214,11 @@
           }
         }
       }
+    },
+    {
+      "$comment": "An endpoint is an address to paste, and only a hosted listing has one.",
+      "if": { "required": ["endpoint"] },
+      "then": { "properties": { "execution": { "enum": ["remote", "both"] } } }
     }
   ]
 }

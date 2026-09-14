@@ -26,5 +26,6 @@
   "status": "live",
   "publisher": "henrrrik",
   "source_url": "https://github.com/henrrrik/ovapi-mcp-server",
-  "last_checked": "2026-09-09"
+  "endpoint": "https://ovapi-mcp-server.pqapp.dev/sse",
+  "last_checked": "2026-09-14"
 }

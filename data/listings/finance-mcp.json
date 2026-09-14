@@ -50,5 +50,6 @@
   "status": "live",
   "publisher": "Productivity Advisors B.V.",
   "source_url": "https://financemcp.nl/",
-  "last_checked": "2026-09-09"
+  "endpoint": "https://api.financemcp.nl/mcp",
+  "last_checked": "2026-09-14"
 }

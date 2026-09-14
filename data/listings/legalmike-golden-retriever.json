@@ -28,5 +28,6 @@
   "status": "live",
   "publisher": "Novitec B.V. (LegalMike)",
   "source_url": "https://legalmike.ai/golden-retriever-mcp/",
-  "last_checked": "2026-09-12"
+  "endpoint": "https://mcp.legalmike.ai/mcp",
+  "last_checked": "2026-09-14"
 }

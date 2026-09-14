@@ -25,6 +25,9 @@ jobs:
       - name: Validate data/
         run: python3 validate.py
 
+      - name: Test validation
+        run: python3 -m unittest test_validate
+
   # Regenerates README.md and assets/badges after a merge, so PRs only need to
   # keep data/ valid. The bot's own commit re-triggers this and no-ops.
   build:

@@ -30,5 +30,6 @@
   "status": "live",
   "publisher": "Chef Data",
   "source_url": "https://praatmetjeboekhouding.nl/en/exact-online-mcp-server",
-  "last_checked": "2026-09-09"
+  "endpoint": "https://api.praatmetjeboekhouding.nl/mcp",
+  "last_checked": "2026-09-14"
 }

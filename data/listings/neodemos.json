@@ -32,5 +32,6 @@
   "status": "preview",
   "publisher": "D.P.A. Tak (NeoDemos)",
   "source_url": "https://github.com/NeoDemosHQ/neodemos-plugins",
-  "last_checked": "2026-09-10"
+  "endpoint": "https://mcp.neodemos.nl/public/mcp",
+  "last_checked": "2026-09-14"
 }

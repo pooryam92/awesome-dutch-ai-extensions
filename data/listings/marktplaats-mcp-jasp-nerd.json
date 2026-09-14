@@ -30,5 +30,6 @@
   "status": "beta",
   "publisher": "jasp-nerd",
   "source_url": "https://github.com/jasp-nerd/marktplaats-mcp",
-  "last_checked": "2026-09-09"
+  "endpoint": "https://marktplaats-mcp.jaspnerd.dev/mcp",
+  "last_checked": "2026-09-14"
 }

@@ -28,5 +28,6 @@
   "status": "live",
   "publisher": "OpenAccountants",
   "source_url": "https://github.com/openaccountants/openaccountants/tree/main/plugins/openaccountants",
-  "last_checked": "2026-09-09"
+  "endpoint": "https://www.openaccountants.com/api/mcp",
+  "last_checked": "2026-09-14"
 }

@@ -26,5 +26,6 @@
   "status": "live",
   "publisher": "Rylee B.V.",
   "source_url": "https://rylee.nl/nl/solutions/bol-mcp",
-  "last_checked": "2026-09-09"
+  "endpoint": "https://rylee.nl/mcp",
+  "last_checked": "2026-09-14"
 }

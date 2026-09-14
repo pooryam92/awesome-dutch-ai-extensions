@@ -26,5 +26,6 @@
   "status": "live",
   "publisher": "Mollie",
   "source_url": "https://docs.mollie.com/docs/mollie-mcp-server",
-  "last_checked": "2026-09-09"
+  "endpoint": "https://mcp.mollie.com/mcp",
+  "last_checked": "2026-09-14"
 }

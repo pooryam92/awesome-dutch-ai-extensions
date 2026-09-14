@@ -26,5 +26,6 @@
   "status": "live",
   "publisher": "DPG Media",
   "source_url": "https://www.intermediair.nl/.well-known/mcp.json",
-  "last_checked": "2026-09-09"
+  "endpoint": "https://www.intermediair.nl/mcp",
+  "last_checked": "2026-09-14"
 }

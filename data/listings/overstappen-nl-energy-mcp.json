@@ -26,5 +26,6 @@
   "status": "live",
   "publisher": "Overstappen.nl B.V.",
   "source_url": "https://www.overstappen.nl/energie/",
+  "endpoint": "https://mcp.overstappen.nl/mcp",
   "last_checked": "2026-09-14"
 }

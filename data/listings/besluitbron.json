@@ -55,5 +55,6 @@
   "status": "live",
   "publisher": "Stichting Common Sense in Actie",
   "source_url": "https://besluitbron.nl/nl/onboarding/unified",
-  "last_checked": "2026-09-10"
+  "endpoint": "https://besluitbron.nl/mcp/unified/v1",
+  "last_checked": "2026-09-14"
 }

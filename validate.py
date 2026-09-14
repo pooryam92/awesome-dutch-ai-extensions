@@ -64,7 +64,7 @@ def schema_errors(schema, listings):
 
 
 def reference_errors(listings, categories, subjects):
-    seen_urls, used_subjects = {}, set()
+    seen_urls, seen_endpoints, used_subjects = {}, {}, set()
 
     for name, listing in listings:
         # The filename is the join key every other surface will use, so a listing
@@ -84,6 +84,15 @@ def reference_errors(listings, categories, subjects):
             yield f"{name}: source_url is a duplicate of {seen_urls[url]}"
         elif url:
             seen_urls[url] = name
+        endpoint = listing.get("endpoint")
+        # Schema validation reports malformed values; they must not crash this pass.
+        if isinstance(endpoint, str) and endpoint:
+            if endpoint in seen_endpoints:
+                yield f"{name}: endpoint is a duplicate of {seen_endpoints[endpoint]}"
+            else:
+                seen_endpoints[endpoint] = name
+            if endpoint == url:
+                yield f"{name}: endpoint is the same URL as source_url"
         # One row per party is the whole point of `uses`; two rows for the same
         # domain contradict each other the moment their `account` flags differ,
         # and uniqueItems only catches the case where they do not.

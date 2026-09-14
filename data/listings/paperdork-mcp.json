@@ -26,5 +26,6 @@
   "status": "live",
   "publisher": "Paperdork B.V.",
   "source_url": "https://paperdork.nl/paperdork-en-ai-koppelen-dit-kan-je-doen-met-onze-mcp-integratie/",
-  "last_checked": "2026-09-09"
+  "endpoint": "https://api.paperdork.nl/mcp",
+  "last_checked": "2026-09-14"
 }

@@ -26,5 +26,6 @@
   "status": "live",
   "publisher": "Moneybird",
   "source_url": "https://developer.moneybird.com/tools/mcp",
-  "last_checked": "2026-09-09"
+  "endpoint": "https://moneybird.com/mcp/v1/read_write",
+  "last_checked": "2026-09-14"
 }
